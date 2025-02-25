@@ -1,0 +1,11 @@
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'BitacoraDeRadicadosToolStripMenuItem',
+	'Bitacora de radicados',
+    'ac' 
+	)
+	
+
+
+	

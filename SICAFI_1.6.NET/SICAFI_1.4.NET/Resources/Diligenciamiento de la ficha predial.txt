@@ -1,0 +1,1634 @@
+PAUTAS  PARA EL DILIGENCIAMIENTO DE LA NUEVA FICHA PREDIAL
+
+Para el diligenciamiento de la ficha predial  tener en cuenta las siguientes normas generales:
+ 
+-Letra legible
+-Letra imprenta mayúscula excepto las abreviaturas  y complementos de la dirección.
+-Tinta negra 
+-No se permite el uso de tinta mojada, ni borrable
+-Utilizar lápiz color rojo para identificar mejoras
+-Resaltador verde para cambio en la información 
+-Utilizar lápiz negro MIRADO nro. 2 o en su defecto minas HB para realizar el croquis
+-Consignar los datos alfanuméricos ajustados de izquierda a derecha, dejando un    espacio entre palabras
+-Consignar los datos numéricos ajustados de derecha a izquierda.
+
+A continuación se dan unas pautas de necesaria aplicación en el diligenciamiento de la nueva ficha predial.  Anotamos que corresponden a normas mínimas puesto que la Dirección de  Catastro viene adelantando la elaboración de la cartilla y del manual de conceptos, instrucciones  y procedimientos para las formaciones, actualizaciones y conservaciones catastrales,  libros en los cuales se darán las normas definitivas.  
+
+Ubicación del Predio:   Contiene los datos que a continuación se describen, los cuales son de gran importancia para la distinción y la localización del predio catastral.
+
+Municipio:  Se debe anotar el nombre  oficial  del municipio (según DANE )en el cual esta ubicado el predio , ver lista de Municipio-Código 
+									
+Corregimiento:  Para el caso que el inmueble este ubicado en el conglomerado urbano o en la zona rural de un corregimiento, se debe anotar el nombre oficial de este, caso contrario dejarlo en blanco.
+ 
+Barrio:  Espacio físico en que se divide el área urbana donde se ubica un conjunto de manzanas. Si el predio esta ubicado en la cabecera municipal y el municipio esta dividido en barrios se coloca en este campo  el nombre oficial del barrio, estamos empleando también comunidad o se acepta el nombre con el cual se conoce tradicionalmente el sector, caso contrario dejarlo en blanco.
+
+Vereda:  Se utiliza exclusivamente para predios rurales y a lo igual que en los ítems anteriores se coloca el nombre oficial de la vereda. 
+
+
+NOMBRE O DIRECCIÓN DEL PREDIO:  
+
+La dirección o nombre se obtiene directamente de la visita al predio o por otras fuentes como listados o títulos.  en  caso de no encontrarse   se debe proceder a su asignación satisfaciendo el sistema utilizado por el municipio donde el predio se encuentre ubicado y  conforme a las técnicas que al final de este literal desarrollaremos.  Cuando  es el nombre el que no se ha obtenido los espacios se dejan en blanco.
+Los lotes ubicados en intersección de carrera con calle se les asigna nomenclatura por la carrera o vía principal; si están encerrados por muros y disponen de acceso la nomenclatura se dará  por la vía donde este ubicada la entrada y  además se le acompañará de la abreviatura Lt y de la denominación que le haya sido dada por escritura pública, como es el caso de Lt 1 ó Lt A.
+Parque principal se le asignará la nomenclatura del predio mas representativo
+a nivel oficial.
+NOTA: En lo posible todas las puertas principales que dan sobre vías públicas deben ser nomencladas  para facilitar su identificación dentro de la cuadra donde esté localizado el predio.
+
+Cuando hablemos del sector de expansión urbano y encontremos predios con características rurales  se tiene  en cuenta el nombre del predio.
+
+La dirección para las escuelas rurales y urbanas  integradas se colocan respectivamente  así:  
+La Loma   Esc  R  I  
+
+CL 30 N 40-84   La Loma Esc  R  I 
+
+Para aquellos predios sometidos al régimen de propiedad horizontal su dirección se determina de la forma señalada, pero además se tienen en cuenta los datos que trae la escritura relacionados con el complemento de la  dirección, para lo cual se hace uso de las  abreviaturas descritas más adelante ( complemento de la dirección).
+ABREVIATURAS PARA LA DIRECCIÓN:  Las siguientes  se utilizarán para efectos de la nomenclatura  en todos los documentos catastrales:  
+
+Av		Avenida
+Cir 		Circular
+Cl		Calle
+Cr		Carrera
+Crvn		Circunvalarl
+Dg		Diagonal
+Tv  		Transversal
+
+Cuando el predio es urbano,  las anteriores abreviaturas irán  siempre al inicio de la dirección y deben  estar separadas del número por un espacio.
+
+ABREVIATURAS PARA EL COMPLEMENTO DE LA DIRECCIÓN:  Las descritas a continuación  se usan como complemento a la dirección y deben anotarse de la siguiente manera : la primera letra en mayúscula  , las demás en minúscula  y sin punto;  utilizarse siempre  que el predio así lo exija:
+
+A                  Apartamento
+Ag		Agencia	    
+Al		Almacén
+Autop		Autopista
+B		Bloque
+Bdg		Bodega
+Ca		Casa
+Con 		Condominio 
+Consult 	Consultorio	
+Cu          	Cuarto  Util 
+Dp         	Deposito
+Dpto         	Departamento
+E           	Este (oriente)
+Edf       	Edificio
+Esc           	Escuela
+Etp       	Etapa
+G        	Garaje
+Ga      	Galpon
+I        		Integrada
+Int         	Interior
+Km		Kilometro
+L      		Local 
+Lt  		Lote
+Mz       	Manzana
+N	          Número*	
+N      		Norte*
+Of            	Oficina
+P         	Piso
+Parc       	Parcelación
+Parq        	Parqueadero 
+R   		Rural
+S	   	Sur 
+T	   	Torre
+U		Unidad	
+Urb 		Urbanización
+W		Oeste (occidente)
+
+*NOTA: La N de numero siempre va separada en la nomenclatura y la N de norte va pegado del número al igual que que la S de sur. 
+
+Ejemplos de como anotar una dirección:
+
+Cl 30 N 26-10 Etp -3 B -2 G-1    (Cuando el predio esta sometido a reglamento de propiedad  horizontal y la unidad corresponde a un garaje)
+
+Cr 26 N 34-22 Lt A (Cuando el predio es un lote)
+
+Cl 32 N 10-20 Int 101 (Cuando el predio esta en una vía peatonal (o cerrada))
+
+Cr 50 N 20-54 P 1 (Cuando en la dirección del predio es necesario señalar el piso a que corresponde la dirección)
+
+Cl 30 X Cr 50 via 
+
+FICHA PREDIAL  
+
+No.   Número serial que identifica cada predio independientemente de su ubicación geográfica . Se le asignará numero serial únicamente a : PREDIOS, UNIDADES PREDIALES Y MEJORAS INTRODUCIDAS.
+No se asignará número serial a la ficha resumen y fichas anexas.
+
+
+TABLA DE RANGOS PARA EL NÚMERO DE LA FICHA PREDIAL Y CÓDIGOS 
+MUNICIPIOS( SEGÚN DANE)
+ 
+MUNICIPIO	CÓDIGO	RANGO
+ABEJORRAL	002	1-200000
+ABRIAQUI	004	200001-400000
+ALEJANDRIA	021	400001-600000
+AMAGA	030	600001-800000
+AMALFI	031	800001-1000000
+ANDES	034	1000001-1200000
+ANGELOPOLIS	036	1200001-1400000
+ANGOSTURA	038	1400001-1600000
+ANORI	040	1600001-1800000
+ANTIOQUIA	042	1800001-2000000
+ANZA	044	2000001-2200000
+APARTADO	045	2200001-2400000
+ARBOLETES	051	2400001-2600000
+ARGELIA	055	2600001-2800000
+ARMENIA	059	2800001-3000000
+BARBOSA	079	3000001-3200000
+BELLO	88	3200001-3700000
+BELMIRA	86	3700001-3900000
+BETANIA	091	3900001-4100000
+BETULIA	093	4100001-4300000
+BOLIVAR	101	4300001-4500000
+BRICEÑO	107	4500001-4700000
+BURITICA	113	4700001-4900000
+CACERES	120	4900001-5100000
+CAICEDO	125	5100001-5300000
+CALDAS	129	5300001-5500000
+CAMPAMENTO	134	5500001-5700000
+CAÑASGORDAS	138	5700001-5900000
+CARACOLI	142	5900001-6100000
+CARAMANTA	145	6100001-6300000
+CAREPA	147	6300001-6500000
+CARMEN DE VIBORAL	148	6500001-6700000
+CAROLINA	150	6700001-6900000
+CAUCASIA	154	6900001-7100000
+CHIGORODO	172	7100001-7300000
+CISNEROS	190	7300001-7500000
+COCORNA	197	7500001-7700000
+CONCEPCION	206	7700001-7900000
+CONCORDIA	209	7900001-8100000
+COPACABANA	212	8100001-8300000
+DABEIBA	234	8300001-8500000
+DON MATIAS	237	8500001-8700000
+EBEJICO	240	8700001-8900000
+EL BAGRE	250	8900001-9100000
+EL RETIRO	607	9100001-9300000
+EL SANTUARIO	697	9300001-9500000
+ENTRERRIOS	264	9500001-9700000
+ENVIGADO	266	9700001-10200000
+FREDONIA	282	10200001-10400000
+FRONTINO	284	10400001-10600000
+GIRALDO	306	10600001-10800000
+GIRARDOTA	308	10800001-11000000
+GOMEZ PLATA	310	11000001-11200000
+GRANADA	313	11200001-11400000
+GUADALUPE	315	11400001-11600000
+GUARNE	318	11600001-11800000
+GUATAPE	321	11800001-12000000
+HELICONIA	347	12000001-12200000
+HISPANIA	353	12200001-12400000
+ITAGUI	360	12400001-12900000
+ITUANGO	361	12900001-13100000
+JARDIN	364	13100001-13300000
+JERICO	368	13300001-13500000
+LA CEJA	376	13500001-13700000
+LA ESTRELLA	380	13700001-13900000
+LA PINTADA	390	13900001-14100000
+LA UNIÓN	400	14100001-14300000
+LIBORINA	411	14300001-14500000
+MACEO	425	14500001-14700000
+MARINILLA	440	14700001-14900000
+MONTEBELLO	467	14900001-15100000
+MURINDO	475	15100001-15300000
+MUTATA	480	15300001-15500000
+NARIÑO	483	15500001-15700000
+NECHI	495	15700001-15900000
+NECOCLI	490	15900001-16100000
+OLAYA	501	16100001-16300000
+PEÑOL	541	16300001-16500000
+PEQUE	543	16500001-16700000
+PUEBLORRICO	576	16700001-16900000
+PUERTO BERRIO	579	16900001-17100000
+PUERTO NARE	587	17100001-17300000
+PUERTO TRIUNFO	591	17300001-17500000
+REMEDIOS	604	17500001-17700000
+RIONEGRO	615	17700001-17900000
+SABANALARGA	628	17900001-18100000
+SABANETA	631	18100001-18300000
+SALGAR	642	18300001-18500000
+SAN ANDRES DE C.	647	18500001-18700000
+SAN CARLOS	649	18700001-18900000
+SAN FRANCISCO	652	18900001-19100000
+SAN JERONIMO	656	19100001-19300000
+SAN JOSE DE LA MONTAÑA	658	19300001-19500000
+SAN JUAN DE URABA	659	19500001-19700000
+SAN LUIS	660	19700001-19900000
+SAN PEDRO DE LOS MILAGROS	664	19900001-20100000
+SAN PEDRO DE URABA	665	20100001-20300000
+SAN RAFAEL	667	20300001-20500000
+SAN ROQUE	670	20500001-20700000
+SAN VICENTE	674	20700001-20900000
+SANTA BARBARA	679	20900001-21100000
+SANTA ROSA  DE OSOS	686	21300001-21500000
+SANTO DOMINGO	690	21500001-21700000
+SEGOVIA	736	21700001-21900000
+SONSON	756	21900001-22100000
+SOPETRAN	761	22100001-22300000
+TAMESIS	789	22300001-22500000
+TARAZA	790	22500001-22700000
+TARSO	792	22700001-22900000
+TITIRIBI	809	22900001-23100000
+TOLEDO	819	23100001-23300000
+TURBO	837	23300001-23500000
+URAMITA	842	23500001-23700000
+URRAO	847	23700001-23900000
+VALDIVIA	854	23900001-24100000
+VALPARAISO	856	24100001-24300000
+VEGACHI	858	24300001-24500000
+VENECIA	861	24500001-24700000
+VIGIA DEL FUERTE	873	24700001-24900000
+YALI	885	24900001-25100000
+YARUMAL	887	25100001-25300000
+YOLOMBÓ	890	25300001-25500000
+YONDO	893	25500001-25700000
+ZARAGOZA	895	25700001-25900000
+MEDELLIN	1	
+
+
+VER CÓDIGO DE MUNICIPIOS EN TABLA DE RANGOS
+
+CÉDULA CATASTRAL (Se anula el caser y  su respectivo código)
+
+Es el número de identificación única del predio para efectos catastrales,  se compone de:
+
+Municipio-código.  Es el número compuesto  por tres dígitos, el cual se encuentra establecido por el Departamento Administrativo Nacional de Estadística (DANE).
+
+
+Corregimiento-código.  Es el número compuesto por dos dígitos, el cual se establece a partir del 02 hasta completar  tantos corregimientos como tenga el municipio.
+El 01 esta designado específicamente para la cabecera municipal, es decir el conglomerado urbano principal y las veredas no adscritas a determinado corregimiento.
+
+
+Barrio.  Es el número que se asigna cuando el área urbana o  el área de expansión urbana 
+del municipio esta dividida en barrios, se inicia desde el 001 de manera secuencial hasta llegar a completar tantos barrios como tenga el municipio (llenar siempre los tres campos).
+
+
+
+Si el municipio no esta dividido por barrios queda como 001.   Cuando el sector es 2  (rural) este campo se llena con 000; sin embargo cuando en  el Plan de Ordenamiento territorial  se considera un  centro poblado para una vereda,  en este campo se anota el número de la vereda. 
+
+
+Si el  P.O.T DEFINE UNA NUMERACIÓN ACORDE CON LOS LINEAMIENTOS DEFINIDOS POR CATASTRO SE PODRÁ RESPETAR ESTA NUMERACIÓN EN CASO CONTRARIO CATASTRO DEFINIRÁ LA NUMERACIÓN.
+
+
+Manzana o Vereda.  Es el número que se fija comenzando desde el 001 de manera secuencial, hasta completar tantas manzanas como tenga el barrio en los sectores urbano o  expansión urbana.
+
+Para el sector rural  tantas veredas como tenga el corregimiento o municipio (llenar siempre los tres campos)
+
+Para el caso especifico de  centros poblados en la zona rural anotar el número correspondiente a tantas manzanas existan en la vereda.
+
+Predio.  Comprende  el número dentro de la manzana o de la vereda según el caso, el cual se inicia desde el 00001 de manera secuencial (LLENAR SIEMPRE LOS CINCO CAMPOS) 
+Como numerar el predio:
+
+En los procesos de formación los predios rurales se numeran iniciando con el predio número 00001 situado en el costado más suroriental, y secuencialmente dentro de la vereda en forma de espiral.   Para los predios urbanos también se hace de manera secuencial iniciando por el predio número 00001 ubicado en el extremo más suroriental de la manzana, y en sentido horario.  Visto lo anterior tenemos que frente a una manzana o vereda nuevas la numeración de predios se debe hacer de igual manera.
+
+Cuando se realiza la adición de un predio nuevo a una manzana o una vereda debe respetarse la numeración  existente, para lo cual hay que consultar los planos, azetas que contienen las fichas y listados en donde se puede averiguar la anotación del último predio utilizado con el fin de seguir el orden que se tiene y evitar la repetición de números  existentes.  La numeración existente solo puede ser objeto de modificación cuando catastro haya realizado un estudio pormenorizado y como consecuencia de él se determine  la necesidad de readecuarla, (válido esto en los procesos de actualización y conservación).  *Los números de predios cancelados por ningún motivo pueden ser reutilizados.
+           
+
+EDIFICIO.  Es el predio construido o no y que se integra de dos o más unidades prediales, y que para efectos de esta casilla, es el número que se debe asignar cuando existe uno o más edificios dentro de un reglamento de propiedad horizontal. 
+
+Cuando la característica del predio sea normal (1), embalse (6) o baldío (7) este espacio se diligencia con ceros  (000)
+
+Cuando la característica del predio sea Rph edificio, o Rph parcelación este espacio se diligencia con 001 y no  debe ser mayor  a este.  
+
+
+Cuando la característica del predio sea parque cementerio respetar la numeración existente en cuanto a BARRIO, MANZANA, PREDIO, EDIFICIO Y UNIDAD PREDIAL.   
+
+
+UNIDAD PREDIAL.  Es el inmueble individualizado, de dominio privado, y que se encuentra comprendido dentro del reglamento de propiedad horizontal.  En este campo debe ir el número correspondiente a la unidad, que puede ser desde la 00001 (llenar siempre los cinco campos) y se numeraran consecutivamente respetando el orden enunciado en la correspondiente escritura pública.  
+
+Cuando la característica del predio sea Normal (1), Embalse (6) o Baldío (7) este campo se completa con  ceros (00000)
+Las partes del predio como apartamentos , garajes  y locales no constituyen por si solas unidades independientes, salvo que estén sometidas al régimen de propiedad horizontal.
+
+NOTA:  La cédula catastral como elemento de ubicación geográfica del predio, debe sufrir el menor número de cambios posible en todos sus campos; esto tiene excepciones en circunstancias que así lo ameriten, por ende tener en cuenta lo siguiente:
+
+-El corregimiento  y el barrio se numerará como nuevo  en los casos en que sean        creados dentro del plan de ordenamiento territorial del correspondiente municipio;  caso en el cual las diferentes manzanas o veredas con sus predios que pasarán a  hacer parte de ellos, se les debe respetar la numeración que traían.
+Como es posible que esa creación no incluya la totalidad de los predios de una vereda , proceder así: 
+La vereda nueva se renumerará , la restante  conservará su numeración (no reutilizar los números cancelados  en la vereda que se conserva y respetar el ultimo número consecutivo).
+
+-La manzana  también puede ser objeto de creación, como producto de        separación de otra , proceder así:
+La manzana que tenga el mayor numero de predio conservará la misma numeración  y la de menor número de predio se renumerará .(no reutilizar los números cancelados  en la manzana que se conserva y respetar el último número consecutivo).
+
+Por reordemamiento de veredas o manzanas predios de una de estas son trasladadas a otras ya existentes obliga a numerar los predios trasladados de acuerdo al consecutivo de la vereda o manzana que absorbe.
+
+Para las situaciones mencionadas es necesario llevar un consecutivo del ultimo número que se asigno según sea en el corregimiento, barrio, manzana o vereda.
+
+
+SECTOR O CLASE URBANO (1)-SECTOR O CLASE RURAL (2)-SECTOR O CLASE DE EXPANSIÓN URBANO (3):
+
+URBANO(1).  Es el área del territorio municipal destinado a uso urbano y el cual se caracteriza por comprender predios que cuentan con infraestructura vial y redes primarias de energía, acueducto, alcantarillado, posibilitándose su urbanización y edificación, según sea el caso.  Para este evento corresponde al municipio a través del plan de ordenamiento clasificarlos; se incluyen aquí los centros poblados de los corregimientos.  En ningún caso el perímetro urbano podrá ser mayor que el denominado perímetro de servicios públicos o sanitarios (ley 388/97).
+
+RURAL(2).  Constituyen esta categoría los terrenos no aptos para el uso urbano,  por razones de oportunidad, o por su destinación a usos agrícolas, ganaderos, forestales, de explotación de recursos naturales y actividades análogas (ley 388/97).
+
+EXPANSIÓN URBANO(3).  Constituido por la porción del territorio municipal  que se habilitará para el uso urbano según el crecimiento de la localidad y la posibilidad de dotación con infraestructura para el sistema vial, de transporte, de servicios públicos domiciliarios, áreas libres, y parques y equipamiento colectivo de interés publico o social.
+
+Señalar con x el correspondiente según ubicación del predio.
+
+Para el manejo de estos sectores en los procesos de formación,  se debe  consultar inicialmente el plan de ordenamiento territorial del respectivo municipio  con el fin de determinar que predios quedan en cada uno ellos.
+Para los procesos de actualización se debe tener presente la información vigente (planos, fotos, listados, archivos magnéticos gráficos y alfanuméricos), luego se superpondrán los planos vigentes del Plan de Ordenamiento Territorial para determinar los predios que van a pasar de un sector a otro. generando  así un listado de predios, el cual se enviara a la sección de conservación con el fin de iniciar proceso de resolución administrativa de cambio de sector según acuerdo Municipal.      
+Sí en el P O T están numeradas las  A E U , podemos colocar en el campo de vereda, el respectivo número. Luego se procede a enumerar los predios.
+En la vereda (ALFABÉTICA) el nombre del P. O. T.
+
+
+CATEGORÍAS DEL SUELO
+
+Existen dos categorías a saber: Suburbano (1),  de protección (2),   Estas deben encontrarse determinadas en el plan de ordenamiento territorial del respectivo municipio; en caso de  no estarlo hacer uso del    No se aplica (3).  Para su diligenciamiento marcar con x el espacio correspondiente.
+Cuando el predio posee una parte en protección (2) , se señalará como si fuera totalmente en protección.
+
+SUBURBANO(1).  Constituyen esta categoría las áreas ubicadas dentro del sector rural, en la que se mezclan los usos del suelo y las formas de vida del campo y la ciudad (ley 388/97). 
+
+Califican dentro de esta categoría  los predios de sector rural (2) o Expansión urbano (3) 
+
+
+
+DE PROTECCIÓN(2).  Constituido por las zonas y áreas de terrenos localizados dentro de cualesquiera de los sectores  urbano o  rural, que por sus características geográficas, paisajísticas o ambientales, o por formar parte de las zonas de utilidad pública para la ubicación de infraestructuras para la provisión de servicios públicos domiciliarios o de las áreas de amenazas y riesgo no mitigable para localización de asentamientos humanos, tiene restringida la posibilidad de urbanizarse (ley 388/97).
+
+
+NO SE APLICA.  Cuando el sector urbano,  rural o de  expansión urbana carezcan de categorías del suelo. Esta categoría aplica para los tres sectores Urbano (1),  Rural (2)  y Expansión urbano (3).
+
+NOTA : El sector urbano no califica dentro de la categoría de suburbano pero puede tener categoría de protección o de no se aplica; el sector rural y el de expansión pueden presentar las categoría de suburbano, protección o de no se aplica.
+
+        
+CÉDULA CATASTRAL ANTERIOR.  Se diligencia de acuerdo al proceso que estemos realizando así:
+
+1.  Formaciones: En éstas, la anotación del  número catastral anterior del predio debe hacerse en los  cinco primeros campos de la cédula catastral anterior, independientemente de  que dicho predio no maneje corregimiento y municipio; lo importante aquí es que se requiere para realizar el cruce o conexión entre sistema viejo (antes de la L. 14/83) y  el sistema nuevo. 
+
+2.  Actualizaciones: Cuando se diligencia este campo se entiende que el predio reportado  era parte  de una manzana o vereda que se modificó,  o que cambió de sector; de lo contrario dejarlo en blanco.
+
+3.  Conservación: Cuando se reporta se entenderá que se ha creado un predio nuevo que hacia  parte de otro predio que existe en la base de datos.
+
+Es indispensable que cuando se informe dicha cédula catastral anterior  deba ir acompañada del sector.
+
+
+
+DESTINACIÓN ECONÓMICA
+
+Se aplica al predio . No separar la destinación económica por un lado el lote y por otro la construcción. Cuando hay mejoras, tener en cuenta que es una construcción más dentro del predio, por esto la destinación económica es la del predio integramente .
+
+Aspectos generales para tener en cuenta
+                                                                       
+Predios correspondientes a lotes internos  que hacen parte de una construcción o que le prestan servicio a un predio colindante;  se les asigna el destino económico del predio dominante.
+
+Predios  contiguos cada uno con su matricula inmobiliaria uno construido y el otro no  pero prestan  funciones inherentes  y  que buscan satisfacer la misma actividad económica, para este  caso se asigna al no construido la misma destinación económica del que esta construido o edificado siempre y cuando no estén sobre vías principales.
+
+Predios correspondientes a áreas comunes  de  conjuntos residenciales, comerciales o industriales  no sometidos a régimen de propiedad horizontal ni cedidas al municipio; se les asignará el destino económico del respectivo conjunto residencial,comercial o industrial.
+Se emplean números enteros.
+Lotes rurales y expansión urbana se presentan lotes que por normatividad del P.O T. no se puedan urbanizar, por lo tanto  se les asigna el destino económico mas representativo del entorno.    
+
+Se utiliza  el ciento por ciento (100) cuando el predio tenga un solo destino económico, y los correspondientes porcentajes cuando tenga dos o más, esto sin exceder de seis teniendo en cuenta lo siguiente: 
+
+En los  sectores  rural (2) y Expansión urbana (3) el porcentaje  se determina de acuerdo al área de terreno que ocupa cada actividad con respecto al área total  del predio
+
+En el sector Urbano el porcentaje se determina de acuerdo al área  construida que  ocupa cada actividad con respecto al área total construida.(construcción propia o mejora)  Para el caso en que el predio no esté totalmente construido o las áreas libres representaren un peso mayor, será necesario aplicar el criterio  empleado para el sector rural.                                                                                                                                                                                                                                                                  
+
+Destino económico con respecto a mejoras
+
+Las mejoras en predio ajeno no tendrán destino económico, sin embargo, como estas pueden llegar a determinar el destino del predio que las soporta, en este caso su manejo es el siguiente:
+
+a.  Si el área ocupada por la mejora esta por encima del 16% sobre el área total del lote; aquella  entra a determinar el destino del lote en general.
+
+b. Si el área ocupada por la mejora es igual o menor al 16% sobre el área total del lote; el destino del predio es el determinado por el lote en general.
+Las construcciones no valorables (transitorios) no determinan un destino económico.
+
+HABITACIONAL(1).  Es el predio definido para vivienda, no dependiendo de su ocupación.
+
+Casas unifamiliares
+Casas o apartamentos  multifamiliares
+Condominios residenciales.
+Garajes.
+Parqueaderos descubiertos
+Cuartos útiles.
+Áreas comunes de unidades residenciales.
+
+En la mayoría de los municipios de Antioquia se presentan pequeños negocios en predios habitacionales  que no disponen de la infraestructura  locativa requerida para su buen funcionamiento , cuestión que ha llevado a incurrir en error, puesto que éstos son de pequeña incidencia con respecto a la destinación económica del predio por tratarse de algo temporal, rústico , mínimo equipamiento y sin acceso al publico; debe diligenciarse como Habitacional. 
+ 
+INDUSTRIAL(2). Es el predio dedicado a la producción, fabricación, confección, preparación, transformación o ensamblaje de cualquier clase de material o bien; tales son los casos de: 
+Agroindustria 
+Fábricas 
+Talleres de ensamblaje 
+Depósitos
+Bodegas 
+Galpones 
+Beneficiaderos
+Viveros  
+Marraneras y porquerizas técnicamente explotadas.
+
+COMERCIAL(3).  Es el .predio reservado a la   compraventa o distribución  de bienes o mercancías, tanto al por mayor como al detal; así como también los destinados a la prestación de servicios para satisfacer las necesidades de la comunidad; ejemplo: 
+
+Locales comerciales
+Hoteles
+Oficinas
+Bancos
+Consultorios			
+Bombas de gasolina
+Terminal de transporte
+Discotecas  
+Moteles
+Lavanderías
+Plazas satélites
+Parqueaderos
+Y similares
+
+
+AGROPECUARIO(4).  Es el predio dispuesto a la producción ganadera y agrícola; se incluyen aquí los productos como sementeras, bosques, etc.
+
+
+MINERO(5).  Es el predio predefinido a la explotación de minas ya sea en el subsuelo o en la superficie, ejemplo: las minas carboníferas de Amagá, las minas de oro en Segovia, asbesto en Campamento . canteras etc.
+
+
+CULTURAL(6).  Es el predio dedicado a una de las siguientes actividades:
+
+Educación: Universidades, colegios, escuelas, seminarios, conventos o similares.
+
+Cultura:  Bibliotecas, museos, hemerotecas, salones culturales.
+
+Culto Religioso: Iglesias, capillas, cementerios o similares,
+
+
+RECREACIONAL(7).  Es el predio destinado a la recreación individual o colectiva,
+tales como:  parques, clubes sociales y casinos, centros recreacionales, teatros, gimnasios, estadios, coliseos, piscinas, plazas de toros, fincas de recreo y/o veraneo.
+Un predio rural o expansión urbana será recreacional y/o de veraneo cuando cumpla con algunos de los siguientes parámetros:
+A. Cuando mediante escritura pública, en algunas de sus cláusulas se le esté asignando esa calidad.
+
+Igualmente se tendrá en cuenta lo dispuesto por la ley 160 de l994 cuando señala que los predios destinados a una actividad principal diferente a la explotación agrícola o ganadera, serán recreacionales  (07) o de vivienda campesina, habitacional (01).
+
+B.  Cuando se encuentre ubicado en un sector donde el correspondiente municipio en su Plan de Ordenamiento Territorial tenga determinado que es de uso recreacional.
+
+C.  Cuando su localización esta dentro de una zona que tiene servicios básicos u otros que le permitan tener un grado de comodidad a sus propietarios y adicionalmente posean áreas comunes construidas o no;  entran en esta categoría las parcelas producto de reloteos que se encuentren reglamentadas o no.  No se incluirán dentro de este literal las parcelas que son adjudicadas por el incora.    
+
+
+
+
+SALUBRIDAD(8).  Son los predios dedicados a una de las siguientes actividades: clínica, hospital, unidad intermedia,centro médico, laboratorio,etc.
+
+
+INSTITUCIONAL(9).  Son los predios de propiedad del Estado,en los cuales funcionan las instituciones públicas a nivel nacional, departamental,municipal, o de establecimientos públicos descentralizados, así como las instalaciones militares, las embajadas o similares.
+Este destino económico siempre se diligenciara con el 100%
+
+  
+El destino económico mixto (10) no se utilizará.
+ 
+DESTINO OTRO (11).  No se utilizará, pero a cambio se crearon los destinos económicos  numerados del 12 al 20 para los cuales se tendrán los conceptos que a continuación enunciamos: 
+
+LOTE URBANIZADO NO CONSTRUIDO (12)	:  Es el lote no edificado, pero que cuenta con infraestructura vial y redes primarias de energía, acueducto, y alcantarillado.
+
+LOTE URBANIZABLE NO URBANIZADO (13): Es el lote urbano de posible urbanización que, por carecer actualmente de servicios públicos ,se destina a otros usos o a ninguno.
+
+LOTE NO URBANIZABLE (14):  Hace referencia a la zona legalmente constituida por medio de acto administrativo, o condiciones físicas naturales que impidan su desarrollo urbanístico tales como: retiro obligado, zona de reserva, servidumbres, suelos geológicamente inestables, relieves no desarrollados, etc.
+
+VÍAS (15):  Es el área destinada al desplazamiento de vehículos, cargas y peatones; puede ser con espacios de parqueo ocasional, o con   zonas de control ambiental.  Serán censadas únicamente para los casos que sean delimitadas por escritura pública y sometidas al registro, correspondiéndoles por lo tanto una matrícula inmobiliaria.  
+Igual se clasifican aquí aquellas áreas que pertenecen a un predio y que su dueño al realizar una división material no las menciona dentro de éste y   por lo tanto registro deja de darle una matrícula inmobiliaria; para la inscripción catastral de esta última se hace con la matrícula madre, es decir, con la que en un principio figuraba el predio, mientras dicha vía es cedida u organizada legalmente. Se entiende que es solamente para propietarios con  calidad particular.
+      
+
+UNIDAD PREDIAL NO CONSTRUIDA (16).  Es la unidad predial que aunque se encuentra sometida al régimen de propiedad horizontal aún no  ha sido construida ,  caso típico son las terrazas o aire dentro de la correspondiente edificación.
+
+PARQUES NACIONALES (17).  Área de extensión con un valor excepcional para el patrimonio nacional que, en beneficio de los habitantes de la nación y debido a sus características naturales, culturales o históricas,  se reserva y se declara   para su protección, conservación, desarrollo y reglamentación por la correspondiente administración.
+
+
+RESGUARDOS INDÍGENAS (18).   Son las tierras asignadas a comunidades indígenas y que han poseído en común o en porciones distribuidas por familias, para cultivos de sostenimiento y bajo la  administración de un cabildo de nativos.   
+
+BIEN DE DOMINIO PÚBLICO (19).  Son todos aquellos inmuebles cuyo dominio  pertenece a la nación, al departamento o al municipio, pero su aprovechamiento de uso y goce lo disfrutan los habitantes de un territorio; estos bienes son clasificados de acuerdo a su destinación jurídica como calles, puentes, plazas, caminos,  parques etc. 
+
+RESERVA FORESTAL (20).  Es la parte o el todo del área de un inmueble que se reserva  para destinarla exclusivamente al establecimiento  o mantenimiento y utilización racional de bosques naturales o artificiales, para proteger estos mismos recursos u otros naturales renovables, y además, pueden ser objeto de actividades de producción sujeta necesariamente al mantenimiento del efecto protector. 
+
+Los numerales (9) Institucional, (12) lote urbanizado no construido, (13)Lote urbanizable no urbanizado, (14) lote no urbanizable, (15) vías, (16) unidad predial no construida, (17) parques nacionales, (18) resguardo indígena y (19) bien de dominio público no admiten combinaciones. 
+
+Para el destino económico (20) reserva forestal tener en cuenta lo siguiente : Debe existir Decreto o Resolución que así lo estipule, esta  puede ser del ciento  por ciento  del predio,  o  parcial para los casos en que la resolución señale la cabida,  en donde , de acuerdo a este dato, se fija el porcentaje.  Los destinos económicos 17 (parques nacionales) y 18 (resguardo indígena)) también  se dan por acto administrativo
+
+CARACTERÍSTICAS DEL PREDIO: 
+
+En la ficha señalar con X una de las siguientes.
+
+NORMAL (1):  Utilizable para los predios que no posean la característica de reglamento de propiedad horizontal, parcelación, condominio, parque cementerio, embalse, baldío. 
+
+R.P.H. EDIFICIO(2 ):  Emplearse para el predio sometido al reglamento de propiedad horizontal, contentivo en escritura pública, pero que cuenta con un solo edificio.  Se incluyen aquí  los reglamentos de propiedad  horizontal correspondientes a unifamiliares
+
+A las propiedades horizontales no reglamentadas con unidades prediales con diferentes matriculas se les aplicará el mismo concepto.
+
+
+
+Su coeficiente de copropiedad (coeficiente edificio ) establecido en  la escritura, debe ser  del ciento por ciento al realizar la suma de todas sus unidades.  Este coeficiente tiene como fin primordial permitir que se calculan áreas comunes para cada unidad predial.  
+ 
+En procesos de formación y actualización cuando no se tenga dicho coeficiente, se debe calcular haciendo uso de una regla de tres, para la cual se tiene en cuenta la relación entre sumatoria de las áreas construidas privadas de las unidades y el área construida privada de cada unidad. 
+
+Las unidades prediales con esta característica deben estar unidas al  correspondiente edificio, y debe elaborarse una ficha resumen  para el mismo, que contenga la información general, y sus áreas de terreno y construcción comunes; esto con el fin de que el sistema las tome con el coeficiente y las calcule para cada unidad predial.
+   
+R.P.H.PARCELACIÓN (3):  Por tener las características de una propiedad horizontal debe trabajarse igual que el caso anterior, con la diferencia de que el predio en general de una manera ficticia se considera como un  edificio; por tanto, en los procesos de formación y de actualización cuando no se tenga el coeficiente, y se vaya a calcular por regla de tres se tiene en cuenta la relación: sumatoria de las áreas privadas de lote, y el área privada de lote de cada unidad predial. 
+  
+R.P.H.CONDOMINIO ( 4 ) : Igual que los anteriores posee características de la propiedad horizontal, se trabaja como tal, pero presenta dos o mas edificios. 
+  
+Cada edificio individualmente considerado se trabaja como ya se dijo en el R.P.H. (2); pero para el total de edificios se debe contar con otro coeficiente (coeficiente predio), que permite el cálculo de las áreas comunes que  corresponden a cada uno de ellos.  Este coeficiente predio debe de estar estipulado en la escritura que establece el reglamento; pero en formaciones y actualizaciones es posible que  no se tenga, entonces, igual por regla de tres se procede a su cálculo teniendo presente la relación entre sumatoria de las áreas construidas privadas de todas  las unidades y el área construida privada de cada unidad. 
+
+También hablaremos aquí de una ficha resumen para el condominio, diferente  de la que se hace por cada edificio; y como se dijo anteriormente debe contener los aspectos generales, totales de áreas, pero con respecto al predio en general.
+
+Resumiendo el condominio, es claro que hablamos de dos coeficientes, uno del edificio para calcular áreas comunes al interior de éste y que llamamos COEFICIENTE EDIFICIO;  otro para calcularlas al exterior de los dos o más edificios que se establezcan dentro del correspondiente reglamento de propiedad horizontal y que llamamos COEFICIENTE PREDIO. 
+
+
+NOTA: Los predios que presenten dos o mas edificios o bloques de edificios y la escritura solo mencione un coeficiente el funcionario calculara el otro de acuerdo al procedimiento preestablecido. 
+
+PARQUE CEMENTERIO ( 5):  Es un atributo que caracteriza un lote destinado  a cementerio, pero que es diferente a los  cementerios que son  propiedad de las  las parroquias o municipios. Parques cementerios solo existen en el municipio de Bello e Itaguí y cada lote , dentro del parque, dispone de su respectiva matricula inmobiliaria.
+
+EMBALSE (6):  Característica aplicada a los predios que a solicitud de la corporación o corporaciones autónomas regionales respectivas, se encuentran delimitados por catastro para fines hidroeléctricos. Embalse: empresa generadora  de energía.
+
+BALDÍO ( 7).   Son terrenos de la nación que nunca han sido titulados y por lo tanto no han sido  incluidos en el sistema registral; estos pueden ser ocupados o no  por particulares.  
+
+ADQUISICIÓN.
+Señalar con X una de las siguientes
+ 
+Derecho real ( 1 ): Es el predio que tiene  tomo y  matrícula o matricula inmobiliaria. 
+
+Posesión ( 2 ):  Para  lo nuestro  manejaremos como PROPIEDAD EN POSESIÓN los
+ predios que no tienen documento público, es decir escritura debidamente registrada, pero que se respaldan con documentos privados; o bien, el inmueble que una persona  tiene en posesión material o económica y corresponde a tierras ejidables, terrenos en reserva, resguardos indígenas, bienes vacantes (Son los inmuebles que se encuentran dentro del territorio respectivo a cargo de la nación, sin dueño aparente o conocido). 
+
+Dicho lo anterior todos lo predios en posesión así como los en propiedad deben inscribirse en el catastro,pero esta inscripción  , no constituye título de dominio, ni sanea los vicios que tenga una titulación o una posesión. 
+
+Litigio: 
+Señalar con X una de las siguientes
+
+SI ( 1 ):Cuando para  un  predio censado catastralmente  se presentan diferentes documentos escriturarios, cada uno con su respectiva matrícula inmobiliaria ;se  elabora una ficha predial por cada una de ellas con la misma cédula catastral del predio inicialmente censado;  adicionalmente se diligencia la información para el propietario o propietarios  que reclaman el predio y la información jurídica, señalando además   la proporción del predio catastral  en disputa.   
+
+NO ( 2 ): Cuando no tiene problemas de litigio se señala  como  ( 2 )
+
+PERSONA NATURAL O JURÍDICA
+
+
+N°: Anotar el numero correspondiente a cada renglón consecutivamente 
+
+1.	CLAVE DEL TÍTULO.  Este espacio comprende el número asignado al título en el campo de N° en la parte de justificación del derecho de propiedad, lo cual permite una correlación entre el mismo título y el propietario.Solo colocar los datos de la escritura más reciente   
+
+CALIDAD DEL PROPIETARIO(sombreado parte inferior de la ficha).  Es la característica dada al propietario según el predio pertenezca a: un particular (1), a nivel nacional (2), departamental (3), municipal (4), religioso (5), oficial (6), comunidad indígena (7), distrital (8), región (9), provincia (10), empresa generadora de energía (11).
+
+G:  gravable (1) 
+No gravable (2)  
+(sombreado parte inferior de la ficha)
+
+En principio todos los bienes inmuebles son gravables con impuesto predial, salvo los exentos por la leyes o los acuerdos municipales y los predios pertenecientes al mismo municipio.
+En los procesos de formaciones, actualizaciones y conservación  esta información se obtiene así:
+
+1. Los propietarios o poseedores deberán acreditar  la exención del impuesto predial presentando copia  del acuerdo municipal que así lo declare y los demás documentos pertinentes.    
+
+2.	Por la información que suministren las autoridades competentes.
+
+PRIMER APELLIDO---------SEGUNDO APELLIDO ( O DE CASADA)----NOMBRE(S)
+
+Diligenciar este campo según sea la persona así:
+
+PERSONA NATURAL.  Se designan en el catastro conforme aparezcan en el titulo o documento que acredite la propiedad o la posesión, si no existen estas acreditaciones se tendrá en cuenta el documento de identidad.  Se deben anotar en el siguiente orden.
+Primer apellido (siempre completo )
+Segundo apellido (siempre completo )
+Primer nombre  (siempre completo)
+Segundo nombre (si lo tiene,siempre completo)
+
+NOTA: La falta de segundo apellido o de casada no obliga a dejar espacios en blanco.
+
+Se permite la abreviatura de viuda: VDA
+			    
+PERSONA JURÍDICA.  Se anotan en el catastro conforme a su denominación legal o popular.   A  las personas jurídicas de corporaciones o industrias no se les antepondrá la palabra sociedad (Soc) a no ser que haga parte de su razón social o denominación social (nombre).
+
+Abreviaturas  permitidas
+CIA		CompañíA
+INV		Inversiones  
+LTDA		Limitada
+SA		Sociedad anónima
+SCA		Sociedad comandita por acciones
+S E N C S	Sociedad en comandita simple
+
+SIGLA COMERCIAL:  Espacio de uso exclusivo para instituciones o personas jurídicas de carácter público o privado, donde se anotará la  legalmente asignada ,ejemplo: COLTEJER
+
+
+CLASE DE DOCUMENTO: (Sombreado parte inferior de la ficha)
+
+1.  Cédula de ciudadanía de hombre
+
+Debe estar entre los siguientes rangos según la registraduría nacional del estado civil: 
+
+de  1  a  20.000.000 
+
+de  70. 000.001  a   100.000.000
+
+2. Cédula de ciudadanía de mujer
+
+Debe estar entre los siguientes rangos según la registraduría nacional del estado civil: 
+
+De   20.000.001   a  70.000.000
+
+3.  NIT( No incluir el guión ni el numero que aparece después)
+
+Es indispensable cuando estamos hablando de personas jurídicas y debe controlarse para evitar una incorrecta anotación, es por eso que debemos tener presente que nunca deben  existir números por debajo de 800.000.000, ni por encima de 999.999.999. 
+
+4.  cédula de extranjería
+
+No debe ser mayor a 1.000.000
+
+5.  Registro civil
+
+
+Utilizarse para los menores de edad que no tienen tarjeta de identidad.    Diligenciarlo como aparezca en  el  respectivo documento, incluyendo el guión si lo trae (situación que no ocurre con el nit).
+
+6.  Tarjeta de identidad.
+
+Documento para menores de edad se debe diligenciar como aparece en el respectivo documento; incluyendo el guión si lo trae.
+
+7.  Pasaporte.
+
+Se  utiliza como documento de identidad para los ciudadanos de otros países cuando realizan transacciones inmobiliarias mientras están en tránsito por Colombia.  Se debe diligenciar como aparece en el respectivo documento. 
+
+8.  Código asignado
+Este código  es para control y uso interno de la Dirección de Asesoría Catastral. No anotar la clase de documento en la ficha, pero sí informarlo al sistema.
+
+
+DERECHO:  Siempre debe diligenciarse este campo;  bien sea por el ciento por ciento (100.00) si el propietario es dueño de la totalidad de la propiedad, o por el porcentaje dependiendo del grado de participación cuando el predio se encuentra en comunidad o proindiviso; en este caso la suma de estos debe ser igual al ciento por ciento  ( 100.00)
+
+
+JUSTIFICACIÓN DEL DERECHO DE PROPIEDAD O DE POSESIÓN
+
+N°: Anotar el numero correspondiente a cada renglón consecutivamente.
+
+CLAVE DEL PROPIETARIO.  Este espacio comprende el número asignado al propietario en el campo de N° en la parte de persona natural o jurídica; igual que en la clave del título permite la correlación entre este y aquel.
+
+CLAVE DEL TITULO Y CLAVE DEL PROPIETARIO
+Clave propietario: Es un número asignado por quien diligencia la ficha predial, para correlacionar el propietario  o propietarios y el título o títulos respectivos.  Este número aumenta en orden secuencia (a medida que se inscriben mas propietarios o poseedores ), partiendo del No 1, asignado al primer propietario y primer  título respectivamente.
+
+Algunos ejemplos son:
+
+
+1.	Un solo propietario  con un solo título.  El propietario en el momento de la visita es JUAN DAVID AGUDELO LÓPEZ, revisando el título justificativo encontramos que él compró mediante la escritura No 300; quien vendió fue  ALVARO DE JESÚS SÁNCHEZ LLANO.
+	El funcionario diligencia la ficha así:
+
+PERSONA NATURAL O JURÍDICA
+NO	CLAVE DEL TITULO	CALIDAD DEL PRO PIETARIO	G	PRIMER APELLIDO     SEGUNDO APELLIDO           NOMBRE (S)                                    O DE CASADA
+1	1	1	1	AGUDELO        LOPEZ                         JUAN DAVID
+
+JUSTIFICACIÓN DEL DERECHO DE PROPIEDAD O POSESIÓN
+NO
+CLAVE DEL  PROPIETARIO
+PROPIETARIOS ANTERIORES
+PRIMER APELLIDO     SEGUNDO APELLIDO         NOMBRE (S)
+                             O DE CASADA
+CAUSA DEL
+ ACTO
+Número
+Notaria
+DEPT
+MPIO
+NÚMERO
+1
+1
+SÁNCHEZ LLANO ALVARO DE JESÚS
+CV
+300
+05
+088
+01
+
+2.	Un solo propietario con dos o más títulos.  El propietario en el momento de la visita es JUVENAL RENDÓN CUARTAS.  Revisando los títulos justificativos encontramos que este compró parcialmente mediante escritura No 807 de 20 de julio de l988  al señor JOSE LÓPEZ GONZÁLEZ y compró otra parte a VICTORIA OCHOA LUNA mediante escritura No 102 de 2 de mayo de 1997 .
+
+El funcionario diligencia la ficha  anotando  el titulo por el cual realizo la ultima compra así:
+
+PERSONA NATURAL O JURÍDICA
+NO	CLAVE DEL TITULO	CALIDAD DEL PRO PIETARIO	G	PRIMER APELLIDO     SEGUNDO APELLIDO           NOMBRE (S)                                    O DE CASADA
+1	1	1	1	RENDÓN            CUARTAS                           JUVENAL
+
+
+JUSTIFICACIÓN DEL DERECHO DE PROPIEDAD O POSESIÓN
+NO
+CLAVE DEL  PROPIETARIO
+PROPIETARIOS ANTERIORES
+
+
+
+
+
+
+PRIMER APELLIDO     SEGUNDO APELLIDO         NOMBRE (S)
+                             O DE CASADA
+CAUSA DEL
+ ACTO
+Número
+Notaria
+DEPT
+MPIO
+NÚMERO
+1
+1
+OCHOA           LUNA                 VICTORIA
+CV
+102
+05
+890
+01
+
+
+3.	Dos o más propietarios (pro-indiviso) con un solo título.  Los propietarios en el momento de la visita son los señores GIOVANNI ROLDÁN CASTAÑO y KARINA ROLDÁN  RAMÍREZ,   Revisando los títulos justificativos encontramos que ellos compraron mediante escritura No 420 a la señora JOSEFA YEPES AGUDELO.
+
+El funcionario diligencia la ficha así:
+
+PERSONA NATURAL O JURÍDICA
+NO	CLAVE DEL TITULO	CALIDAD DEL PRO PIETARIO	G	PRIMER APELLIDO     SEGUNDO APELLIDO           NOMBRE (S)                                    O DE CASADA
+1	1	1	1	ROLDÁN                CASTAÑO              GIOVANNI
+2	1	1	1	ROLDÁN                 RAMÍREZ               KARINA
+
+JUSTIFICACIÓN DEL DERECHO DE PROPIEDAD O POSESIÓN
+NO
+CLAVE DEL  PROPIETARIO
+PROPIETARIOS ANTERIORES
+PRIMER APELLIDO     SEGUNDO APELLIDO         NOMBRE (S)
+                             O DE CASADA
+CAUSA DEL
+ ACTO
+Número
+Notaria
+DEPT
+MPIO
+NÚMERO
+1
+1-2
+YEPES           AGUDELO      JOSEFA
+CV
+420
+
+
+
+
+
+
+05
+001
+14
+
+4.	Varios propietarios (pro-indiviso) con varios títulos.  Los propietarios en el momento de la visita son:
+
+GILBERTO CANO PALACIO, compró mediante escritura No 890 de enero 2 de l973 a CARLOS ANTONIO SERNA LLINAS, que era propietario de una parte del predio.
+
+ALFONSO SILVA ORJUELA, compró mediante escritura No 452  de agosto 19 de l984 al señor ARGIRO PALACIO BUSTILLO que era propietario de una parte del predio y también compró a NANCY DAVILA VIDES, mediante escritura No 460 de agosto 20 de l984,  que era propietaria de la otra parte.
+
+El funcionario diligencia la ficha así:
+
+
+PERSONA NATURAL O JURÍDICA
+NO	CLAVE DEL TITULO	CALIDAD DEL PRO PIETARIO	G	PRIMER APELLIDO     SEGUNDO APELLIDO           NOMBRE (S)                                    O DE CASADA
+1	1	1	1	CANO                 PALACIO              GILBERTO ANTONIO               
+2	2	1	1	SILVA                 ORJUELA              ALFONSO 
+				
+
+
+JUSTIFICACIÓN DEL DERECHO DE PROPIEDAD O POSESIÓN
+NO
+CLAVE DEL  PROPIETARIO
+PROPIETARIOS ANTERIORES
+PRIMER APELLIDO     SEGUNDO APELLIDO         NOMBRE (S)
+                             O DE CASADA
+CAUSA DEL
+ ACTO
+Número
+Notaria
+DEPT
+MPIO
+NÚMERO
+1
+1
+SERNA        LLINAS CARLOS ANTONIO
+CV
+890
+05
+001
+01
+2
+2
+
+
+
+
+DAVILA     VIDES              NANCY
+CV
+460
+05
+266
+02
+
+
+
+5.	Tomando la información del ejemplo anterior, y considerando que se está trabajando en un proceso de conservación , al momento de la mutación el único propietario es SILVA ORJUELA ALFONSO, por compra que hizo mediante escritura No 254 a GILBERTO ANTONIO CANO PALACIO.
+
+El funcionario revisa toda la documentación y actualiza la ficha así:
+
+PERSONA NATURAL O JURÍDICA
+NO	CLAVE DEL TITULO	CALIDAD DEL PRO PIETARIO	G	PRIMER APELLIDO     SEGUNDO APELLIDO           NOMBRE (S)                                    O DE CASADA
+1	1	1	1	CANO                 PALACIO              GILBERTO ANTONIO               
+2	2-3	1	1	SILVA                 ORJUELA              ALFONSO 
+				
+				
+
+
+JUSTIFICACIÓN DEL DERECHO DE PROPIEDAD O POSESIÓN
+NO
+CLAVE DEL  PROPIETARIO
+PROPIETARIOS ANTERIORES
+PRIMER APELLIDO     SEGUNDO APELLIDO         NOMBRE (S)
+                             O DE CASADA
+CAUSA DEL
+ ACTO
+Número
+Notaria
+DEPT
+MPIO
+NÚMERO
+1
+1
+SERNA        LLINAS            CARLOS ANTONIO
+CV
+890
+05
+001
+
+
+
+
+
+
+
+
+
+01
+2
+2
+DAVILA     VIDES               NANCY
+CV
+460
+05
+266
+02
+3
+2
+CANO         PALACIO         GILBERTO
+CV
+254
+05
+266
+02
+
+
+El funcionario tacha (con una línea en color verde), de la casilla de propietario a la persona que vendió y la inscribe en propietario anterior.  Continúa la numeración de clave de titulo y  clave del propietario en el orden que trae la ficha predial. 
+
+CAUSA DEL ACTO.  Es la razón de la inscripción del predio o de las modificaciones hechas a cualquiera de los atributos del mismo.  Para nuestro evento la razón esta dada por: venta total, venta parcial, reloteo, partición, adjudicación por sucesión, remates, adjudicación del incora, etc.
+
+En los procesos de formaciones o actualizaciones se utilizaran las siguientes abreviaturas:
+
+ACL		Aclaraciones
+AD		Adjudicación
+AS		Aporte sociedad
+CV		Compraventa
+DCL		Declaraciones
+EN		Englobe
+PE		Permuta
+PH		Propiedad horizontal
+PS		Posesión
+RE		Remate
+RL		Reloteo
+RS		Rescisión
+DC		Documento de compraventa
+DP		Dación en pago
+En el proceso de conservación utilizar los códigos correspondientes a cada acto.  
+
+
+
+
+PROPIETARIO (S) ANTERIOR (ES) (APELLIDOS Y NOMBRES).  Corresponde a la persona natural o jurídica que se despoja del bien total o parcialmente.  
+
+ESCRITURA (TITULO)
+
+NÚMERO.  Es el número referente a la escritura o resolución administrativa que es asignada por la notaría o autoridad correspondiente.
+
+Notaría. 
+Estos 3 campos (DPT-MPIO-NÚMERO) son alfanuméricos  para utilizar as
+
+El  primero campo corresponden al código del departamento al cual pertenece el juzgado, El tribunal, La Notaria  o la oficina donde se expide la Resolución o  Decreto 
+EJEMPLO:		05	ANTIOQUIA
+			11	DISTRITO CAPITAL SANTA FE DE BOGOTÁ
+			13	BOLÍVAR
+			15	BOYACA			
+			91	AMAZONAS
+el segundo campo corresponden al código del municipio al cual pertenece el juzgado, El tribunal (cuando este campo venga en ceros  se entenderá que es tribunal superior de el Departamento anunciado en los primeros campos)  , La notaria o la oficina donde se expide la Resolución o Decreto (Para Municipios fuera de antioquia consultar con sistemas de Catastro)  
+EJEMPLO:		001	MEDELLÍN
+			266	ENVIGADO
+			001	SANTA FE DE BOGOTÁ
+			001 	CARTAGENA
+			468	MOMPOS
+			001	TUNJA
+			839	TUTASA
+			669	PTO SANTANDER
+En el tercer campos identificar :
+
+
+El tipo de juzgado  así: 
+			(CC)	Civil del circuito  y el número del juzgado si lo tiene.
+			(LC)	Laboral del circuito  y el número del juzgado si lo tiene.
+			( C )	Civil municipal    y el número del juzgado si lo tiene.
+			(P) 	Promiscuo municipal  
+			(F ) 	De familia   y el número si lo tiene
+			(PF)	Promiscuo de familia y el número si lo tiene
+			( A )	Agrarios
+
+El tipo de Tribunal así: 
+			Superior  Sala Civil ( SSC )
+			Superior  Sala laboral (SSL)
+
+Resoluciones o decretos  de instituciones del estado así:
+informar el nombre de la institución abreviandolo si es necesario (INCORA_ INC)
+
+Numérico para los documentos emitidos por notarias y se diligenciara de la siguiente  manera:
+ si la notaria es única, escribir 01 o el número correspondiente 01,02,03,15,20 etc.
+
+Nota: Para los documentos emitidos por  consulados  escribir a partir de la primera posición la letra C  en la siguiente posición  máximo 9 campos para el nombre de la ciudad y el numero del consulado
+EJEMPLOS:
+
+ASÍ APARECE EN EL DOCUMENTO	ASÍ DEBE INFORMARSE
+JUZGADO 1 CIVIL MUNICIPAL ITAGUI	0	5	3	6	0	C	1
+JUZGADO 1 LABORAL DEL CIRCUITO DE MEDELLÍN	0	5	0	0	1	LC	1
+TRIBUNAL SUPERIOR DE ANTIOQUIA SALA CIVIL	0	5	0	0	0	SSC	
+NOTARIA 1 DE ENVIGADO	0	5	2	6	6	0	1
+NOTARIA 13 DE SANTA FE DE BOGOTÁ 	1	1	0	0	1	1	3
+NOTARIA 15 MEDELLÍN	0	5	0	0	1	1	5
+RESOLULCIÓN OFICINA INCORA DABEIBA	0	5	2	3	4	INC	
+DECRETO MUNICIPIO CARMEN DE VIBORAL	0	5	1	4	8	MPIO	
+CONSULADO 21 NUEVA YORK 	C	N	Y			2	1
+
+
+FECHA DE ESCRITURA . Para señalar el día mes y año ( de cuatro dígitos para escribir el número del año completo)  en que el documento fué elaborado .
+ 
+FECHA DE REGISTRO.  Para señalar el día, mes y año (de cuatro dígitos para escribir el número del año completo) en que el documento fue registrado y se le asignó la correspondiente matrícula inmobiliaria.
+
+MATRÍCULA INMOBILIARIA (NÚMERO-TOMO).  Es el complejo numeral o código que identifica registralmente a cada inmueble.  Esta se encuentra anotada en la última hoja de cada escritura en forma de sello, o viene en certificado aparte, en donde van incluidos los movimientos hechos con respecto a la propiedad.
+La matricula se compone de 10 dígitos, los  primeros tres identifican el circulo de registro, sigue  un guión  y los  7  restantes  corresponden a la sucesión del orden en que vaya asentado (orden cronológico) ,es indispensable transcribirla como aparece en el formulario de calificación de la respectiva oficina de Registro de Instrumentos Públicos 
+
+Ejemplo:  026-0005404
+
+
+
+
+
+El tomo, es para los códigos o números de matrícula que fueron asignados antes del año 1974, las  oficinas de registro las vienen actualizando masivamente o a solicitud de los usuarios; por lo tanto en los procesos de formación y actualización se permite información con este sistema, en los procesos de conservación se debe enviar el usuario a la respectiva Oficina de Registro para que actualice.
+
+Los datos que aparecen sombreados  (CALIDAD DEL PROPIETARIO, G, CLASE DE DOCUMENTO) son informativos.
+
+CALIFICACIÓN DE CONSTRUCCIONES
+
+UNIDAD :
+es la edificación dentro de un predio que tiene unas características especificas en cuanto a uso y elementos contitutivos físicos de la misma.
+
+Las construcciones del dueño del lote se numeran del 1 al 1000
+
+Las construcciones de personas distintas al dueño del predio  se numeraran a partir del 1001 (mejoras).
+
+TIPO:
+Para un predio se pueden presentar unidades  con tipo Residenciales (R), Comerciales (C) , Industriales (I) U Otras (O);que se diferencian por sus características físicas  y uso, que conducen a un determinado puntaje de calificación.
+Anotar para cada unidad  la letra correspondiente al tipo de construcción.  
+NOTA:  Se realiza la calificación de acuerdo a las normas establecidas, para efectos de la digitación se debe tener en cuenta que se informa el código correspondiente al ítem calificado.
+   
+GENERAL
+
+Siempre que se informen construcciones se deben  diligenciar estos campos así:
+ 
+Acueducto, alcantarillado, energía eléctrica, teléfono,gas.
+
+SI  ( 1 ):  cuando la construcción tiene  estos servicios
+No  (2  ): cuando la construcción no posee estos servicios. 
+Total pisos: se debe diligenciar informando el total de pisos que tiene la respectiva construcción calificada ajeno  a la codificación anterior.
+Edad de la construcción en años: Se debe diligenciar informando el número de años que tiene la construcción calificada.
+
+% construido: Se debe diligenciar informando el porcentaje de construcción, si no esta terminada y si esta terminada informar el 100%  ( se entiende por terminada lo que disponga de cubierta).
+ 
+CONSTRUCCIONES VALORABLES CONVENCIONALES - PRIVADAS
+
+En estos campos se hacen las anotaciones referentes a la construcción convencional que se ha calificado.  Para el desarrollo de ellos mirar el cuadro de código de identificador y las definiciones expuestas más adelante. Todas las construcciones valorables convencionales son susceptibles de calificación.
+
+CÓDIGO IDENTIFICADOR DE LAS CONSTRUCCIONES CONVENCIONALES
+
+DESCRIPCIÓN	CÓDIGO	TIPO DE CONSTRUCCIÓN
+		
+RESIDENCIAL HASTA TRES PISOS 	001	R  (RESIDENCIAL)
+CONJUNTOS RESIDENCIALES CERRADOS O NO HASTA 3 PISOS 	002	R  (RESIDENCIAL)
+CONJUNTOS RESIDENCIALES CERRADOS O NO DE 4 Y MAS PISOS 	003	R  (RESIDENCIAL)
+LOCALES COMERCIALES	004	C  (COMERCIAL)
+CENTROS COMERCIALES	005	C  (COMERCIAL)
+BODEGAS	006	I   (INDUSTRIAL)
+PUESTOS DE SALUD,HOSPITALES Y CLÍNICAS	007	C  (COMERCIAL)
+OFICINAS, CONSULTORIOS	008	C  (COMERCIAL)
+UNIVERSIDADES Y COLEGIOS	009	C  (COMERCIAL)
+INDUSTRIAS	010	I    (INDUSTRIAL)
+IGLESIAS	011	I    (INDUSTRIAL)
+TEATROS	012	I    (INDUSTRIAL)
+CÁRCELES	013	C   (COMERCIAL)
+PARQUEADEROS, GARAJES, CUARTO ÚTIL	014	R  (RESIDENCIAL)
+BENEFICIADEROS	015	I   (INDUSTRIAL)
+PORQUERIZAS	016	I   (INDUSTRIAL)
+ESTABLOS  Y PESEBRERAS	017	I   (INDUSTRIAL)
+GALPONES Y GALLINEROS	018	I   (INDUSTRIAL)
+VIVIENDA SUNTUARIA*	021	R  (RESIDENCIAL)
+HOTELES,  RESIDENCIAS, MOTELES	022	C  (COMERCIAL)
+CENTROS  RECREACIONALES	023	C  (COMERCIAL)
+ESTADIOS,  PLAZAS DE TOROS	024	I    (INDUSTRIAL)
+PARQUES CEMENTERIOS	025	R  (RESIDENCIAL)
+SILOS	026	I    (INDUSTRIAL)
+GARAJES Y PARQUEADEROS DE PRESTACIÓN DE SERVICIOS	027	C  (COMERCIAL)
+INVERNADEROS	030	I    (INDUSTRIAL)
+CLUBES Y CASINOS	031	C  ( COMERCIAL)
+KIOSCOS	033	R (RESIDENCIAL)
+COLISEO	034	I   (INDUSTRIAL)
+RESTAURANTES	035	C  ( COMERCIAL)
+EDIFICIOS DE 4 Y MAS PISOS EN URBANISMO COMÚN 	036	R  (RESIDENCIAL)
+RAMADAS	038	R  (RESIDENCIAL)
+
+-OTRAS CONSTRUCCIONES VALORABLES  NO CONVENCIONALES - PRIVADAS
+
+
+Son aquellas construcciones distintas al modelo habitacional, comercial e industrial; tales como: piscinas y patios eléctricos (subestaciones de energía  y estructuras en general que contengan un peso económico y que deben tenerse en cuenta en el avalúo catastral).
+   
+CÓDIGO IDENTIFICADOR DE LAS CONSTRUCCIONES NO CONVENCIONALES
+
+DESCRIPCIÓN	CÓDIGO	CLASIFICACIÓN	TIPO	PUNTOS
+TANQUES	19	EXCELENTES	A	65
+TANQUES	19	BUENAS	B	60
+TANQUES	19	REGULARES	C	50
+TANQUES	19	MALAS	D	30
+PISCINAS	20	EXCELENTES	A	65
+PISCINAS	20	BUENAS	B	60
+PISCINAS	20	REGULARES	C	50
+PISCINAS	20	MALAS	D	30
+CANCHA DE TENIS	28			
+TOBOGANES	32			
+PATIOS ELÉCTRICOS	37	110 KV	A	12
+PATIOS ELÉCTRICOS	37	230 KV	B	15
+PATIOS ELÉCTRICOS	37	500 KV	C	26
+
+
+-	CONSTRUCCIONES NO VALORABLES
+
+Son construcciones que se toman como anexas, y el carácter de tales, les es dado porque son transitorias o temporales y además construidas en materiales de muy mala calidad.  Estas no tendrán influencia alguna en el avalúo.Se deben medir, calificar y calcular la superficie.   
+
+CÓDIGO IDENTIFICADOR DE LAS CONSTRUCCIONES NO VALORABLES.
+
+
+
+DESCRIPCIÓN	CÓDIGO	TIPO DE CONSTRUCCIÓN
+		
+RESIDENCIAL HASTA TRES PISOS 	501	R  (RESIDENCIAL)
+CONJUNTOS RESIDENCIALES CERRADOS O NO HASTA 3 PISOS 	502	R  (RESIDENCIAL)
+CONJUNTOS RESIDENCIALES CERRADOS O NO DE 4 Y MAS PISOS 	503	R  (RESIDENCIAL)
+LOCALES COMERCIALES	504	C  (COMERCIAL)
+CENTROS COMERCIALES	505	C  (COMERCIAL)
+BODEGAS	506	I   (INDUSTRIAL)
+PUESTOS DE SALUD,HOSPITALES Y CLÍNICAS	507	C  (COMERCIAL)
+OFICINAS, CONSULTORIOS	508	C  (COMERCIAL)
+UNIVERSIDADES Y COLEGIOS	509	C  (COMERCIAL)
+INDUSTRIAS	510	I    (INDUSTRIAL)
+IGLESIAS	511	I    (INDUSTRIAL)
+TEATROS	512	I    (INDUSTRIAL)
+CÁRCELES	513	C   (COMERCIAL)
+PARQUEADEROS, GARAJES, CUARTO ÚTIL	514	R  (RESIDENCIAL)
+BENEFICIADEROS	515	I   (INDUSTRIAL)
+PORQUERIZAS	516	I   (INDUSTRIAL)
+ESTABLOS  Y PESEBRERAS	517	I   (INDUSTRIAL)
+GALPONES Y GALLINEROS	518	I   (INDUSTRIAL)
+VIVIENDA SUNTUARIA*	521	R  (RESIDENCIAL)
+HOTELES,  RESIDENCIAS, MOTELES	522	C  (COMERCIAL)
+CENTROS  RECREACIONALES	523	C  (COMERCIAL)
+ESTADIOS,  PLAZAS DE TOROS	524	I    (INDUSTRIAL)
+PARQUES CEMENTERIOS	525	R  (RESIDENCIAL)
+SILOS	526	I    (INDUSTRIAL)
+GARAJES Y PARQUEADEROS DE PRESTACIÓN DE SERVICIOS	527	C  (COMERCIAL)
+INVERNADEROS	530	I    (INDUSTRIAL)
+CLUBES Y CASINOS	531	C  ( COMERCIAL)
+KIOSCOS	533	R (RESIDENCIAL)
+COLISEO	534	I   (INDUSTRIAL)
+RESTAURANTES	535	C  ( COMERCIAL)
+EDIFICIOS DE 4 Y MAS PISOS EN URBANISMO COMÚN 	536	R  (RESIDENCIAL)
+ENRAMADAS	537	R  (RESIDENCIAL)
+
+
+Para las construcciones anteriores  completarse los diferentes campos así
+
+
+Número de la construcción
+Anotar el número correspondiente a la unidad calificada y medida
+
+Identificador de la construcción
+Código establecido de acuerdo a los materiales utilizados y diseño arquitectónico de la construcción (ver tablas correspondientes). 
+
+Puntos
+Se totaliza la suma de los diferentes ítem calificados .
+
+Para las construcciones valorables no convencionales , el puntaje esta determinado según la clasificación existente.  Este se debe informar al sistema.
+ 
+Mejora 
+
+-con (1): Significa que si es mejora, o sea cuando la construcción calificada no es del mismo dueño del predio.
+
+-con (2): Significa que no es mejora, es decir la construcción calificada pertenece al dueño del predio. 
+
+ Por cada mejora se elabora una ficha, a la cual se le traza una raya roja diagonal en el extremo superior izquierdo de la parte anterior, informando  los siguientes campos de la ficha:  Cédula catastral actual, sector,Adquisición, persona natural o jurídica, justificación del derecho de propiedad o posesión si la tiene y todo lo relacionado con la construcción. 
+
+Si existe más de una mejora  se numera cada una de ellas secuencialmente dentro del predio, comenzando con la construcción número mil uno (1001) por orden de importancia.
+Ley 56
+
+Si ( 1 ): cuando la construcción calificada es para la  generación de energía: torres de captación, casas de maquinas.
+
+
+No ( 2 ):  cuando la construcción calificada  no es para la  generación de energía: casinos y campamentos.
+
+Área construida 
+Informar el área de la construcción calificada,  en metros cuadrados con dos cifras decimales sin aproximar.
+
+Terreno.  Este espacio comprende el área total de extensión que tiene el predio, y su diligenciamiento se realiza en hectáreas (sector rural y de expansión) y metros cuadrados(sector urbano), los cuales deben ir expresados en números enteros. 
+
+Si la característica del predio es R.P.H.(2) ó CONDOMINIO (4), el  espacio
+de terreno debe completarse en el evento que la unidad predial posea área                                                                                                                                 privada de terreno, de lo contrario hay que dejarlo en blanco.
+
+Si la que se presenta es la característica parcelación (3), la anotación correspondiente es la del área privada de lote que trae la unidad predial. 
+
+Coeficiente predio.  Es un porcentaje asignado a la unidad predial en el reglamento de  propiedad horizontal , el cual tiene su importancia catastral en el momento de calcularle las áreas comunes de lote y comunes de construcción  de todo el conjunto .  Se diligencia  cuando la unidad predial es parte de un predio con característica condominio  obteniendolo de la escritura que contiene el régimen de propiedad horizontal.  
+     
+
+Coeficiente edificio. Es un porcentaje asignado a la unidad predial en el reglamento de  propiedad horizontal , el cual tiene su importancia catastral en el momento de calcularle las áreas comunes de lote (sobre el cual  está construido el edificio) y comunes de construcción  del edificio .  Se diligencia  cuando la unidad predial es parte de un predio con característica rph, parcelación o  condominio  y se obtiene de la escritura que contiene el régimen de propiedad horizontal.  
+      
+
+COLINDANTES
+
+Encontramos dos tipos de colindancia así:   predios o accidentes geográficos (naturales, artificiales) y descriptivos.
+ 
+Cuando la colindancia es con predio se debe colocar el numero de la cédula catastral  del respectivo predio.  
+
+Municipio - Corregimiento- Barrio- manzana o vereda -predio 
+88              -     	1         -   1-    20        	  -    8                       
+88 	   -     	1         -   0-	         8	   -  120          	
+837	   -     	4             0     -              25     -    344   
+
+
+
+Cuando la colindancia es con varios predios del mismo municipio, corregimiento,barrio, manzana o vereda así:
+
+Municipio - Corregimiento- Barrio- manzana o vereda -predio - 		
+88              -     	1         -   1-    20        	  -    8 /9/10/11/12             
+88 	   -     	1         -   0-	         8	   -  120 /12/14/15  -  
+88 	   -     	1         -   0-	         8	   -  120 /12/14/15 sector 3-    	
+		  	
+Cuando la colindancia es con unidades prediales del mismo edificio se debe anotar únicamente el numero de la unidad predial con sus cinco dígitos.  Para el caso de unidades prediales no construidas estos datos se tomaran de la misma escritura. 
+
+Cuando la colindancia es con un accidente geográfico natural  se colocara el nombre completo, es decir sin abreviaturas con excepción de las  direcciones.   
+
+Quebrada La Loca 
+Río Magdalena   
+Farallones
+
+Cuando la colindancia es con accidente geográfico artificial se colocaran  las abreviaturas viales ya establecidas en caso contrario el nombre completo.
+
+Cl 33
+Puente El Mico
+Vía a la vereda La Loma
+Servidumbre
+
+Cuando la colindancia es descriptiva se colocara el nombre completo
+
+Departamento de Córdoba	R.P.H.	Nadir Subsuelo
+Departamento de Caldas				Zenit	Cubierta
+Departamento del Choco
+Municipio de  Ayapel
+Municipio de Medellín
+
+Cuando se presenten colindancias con el sector 3 (expansión urbano) al final de la anotación de los predios se agregara sector 3 para evitar confusiones
+
+CROQUIS DEL PREDIO
+
+Las normas relacionadas en el manual de instrucciones para la elaboración formación, actualización y evaluación catastral.
+
+SE ACEPTARAN LOS CROQUIS DEFINITIVOS Y APROBADOS QUE SE PRESENTEN GRAFICADOS EN UN SISTEMA DE INFORMACIÓN COMPUTARIZADO Y QUE CORRESPONDAN A LA TOTALIDAD DE LA MANZANA O VEREDA SIE MPRE Y CUANDO 
+
+SE GARANTICE LA CONTINUIDAD DEL MISMO PARA LAS CONSERVACIONES  CATASTRALES Y CON UNA ADHERENCIA QUE PERMITA ESTOS CAMBIOS
+
+INFORMACIÓN GRÁFICA
+
+Plancha
+Puede ser urbano, rural o de expansión urbana; 
+Si es urbano se colocaran los números del   plano de conjunto urbano en el cual se encuentra localizada la manzana. Cuando una manzana esta en dos planos o mas se le colocaran los números respectivos.
+
+Si es rural se colocara  el número de la plancha catastral que corresponde a la misma nomenclatura del IGAC.  Prima el número de la plancha predial en la cual le corresponde la misma escala de la plancha con base cartografía y preferiblemente la que esta uno en diez mil. (1.10000)
+
+Si es expansión urbana  se le colocara el número de plancha correspondiente a la base cartográfica que se empleo para la transferencia de linderos de la aerofotografía al plano
+
+
+Ventana
+Si el predio se encuentra localizado en una ampliación gráfica a escala se diligenciara colocando: Código de corregimiento- código de la vereda - número secuencial de la ventana dentro de la vereda.  
+
+Escala
+Se colocará la escala que figura en el  respectivo plano en la siguiente forma: primero la cifra 1 seguida de dos puntos (:) y a continuación la cifra que define la escala ejemplo. 1:10000, 1:25000,1:500  
+
+Año
+La fecha correspondiente a la formación o actualización
+
+INFORMACIÓN AEROFOTOGRÁFICA
+
+Vuelo
+El que figura en la información marginal de la aerofotografía; cuando el predio está en más de un vuelo se anotarán todas.
+ 
+Faja
+La que figura en la información marginal de la aerofotografía; cuando el predio está en más de una faja se anotarán todas.
+
+Foto
+
+El que figura en la información marginal de la aerofotografía; cuando el predio está en más de una fotografía se anotarán todas.
+
+Año
+El que figura en la información marginal de la aerofotografía; cuando el predio está en más de una fotografía se anotarán todos.
+
+Ampliación
+Cuando una zona tiene características de  minifundio se censará sobre una ampliación aerofotográfica y  se diligenciará este campo así:  Código de corregimiento- código de la vereda - número secuencial de la  ampliación dentro de la vereda.  
+ 
+
+Escala
+La que figura en la información marginal de la aerofotografía; cuando el predio está en más de una fotografía se elegirá la que contengan más área.
+   
+AVALUÓ. 
+
+Este campo  se diligencia en los procesos de conservación
+ 
+OBSERVACIONES
+
+Este campo es para informar o describir situaciones del predio que no es posible codificar en esta ficha,  datos que sean indispensables  para dar  claridad a la información ejemplos:
+1.  El área es la división proporcional de los n predios que forman el globo de terreno.
+2.  Predio dividido en dos por venta parcial con el predio n
+y las demás que nos permitan aclarar situaciones del predio.
+ENTIDAD
+
+Este campo se diligencia  en los procesos de conservación.  
+
+CONTRATISTA:
+Nombre de la empresa, ingeniero residente y prediador
+
+PROPIETARIO O REPRESENTANTE
+
+Nombre y firma del propietario o su representante.  En el evento en que estos no estén dispuestos a firmar se deja en blanco. 				
+	
+	NOTAS
+
+
+Los cambios de áreas  deben de ser sustentadas en la ficha  en el campo de observaciones, ya sea por planeación, demoliciones,deterioro, remodelación, o por modificación a una resolución administrativa.
+
+En los reglamentos de propiedad horizontal no existen mejoras, si las hubiere se le adiciona a la unidad predial sobre la cual esta construida.
+
+Cuando se realice una actualización  catastral la diferencia de áreas de lote o de  construcción no son objeto de cambio si esta  no es mayor al 1% 
+
+Cuando en los procesos de formación o actualización se presenten mutaciones en predios ya censados utilizar resaltador verde en los datos que sean objeto de cambio y anotar la nueva información en los renglones siguientes.    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PAUTAS PARA LA ELABORACIÓN DE LA FICHA RESUMEN
+
+
+La ficha resumen es el documento que contiene la información general del predio cuando este corresponde a la característica de R.P.H. (edificio, parcelación o condominio).
+
+Dicha ficha se numera con 1 ó 2 dependiendo de la característica atinente al RPH.  La ficha resumen 1 se refiere al condominio en general y la 2 a los edificios del condominio, y los R.P.H. (Edificio y parcelación); de acuerdo al número asignado se diligencian  los diferentes campos de la ficha resumen como veremos a continuación:
+
+A)  Ficha resumen 1
+
+-La cédula catastral: Se llena hasta el campo de predio.
+-El área total del lote: Es la misma del predio sometido al RPH condominio. 
+-Área común del lote: Es el resultado de restar al área total del lote, el área ocupada por cada uno de los edificios.
+-El área privada lote: Se tiene en cuenta cuando la escritura pública la especifique como de uso exclusivo de alguna(s) matrícula(s) del reglamento.
+-En generales: Completar todos los espacios excepto el de total de pisos que ira diligenciado con 0.
+-Los espacios de gráfico, aerofotografía, calificación, construcciones comunes y colindantes se llenan de acuerdo con las normas preestablecidas.
+-En croquis del predio: Solicitar copia reducida del plano. 
+
+B) Ficha resumen 2
+
+-La cédula catastral: Se diligencia hasta el campo de edificio.
+-El área total del lote: Corresponde a la total del predio, cuando se esta manejando las características edificio y  parcelación; y área total del edificio en el caso de condominio (se tienen diferentes fichas  resumen 2, dependiendo de cuantos edificios estén establecidos).
+-El área común del lote: Es la ocupada por cada edificio o la que ordinariamente se viene manejando para las parcelaciones (área total lote menos sumatoria de las parcelas). 
+-El área privada lote:  Manejarla con  la sumatoria de las parcelas para los predios con esta característica, y como se dijo anteriormente en la ficha resumen 1.
+-En generales: Completar todos los espacios  excepto el de total de unidades en condominio  que ira diligenciado con  0  y el total de edificios que irán diligenciados con 01
+
+La UBICACIÓN DEL PREDIO en ambas fichas, se maneja como se estableció en el diligenciamento de la ficha, exceptuando el espacio de nombre o dirección del predio, sitio en el cual se anota el nombre del edificio, conjunto residencial, condominio o parcelación y luego la dirección de acuerdo a la escritura  que contiene el régimen de propiedad horizontal.
+
+*Los demás campos que haya que diligenciar en las fichas resúmenes, se hace conforme ya se expuso para la ficha en general.    
+
+TRATAMIENTO CATASTRAL DE PREDIOS EN PROPIEDAD HORIZONTAL
+
+La propiedad  horizontal es un forma de dominio que hace objeto de propiedad exclusiva o particular determinadas partes de un inmueble y de propiedad común,  ciertas áreas de dicho inmueble destinadas a uso o servicio común de todos los propietarios.
+La propiedad horizontal puede tener lugar en una casa de un piso, basta solamente que las partes en que se divida dicha casa pertenezcan a varios propietarios independientemente cada uno del dominio del otro.
+
+El régimen de propiedad horizontal se encuentra reglamentado por la ley :  675 del 2.001, que establece las normas básicas para su constitución.
+
+Para efectos catastrales a  los predios reglamentados  se  les  levanta una ficha resumen que contendrá la  información general del predio con las debidas anotaciones, para lo relativo a los bienes de uso común; y para cada unidad particular de dominio pleno se abrirán  fichas prediales independientes,  relacionadas con la cédula catastral del predio y edificio al que pertenecen tanto para señalar su procedencia , como para indicar  el coeficiente que a cada propietario individual corresponde en los bienes comunes.
+Para la  inscripción catastral de los predios en régimen de propiedad horizontal tener en cuenta las siguientes indicaciones 
+
+Leer detenidamente la escritura de RÉGIMEN DE PROPIEDAD HORIZONTAL con el fin de:
+-Identificar el predio sobre el cual se esta levantando la PROPIEDAD HORIZONTAL. 
+-Verificar el modo de adquisición y matricula o matriculas inmobiliarias que lo conforman.
+-Identificar las áreas comunes y privadas 
+-Identificar las áreas publicas de cesión al municipio
+-Identificar coeficientes para las áreas comunes internas  del edificio
+-Identificar coeficientes para las áreas comunes externas de los edificios. 
+
+Una vez identificados los datos anteriores ubicar el predio dentro de una de estas categorías.
+
+2 (R.P.H): ; Predio sometido al reglamento de propiedad horizontal, contentivo en escritura pública"ARTÍCULO 1° LEY 182 DE 1948 LOS DIVERSOS PISOS DE UN EDIFICIO, Y LOS DEPARTAMENTOS EN QUE SE DIVIDA CADA PISO,ASÍ COMO LOS DEPARTAMENTOS DE LA CASA DE UN SOLO PISO, CUANDO SEAN INDEPENDIENTES Y TENGAN SALIDA A LA VÍA PÚBLICA DIRECTAMENTE O POR UN PASAJE COMÚN, PODRÁN PERTENECER A DISTINTOS PROPIETARIOS, DE ACUERDO CON LA DISPOSICIONES DE ESTA LEY" , pero que cuenta con un solo edificio.  Se incluyen aquí  los reglamentos de propiedad  horizontal correspondientes a unifamiliares.
+Para las propiedades horizontales no reglamentadas con unidades prediales con diferentes matriculas se les aplicará el mismo concepto en los procesos de Formación o Actualización, si esta situación se presenta en proceso de conservación se devuelve la escritura al usuario para su corrección.
+Dentro de este podemos encontrar los siguientes casos:
+
+
+1.  
+               		                    
+			           					Todo el terreno  es común
+                      1                    
+                                                                                         este  predio  puede ser 
+		   2		2P					propiedad horizontal  
+                                                                                         reglamentada o no
+                                                                                   
+2. 				
+
+		       1						Se debe verificar  si el 
+								área libre es común o privada
+		       2						este  predio puede ser propiedad
+	                                                                     horizontal reglamentada o no
+                                                                        
+
+		
+                                     2P
+             
+3.
+                          																											     			1												        		5																																																																											 TODO EL  TERRENO ES                     
+  									 COMÚN
+
+4		                                    
+                                                 1P                                                    
+                                              portería                           
+                                                                                        1P
+                          1                                                                               01
+                     12                                                                 1P
+                                                    1P                                 02          TERRENO COMÚN
+                            							  	       Y PRIVADO 
+                                                                                         1P 03
+
+                                                 piscina                               04
+                                                                                         1P                      
+                                                                                      
+                                                                                                            05
+                                                        1P                                1P
+                                                        salón
+                                                      comunal
+           
+                                                         
+			
+			
+                 012        011           010        09       08             07          06
+
+               1P           1P        1P        1P         1P        1P        1P		          
+		       	             		   		
+3 R.P.H PARCELACIÓN: Fincas de mayor extensión parceladas y reglamentadas , en este caso siempre existe escritura de Régimen de Propiedad horizontal , De una manera ficticia se considera como un  edificio aunque lo que se esta reglamentado es la tierra, siempre el área privada es mayor que la común,  podemos encontrar mas de una construcción en las unidades prediales.
+
+
+
+                                                                             1 
+       				                                             9
+         			           01             02        	   03                      04              05
+			   caseta					
+
+                                      09        	  08                         07     
+        
+                                                                                       06                      	        Río la miel
+
+
+
+
+4 (R-P-H CONDOMINIO)
+
+ Igual que los anteriores posee características de la propiedad horizontal, se trabaja como tal, pero presenta dos o mas edificios o bloques. 
+"Articulo 1 Decreto 1365 de l986 Podrán someterse al régimen de propiedad horizontal que establecen las leyes 182 de 1948 y 16 de 1985, tanto los edificios de uno o varios pisos, como los grupos de edificios  que constituyan un conjunto, construido o por construirse, sobre el mismo terreno que sean susceptibles de división en unidades privadas independientes con salida directamente a la vía publica o por áreas destinadas al uso común
+
+para todos los efectos legales, los edificios que forman un mismo conjunto constituido en propiedad horizontal se consideraran como una sola unidad y en tal virtud el uso y goce de las áreas  y servicios comunes, será de todos los propietarios en la forma determinada por el reglamento de administración de la propiedad horizontal. así mismo , sus rentas y el costo de las expensas de mantenimiento, conservación y reparación de dichas áreas y servicios serán a favor y a cargo, respectivamente de todos los propietarios en proporción a sus porcentajes de participación en la persona jurídica, o a sus coeficientes de copropiedad  en su caso, sin importar la ubicación de las unidades privadas en relación con tales áreas o servicios comunes"
+
+
+                 1                       									
+        6P
+	       18					 PORTERÍA				6             	6P       						        																												          salón
+									          COMUNAL			6P			       	       1												                 18										          		      6P		6P                     6P	                   															PISCINA																						                       			6P																																																																						          1												6P								          					         30			              	      			6P		    6P		                	               6P			6P								     	      
+Una vez identificada la característica del predio de acuerdo a la escritura de régimen de propiedad horizontal se diligencia la ficha resumen;  Dicha ficha se numera con 1 ó 2 dependiendo de la característica atinente al RPH.  La ficha resumen 1 se refiere al condominio en general y la 2 a los edificios del condominio, y los R.P.H. (Edificio y parcelación); de acuerdo al número asignado se diligencian  los diferentes campos de la ficha resumen como veremos a continuación:
+
+A)  Ficha resumen 1
+
+-Nombre o dirección del predio: conjunto residencial  de acuerdo a la escritura
+
+-La cédula catastral: Se llena hasta el campo de predio y el campo de edificio con ceros.
+
+-El área total del lote: Es la misma del predio sometido al RPH condominio. 
+
+-Área común del lote: Se debe consignar la diferencia entre el área total del lote y la sumatoria de las áreas total lote de cada una de las fichas resumen 2 correspondientes a los edificios del condominio.  
+
+
+Ejemplo:
+
+Área total lote ficha resumen 2 edificio 001	: 200 M2	
+					        002	: 200 M2
+					        003	: 200 M2
+					                004	: 200 M2
+						            800 M2
+					
+							 
+Área	total lote: 2300  M2
+Número de edificios 4
+Área común lote a consignar en ficha resumen 1:2300-800=1500 M2
+
+-Área privada lote:  Sumatoria de  áreas privadas de todas las unidades prediales del condominio  :La cual se obtiene de lo anotado en cada una de las unidades  prediales de acuerdo a la información de la escritura de reglamento de propiedad horizontal.
+
+-Total generales
+Edificios: total de edificios que conforman el reglamento de propiedad horizontal.
+Unidades en condominio: sumatoria de las unidades prediales que conforman el condominio
+Unidades en propiedad horizontal: sumatoria de las unidades prediales que conforman el condominio.
+apartamentos, locales, cuartos útiles, garajes cubiertos, garajes descubiertos:Relacionar cada uno de estos siempre y cuando correspondan a unidades prediales con matricula inmobiliaria independiente.
+Total pisos: igual a cero 
+
+-Gráfico y  aerofotografía:se llenan de acuerdo con las normas preestablecidas en el manual de pautas para el manejo de la ficha predial.
+
+
+-Calificación construcciones: En esta se califican y relacionan  las construcciones comunes del predio ejemplo: piscinas, portería, salón comunal y otras   
+
+colindantes: Anotar la colindancia general del predio de acuerdo con las normas preestablecidas en la manual de pautas para el manejo de la ficha predial.
+
+-En croquis del predio: Solicitar copia reducida del plano. 
+
+B) Ficha resumen 2
+-Nombre o dirección del predio: Nombre del edificio, parcelación 
+
+-La cédula catastral: Se diligencia hasta el campo de edificio colocándole  001,cuando las características corresponden a RPH edificio y RPH parcelación . Para la característica condominio este espacio se llenará según el número del edificio del cual se está elaborando la ficha, por lo tanto podrá existir edificio 001, 002 etc.
+
+-El área total del lote: Corresponde a la total del predio, cuando se esta manejando las características edificio y  parcelación; y área total del edificio en el caso de condominio (se tienen diferentes fichas  resumen 2, dependiendo de cuantos edificios estén establecidos).
+
+-El área común del lote:Se debe consignar la diferencia entre el área total del lote y la sumatoria de las áreas          privadas de las unidades prediales.  
+
+Ejemplo:
+
+Área terreno unidad predial	00001	: 100 M2	
+					00002	: 120 M2
+					00003	:   80 M2
+					00004	:   00 M2
+					00005	:   60 M2	
+					00006	:   00 M2
+							  430  M2
+Área	total lote: 1000  M2
+Número de unidades prediales: 6
+Área común lote a consignar en ficha resumen:1000-430=570  M2
+
+-El área privada lote:   Sumatoria del ítem terreno de todas las unidades prediales del edificio; La cual se obtiene de lo anotado en cada una de las unidades  prediales de acuerdo a la información de la escritura de reglamento de propiedad horizontal.
+Cuando la característica es parcelación todas las unidades prediales deben reportar terreno privado.
+
+-Total generales
+Edificios: Igual a 01
+
+Unidades en condominio: igual a 000
+Unidades en propiedad horizontal: sumatoria de las unidades prediales que conforman el edificio.
+apartamentos, locales, cuartos útiles, garajes cubiertos, garajes descubiertos:Relacionar cada uno de estos siempre y cuando correspondan a unidades prediales con matricula inmobiliaria independiente para la característica R.P.H  e igual a  para la característica PARCELACIÓN.
+Total pisos: Igual a 0 para la característica PARCELACIÓN e  igual al nivel de pisos del EdIficio para la característica R.P.H  y condominio ; teniendo en cuenta que este esta relacionado con el identificador de la construcción Ejemplo
+
+
+TOTAL PISOS	IDENTIFICADOR	CODIGO	TIPO
+1 A 3	RESIDENCIAL HASTA TRES PISOS 	001	R  (RESIDENCIAL)
+1 A 3	CONJUNTOS RESIDENCIALES CERRADOS O NO HASTA 3 PISOS 	002	R  (RESIDENCIAL)
+4 A N 	CONJUNTOS RESIDENCIALES CERRADOS O NO DE 4 Y MAS PISOS 	003	R  (RESIDENCIAL)
+4 A N 	EDIFICIOS DE 4 Y MAS PISOS EN URBANISMO COMÚN 	036	R  (RESIDENCIAL)
+
+-Gráfico y  aerofotografía:se llenan de acuerdo con las normas preestablecidas en la manual de pautas para el manejo de la ficha predial.
+
+-Calificación construcciones: En esta se califican y relacionan  las construcciones comunes del predio ejemplo: piscinas, portería, salón comunal y otras  para las características R.P.H y PARCELACIÓN  y las áreas de circulación, tacos de escaleras del edificio para las características CONDOMINIO y R.P.H. 
+La calificación en la ficha resumen 2 ya no se diligencia hasta el items de fachada como se hacia anteriormente. Solo se llena  cuando se presenta áreas comunes ., como en el caso de las áreas de circulación .
+Al calificar los edificios de mayor altura destinados a apartamentos  se debe tener en cuenta que estos conforman un todo en lo  que respecta a :  estructura y fachada  y conservación en acabados principales; esto hace que todos las construcciones de las unidades prediales de un mismo  edificio  y las construcciones comunes relacionadas con áreas de circulación y tacos de escalera tengan la misma calificación en estos ítems ademas el identificador de la construcción debe ser el mismo para el tipo R cuando son residenciales, para el tipo C cuando son comerciales y para el tipo I cuando son industriales. 
+
+-Colindantes: Anotar la colindancia general del predio cuando la característica es R.P.H o PARCELACIÓN y la colindancia con respecto a los otros edificios cuando la característica es condominio de  acuerdo con las normas preestablecidas en la manual de pautas para el manejo de la ficha predial.
+
+Croquis
+
+
+A: Ficha resumen 1 debe aparecer delimitado todo el predio y edificios con sus áreas comunes y privadas con su respectiva convención y niveles de pisos 
+
+B. Ficha resumen 2 para  la característica  RPH (2) y RPH PARCELACIÓN (3)  debe aparecer delimitado todo el predio  con sus áreas comunes y privadas con su respectiva convención y niveles de pisos.
+
+C.  Ficha resumen 2  para RPH CONDOMINIO (4) debe aparecer el croquis del edificio con su respectiva convención y niveles de pisos .
+D. Ficha predial debe aparecer delimitada solamente él área privada de cada unidad predial. E.  Para las unidades prediales no construidas croquis de acuerdo al plano protocolizado con la escritura de Régimen de Propiedad Horizontal.
+
+Escala:
+
+Los croquis se dibujaran  en escala  1:500 o 1:1000.  cuando el predio no se puede dibujar en el espacio que presenta la ficha,  se dibujara en hoja adicional tamaño oficio en papel milimetrado o se aceptara un  plano graficado en un equipo de dibujo (plotter).  Para cuartos útiles, o garajes utilizar escala 1:200.
+
+ÁREAS COMUNES Y ESPACIO PUBLICO INTERNO
+No se  inscriben las áreas comunes a nombre de la persona jurídica por cuanto:
+
+a)Según sentencia de la corte suprema de justicia, de fecha marzo 15 de 1965,  "El dominio es principio de un derecho absoluto, exclusivo y perpetuo, que confiere a su titular las tres (3) facultades de usar, gozar y disponer de cosa o bien sobre que  recae dicho derecho.
+
+b).  El artículo 3 de la Ley 16 de 1985, a la letra reza lo siguiente: " La propiedad horizontal una vez constituida legalmente, forma una persona jurídica distinta de los propietarios de los bienes de dominio particular o exclusivo individualmente, considerados.  Esta persona que no tendrá ánimo de lucro, deberá cumplir y hacer cumplir la ley y el reglamento de propiedad horizontal, administrar correcta y eficazmente los bienes de uso o servicio común y en general ejercer la dirección, administración y manejo de los intereses comunes de los propietarios de inmuebles en relación con el mismo".
+
+c) .Según lo previsto en el literal a. del presente escrito, el dominio otorga a su titular las facultades de usar,  gozar y disponer de la cosa o bien.  En el caso que nos ocupa la persona jurídica que se constituya para cumplir los reglamentos de propiedad horizontal, manejar y administrar los bienes e intereses comunes de los propietarios de los inmuebles, no es titular del derecho de dominio sobre las áreas comunes, toda vez que no puede usar, gozar ni mucho menos disponer de las mismas.
+
+
+Matriculas aparte para las área comunes
+En los casos en que se haya asignado distintas matrículas  inmobiliarias a las áreas comunes  de unidades inmobiliarias cerradas o no , en el proceso de reloteo que antecede un Reglamento de Propiedad Horizontal  y al realizar este las citan el tratamiento será el siguiente:  No se crearan nuevas cédulas catastrales, estas áreas se incluirán en la  ficha resumen  correspondiente ; dejando constancia en las observaciones de la misma sobre las matriculas inmobiliarias incluidas en las áreas comunes del respectivo predio, con el fin de que se repartan con el coeficiente de cada unidad predial.
+En consecuencia aunque a las área comunes les hayan asignado matriculas inmobiliarias estas no se trataran como predios aparte sino como lo que son,  áreas comunes.
+
+Zonas GEOECONÓMICAS
+Para la determinación del avalúo, la investigación económica de valores de la construcción involucra las áreas comunes por lo tanto se debe tener en cuenta que las zonas Geoeconómicas para las áreas comunes y privadas  no construidas,  no es  igual a las zonas geoeconómicas de las áreas construidas comunes  y privadas  o superficie ocupada. 
+
+Espacios públicos
+Los espacios públicos pueden ser zonas de cesión al Municipio y por tanto  la vía o zonas verdes    que formen parte del predio sometido a R.P.H,  deberá segregarse del predio al cual se halle inscrito y para ello se asignara nueva cédula catastral con su respectiva  ficha predial a nombre del dueño del predio;  o al Municipio si ya existe la escritura de cesión debidamente registrada.
+Esto siempre y cuando se halle claramente determinado en la respectiva escritura y con su Matricula Inmobiliaria independiente.
+
+
+Coeficientes: 
+"La determinación de los coeficientes de copropiedad, o de los porcentajes de participación en la persona jurídica, en su caso se hará teniendo en cuenta el valor de las unidades privadas, deberá fijarse considerando el área de la misma, el estimativo de utilización de los bienes de uso común y los demás factores de evaluación que incidan en el valor de la unidad.
+
+Tales coeficientes, o porcentajes de participación así determinados, servirán de base para fijar el monte de los aportes o cuotas a cargo de cada una de las unidades de dominio privado que deberán cancelar sus propietarios para contribuir a las expensas necesarios a la administración, mantenimiento, reparación y conservación de los bienes, área y servicios de uso común.
+
+Todas y cada una de las unidades de dominio privado deberán tener un coeficiente de copropiedad, o porcentaje de participación en su caso" Artículo 13 Decreto 1365 de 1986.   
+
+
+Escriba el coeficiente de porcentaje tal como le corresponde a cada unidad predial, con tantos decimales como  aparece en el reglamento de propiedad horizontal, previa verificación que la sumatoria de los coeficientes sea igual al ciento por ciento (100%).  En caso contrario se devuelve la escritura al usuario para su corrección si estamos en proceso de conservación, si estamos en proceso de formación o actualización por regla de tres se procede a su cálculo teniendo presente la relación entre sumatoria de las áreas  privadas de todas  las unidades y el área  privada de cada unidad. 
+Si el caso es complicado consultar con la Dirección de Catastro.
+
+Ejemplos :
+
+1. Para las fichas que traen este diseño
+
+50.00%								
+	5	0		.		0	0				
+
+1.3456%
+		1		.		3	4	5	6		
+							
+25.54%
+	2	5		.		5	4				
+
+0.7895%
+		0		.		7	8	9	5		
+
+2.  caso para las fichas que traen este diseño
+
+50.00%
+	5	0	.	0	0				
+
+1.3456%
+		1	.	3	4	5	6		
+
+
+25.54%
+	2	5	.	5	4				
+
+
+
+Y
+0.7895%
+		0	.	7	8	9	5		
+
+
+				
+DESTINO ECONÓMICO PARA LAS UNIDADES PREDIALES.
+
+Para cada una de las unidades prediales se coloca el destino económico enunciado en la escritura de R.P.H salvo en los siguientes casos:
+Cuando se presenten predios con característica propiedad horizontal o condominio  que serán construidos por etapas y hacen parte de un mismo reglamento pero en el momento de la visita a terreno no está construido en su totalidad se debe proceder de la siguiente manera:
+Diligenciar las fichas para cada una de las unidades prediales contempladas en el Reglamento de Propiedad horizontal debidamente registrado en la oficina de instrumentos públicos;  Colocando a las unidades que no se encuentran construidas y que tiene matricula inmobiliaria destino económico 16.
+
+Cuando se presenten predios en propiedad horizontal que  en el momento de la visita a terreno no está construido se debe proceder de la siguiente manera:
+													
+Diligenciar las fichas para cada una de las unidades prediales contempladas en el Reglamento de Propiedad horizontal debidamente registrado en la oficina de instrumentos públicos;  Colocando a las unidades prediales  que tiene matricula inmobiliaria destino económico 12
+											
+Cuando se presenten unidades prediales correspondientes  a parqueaderos descubiertos se debe Colocar a las unidades prediales  correspondientes destino económico 16
+
+Casos para urbanizaciones  que presentan  etapas terminadas y proyectadas sin construir  reglamentadas
+
+Se realiza el procedimiento  establecido tanto  para la  etapa construida  teniendo en cuenta que para la etapa o etapas  proyectadas se debe proceder así:
+1) Abrir  Ficha resumen 2 con el área lote de esta etapa y  el área común de esta misma etapa
+2) Ficha predial  para la respectiva unidad predial  a nombre de la persona propietaria  donde constara información jurídica,  área privada, coeficiente predio  que  debe ser la diferencia  de los coeficientes de las  unidades prediales de las etapas ya terminadas, coeficiente edificio que debe corresponder a un 100% ademas de la información que debe llevar toda ficha predial.  

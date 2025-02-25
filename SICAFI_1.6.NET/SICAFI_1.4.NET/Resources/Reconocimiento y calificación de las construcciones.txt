@@ -1,0 +1,545 @@
+RECONOCIMIENTO Y CALIFICACIÓN DE LAS CONSTRUCCIONES
+
+
+
+
+Variables
+
+
+Para efectos del reconocimiento, clasificación y calificación de los diversos tipos de edificaciones existentes teniendo como objetivo final el avalúo catastral, se han escogido cuatro variables, consideradas como las más representativas dentro de la inmensa gama de características posibles de reconocer en las construcciones y las que mejor explican el avalúo de la construcción.  Algunas de ellas de carácter censal sobre condiciones propias y claramente diferenciables de cada predio, definidas sobre análisis de costos y porcentajes de participación según los dos grandes componentes de la construcción:  (estructura y acabados ); y las restantes asumidas como elementos de orientación y complementación para la estratificación y definición de zonas homogéneas urbanas (mobiliarios  de baños y cocina).
+
+Unas y otras se encuentran en el formulario de reconocimiento predial y calificación y se definen a partir de "componentes" que determinan, por decirlo así, los elementos básicos sobre los cuales se aplican criterios de calificación.  Su funcionamiento se explica a continuación.
+
+1- Complementario a estas definiciones se presenta un manual con fotografías de       los tipos de vivienda que conforman los diversos estratos para cada una de las  variables que componen la construcción.
+
+Estructura:  Este item se identifica mediante la calificación de cuatro componentes importantes.
+
+Tales componentes son:
+
+Armazón:  Se refiere al conjunto compuesto por los cimientos, columnas, vigas, entrepisos y demás componentes del esqueleto o armadura que soportan las cargas y sostienen la edificación.
+El adobe, bahareque, tapia, califiquelos con el puntaje correspondiente a madera.  En el caso de tener muros de carga en ladrillo, califiquelos como armazón de ladrillo.  En aquellas viviendas de hasta tres pisos y en donde se observe, vigas, 
+
+columnas y planchas se colocan en la opción  "concreto hasta tres pisos"..  
+La máxima calificación será para edificaciones de concreto de 4 o más pisos.
+
+Muros:  Se refiere a los muros divisorios no considerados como parte del armazón.  Para su registro marque una x frente al material predominante.
+
+Cubierta:  Techo exterior o tejado de la edificación, marque con una x frente al cuadro correspondiente a la opción encontrada.  
+
+1-  Materiales de desecho, telas asfálticas.
+Cubiertas características del estrato bajo - bajo, conformadas o construidas    con elementos cuya función no es propiamente la de cubierta pero en casos   extremos pueden servir como tales, similarmente son utilizadas las tejas y telas asfálticas, que son los materiales más económicos del mercado y se ajustan a condiciones de vivienda humilde  (ranchos) o construcciones provisionales  (ramadas, caedizos etc).
+
+2- Zinc, teja de barro o eternit rústico
+Materiales normalmente utilizados en la construcción de vivienda de estrato bajo, o provenientes de estratos más altos en decadencia.
+
+a-  Zinc
+Teja metálica económica colocada sobre infraestructura normalmente rústica    
+y sencilla generalmente de madera.
+
+b-  Teja de barro 
+Se clasifica en esta aparte, la cubierta en teja de barro antigua caracterizada 
+por su evidente deterioro; se le encuentra en la mayoría de los casos recubierta                      de musgo o lama, colocada sobre la infraestructura también antigua de esterilla de          guadua o caña brava, sistema evidentemente obsoleto.
+
+c-  Eternit rústico
+Se clasifica así no la calidad del eternit, sino la infraestructura sobre la cual se colocan las láminas que generalmente es de madera basta, sin canales ni bajantes y en la mayoría de los casos sin cielos raso.
+
+
+3-  Entrepisos y cubierta en prefabricado 
+
+Son planchas de concreto construídas como piso, de nivel superior no construído y utilizadas por período más o menos largo como cubierta provisional, algunas veces con adecuaciones sencillas, como pequeños muros que ejercen la 
+
+funciónde barda, normalmente se aprecian las salientes de las varillas que reforzarán  las
+construcciones del siguiente piso.  Además se encuentran cubiertas prefabricadas  que se deben calificar con el mismo puntaje.
+
+4-  Eternit o teja de barro ( cubierta sencilla ) 
+
+Este tipo de cubiertas se caracterizan por ser relativamente nuevas, homogéneas en toda su extensión y con muestras de acabados más o menos buenos.  Se encuentran normalmente en programas masivos de vivienda pertenecientes a estratos medio-bajo y medio ( nunca en estrato bajo )  su estructura se diferencia de la clasificación en el punto dos por las siguientes condiciones.
+
+Mayor solidez en su infraestructura que aún siendo en madera demuestra ser construída con cierta táctica.
+
+Condiciones satisfactorias de acabados, con adecuados revocados e instalación de canales y bajantes.
+
+Se encuentra cielo raso.
+
+5- Azotea, placa sencilla con eternit o teja de barro
+En este aparte se agrupan los tipos de cubierta característicos de estratos medio-bajo, medio alto y medio-medio.
+
+a- Azotea:  Tipo de cubierta impermeabilizado con acceso definido, muros y barandas como parte del acabado y construído con ese fín específico.  No debe confundirse con el entrepiso o cubierta provisional.
+
+b- Placa sencilla con eternit o con teja de barro nueva.  De común aplicación en construcciones nuevas medianamente nuevas, es una placa delgada de concreto y algunas veces aligerada e impermeabilizada y otras recubierta en eternit, o teja de barro nueva.
+
+6-  Placa impermeabilizada, cubierta lujosa u ornamental.
+
+En este grupo se consideran los tipos de cubierta que caracterizan las viviendas 
+del estrato alto y algunas del medio alto.
+
+a-  Placa impermeabilizada.  Es una plancha de concreto evidentemente sólida, la condición especial de esta placa es el de estar impermeabilizada lo cual conjuntamente con su solidez, la diferencia ampliamente de la placa sencilla 
+
+anunciada en el grupo anterior.
+
+b- Cubierta lujosa:  en algunos casos, la placa de concreto en vez de ser impermeabilizada es cubierta con teja con teja de barro nueva o con algún material costoso como la paja.
+
+c-  Cubierta ornamental:  Se presentan cubiertas en materiales bastante costosos, buscando adornar la construcción dándole matices de elegancia y atractivo.  Pueden encontrarse con o sin placa de concreto pero su valor permite clasificarlos en  este grupo.
+
+ESTADO DE CONSERVACIÓN
+
+Se refiere a las condiciones de mantenimiento, edad de la construcción y buen uso que presenta el item en general  (1); se asumieron cuatro grados de calificación considerados como suficientes para efectos de registrar de manera homogénea y resumida.
+
+1).El estado de conservación de una construcción depende de tres factores principalmente:  calidad de los materiales, edad de la construcción y el mantenimiento que se le dé durante su uso.  Buenos materiales, se pueden conservar mejor, por esta razón las edificaciones en obra negra (aún con poco tiempo de uso )  no presentarán un buen estado de conservación ya que los materiales se están deteriorando y la carencia de acabados ayuda a que estos se desgasten: incluso casas recién entregadas sin acabados en lo fundamental, presentan estado de conservación apenas regular.  Lo normal es que las viviendas del estrato bajo no presenten un estado de conservación bueno o excelente ni por la calidad de los materiales que la constituyen ni por la capacidad de mantenimiento de quienes la habitan. 
+Este concepto es aplicable al conjunto de los componentes es decir, el armazón, los muros y la cubierta de manera simultánea, según el estado predominante o promedio.  Tales grados son:
+
+Malo:  Se agrupan en este concepto, aquellas estructuras con el mayor grado de deterioro que se pueden encontrar, en condiciones precarias lo cual las hace prácticamente inhabitables.
+Generalmente se presenta en construcciones antiguas o con materiales de muy mala calidad.
+
+Regular:  En esta categoría se clasifican aquellas estructuras que tienen algunos daños menores ( agrietamiento de paredes, hundimiento de pisos, etc ) pero que  todavía se encuentran en condiciones aceptables sin peligros inminentes o 
+
+exigencia imperativa de reparaciones inmediatas.  Se presenta con frecuencia en construcciones más o menos antiguas o materiales de regular calidad.
+
+Bueno:  Se calificaran como tales, aquellas estructuras, no necesariamente nuevas, que se hallan cumpliendo a cabalidad con la función para las que fueron construídas, no demuestran deterioro, al menos visible, y por efectos de uso se encuentran solamente un tanto deslucidas y sus materiales son de buena calidad.
+
+Excelente:  Se define en este grado, el estado de conservación de una estructura nueva en la que no se vislumbra deterioro, no se observa daño y en la cual los materiales y los acabados son de óptima calidad.
+
+EDAD DE LAS CONSTRUCCIONES Y LA POSIBLE CALIFICACIÓN DE LA "CONSERVACIÓN " DE LA ESTRUCTURA
+
+
+A continuación se presenta un cuadro que debe tomarse como guía para la calificación de la conservación de la estructura.  En él se relaciona el tipo de la construcción, la edad y el  mantenimiento general.
+
+En la primera columna se registra el rango para cada tipo de construcción.  Las cuatro restantes relacionan las opciones posibles en cuanto a la calificación de la conservación Mala, Regular, Buena y Excelente.  En cada una de estas últimas  aparece el puntaje correspondiente y un número que hace referencia a la edad de la construcción.
+
+
+ 		MALO		REGULAR		BUENO 	EXCELENTE 		
+TIPOS	Ptos	Años		Ptos	Años		Ptos	Años		Ptos Años
+
+1(0-10)	0	0		0	-		0	-		0	-
+2(11-28)	0	>=15	2	<=15	-	0		0	-
+3(29-46)	0	>=20	2	10-20	4	<=10	0	-
+4(47-64)	-	-		2	15-25	4	<=15	0	-
+5(65-82)	-	-		2	 + 20	4	5-20		5	<=5
+6(83-100)	-	-		-	  -		4	10-30	5	<=10
+
+En este cuadro es necesario destacar:
+
+1- La calificación  "excelente" no podrá aplicarse para los tipos de vivienda 1, 2, 3, 
+     4.
+
+2- El tipo 1  (bajo-bajo) no podrá tener una calificación diferente a la de "Mala"
+
+3- Las viviendas de los tipos 5 y 6 que tengan menos de 5 y 10 años respectivamente se deberán calificar siempre como  EXCELENTE a  no ser que tenga condiciones de excepción.
+
+4- Una vivienda de tipo 5 o 6 con menos de 5 o 10 años respectivamente  (calificada con excelente =5 puntos ), que por alguna razón muy especial  (falla geológica, mal calculo estructural ), podrá tener una calificación de regular o mala, pero necesariamente, esta situación deberá registrarse en las OBSERVACIONES.
+
+ACABADOS PRINCIPALES
+
+Esta variable agrupa cuatro componentes básicos, los elementos indispensables y más representativos de los acabados generales de la construcción excluyendo los de baños y cocinas que se reconocen independientemente.
+
+Los componentes de esta variable son:
+
+Fachada:
+
+Nómbrase como tal al conjunto de elementos que constituyen el frente o parte exterior de una construcción, que da cara a la vía o camino, que incluye la puerta de acceso.  Tomada dentro de la variable, Acabados Principales, constituye un concepto bastante representativo de la calidad de la vivienda.  La definición del tipo a que pertenece una cierta fachada, depende del análisis de sus elementos constitutivos, que se pueden asimilar según las siguientes definiciones:
+
+Fachada Pobre:
+Puertas: Fabricadas con materiales como:  maderas burdas,  lámina de zinc, lata o latones carecen por completo de lujos.
+
+Ventanas:  en la gran mayoría de casos son pequeñas; en madera burda o ángulo de hierro sencillo.
+
+Cubrimiento del muro:  Generalmente los muros no tienen cubrimiento, se presentan con ladrillo corriente o bloque a la vista y en algunos casos pintura de cal o carburo directamente sobre el ladrillo, y en ocasiones pañetes sin pintar  con 
+pinturas muy económicas.
+
+Fachada sencilla:
+
+Puertas:  en madera sin trabajar o láminas metálicas sin ornamentación.
+
+Ventanas: Pequeñas o de regular tamaño, en madera sin trabajo ornamental o metal con pinturas de aceite.
+Cubrimiento de muros:  En la mayoría de los casos se encuentran pañetes con pinturas económicas, o ladrillo prensado a la vista.
+
+FACHADA REGULAR
+
+Puertas de distintos tamaños, construidas en madera elaborada, o metal en lámina doblada, con rejas en ornamentación metálica en la mayoría de los casos.
+
+Cubrimientos: se encuentran frecuentemente pañetados y enlucidos con pintura de regular calidad; en urbanizaciones se utiliza bastante el pañete rústico pintado con cal o carburo.  Otras opciones son:  en ladrillo prensado a la vista, el granito y la chapa de piedra de presentación sencilla.
+Hasta dos planos de frente y con una longitud entre 7 y 10 metros.
+
+Fachada Buena:
+
+Puertas en madera con cierto trabajo manual; en algunos casos en lámina prensada  (pintada en aceite o en muy pocos casos al duco) con metal ornamentado y vidrio martillado.  
+Ventanas:  amplias, en lámina prensada o madera, pintura de aceite.  Las ventanas ocupan buena parte del frente o fachada.
+Cubrimiento:  pañetes en cemento, pintura en vinilo, ladrillo prensado a la vista pintado en aceite, granito rústico fino pintado en vinilo, piedra pulida.
+
+La fachada presenta varios planos y tiene una longitud entre 10 y 14 metros.  Y normalmente un solo frente, en el cual la puerta del garaje participa en forma importante.
+
+Fachada Lujo:  
+Puertas amplias en madera, con trabajo manual, generalmente pintado al duco.
+
+Ventanas:  amplias en madera, con trabajo manual, pintadas en aceite.
+
+Cubrimiento:  Pañete de cemento liso o rústico, pintura en vinilo generalmente.  Se presentan casos con recubrimiento en piedra, mármol, ventanas en vidrio polarizados.  En estas fachadas la puerta del garaje en madera elaborada o con 
+ornamentación metálica ocupa buena parte de la fachada, con más de un frente y varios planos en cada uno de ellos y una longitud superior a los 14 metros.  Los 
+
+jardines grandes ayudan a definir este grupo, lo mismo que los muros de contención y cerramientos de buena calidad y consistencia.
+
+CUBRIMIENTO DE MUROS 
+Se califica de acuerdo al material y según las opciones que se presenten en ell formulario, se tendrá en cuenta que si aparece por lo menos el 80% en pañete, se marcará este material y si aparece por lo menos un 20% de otro material de los más costosos (granito, madera, mármol ), se marcará éste en el formulario.  Si se encuentra por lo menos el 50% sin cubrimiento, se calificará como tal.  En caso de encontrarse un cubrimiento no contemplado en el formulario se asimilará, según el factor,  el más cercano de los referidos.  El pañete se refiere al cubrimiento en el cual se emplea solamente arena y cemento; el estuco es el cubrimiento fino sobre el pañete.
+Es necesario aclarar que en el caso del papel de colgadura, se debe tener en cuenta que éste se encuentra en dos categorías:  
+Papel común:  Características de las construcciones de estratos medio bajo y medio-medio, se presenta en la mayoría de los casos textura gruesa  y superficie corrugada.
+
+Papel fino:  contrario al anterior,  se encuentra normalmente en construcciones lujosas y se caracteriza por su textura fina, visible en los orillos y superficie lisa.  Sus acabados siempre son finos.
+Además de los muros, el papel se encuentra en enchapes de baños y cocinas.
+
+Pisos:
+En este componente, se inscribirá lo referente al material predominante en el piso de la construcción según las opciones indicadas en el formulario y el más costoso si se encuentra en partes iguales.  Se marcará también con una x según la unidad de avalúo reconocida.
+
+Estado de conservación:
+Se trata de calificar el estado en que se encuentran, de manera general las componentes descritas anteriormente.  Ver pag  58.
+
+
+Baños:  
+El reconocimiento debe hacerse para el baño principal de cada unidad de avalúo, sin tener en cuenta  los secundarios.  Se escribirá, en la forma corriente, marcado con una x en la casilla correspondiente a cada componente en cada unidad de avalúo.  Tales componentes son:
+
+Tamaño:  
+
+Pequeño: si mide menos de 4 mts. Cuadrados
+Regular:  si su área aproximada se encuentra entre 4 y 6 mts.
+Grande:  si su área es mayor a 6 mts. Cuadrados.
+
+Si se encuentran los servicios (ducha y retrete)  separados se deben tomar como un solo baño;  el vestier se debe incluír como parte del área del baño.
+
+Enchapes:
+Se refiere al cubrimiento de los muros del baño principal, se calificará según las opciones establecidas en el formulario de reconocimiento, teniendo en cuenta que los materiales y condiciones no contemplados se deben asimilar al más parecido de ellos de acuerdo con el costo.  Marque el material que corresponda al mayor porcentaje o al más costoso si se encuentran por partes iguales.
+
+Mobiliario:
+En este componente se analiza la cantidad y la calidad de los elementos que componen el mobiliario y los servicios del baño principal.  El mobiliario; no es objeto del avalúo, lo que se hace al considerarlo es tomarlo como indicador del tipo 
+de estrato al que pertenece la vivienda.  Se clasificará de acuerdos las siguientes definiciones, según la que mayor coincidencia presente las condiciones observadas:
+
+Pobre:  Cuenta con uno o máximo dos servicios entre lavamanos retrete y ducha; los porcelanizados, en caso de tenerlos, son muy económicos; exceptuando los gabinetes pequeños de latón, no tienen ningún otro mobiliario ni divisiones.  
+
+Sencillo:  Esta categoría de baños cuenta con tres servicios los porcelanizados de esta categoría son del tipo standar, se encuentran gabinetes muy sencillos y en latón y ocasionalmente pequeños armarios en madera burdas o metal.
+
+Regular:  Tiene mínimo tres servicios de color pero de tipo económico.
+Tiene gabinetes de regular tamaño y precio, algunas veces empotrados.
+
+Bueno:  Cuenta como mínimo con cuatro servicios, los porcelanizados son finos, en colores, con pedestales, adornos y grifería fina; tienen gabinetes de tamaños regulares a grandes, algunos de ellos en madera, otros en acrílicos o aún metálicos con espejos más o menos grandes con luz integrada.
+
+También se encuentran pequeños armarios y gabinetes auxiliares en madera o acrílico, empotrados o sobrepuestos.  Normalmente presentan división de la ducha, construída en aluminio y cristalita. 
+
+
+Lujoso:  Presenta mínimo cuatro servicios básicos, a los cuales corresponde porcelanizados y grifería de los más finos; a veces presentan también servicios extras como saunas o turcos con acondicionamientos especiales; en general tienen gabinetes finos en madera, con auxiliares para el lavamanos con planchas de mármol.  Tienen también closets grandes y vestiers, divisiones y puerta en materiales finos, todo debidamente alfombrado o con cerámica en el piso.
+
+Estado de conservación página 58
+
+Cocina:
+De manera similar a la variable baños, se clasificará y calificará la cocina de la unidad de avalúo en reconocimiento, según los siguientes componentes.
+
+Tamaño:  Puede ser:
+Pequeño:  si el área general es menor de 5 metros cuadrados.
+Mediana:  si tiene un área aproximada de 5 y 10 metros cuadrados.
+Grande:  para un área mayor de los 10 metros cuadrados.
+
+Enchapes 
+Esta componente se refiere al cubrimiento de los muros de la cocina exclusivamente, sin tener en cuenta el piso.  Se inscribirá según la opción que defina el enchape encontrado.
+Si el enchape es mixto, marque el de mayor porcentaje ó el más costoso si se encuentran por partes iguales.
+
+Mobiliario.
+En este componente se calificará el amoblaje, que tienen cada cocina, indicativo importante para efectos de tipificación de la construcción.  El mobiliario en sí no se avalúa, se toma como indicativo del tipo del estrato a que pertenece la vivienda.  Las categorías establecidas para el mobiliario son:  
+
+
+Pobre:  Se caracteriza por la escasez de mobiliario, se encuentran mesas y alacenas en maderas burdas o de materiales muy baratos.  En el mejor de los casos se encuentran un tablón o un planchón  de cemento rústico que en oportunidades lleva empotrado un lavaplatos de latón con grifería barata y entrepisos en madera burda para guardar los elementos de cocina.
+
+Sencillo:  el mobiliario de una cocina es sencillo cuando cuenta con los elementos mínimos necesarios para hacerla funcional, con un cierto grado de comodidad.  Tienen por ejemplo un planchón de cemento o su equivalente, que complementa el fregadero o lavaplatos y casi siempre va enchapado en baldosín económico y con 
+
+entrepaños de la misma estructura y material;  a veces tienen puertas; la grifería es de tipo standar.  En ocasiones se encuentran muebles secundarios como mesas o alacenas en maderas burdas.  
+
+Regular:  Cuenta con gabinetes inferiores o superiores construídos en metal o madera; la grifería es standar.
+
+Bueno:  Lo encontramos en aquellas cocinas dotadas de gabinetes completos, inferiores y de pared en madera enchapada o metal pintado, planchón en metal inoxidable, normalmente con cocina integral; sistemas auxiliares de extracción y aireación.
+
+Lujosa:  A más de lo descrito en el anterior tipo, se encuentran trabajos en maderas finas y compactadores o trituradores de basura.  Su tamaño siempre es grande.
+Estado de conservación página 58.
+
+Calificación 
+
+El proceso de calificación consiste en convertir las características observadas del predio y anotadas en el formulario respectivo, a un sistema de puntaje que ha sido diseñado independientemente para su aplicación en cada una de las variables  censales sobre la base de una participación proporcional de cada una de ellas, según el tipo de construcción de que se trate.  
+El puntaje final del predio, es el resumen del comportamiento, representado para nuestro caso en los mayores o menores valores asignados.
+
+Para obtener el puntaje total de cada unidad de avalúo asume el número que se encuentra frente a cada opción marcada.  Si el predio tiene más de una unidad de avalúo las columnas B, C deberán ser utilizadas para cada una de ellas.
+
+El formulario, además de los elementos de reconocimiento propios de la
+construcción, solicitada la toma de una información que permita mayor claridad para la definición del estrato y de las condiciones de cada predio.
+
+Generales:
+En el cuadro denominado   "Generales ", se incluye:
+
+Número de locales:  Se refiere a espacios diseñados o adecuados para fines 
+comerciales o industriales y que se caracterizan por ser independientes de la casa de habitación y en los cuales se desarrolla un comercio, o talleres.
+
+
+Debe diferenciarse de las habitaciones y garajes utilizados como locales provisionales, en estos casos se trata de residencias y se deben calificar como tal. 
+
+Número total de pisos
+En este cuadro se debe escribir el número de pisos que tiene el edificio.
+
+Número de pisos de la unidad a calificar:
+Cuando en el predio existen varias unidades de avalúo se debe anotar el número de pisos que tiene cada una de ellas.  Debe tener cuidada por cuanto los niveles internos de algunos apartamentos y mezanines no deben considerarse como pisos.
+
+Número de habitaciones:
+Se refiere al número de cuartos, dormitorios y en general espacios cerrados no destinados a salas, comedores o áreas sociales.
+
+Número de baños:
+Debe registrarse el número total de baños, se debe tener en cuenta, que si los servicios de ducha y retrate se encuentran separados, se debe tomar como un solo baño, no importando que el lavamanos se encuentra separado del conjunto, pero considerando el área total para la calificación del tamaño.
+
+Número de Garajes:
+Se debe registrar el número de garajes por cada unidad de avalúo, que sean cerrados, individualizados y cubiertos.  Las áreas de parqueo no deben registrarse.
+
+Número de apartamentos:  
+Se refiere a unidades de vivienda independientes y completas dentro del mismo
+predio.  En algunos casos comparten la entrada.
+
+Año de la construcción:
+Se debe escribir el año en que fue construída la unidad que se registra.
+
+Estrato:
+En este caso debe registrar el estrato de acuerdo a lo definido para el sector donde esta el predio.
+
+Observaciones:
+En este espacio se debe registrar en forma breve las características o razones por las cuales tomó más de una unidad de avalúo.  Tenga en cuenta diferencia de 
+
+materiales o discontinuidades.  Además todas aquellas condiciones que puedan influir positiva o negativamente en el avalúo del predio revisado.
+En este espacio debe colocarse el destino económico de cada unidad de avalúo, de acuerdo al anexo de clasificación del destino.
+
+Debe recordarse que todos los formularios deben ser diligenciados totalmente, es decir que las fichas correspondientes a los predios no visitados por no estar en la muestra a calificar, deben llenarse totalmente de acuerdo con los resultados del estudio de la muestra y de la investigación de precios.
+
+
+CAPITULO l l  
+ 
+MULTIFAMILIARES EN ALTURA
+ 
+
+Se toman como tales, aquellos edificios con cuatro o más pisos destinados a      apartamentos que deben ser vistos como un todo para su calificación y avalúo de acuerdo a las pautas que se presentan.
+
+El formulario para reconocimiento y calificación de construcciones que se elaboró con destino a las viviendas unifamiliares, se utilizo en las ciudades de Ibagué, Armenia y Bucaramanga en edificios de apartamentos y se obtuvieron resultados aceptables, debido a que se encuentran las mismas variables en los dos tipos de vivienda mencionados, presentándose diferencia solo en cuanto a las condiciones particulares de los edificios.  De las pruebas efectuadas se extrajeron varias conclusiones que se pueden resumir en  lo siguiente: 
+
+El formulario para residencias unifamiliares, con algunos ajustes de forma, es aplicable a los edificios de mayor altura destinados a apartamentos; dichos ajustes 
+se refieren a redefiniciones de los diversos tipos de variables que se encuentran en las construcciones y que presentan algunas diferencias entre las dos clases de vivienda.
+
+Al analizar los edificios de mayor altura destinados a apartamentos, se debe tener en cuenta que éstos conforman un todo en lo que respeta a: armazón,cubierta, muros y fachada; esto hace que todos los apartamentos de un mismo edificio tengan la misma calificación en estos items.
+
+
+RECONOCIMIENTO Y CALIFICACIÓN  
+
+
+Descripción de variables:
+Se definen las cuatro variables que aparecen en el formulario y que en su conjunto conforman la construcción; se deben registrar de acuerdo a la opción que se presente.
+
+ESTRUCTURA
+
+
+La gama de materiales usados en edificios de mayor altura, se reduce porque se necesita mayor resistencia de los mismos, dado, los grandes pesos que tienen que soportar.  Al tratarse de unidades independientes (apartamentos) en un mismo edificio, la estructura es la misma para todos en cada una de sus componentes.
+
+Armazón:  En este tipo de construcciones, los materiales en que se construye el armazón, deben resistir grandes pesos y esto hace que para altura superior a tres pisos se use solamente el concreto o el metal, desapareciendo las demás alternativas que se presentan en los unifamiliares.
+
+Muros:  Se encuentran:  prefabricado, bloque y ladrillo
+
+Cubierta: Por tratarse de un solo edificio en el que existen una serie de apartamentos, se debe tener en cuenta que la cubierta es una sola para todos.  Las opciones que se encuentran  son.  Teja de eternit, teja de barro, placa de concreto impermeabilizada y placa de concreto impermeabilizada recubierta con algún tipo de enchape que se toma como cubierta ornamental. 
+
+Estados de conservación:  Este se presenta y se califica de idéntica forma en cualquier tipo de construcciones para todas las variables que se estén calificando.
+
+
+ACABADOS PRINCIPALES
+
+
+
+Los materiales de acabados son los mismos tanto en unifamiliares como  en multifamiliares; la fachada que se reconoce y califica es la del edificio y por lo tanto el valor es el mismo para todos los apartamentos.
+
+Fachada sencilla:  Generalmente en bloque a la vista o pañetado; ladrillo común a la vista; los ventanales son pequeños, carecen  totalmente de lujo.
+
+Fachada regular:  Ladrillo a la vista o pañetado, algunas veces combinados con 
+
+otros materiales más costosos, tales como baldosín o piedra; los ventanales de tamaño mediano.
+
+Fachada Buena:  Los muros en ladrillo prensado a la vista o materiales más costosos como piedra pulida, granito o retal de mármol; los ventanales son amplios cubriendo gran parte de los muros.
+
+Fachada Lujosa:  Pañetada en cemento liso o rústico; en tableta (estilo ladrillo prensado) o en materiales como piedra pulida, o mármol; estos materiales ocupan poca parte de la fachada debido a que los ventanales ( frecuentemente con vidrios polarizados) ocupan la mayor parte de ésta.  Estos edificios tienen más de un plano y raramente se hallan adosados.
+
+Pisos y Muros:  No existe diferencia entre éstos y los de las viviendas unifamiliares, los materiales y acabados son los mismos; se marcara la opción que se presente en el formulario de reconocimiento y calificación.
+
+Baño y Cocina:  En las construcciones destinadas a vivienda, los baños y cocinas presentan las mismas especificaciones independiente de si son uni  o multifamiliares;  se exceptúan los tamaños que en los apartamentos, en muchos casos, son más pequeños;  esto hace que se encuentren baños y cocinas de tamaño mediano y que se clasifiquen como lujosos lo que no se presenta en unifamiliares.
+
+Calificación:  Una vez reconocido el apartamento, se sumarán los puntajes al frente de las opciones marcadas en el formulario.
+
+
+
+GENERALES
+
+
+Se debe levantar una ficha matriz que contenga la descripción de la construcción como un todo en lo referente a número total de pisos, número de garajes cubiertos, número de apartamentos, número de locales comerciales y de oficina, área total del lote y año de la construcción, es necesario llenar la ficha matriz por cuanto esta información se utilizará en el manejo estadístico sobre propiedad inmueble.
+
+Además de la información solicitada específicamente en el formulario, se debe registrar en  " Observaciones "  todo lo referente a instalaciones especiales tales como número de ascensores, shut de basura, vídeo citófono, y todas aquellas 
+
+condiciones que son propias e identifican cada edificio;  estas instalaciones, si bien no se califican, sí se reflejan en el puntaje final, ya que van unidas al estrato y 
+sirven de indicativo de éste.
+
+El avalúo de las unidades se hará tomado con base únicamente a las áreas privadas  (apartamento, local y garaje ) particularizado de acuerdo al pontaje obtenido del área así definida.
+
+Los garajes se avalúan independientemente del apartamento teniendo en cuenta el número de metros cuadrados pero que se adicionan para obtener el avalúo total.
+
+
+CAPITULO l l l
+
+COMERCIO, INDUSTRIA Y TALLERES
+
+
+Las construcciones dedicadas a estas tres actividades, presentan características similares en los aspectos fundamentales;  dadas las funciones para las que se construyen, los baños y las cocinas juegan un papel muy secundario y su valor es muy pequeño con relación al costo total de la edificación;  las estructuras no se diferencian sustancialmente variando solo por la presencia de cerchas y altura de muros en la industria y talleres.
+
+Por las anteriores razones, el proceso de reconocimiento y calificación de estas edificaciones se efectúa en un solo formulario en el cual se introdujo un complemento para la industria compuesto por las cerchas y la altura de los muros.
+En los apartes siguientes se presentan por separado las pautas para reconocer y calificar las edificaciones destinadas a comercio, industria y talleres.
+
+
+COMERCIO
+
+Para el objetivo que se persigue, formación o conservación catastral, el comercio esta formado por venta de mercancías (almacenes,etc.) y venta de servicios (oficinas, hoteles, etc.);  en este aparte se presenta la metodología para reconocer, calificar y avaluar las edificaciones dedicadas al comercio en sus diversas formas.
+
+Se toman las cuatro variables formadas por:  estructura, acabados principales, baño y cocina, que se definieron en el primer capítulo y que conforman en conjunto la edificación.  De las cuatro variables enumeradas, los mayores pesos recaen 
+
+sobre estructura y acabados en su orden, perdiendo algo de su peso relativo ell baño y la cocina en relación con las construcciones destinadas a vivienda.  Así como en las construcciones dedicadas a la venta de mercancías no se presenta la cocina, en los restaurantes y hoteles éstas tienen un gran peso, y por esta razón se tienen en cuenta cocina y baño y en los demás casos, solo se considera el baño de acuerdo a la explicación que se plantea más adelante.
+
+Al efectuar la calificación o al llenar las fichas, se debe escribir si el predio se destina a oficina, local, consultorio, hotel, etc.
+
+
+RECONOCIMIENTO Y CALIFICACIÓN  
+
+
+En el formulario elaborado para reconocimiento y calificación, aparecen las cuatro variables mencionadas con sus diversas divisiones y opciones si la edificación que se va a reconocer fue construída especificamente para centro comercial, se debe tener en cuenta que las unidades que conforman el edificio (locales) tienen la misma estructura, armazón, cubierta y fachada y lógicamente la calificación de estos items es la misma para todos los locales.
+
+Descripción de variables:  
+Estructura:  Se marcará en el formulario el material que se presente al igual que lo explicado en el primer capítulo;  el armazón y la cubierta son iguales para todos los locales.
+
+Acabados Principales:  En esta variable se encuentran diferencias con respecto a las fachadas;  los cubrimientos de los muros y pisos presentan los mismos materiales de las construcciones para vivienda.
+
+Fachada Pobre:  Los muros en ladrillo común a la vista o pañete liso pintado;  son 
+fachadas pequeñas con ventanales del mismo tamaño, carecen totalmente de lujos.
+
+Fachada Sencilla:  Estas fachadas presentan muros con pañete liso pintado o ladrillo prensado a la vista, puertas y ventanales pequeños; la fachada no sobrepasa los 6 mts.
+
+Fachada Regular:  Pañete liso o rústico pintado, también se encuentran materiales más finos como granito, aparecen ventanales medianos o amplios, generalmente en locales individuales.
+
+
+Fachada Buena:  Se encuentran en comercios individuales y en centros comerciales;  estas fachadas son de vidrio, sus muros en materiales finos o pañete pintado con pinturas finas;  los tamaños son mayores de 8 mts. Para locales separados.
+
+Fachada Lujosa:  Se encuentran generalmente en los centros comerciales múltiples destinados a tal fín;  éstas fachadas siempre son amplias, con abundancia de vidrios y muros generalmente en piedra, mármol o granito.
+
+Baño:  Esta variable se calificara entre 0 y 16 puntos para comercio diferente a hoteles y restaurantes de acuerdo a la opción indicada;  el baño se calificara como un todo integrado, conformado por tamaño, enchape, mobiliario y estado de conservación de acuerdo a los siguientes parámetros:
+
+Pobre o sin baño:  Cuando solamente se encuentran orinales.
+
+Sencillo:  Se trata de baño pequeño, sin enchape o pañetado y mobiliario escaso.
+
+Regular:  Baño entre pequeño y mediano, enchapado en azulejo unicolor y un mobiliario con taza y lavamanos.
+
+Lujoso:  Baño de tamaño grande, enchape en material costoso, varios lavamanos  y servicios sanitarios.
+
+Los baños para mujeres y hombres se califican como uno solo.
+
+Si el baño es comunal y los locales (en los centros comerciales o de oficinas) no tienen baño privado, califíquese a éstos con 6 puntos.  Si el local tiene baño privado a más del comunal, súmese 3 puntos más a la calificación del privado.
+
+En hoteles y restaurantes, el baño tendrá una calificación fija de tres puntos;  se asume que existe una correspondencia entre el baño y el restaurante, en tal forma que la participación relativamente es la misma en cualquier categoría.
+
+Los parámetros de los baños son los siguientes:
+
+Pequeños hasta 2 metros cuadrados
+Mediano entre 2 y 4 metros cuadrados 
+Grande mayores de cuatro metros cuadrados 
+
+Cocina:  Dada las funciones que cumple dentro de las edificaciones dedicadas al comercio, la cocina solo se encuentra en hoteles y restaurantes;  se calificara 
+
+entre 0 y 13 puntos, clasificándola dentro de cinco rangos, en que se agrupan tamaño, enchape, mobiliario y estado de conservación.
+
+Pobre:  Cocina pequeña sin enchape o pañetada, caracterizada por escasez de mobiliario, se encuentran mesas y alacenas en maderas burdas o de materiales muy baratos;  en el mejor de los casos se encuentra un planchón de granito, o baldosín decorado.
+
+Sencilla:  Tamaño pequeño o mediano;  enchape en baldosín unicolor, cuenta con los elementos mínimos necesarios para hacerla funcional con alguna comodidad, planchón enchapado en baldosa blanca, fregadero o lavaplatos con grifería tipo standar, entrepaños de tipo económico y alacenas en algunas ocasiones.
+
+Regular:  Cocina de tamaño mediano, enchapes en baldosín unicolor o decorado;  gabinetes inferiores o superiores construídos en metal o madera;  grifería standar, planchón en granito, o baldosín decorado.
+
+Bueno:  Tamaño mediano o grande, enchapes en azulejos decorados o materiales más costosos, tales como cerámica, dotados de gabinetes completos inferiores y de pared, en fórmica o metal pintado, normalmente con estufa integral, sistemas auxiliares de extracción y aireación.
+
+Lujoso:  Cocinas de tamaño grande, enchape en materiales finos, metal inoxidable, gabinetes de madera y compactadores o trituradores de basura, siempre con cocina integral.
+
+Calificación:  Una vez reconocida la construcción, se suman los puntajes al frente de la opción que se ha marcado en  el formulario.
+
+
+GENERALES   
+
+Si se trata de un centro comercial, se debe levantar una ficha matriz que contenga la descripción de la construcción como un todo en lo referente a:  número total de pisos, número de oficinas o locales, si el baño es independiente o comunal, número de garajes, área construída y año de construcción, la ficha matriz es necesaria para los estudios estadísticos de los centros urbanas.  El avalúo se hará tomado como base únicamente las áreas privadas  (oficina, local, garaje ) particularizado de acuerdo al puntaje obtenido del área así definida.  Si la unidad tiene garaje, éste se avaluará en forma independiente pero, se adicionará el de la cocina o local para obtener el avalúo final.
+
+
+Para cada local debe llenarse la ficha completamente aunque estos no se reconozcan  en su totalidad.
+
+
+INDUSTRIA, TALLERES Y SIMILARES
+
+
+Todas las funciones que tienen que cumplir, las construcciones dedicadas a la industria y los grandes talleres, presentan características particulares en su estructura y acabados que las diferencian de los demás.
+
+En estas edificaciones, el 80% del peso total recae en la estructura ya que se convierten en bodegas de diferentes tamaños en los cuales los acabados juegan un papel totalmente secundario, puesto que las actividades que se realizan allí no necesitan acabados de buena calidad en la mayoría de los casos.
+Por ser grandes bodegas en las que se circula permanentemente con diferentes productos o instrumentos, la presencia de columnas internas se evita por estorbosa y esto hasta  que las construcciones posean columnas y vigas perimetrales, por esta razón se requiere de cerchas que permitan una gran luz suficiente y que puedan soportar los pesos de la cubierta;  en la industria mediana o pesada, en las que se necesita mover grandes pesos, se encuentran los puente-grúas que requieren de una estructura pesada y cerchas de bastante resistencia.
+
+La presencia de las cerchas y las luces grandes que tienen las cubiertas son la principal diferencia entre las edificaciones para la industria y el resto, en lo que tienen que ver con la estructura, presentandose también una nueva variable que es la altura que en muchas bodegas es bastante grande.
+
+En algunos casos, como en las industrias grandes que tiene diversos turnos, existen cocinas para empleados que generalmente están construídas con los mismos materiales y acabados del resto de la construcción;  por esta razón, su 
+área será sumada a la de la bodega;  de todas formas se debe tener en cuenta que el valor de la cocina no representa su porcentaje apreciable con respecto al total del valor de las construcción de la empresa.
+
+Las oficinas en algunos casos merecen un reconocimiento y calificación, como una segunda unidad, (unidad B); este proceso se hará con el mismo formulario;  esto se hace por que las oficinas de la industria generalmente están construídas con diferentes acabados y especificaciones independientemente de que estén o no adosadas a los galpones de producción.
+
+RECONOCIMIENTO Y CALIFICACIÓN
+
+El formulario elaborado para calificar las edificaciones destinadas al comercio, con la adición referente a cerchas y altura de muros, responde a las necesidades presentadas por las construcciones industriales.  Se debe recordar que las investigaciones de precios para cada unidad de avalúo serán diferentes, obteniéndose valores que serán adicionados, para hallar el avalúo total de las construcciones.
+
+DESCRIPCIÓN DE VARIABLES
+
+Estructura:  Se encuentra un elemento nuevo en esta variable que es la estructura con columnas y cerchas metálicas sobre las que recae gran parte del valor de la construcción y las grandes alturas de los muros en muchos casos.  En el formulario se marcará la opción que se presente.
+
+Las cubiertas que prevalecen son las de zinc, teja de barro y eternit, sobre cerchas de madera o metálicas; si se encuentra eternit,  se marcará en eternit cubierta sencilla  (9 puntos), las cerchas se califican por separado como se describe más adelante;  si la cubierta es placa, se calificará con 13 puntos como placa sencilla, este caso si bien no abunda, de todas formas se presenta en algunas ocasiones; si se encuentra algún material no registrado en el formulario, se debe asimilar por costo a alguna de las opciones, el aluminio galvanizado y el reflectivo se califica con 13 puntos.
+
+Acabados principales:  Esta variable pierde peso con respecto a las otras construcciones por cuanto las fachadas, los pisos y cubrimientos de muros se reducen  ostensiblemente.
+
+Las fachadas se reducen a pobre, sencilla y regular.
+
+Pobre:  Los muros en adobe ó tapia pisada sin ninguna clase de acabados.
+
+Sencilla:  Los muros en ladrillo común (tolete)  o bloque a la vista, pañete liso o bloque pintado.
+
+Regular:  Es la máxima calificación para fachadas en las construcciones industriales, sus muros generalmente en ladrillo prensado a la vista con algún acabado, o con tableta y otros elementos de buena calidad;  estas fachadas se presentan en industrias modernas y a pesar de ser mejores fachadas, se les asigna la calificación de regular o de 6 puntos.
+
+Los cubrimientos de muros internos se reducen a:  1°. cubrimiento, 2°. con pañete.
+
+
+El piso predominante es el de cemento, pero también se encuentran  otras opciones como baldosas de cemento, tabletas o vinilos.
+
+El peso relativo de los baños con respecto al costo total de la construcción no es apreciable y por esta razón en las construcciones industriales no se califican.
+
+Cerchas: Estas forman parte de la estructura, pero por encontrarse predominantemente en las construcciones industriales, se toman como una variable aparte y se ubican en el formulario de reconocimiento y calificación como un complemento para la industria en particular (recordemos que la columna para comercio es la misma que para la industria con esta adición).
+
+Las cerchas se dividen de acuerdo al material en que están construídas, en madera y metálicas.
+
+Cerchas de madera:  Se encuentran en construcciones antiguas y algunas nuevas pero con pequeñas luces donde el ancho de la bodega permite su utilización.
+
+Cerchas metálicas:  Son las que más se encuentran y se pueden dividir en tres grupos de acuerdo a la luz que permiten y los pesos que tienen que soportar.
+
+Livianas:  Se encuentran en los talleres y pequeñas industrias cuyo ancho no tiene una gran luz y los pesos de las cubiertas son fáciles de soportar.
+
+Estas cerchas, se encuentran en dos especificaciones:  toda en varilla hasta de ½" pulgada ó en perfil hasta de 2 cms de ancho o 1" pulgada por 2mm de espesor con refuerzos en varilla, estas son las cerchas más comunes, con una luz hasta de 10 mts.
+
+Mediana:  Este tipo de cerchas corresponde a industrias cuyas bodegas o galpones tienen una luz considerable y las cubiertas que tienen que soportar las 
+cerchas poseen un peso de alguna magnitud.  Estas cerchas vienen en perfiles hasta de 6.5 cms  de ancho ó 21/2" pulgadas y con un espesor hasta de 8 mm y varilla de refuerzo de ½ " pulgada y ¾" pulgada, con una luz entre 10 y 20 metros.
+
+Pesada:  Estas cerchas son exigidas fundamentalmente por la luz que permitan (de acuerdo al ancho de la bodega)  y por lo tanto por el gran peso de cubierta que tendrá que soportar.  Estas vienen en perfilería de más de 6.5 cms o 21/2" pulgadas y con un espesor de más de 8 mm con varilla de refuerzo con un diámetro no menor de 1"pulgada ó con perfiles de refuerzo con una luz de más de 20 mts, estas cerchas generalmente vienen con cerchas más livianas encima sosteniendo las cubiertas.
+
+Altura:  En ciertas industrias se han encontrado bodegas de bastante altura o pisos de ferroconcreto con altas especificaciones por este motivo ha sido necesario complementar la calificación correspondiente a "pisos" agregando en estos casos la opción que aparece en "industria" (complemento).  Los mejores indicadores para definir esta condición son.  
+
+Cuando la altura de la bodega sea mayor a 7 mts en sus columnas.
+
+Cuando existan puentes grúas.
+
+Calificación:  Los puntajes que corresponden a opciones que se presentan en las construcciones industriales y de talleres, aparecen resaltados con un asterisco para mayor facilidad al calificar.  Una vez reconocida la construcción, se suman los puntajes al frente de las opciones que se han marcado en el formulario.
+
+
+

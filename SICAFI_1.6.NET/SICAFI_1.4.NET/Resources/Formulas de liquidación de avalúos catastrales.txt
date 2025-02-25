@@ -1,0 +1,117 @@
+AVALÚOS CATASTRALES DEL MUNICIPIO DE ENVIGADO
+
+
+CARACTERÍSTICA 1 NORMAL
+
+
+Áreas de Terreno Ficha predial   
+
+Ø	Área de terreno x valor de la zona x % c/u zonas x % descuento. (área de terreno privada - valor lote privado).
+
+Área de Construcción Ficha predial  
+
+Ø	Área de construcción x valor de los puntos que tiene el tipo de construcción. (área construida privada - valor construcción privada).
+
+
+CARACTERÍSTICA 2 RPH EDIFICIO
+
+
+Áreas de Terreno Ficha resumen 2
+
+Ø	Área común de lote FR2 x Coeficiente de edificio / 100 x valor de la zona x % c/u zonas x % descuento. (área de terreno privada - valor lote privado)
+
+Áreas de Construcción Ficha resumen 2
+
+Ø	Área de construcción x valor de los puntos que tiene el tipo de construcción x coeficiente de edificio / 100. (área construcción común - valor construcción común).
+
+Área de Construcción Ficha predial  
+
+Área de construcción x valor de los puntos que tiene el tipo de construcción. (área construcción privada - valor construcción privada).
+
+NOTA: Para obtener el porcentaje de descuento se debe sumar al área de terreno (área de terreno privada FP y el área de terreno común FR2) y sobre el resultado redondeado, sacar el % de descuento que se aplicara tanto al área de terreno privada como al área de terreno común.  
+
+En caso que el edificio contenga áreas privadas se obtiene el % de descuento de la siguiente manera:
+
+Para obtener el porcentaje de descuento se debe sumar al área de terreno (área de terreno privada FP y el área de terreno común FR2 correspondiente al % de coeficiente de edificio) y sobre el resultado redondeado, sacar el % de descuento que se aplicara tanto al área de terreno privada como al área de terreno común
+
+
+
+
+CARACTERÍSTICA 3 RPH PARCELACIÓN
+
+
+Áreas de Privada de Terreno Ficha predial   
+
+Ø	Área de terreno x valor de la zona x % c/u zonas. (área de terreno privada - valor lote privado).
+
+Áreas Común Ficha resumen 2
+
+Ø	Área común de lote FR2 x Coeficiente de edificio / 100 x valor de la zona x % c/u zonas. (área de terreno común - valor lote común)
+
+Áreas de Construcción Ficha resumen 2
+
+Ø	Área de construcción x valor de los puntos que tiene el tipo de construcción x coeficiente de edificio / 100. (área construcción común - valor construcción común).
+
+Área de Construcción Ficha predial  
+
+Área de construcción x valor de los puntos que tiene el tipo de construcción. (área construcción privada - valor construcción privada).
+
+NOTA: Para obtener el porcentaje de descuento se debe sumar al área de terreno (área de terreno privada FP y el área de terreno común FR2 correspondiente al % de coeficiente de edificio) y sobre el resultado redondeado, sacar el % de descuento que se aplicara tanto al área de terreno privada como al área de terreno común.  
+
+
+CARACTERÍSTICA 4 RPH CONDOMINIO
+
+
+Áreas Común Ficha resumen 1
+
+Ø	Área común de lote FR1 x Coeficiente de predio / 100 x valor de la zona x % c/u zonas x % descuento. (área de terreno común - valor lote común)
+
+Áreas de Privada Ficha resumen 2
+
+Ø	Área común de lote FR2 x Coeficiente de edificio / 100 x valor de la zona x % c/u zonas x % descuento. (área de terreno privado - valor lote privado)
+
+Áreas de Construcción Ficha resumen 1
+
+Ø	Área de construcción x valor de los puntos que tiene el tipo de construcción x coeficiente de predio / 100. (área construcción privada - valor construcción privada).
+
+
+Áreas de Construcción Ficha resumen 2
+
+Ø	Área de construcción x valor de los puntos que tiene el tipo de construcción x coeficiente de edificio / 100. (área construcción común - valor construcción común).
+
+Área de Construcción Ficha predial  
+
+Ø	Área de construcción x valor de los puntos que tiene el tipo de construcción. (área construida privada - valor construcción privada).
+
+NOTA: Para obtener el porcentaje de descuento se debe sumar al área de terreno (área de terreno privada FP, el área de terreno común FR2 Y el área de terreno común FR1) y sobre el resultado redondeado, sacar el % de descuento que se aplicara tanto al área de terreno privada, al área de terreno común FR2 y al área de terreno común FR1.
+
+
+
+TABLA DE DESCUENTO POR TAMAÑO DE LOTE SECTOR URBANO Y EXPANSIÓN 
+
+ÁREA 	%
+DE 50 A 300 M	100
+DE 301 A 350 M	95
+DE 351 A 400 M	90
+DE 401 A 450 M	85
+DE 451 A 500 M 	80
+DE 501 A 600 M 	75
+DE 601 A 700 M	70 
+DE 701 A 900 M 	65
+DE 901 A 1200 M 	60
+DE 1201 A 1600 M	55
+DE 1601 EN ADELANTE	
+ 
+
+
+
+TABLAS DE DESCUENTO POR ÁREA DEL LOTE RURAL 
+
+.
+ÁREA 	%
+DE 1 A 3 HA	100
+DE 3.1 A 10 HA	90
+DE 10.1 A 20 HA	80
+DE 20.1 A 50 HA	70
+DE 50.1 EN ADELANTE	60
+

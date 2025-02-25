@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="SICAFI_1.4.NET.exe" version="1.0.0.11" publicKeyToken="cea7e5b1b7f0fea5" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Resources\recuhuma.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SICAFI_1.4.NET" version="1.4.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SICAFI_1.4.NET.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SICAFI_1.4.NET.exe" size="2822144">
+      <assemblyIdentity name="SICAFI_1.4.NET" version="1.4.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>wf+he0y9qsWFCuuLoczPIw0+RRs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Resources\recuhuma.ico" size="2238">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>83lUCqw3uYVtWiOZyrw2Z17i+Ao=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SICAFI_1.4.NET.exe.config" size="2195">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>vIcbCXQEIOpJIYdoVeoWOTYbshI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ACADEMICO\2-09" issuerKeyHash="f73ece2f94724100c328a6fcd180177901384655" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>C5iM/CdtIDotN32zTHMjdbnQmtM=</DigestValue></Reference></SignedInfo><SignatureValue>kXgi+YtkviDdsqzgpks5I7DTF4UGHK6G+WQ7L1AwzXj9AcdsCOk3MlJsiaI3Hp52jtuJo+cGHtuuZgXJrk0jVSPlqIzeBXxmgJsAJ+fo1ARu1FlpAVV+pOjtSeHsMZMyMZCw5dirCRxfMAdvxcXvstj12QhR6UkPocY4LAAcmQA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2o5BEwoBEqE4ww5tJDxFp0wVJaayAcA9FMSj+ej8O8n+R/ovQMk+OcnOyY1xqtxdv8UEZTODBQbAdaPk2bm2ktOuQGPc/9ZMYa+Bwk3vp09jidWXe8HJmFHKFopri+y8EvD3wplRsNnch8ydy8H2eogBzeiqXT4PNR0a+I7cknM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d39ad0b97523734cb37d372d3a206d27fc8c980b" Description="" Url=""><as:assemblyIdentity name="SICAFI_1.4.NET.exe" version="1.0.0.11" publicKeyToken="cea7e5b1b7f0fea5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ACADEMICO\2-09</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>18ExQJ1bF4BrQs58AFJfzYij5N4=</DigestValue></Reference></SignedInfo><SignatureValue>dc9Dl39cS3S5YNy4S6PXag+iTduApptlkQ6N8dY0BMbWreIq+Yo29WGyoU9FXCDV8o5WT9gmHYMyHXI3Ot17+4Fa3/9ppxOg7lIRd/M9kuzXqSr5BYZNuBXXN166CrpwuVWtsHoFtDCehAGX3RlNAEoqUPB4nDrbGZqTBQhTGA0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2o5BEwoBEqE4ww5tJDxFp0wVJaayAcA9FMSj+ej8O8n+R/ovQMk+OcnOyY1xqtxdv8UEZTODBQbAdaPk2bm2ktOuQGPc/9ZMYa+Bwk3vp09jidWXe8HJmFHKFopri+y8EvD3wplRsNnch8ydy8H2eogBzeiqXT4PNR0a+I7cknM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQ01gY/0236qJC+vs/IvUCQjANBgkqhkiG9w0BAQUFADAnMSUwIwYDVQQDHhwAQQBDAEEARABFAE0ASQBDAE8AXAAyAC0AMAA5MB4XDTA3MDgwOTAxNDk0M1oXDTA4MDgwODA3NDk0M1owJzElMCMGA1UEAx4cAEEAQwBBAEQARQBNAEkAQwBPAFwAMgAtADAAOTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA2o5BEwoBEqE4ww5tJDxFp0wVJaayAcA9FMSj+ej8O8n+R/ovQMk+OcnOyY1xqtxdv8UEZTODBQbAdaPk2bm2ktOuQGPc/9ZMYa+Bwk3vp09jidWXe8HJmFHKFopri+y8EvD3wplRsNnch8ydy8H2eogBzeiqXT4PNR0a+I7cknMCAwEAATANBgkqhkiG9w0BAQUFAAOBgQC0QGUFcLlezt3A/FFwmDFeexo27YZp513K2apmOOQ7KztMEJ5X+ImdfgIAaNaleEaFq6/zahr98MVP4e9M3XiXf3LYbmUHtHLTOLuDa6NkabQYO+0vlkKaByRnEm5x96qkQ0GRiz76dX/7qljK9t4+1gfFiF9lxPoBrVwHbxVP6Q==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

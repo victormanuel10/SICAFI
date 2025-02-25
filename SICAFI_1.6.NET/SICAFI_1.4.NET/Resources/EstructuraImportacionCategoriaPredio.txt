@@ -1,0 +1,4 @@
+Estructura importación categoría de predio ficha predial
+
+-	Numero ficha predial (numérico)
+-	Categoría de predio (numérico)

@@ -1,0 +1,29 @@
+bin\Release\REGLAS DEL NEGOCIO.exe
+bin\Release\REGLAS DEL NEGOCIO.pdb
+bin\Release\REGLAS DEL NEGOCIO.xml
+bin\Release\DATOS.exe
+bin\Release\DATOS.pdb
+bin\Release\DATOS.xml
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\REGLAS_DEL_NEGOCIO.Resources.resources
+obj\Release\REGLAS DEL NEGOCIO.vbproj.GenerateResource.Cache
+obj\Release\REGLAS DEL NEGOCIO.exe
+obj\Release\REGLAS DEL NEGOCIO.xml
+obj\Release\REGLAS DEL NEGOCIO.pdb
+bin\Debug\REGLAS DEL NEGOCIO.exe
+bin\Debug\REGLAS DEL NEGOCIO.pdb
+bin\Debug\REGLAS DEL NEGOCIO.xml
+bin\Debug\DATOS.exe
+bin\Debug\DATOS.pdb
+bin\Debug\DATOS.xml
+bin\Debug\Interop.Excel.dll
+bin\Debug\Interop.Office.dll
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Interop.Excel.dll
+obj\Debug\Interop.Office.dll
+obj\Debug\REGLAS DEL NEGOCIO.vbproj.ResolveComReference.cache
+obj\Debug\REGLAS_DEL_NEGOCIO.Resources.resources
+obj\Debug\REGLAS DEL NEGOCIO.vbproj.GenerateResource.Cache
+obj\Debug\REGLAS DEL NEGOCIO.exe
+obj\Debug\REGLAS DEL NEGOCIO.xml
+obj\Debug\REGLAS DEL NEGOCIO.pdb

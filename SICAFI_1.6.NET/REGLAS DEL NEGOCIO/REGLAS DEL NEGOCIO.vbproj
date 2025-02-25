@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{79B76F10-A828-4F52-B07A-9A3B4830131E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>REGLAS_DEL_NEGOCIO.My.MyApplication</StartupObject>
+    <RootNamespace>REGLAS_DEL_NEGOCIO</RootNamespace>
+    <AssemblyName>REGLAS DEL NEGOCIO</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>REGLAS DEL NEGOCIO.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>REGLAS DEL NEGOCIO.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Certificacion de Estrato\Certificacion de estrato\cla_CERTESSO.vb" />
+    <Compile Include="Certificacion de Estrato\Peticion\cla_CEESPETI.vb" />
+    <Compile Include="Certificacion de Estrato\Predio\cla_CEESPRED.vb" />
+    <Compile Include="Certificacion de Estrato\Proyecto\cla_CEESPROY.vb" />
+    <Compile Include="Certificacion de Estrato\Solicitante\cla_CEESSOLI.vb" />
+    <Compile Include="Consultas\Impuesto Predial\cla_POINBARR.vb" />
+    <Compile Include="Consultas\Impuesto Predial\cla_POINDEEC.vb" />
+    <Compile Include="Consultas\Impuesto Predial\cla_POINESTR.vb" />
+    <Compile Include="Consultas\Impuesto Predial\cla_POINPUNT.vb" />
+    <Compile Include="Contraseña\cla_CONTRASENA.vb" />
+    <Compile Include="DataSet\cla_DATASET.vb" />
+    <Compile Include="Ficha Predial\Anexos Ficha Predial\Juridica Predio\cla_juridica_PREDIO.vb" />
+    <Compile Include="Ficha Predial\Anexos Ficha Predial\Registro y Control\cla_registro_y_control_FICHPRED.vb" />
+    <Compile Include="Ficha Predial\Calificación de Construcción\cla_FIPRCACO.vb" />
+    <Compile Include="Ficha Predial\Cartografía\cla_FIPRCART.vb" />
+    <Compile Include="Ficha Predial\Categoria Ficha Predial\cla_CAPRFIPR.vb" />
+    <Compile Include="Ficha Predial\Construcción\cla_FIPRCONS.vb" />
+    <Compile Include="Ficha Predial\Destinación Económica\cla_FIPRDEEC.vb" />
+    <Compile Include="Ficha Predial\Estrato Ficha Predial\cla_ESTRFIPR.vb" />
+    <Compile Include="Ficha Predial\Ficha Predial\cla_FICHPRED.vb" />
+    <Compile Include="Ficha Predial\Ficha Resumen\cla_FICHRESU.vb" />
+    <Compile Include="Ficha Predial\Linderos\cla_FIPRLIND.vb" />
+    <Compile Include="Ficha Predial\Propietario Anterior\cla_PROPANTE.vb" />
+    <Compile Include="Ficha Predial\Propietarios\cla_FIPRPROP.vb" />
+    <Compile Include="Ficha Predial\Zona Económica\cla_FIPRZOEC.vb" />
+    <Compile Include="Ficha Predial\Zona Física\cla_FIPRZOFI.vb" />
+    <Compile Include="Funciones Microsoft\cla_ExportarTablaExcel.vb" />
+    <Compile Include="Libro Radicador\Destinatario Division\cla_LIRADEDI.vb" />
+    <Compile Include="Libro Radicador\Destinatario Funcionario\cla_LIRADEFU.vb" />
+    <Compile Include="Libro Radicador\Libro Radicador\cla_LIBRRADI.vb" />
+    <Compile Include="Libro Radicador\Predio\cla_LIRAPRED.vb" />
+    <Compile Include="Libro Radicador\Solicitante\cla_LIRASOLI.vb" />
+    <Compile Include="Liquidar Avaluo\cla_FIPRAVAL.vb" />
+    <Compile Include="Liquidar Predial\cla_PREDIAL.vb" />
+    <Compile Include="Mantenimiento\Administrador\Permiso Control de Comandos\cla_PERMCOCO.vb" />
+    <Compile Include="Mantenimiento\Administrador\Permiso Etiqueta\cla_PERMETIQ.vb" />
+    <Compile Include="Mantenimiento\Administrador\Permiso Formulario\cla_PERMFORM.vb" />
+    <Compile Include="Mantenimiento\Administrador\Permiso Roles\cla_PERMROLE.vb" />
+    <Compile Include="Mantenimiento\Administrador\Permiso Sub Formulario\cla_PERMSUFO.vb" />
+    <Compile Include="Mantenimiento\Administrador\Permiso Usuario\cla_PERMUSUA.vb" />
+    <Compile Include="Mantenimiento\Administrador\Usuario\cla_USUARIO.vb" />
+    <Compile Include="Mantenimiento\Certificacion de Estrato\Asignacion de Entidad\cla_ASIGENTI.vb" />
+    <Compile Include="Mantenimiento\Certificacion de Estrato\Proyecto Socioeconomico\cla_PROYSOCI.vb" />
+    <Compile Include="Mantenimiento\Certificacion de Estrato\Servicios Publicos\cla_SERVPUBL.vb" />
+    <Compile Include="Mantenimiento\Certificacion de Estrato\Ubicacion de Vivienda\cla_UBICVIVI.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Aguas\cla_AGUAS.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\AHT\cla_AHT.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Categoria de Predio\cla_CATEPRED.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Clase de Version\cla_CLASVERS.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Conservacion\Acto Administrativo\cla_ACTOADMI.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Areas de Actividad\cla_AREAACTI.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Barrio Vereda\cla_BARRVERE.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Calidad del Propietario\cla_CALIPROP.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Caracteristica del Predio\cla_CARAPRED.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Carpeta Fotografica\cla_CARPFOTO.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Categoria de Suelo\cla_CATESUEL.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Conservacion\Causa del Acto\cla_CAUSACTO.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Circulo de Registro\cla_CIRCREGI.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Clase de Construcción\cla_CLASCONS.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Clase de Predio\cla_CLASPRED.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Clase de Suelo\cla_CLASSUEL.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Conservacion\Clase de Entidad\cla_CLASENTI.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Conservacion\Clasificacion\cla_CLASIFICACION.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Conservacion\Division\cla_DIVISION.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Conservacion\Formulario\cla_FORMULARIO.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Conservacion\Material de Campo por Formulario\cla_MACAFORM.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Conservacion\Medio de Notificacion\cla_MEDINOTI.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Conservacion\Medio de Resepcion\cla_MEDIRESE.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Conservacion\Resolucion de Ajuste\cla_RESOAJUS.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Documentos Generales\cla_DOCUGENE.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Croquis Ficha Predial\cla_FIPRCROQ.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Destinacion\cla_DESTINACION.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Conservacion\Fotografia por Identificador de Construccion\cla_FOTOTICO.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Ficha Predial Digital\cla_FIPRDIGI.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Fideicomiso\cla_FIDEICOMISO.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Novedad\cla_NOVEDAD.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Plano Cartografico\cla_PLANCART.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Segun Destinacion\cla_SEGUDEST.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Servicios\cla_SERVICIOS.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Topografia\cla_TOPOGRAFIA.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Tratamientos Urbanisticos\cla_TRATURBA.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Variables Zona Fisica\cla_VARIZOFI.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Vias\cla_VIAS.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Zona Economica Actualizacion\cla_ZOECACTU.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Zona Fisica Actualizacion\cla_ZOFIACTU.vb" />
+    <Compile Include="Mantenimiento\Impuesto Predial\Tarifa por Zona Fisica\cla_TARIZOFI.vb" />
+    <Compile Include="Mantenimiento\Impuesto Predial\Tarifas por Rango de Areas\cla_TARIRAAR.vb" />
+    <Compile Include="Mantenimiento\Obligaciones Urbanisticas\Cargas y Beneficios del Plan Parcial\cla_CABEPLPA.vb" />
+    <Compile Include="Mantenimiento\Obligaciones Urbanisticas\Cargas y Beneficios\cla_CARGBENE.vb" />
+    <Compile Include="Mantenimiento\Obligaciones Urbanisticas\Cesiones Equipamiento\cla_CESIEQUI.vb" />
+    <Compile Include="Mantenimiento\Obligaciones Urbanisticas\Cesiones Espacio Publico\cla_CESIESPU.vb" />
+    <Compile Include="Mantenimiento\Obligaciones Urbanisticas\Clase de Obligacion Urbanistica\cla_CLASOBUR.vb" />
+    <Compile Include="Mantenimiento\Obligaciones Urbanisticas\Contribuyente\cla_CONTRIBUYENTE.vb" />
+    <Compile Include="Mantenimiento\Obligaciones Urbanisticas\Control Forma de Pago\cla_COFPPLPA.vb" />
+    <Compile Include="Mantenimiento\Obligaciones Urbanisticas\Densidad\cla_DENSIDAD.vb" />
+    <Compile Include="Mantenimiento\Obligaciones Urbanisticas\Forma de Pago\cla_FOPAPLPA.vb" />
+    <Compile Include="Mantenimiento\Obligaciones Urbanisticas\Proyectos del Plan Parcial\cla_PLANPARC.vb" />
+    <Compile Include="Mantenimiento\Obligaciones Urbanisticas\Tipo de Liquidacion\cla_TIPOLIQU.vb" />
+    <Compile Include="Mantenimiento\Obligaciones Urbanisticas\Cargas y Beneficios por Unidad de Actuacion\cla_CABEUAU.vb" />
+    <Compile Include="Mantenimiento\Obligaciones Urbanisticas\Unidades de Actuacion del Plan Parcial\cla_UAUPLPA.vb" />
+    <Compile Include="Mantenimiento\Obligaciones Urbanisticas\Zona de Planificacion por Barrio\cla_ZOPLBARR.vb" />
+    <Compile Include="Mantenimiento\Obligaciones Urbanisticas\Zona de Planificacion\cla_ZONAPLAN.vb" />
+    <Compile Include="Mantenimiento\Obras Publicas\Estado Civil\cla_ESTACIVI.vb" />
+    <Compile Include="Mantenimiento\Observatorio Inmobiliario\Puntos Requeridos\cla_PUNTREQU.vb" />
+    <Compile Include="Mantenimiento\Sistema\Control de Comandos\cla_CONTCOMA.vb" />
+    <Compile Include="Mantenimiento\Sistema\Ruta Carpeta Fotografica\cla_RUTACAFO.vb" />
+    <Compile Include="Mantenimiento\Sistema\Ruta Documentos Generales\cla_RUTADOGE.vb" />
+    <Compile Include="Mantenimiento\Sistema\Ruta Ficha Predial Digital\cla_RUTAFPDI.vb" />
+    <Compile Include="Mantenimiento\Sistema\Ruta Plano Cartografico\cla_RUTAPLCA.vb" />
+    <Compile Include="Mantenimiento\Sistema\Rutas Plano Manzanero\cla_RUTAPLMA.vb" />
+    <Compile Include="Mantenimiento\Valorizacion\Factores\cla_FACTPROY.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Clase o Sector\cla_CLASSECT.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Comuna\cla_COMUNA.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Corregimiento\cla_CORREGIMIENTO.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Imagen Ficha Predial\cla_FIPRIMAG.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Conservacion\Material de Campo\cla_MATECAMP.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Código de Calificación\cla_CODICACO.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Código de Calificación\cla_CODICALI.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Departamento\cla_DEPARTAMENTO.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Destinación Económica\cla_DESTECON.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Metodo Investigativo\cla_METOINVE.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Mobiliario\cla_MOBILIARIO.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Modo de Adquisición\cla_MODOADQU.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Municipio\cla_MUNICIPIO.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Notaria\cla_NOTARIA.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Predios con Resolucion Administrativa\cla_PREDREAD.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Punto Cardinal\cla_PUNTCARD.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Rango de Area de Terreno\cla_RANGARTE.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Resolución\cla_RESOLUCION.vb" />
+    <Compile Include="Mantenimiento\Valorizacion\Proyecto\cla_PROYECTO.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Sexo\cla_SEXO.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Conservacion\Solicitante\cla_SOLICITANTE.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Tipo de Calificación\cla_TIPOCALI.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Identificador de Construcción\cla_TIPOCONS.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Tipo de Documento\cla_TIPODOCU.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Tipo de Resolución\cla_TIPORESO.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Conservacion\Tipo de Tramite\cla_TIPOTRAM.vb" />
+    <Compile Include="Mantenimiento\Valorizacion\Rangos\cla_RANGOS.vb" />
+    <Compile Include="Mantenimiento\Valorizacion\Resolucion\cla_RESOVALO.vb" />
+    <Compile Include="Mantenimiento\Valorizacion\Tipo de Variable\cla_TIPOVARI.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Validaciones Retiradas\cla_VALIRETI.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Zona Económica\cla_ZONAECON.vb" />
+    <Compile Include="Mantenimiento\Ficha Predial\Zona Física\cla_ZONAFISI.vb" />
+    <Compile Include="Mantenimiento\Impuesto Predial\Porcentaje Permitido de Liquidacion\cla_POPELIQU.vb" />
+    <Compile Include="Mantenimiento\Impuesto Predial\SMMLV\cla_SALAMINI.vb" />
+    <Compile Include="Mantenimiento\Lista de Valores\Ficha Predial\cla_LIVAMANT.vb" />
+    <Compile Include="Mantenimiento\Lista de Valores\Sistema\cla_LIVASIST.vb" />
+    <Compile Include="Mantenimiento\Impuesto Predial\Destinacion por Lotes\cla_DEECLOTE.vb" />
+    <Compile Include="Mantenimiento\Impuesto Predial\Incremento de Avaluo por Destinacion\cla_INAVDEEC.vb" />
+    <Compile Include="Mantenimiento\Impuesto Predial\Periodo Permitido de Liquidacion\cla_PEPELIQU.vb" />
+    <Compile Include="Mantenimiento\Impuesto Predial\Predios Exentos por Concepto\cla_PREDEXEN.vb" />
+    <Compile Include="Mantenimiento\Impuesto Predial\Predios Exentos por Nit\cla_PREDEXNI.vb" />
+    <Compile Include="Mantenimiento\Impuesto Predial\Tarifas Actividad Bomberil\cla_TARIACBO.vb" />
+    <Compile Include="Mantenimiento\Impuesto Predial\Tarifas Alumbrado Publico\cla_TARIALPU.vb" />
+    <Compile Include="Mantenimiento\Impuesto Predial\Tarifas de Predios Especiales\cla_TARIPRES.vb" />
+    <Compile Include="Mantenimiento\Impuesto Predial\Tarifas por Lotes\cla_TARILOTE.vb" />
+    <Compile Include="Mantenimiento\Impuesto Predial\Tarifas por Rango de Avaluos\cla_TARIRAAV.vb" />
+    <Compile Include="Mantenimiento\Impuesto Predial\Tipo de Aforo\cla_TIPOAFOR.vb" />
+    <Compile Include="Mantenimiento\Impuesto Predial\Concepto\cla_CONCEPTO.vb" />
+    <Compile Include="Mantenimiento\Impuesto Predial\Estrato\cla_ESTRATO.vb" />
+    <Compile Include="Mantenimiento\Impuesto Predial\Modo de Liquidacion\cla_MODOLIQU.vb" />
+    <Compile Include="Mantenimiento\Impuesto Predial\Tarifas por Destinacion\cla_TARIDEEC.vb" />
+    <Compile Include="Mantenimiento\Impuesto Predial\Tarifas por Zona Economica\cla_TARIZOEC.vb" />
+    <Compile Include="Mantenimiento\Impuesto Predial\Tipo de Impuesto\cla_TIPOIMPU.vb" />
+    <Compile Include="Mantenimiento\Impuesto Predial\Vigencia Actualizacion\cla_VIGEACTU.vb" />
+    <Compile Include="Mantenimiento\Sistema\Campos\cla_CAMPOS.vb" />
+    <Compile Include="Mantenimiento\Sistema\Migrar Datos Dinamicamente\cla_Migrar_Datos_Dinamicamente.vb" />
+    <Compile Include="Mantenimiento\Sistema\Estado\cla_ESTADO.vb" />
+    <Compile Include="Mantenimiento\Sistema\Formula Municipio\cla_FORMMUNI.vb" />
+    <Compile Include="Mantenimiento\Sistema\Formula\cla_FORMULA.vb" />
+    <Compile Include="Mantenimiento\Sistema\Menu Contenedor\cla_MENUCONT.vb" />
+    <Compile Include="Mantenimiento\Sistema\Periodo Actual\cla_PERIACTU.vb" />
+    <Compile Include="Mantenimiento\Sistema\Periodo\cla_PERIODO.vb" />
+    <Compile Include="Mantenimiento\Sistema\Procedimiento\cla_PROCEDIMIENTO.vb" />
+    <Compile Include="Mantenimiento\Sistema\Rutas\cla_RUTAS.vb" />
+    <Compile Include="Mantenimiento\Sistema\Tablas\cla_TABLAS.vb" />
+    <Compile Include="Mantenimiento\Sistema\Vigencia\cla_VIGENCIA.vb" />
+    <Compile Include="Mantenimiento\Valorizacion\Variable\cla_VARIABLE.vb" />
+    <Compile Include="Modulo de Funciones\cla_ConnectionString.vb" />
+    <Compile Include="Clase de Funciones\cla_Verificar_Dato.vb" />
+    <Compile Include="Modulo de Funciones\mod_fun_HORA_Y_FECHA.vb" />
+    <Compile Include="Modulo de Funciones\mod_fun_NOMBRE_DE_MAQUINA.vb" />
+    <Compile Include="Movimientos Alfanumericos\Digitalizacion\cla_MOALDIGI.vb" />
+    <Compile Include="Movimientos Alfanumericos\Movimientos Alfanumericos\cla_MOVIALFA.vb" />
+    <Compile Include="Movimientos Geograficos\Digitacion\cla_MOGEDIGI.vb" />
+    <Compile Include="Movimientos Geograficos\Mesa de Ayuda\cla_MOGEMEAY.vb" />
+    <Compile Include="Movimientos Geograficos\Movimientos Geograficos\cla_MOVIGEOG.vb" />
+    <Compile Include="Movimientos Geograficos\Predios Nuevos\cla_MOGEPRNU.vb" />
+    <Compile Include="Movimientos Geograficos\Tramites OVC\cla_MOGETRAM.vb" />
+    <Compile Include="Mutaciones de Primera\Mutaciones de Primera\cla_MUTAPRIM.vb" />
+    <Compile Include="Mutaciones de Primera\Mutacion\cla_MUPRMUTA.vb" />
+    <Compile Include="Mutaciones de Primera\Propietarios\cla_MUPRPROP.vb" />
+    <Compile Include="Mutaciones\Archivo\cla_MUTAARCH.vb" />
+    <Compile Include="Mutaciones\Informacion Usuario\cla_MUTAINUS.vb" />
+    <Compile Include="Mutaciones\Material Faltante\cla_MUTAMAFA.vb" />
+    <Compile Include="Mutaciones\Material Registro\cla_MUTAMARE.vb" />
+    <Compile Include="Mutaciones\Material Usuario\cla_MUTAMAUS.vb" />
+    <Compile Include="Mutaciones\Matriculas Anexas\cla_MUTAMATR.vb" />
+    <Compile Include="Mutaciones\Mutacion Departamento\cla_MUTADEPA.vb" />
+    <Compile Include="Mutaciones\Mutacion Municipio\cla_MUTAMUNI.vb" />
+    <Compile Include="Mutaciones\Mutaciones\cla_MUTACIONES.vb" />
+    <Compile Include="Registro de Mutaciones\Registro de Predios\cla_REMUPRED.vb" />
+    <Compile Include="Registro de Mutaciones\Rergistro de Mutaciones\cla_REGIMUTA.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Obligaciones Urbanisticas\Adquisicion de Predios\cla_OBURADPR.vb" />
+    <Compile Include="Obligaciones Urbanisticas\Ajuste de Liquidación\cla_OBURAJLI.vb" />
+    <Compile Include="Obligaciones Urbanisticas\Archivo Fisico\cla_OBURARFI.vb" />
+    <Compile Include="Obligaciones Urbanisticas\Avaluo Comercial\cla_OBURAVCO.vb" />
+    <Compile Include="Obligaciones Urbanisticas\Ejecucion de Obra\cla_OBUREJOB.vb" />
+    <Compile Include="Obligaciones Urbanisticas\Informacion General\cla_OBURINGE.vb" />
+    <Compile Include="Obligaciones Urbanisticas\Obligaciones Urbanisticas\cla_OBLIURBA.vb" />
+    <Compile Include="Obligaciones Urbanisticas\Pagos Realizador\cla_OBURPARE.vb" />
+    <Compile Include="Obligaciones Urbanisticas\Predio\cla_OBURPRED.vb" />
+    <Compile Include="Obligaciones Urbanisticas\Plan Parcial\cla_OBURPLPA.vb" />
+    <Compile Include="Obligaciones Urbanisticas\Solicitante\cla_OBURSOLI.vb" />
+    <Compile Include="Observatorio Inmobiliario\cla_OBSEINMO.vb" />
+    <Compile Include="Rectificacion\Actos Administrativos\cla_RECLACAD.vb" />
+    <Compile Include="Rectificacion\Informacion del Usuario\cla_RECLINUS.vb" />
+    <Compile Include="Rectificacion\Material Entregado\cla_RECLMAEN.vb" />
+    <Compile Include="Rectificacion\Material Faltante\cla_RECLMAFA.vb" />
+    <Compile Include="Rectificacion\Material Entregado\cla_RECLOBME.vb" />
+    <Compile Include="Rectificacion\Material Faltante\cla_RECLOBMF.vb" />
+    <Compile Include="Rectificacion\Predios Afectados\cla_RECLPRAF.vb" />
+    <Compile Include="Rectificacion\Propietarios\cla_RECLPROP.vb" />
+    <Compile Include="Rectificacion\Rectificacion\cla_RECLAMOS.vb" />
+    <Compile Include="Rectificacion\Trabajo de Campo\cla_RECLTRCA.vb" />
+    <Compile Include="Rectificacion\Trabajo de Oficina\cla_RECLTROF.vb" />
+    <Compile Include="Resolucion Administrativa\cla_RESOADMI.vb" />
+    <Compile Include="Resolucion de Conservacion\Informacion Departamental\Departamento\cla_RECOAVAL.vb" />
+    <Compile Include="Resolucion de Conservacion\Informacion Departamental\Departamento\cla_RECOPRED.vb" />
+    <Compile Include="Resolucion de Conservacion\Informacion Departamental\Departamento\cla_RECOPROP.vb" />
+    <Compile Include="Resolucion de Conservacion\Informacion Departamental\Departamento\cla_RECOZOEC.vb" />
+    <Compile Include="Resolucion de Conservacion\Predios Modificados\cla_RECOPRMO.vb" />
+    <Compile Include="Resolucion de Conservacion\Predios Retirados\cla_RECOPRRE.vb" />
+    <Compile Include="Resolucion de Conservacion\Predios Segregados\cla_RECOPRSE.vb" />
+    <Compile Include="Resolucion de Conservacion\Resolucion de Conservacion\cla_RESOCONS.vb" />
+    <Compile Include="Resoluciones y Licencias\Material Entregado\cla_RELIMAEN.vb" />
+    <Compile Include="Resoluciones y Licencias\Material Entregado\cla_RELIOBME.vb" />
+    <Compile Include="Resoluciones y Licencias\Material Faltante\cla_RELIMAFA.vb" />
+    <Compile Include="Resoluciones y Licencias\Material Faltante\cla_RELIOBMF.vb" />
+    <Compile Include="Resoluciones y Licencias\Permisos\cla_RELIPERM.vb" />
+    <Compile Include="Resoluciones y Licencias\Predio\cla_RELIPRED.vb" />
+    <Compile Include="Resoluciones y Licencias\Propietario\cla_RELIPROP.vb" />
+    <Compile Include="Resoluciones y Licencias\Resoluciones y Licencias\cla_RESOLICE.vb" />
+    <Compile Include="Resoluciones y Licencias\Solicitante\cla_RELISOLI.vb" />
+    <Compile Include="Revision de Avaluo\Actos Administrativos\cla_REAVACAD.vb" />
+    <Compile Include="Revision de Avaluo\Informacion del Usuario\cla_REAVINUS.vb" />
+    <Compile Include="Revision de Avaluo\Material Entregado\cla_REAVMAEN.vb" />
+    <Compile Include="Revision de Avaluo\Material Entregado\cla_REAVOBME.vb" />
+    <Compile Include="Revision de Avaluo\Material Faltante\cla_REAVMAFA.vb" />
+    <Compile Include="Revision de Avaluo\Material Faltante\cla_REAVOBMF.vb" />
+    <Compile Include="Revision de Avaluo\Predios Afectados\cla_REAVPRAF.vb" />
+    <Compile Include="Revision de Avaluo\Revision de Avaluo\cla_REVIAVAL.vb" />
+    <Compile Include="Revision de Avaluo\Trabajo de Campo\cla_REAVTRCA.vb" />
+    <Compile Include="Revision de Avaluo\Trabajo de Oficina\cla_REAVTROF.vb" />
+    <Compile Include="Sujeto de Impuesto\Ajuste de Impuesto Predial\Ajuste de Impuesto Predial\cla_AJUSIMPR.vb" />
+    <Compile Include="Sujeto de Impuesto\Ajuste de Impuesto Predial\Informacion Usuario\cla_AJIPINUS.vb" />
+    <Compile Include="Sujeto de Impuesto\Ajuste de Impuesto Predial\Material Catastro\cla_AJIPMACA.vb" />
+    <Compile Include="Sujeto de Impuesto\Ajuste de Impuesto Predial\Material Usuario\cla_AJIPMAUS.vb" />
+    <Compile Include="Sujeto de Impuesto\Sujeto de Impuesto\cla_SUJEIMPU.vb" />
+    <Compile Include="Trabajo de Campo\Material Faltante\cla_TRCAOBMF.vb" />
+    <Compile Include="Trabajo de Campo\Material Registro\cla_TRCAOBMR.vb" />
+    <Compile Include="Trabajo de Campo\Material Usuario\cla_TRCAOBME.vb" />
+    <Compile Include="Utilidades\Ficha Predial\Cruce Informacion ICARE\cla_CruceInformacionICARE.vb" />
+    <Compile Include="Utilidades\Ficha Predial\Generar Area de Construccion\cla_AREACONS.vb" />
+    <Compile Include="Utilidades\Impuesto\Historico de Avaluo\cla_HISTAVAL.vb" />
+    <Compile Include="Utilidades\Impuesto\Historico de Liquidacion\cla_HISTLIQU.vb" />
+    <Compile Include="Utilidades\Impuesto\Historico de Zonas\cla_HISTZOFI.vb" />
+    <Compile Include="Utilidades\Impuesto\Historico de Zonas\cla_HISTZONA.vb" />
+    <Compile Include="Tercero\cla_TERCERO.vb" />
+    <Compile Include="Trabajo de Campo\Archivo\cla_ARCHIVO.vb" />
+    <Compile Include="Trabajo de Campo\Digitacion\cla_DIGITACION.vb" />
+    <Compile Include="Trabajo de Campo\Informacion Usuario\cla_INFOUSUA.vb" />
+    <Compile Include="Trabajo de Campo\Levantamiento\cla_LEVANTAMIENTO.vb" />
+    <Compile Include="Trabajo de Campo\Liquidacion\cla_LIQUIDACION.vb" />
+    <Compile Include="Trabajo de Campo\Material Faltante\cla_MATEFALT.vb" />
+    <Compile Include="Trabajo de Campo\Material Registro\cla_MATEREGI.vb" />
+    <Compile Include="Trabajo de Campo\Material Usuario\cla_MATEUSUA.vb" />
+    <Compile Include="Trabajo de Campo\Trabajo Campo\cla_TRABCAMP.vb" />
+    <Compile Include="Utilidades\Ficha Predial\Cruce Matricula\cla_MATRICULA.vb" />
+    <Compile Include="Utilidades\Impuesto\Liquida Aforo de Impuesto\cla_AFORSUIM.vb" />
+    <Compile Include="Validar Ficha Predial\cla_VALIFIPR.vb" />
+    <Compile Include="Variables Publicas\cla_VariablesPublicas.vb" />
+    <Compile Include="Variables Publicas\mod_VariablesPublicas.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DATOS\DATOS.vbproj">
+      <Project>{2DCF1066-4CAD-4065-A562-14CF7C619C8D}</Project>
+      <Name>DATOS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

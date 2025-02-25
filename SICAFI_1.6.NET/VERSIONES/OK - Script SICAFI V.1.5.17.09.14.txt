@@ -1,0 +1,290 @@
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[MOVIALFA]    Fecha de la secuencia de comandos: 09/17/2014 15:08:59 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[MOVIALFA](
+	[MOALIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[MOALSECU] [int] NOT NULL,
+	[MOALDEPA] [char](2) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[MOALMUNI] [char](3) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[MOALCORR] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[MOALBARR] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[MOALMANZ] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[MOALPRED] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[MOALCLSE] [int] NOT NULL,
+	[MOALVIGE] [int] NOT NULL,
+	[MOALNUDO] [char](14) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[MOALUSUA] [char](20) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[MOALFEAS] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[MOALCAAC] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[MOALCLVE] [int] NOT NULL,
+	[MOALFFMU] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[MOALOBSE] [char](4000) COLLATE Modern_Spanish_CI_AS NULL,
+	[MOALESTA] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[MOALFEIN] [datetime] NULL,
+ CONSTRAINT [PK_MOVIALFA] PRIMARY KEY CLUSTERED
+(
+	[MOALSECU] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ID REGISTRO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIALFA', @level2type=N'COLUMN', @level2name=N'MOALIDRE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'SECUENCIA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIALFA', @level2type=N'COLUMN', @level2name=N'MOALSECU'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'MUNICIPIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIALFA', @level2type=N'COLUMN', @level2name=N'MOALMUNI'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CORREGIMIENTO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIALFA', @level2type=N'COLUMN', @level2name=N'MOALCORR'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'BARRIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIALFA', @level2type=N'COLUMN', @level2name=N'MOALBARR'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'MANZANA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIALFA', @level2type=N'COLUMN', @level2name=N'MOALMANZ'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'PREDIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIALFA', @level2type=N'COLUMN', @level2name=N'MOALPRED'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CLASE O SECTOR' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIALFA', @level2type=N'COLUMN', @level2name=N'MOALCLSE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO DE DOCUMENTO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIALFA', @level2type=N'COLUMN', @level2name=N'MOALNUDO'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'USUARIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIALFA', @level2type=N'COLUMN', @level2name=N'MOALUSUA'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA DE ENTREGA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIALFA', @level2type=N'COLUMN', @level2name=N'MOALFEAS'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CAUSA DEL ACTO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIALFA', @level2type=N'COLUMN', @level2name=N'MOALCAAC'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CLASE DE VERSION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIALFA', @level2type=N'COLUMN', @level2name=N'MOALCLVE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA DE FINALIZACION MUNICIPIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIALFA', @level2type=N'COLUMN', @level2name=N'MOALFFMU'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'OBSERVACIONES' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIALFA', @level2type=N'COLUMN', @level2name=N'MOALOBSE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ESTADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIALFA', @level2type=N'COLUMN', @level2name=N'MOALESTA'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA DE INGRESO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIALFA', @level2type=N'COLUMN', @level2name=N'MOALFEIN'
+
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[MOVIALFA]  WITH CHECK ADD  CONSTRAINT [FK_MOVIALFA_ESTADO] FOREIGN KEY([MOALESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+GO
+ALTER TABLE [dbo].[MOVIALFA]  WITH CHECK ADD  CONSTRAINT [FK_MOVIALFA_MANT_CAUSACTO] FOREIGN KEY([MOALCAAC])
+REFERENCES [dbo].[MANT_CAUSACTO] ([CAACCODI])
+GO
+ALTER TABLE [dbo].[MOVIALFA]  WITH CHECK ADD  CONSTRAINT [FK_MOVIALFA_MANT_CLASSECT] FOREIGN KEY([MOALCLSE])
+REFERENCES [dbo].[MANT_CLASSECT] ([CLSECODI])
+GO
+ALTER TABLE [dbo].[MOVIALFA]  WITH CHECK ADD  CONSTRAINT [FK_MOVIALFA_MANT_CLASVERS] FOREIGN KEY([MOALCLVE])
+REFERENCES [dbo].[MANT_CLASVERS] ([CLVECODI])
+GO
+ALTER TABLE [dbo].[MOVIALFA]  WITH CHECK ADD  CONSTRAINT [FK_MOVIALFA_MANT_MUNICIPIO] FOREIGN KEY([MOALDEPA], [MOALMUNI])
+REFERENCES [dbo].[MANT_MUNICIPIO] ([MUNIDEPA], [MUNICODI])
+GO
+ALTER TABLE [dbo].[MOVIALFA]  WITH CHECK ADD  CONSTRAINT [FK_MOVIALFA_VIGENCIA] FOREIGN KEY([MOALVIGE])
+REFERENCES [dbo].[VIGENCIA] ([VIGECODI])
+
+
+________________________
+
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[MOALDIGI]    Fecha de la secuencia de comandos: 09/17/2014 15:12:45 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[MOALDIGI](
+	[MADIIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[MADISECU] [int] NOT NULL,
+	[MADINUDO] [char](20) COLLATE Modern_Spanish_CI_AS NULL,
+	[MADIFEEN] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[MADIOBSE] [char](4000) COLLATE Modern_Spanish_CI_AS NULL
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[MOALDIGI]  WITH CHECK ADD  CONSTRAINT [FK_MOALDIGI_MOVIALFA] FOREIGN KEY([MADISECU])
+REFERENCES [dbo].[MOVIALFA] ([MOALSECU])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+
+______________________________
+
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'MovimientoAlfanumericoToolStripMenuItem',
+	'Movimientos alfanumericos',
+    'ac' 
+	)
+	
+
+insert into PERMSUFO (PESFUSUA,PESFFORM,PESFDESC,PESFAGRE,PESFMODI,PESFELIM,PESFESTA) values
+	(
+	'ADMINISTRADOR',
+	'BindingNavigator_MOVIALFA_1',
+	'Menu Movimientos Alfanumericos - Menu Principal',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+
+insert into PERMSUFO (PESFUSUA,PESFFORM,PESFDESC,PESFAGRE,PESFMODI,PESFELIM,PESFESTA) values
+	(
+	'ADMINISTRADOR',
+	'BindingNavigator_MOALPRNU_1',
+	'Menu Movimientos Alfanumericos - Predios Nuevos',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+
+insert into PERMSUFO (PESFUSUA,PESFFORM,PESFDESC,PESFAGRE,PESFMODI,PESFELIM,PESFESTA) values
+	(
+	'ADMINISTRADOR',
+	'BindingNavigator_MOALMEAY_1',
+	'Menu Movimientos Alfanumericos - Mesa de Ayuda',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+
+insert into PERMSUFO (PESFUSUA,PESFFORM,PESFDESC,PESFAGRE,PESFMODI,PESFELIM,PESFESTA) values
+	(
+	'ADMINISTRADOR',
+	'BindingNavigator_MOALTRAM_1',
+	'Menu Movimientos Alfanumericos - Tramites OVC',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+
+insert into PERMSUFO (PESFUSUA,PESFFORM,PESFDESC,PESFAGRE,PESFMODI,PESFELIM,PESFESTA) values
+	(
+	'ADMINISTRADOR',
+	'BindingNavigator_MOALDIGI_1',
+	'Menu Movimientos Alfanumericos - Digitalización',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+        
+_____________________
+
+
+ALTER TABLE MOALDIGI
+ADD MADIFEFI CHAR(10) NOT NULL DEFAULT ''
+
+
+ALTER TABLE MOGEDIGI
+ADD MGDIFEFI CHAR(10) NOT NULL DEFAULT ''
+
+
+______________________
+
+insert into PERMSUFO (PESFUSUA,PESFFORM,PESFDESC,PESFAGRE,PESFMODI,PESFELIM,PESFESTA) values
+	(
+	'ADMINISTRADOR',
+	'BindingNavigator_LIBRRADI_1',
+	'Libro Radicador - Menu Principal',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+	
+_____________________
+
+
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'ConsultaTrabajoDeCampoToolStripMenuItem',
+	'Consulta trabajo de campo',
+    'ac' 
+	)
+        
+insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'frm_consulta_trabajo_de_campo_TRABCAMP',
+	'Consulta trabajo de campo',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+	
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'MUTADORES',
+	'ConsultaTrabajoDeCampoToolStripMenuItem',
+	'Consulta trabajo de campo',
+    'ac' 
+	)
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'FOTOLECTOR',
+	'ConsultaTrabajoDeCampoToolStripMenuItem',
+	'Consulta trabajo de campo',
+    'ac' 
+	)
+        
+________________________
+
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'RadicacionToolStripMenuItem',
+	'Radicación',
+    'ac' 
+	)
+        
+        	
+	
+	
+
+
+
+        	

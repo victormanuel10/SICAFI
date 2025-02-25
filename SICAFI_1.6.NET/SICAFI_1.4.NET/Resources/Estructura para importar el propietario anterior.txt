@@ -1,0 +1,13 @@
+ESTRUCTURA UTILIZADA PARA IMPORTAR LOS DATOS DEL PROPIETARIO ANTERIOR
+
+Se debe crear un archivo en excel versión 2003 conformada por los siguientes campos:
+
+1. Numero de ficha
+2. Numero de documento del propietario actual
+3. Primer apellido
+4. Segundo apellido
+5. Nombre
+6. Causa del acto
+
+Nota: Se debe crear cada columna con su correspondiente titulo ubicada en la primera fila.
+

@@ -1,0 +1,120 @@
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[MANT_CONTCOMA]    Fecha de la secuencia de comandos: 05/30/2014 14:50:38 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[MANT_CONTCOMA](
+	[COCOIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[COCOCODI] [char](50) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[COCODESC] [char](100) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[COCOESTA] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+ CONSTRAINT [PK_MANT_CONTCOMA] PRIMARY KEY CLUSTERED 
+(
+	[COCOCODI] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[MANT_CONTCOMA]  WITH CHECK ADD  CONSTRAINT [FK_MANT_CONTCOMA_ESTADO] FOREIGN KEY([COCOESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+
+
+___________________________-
+
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'ControlDeComandosToolStripMenuItem',
+	'Control de comandos',
+    'ac' 
+	)
+
+insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'frm_CONTCOMA',
+	'Control de comandos',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)	
+	
+________________________________
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[PERMCOCO]    Fecha de la secuencia de comandos: 05/30/2014 14:49:56 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[PERMCOCO](
+	[PECCIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[PECCUSUA] [char](20) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[PECCFORM] [char](200) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[PECCCOCO] [char](50) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[PECCHABI] [bit] NULL,
+	[PECCDESH] [bit] NULL,
+	[PECCESTA] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+ CONSTRAINT [PK_PERMCONT] PRIMARY KEY CLUSTERED 
+(
+	[PECCUSUA] ASC,
+	[PECCFORM] ASC,
+	[PECCCOCO] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[PERMCOCO]  WITH CHECK ADD  CONSTRAINT [FK_PERMCOCO_CONTRASENA] FOREIGN KEY([PECCUSUA])
+REFERENCES [dbo].[CONTRASENA] ([CONTUSUA])
+GO
+ALTER TABLE [dbo].[PERMCOCO]  WITH CHECK ADD  CONSTRAINT [FK_PERMCOCO_ESTADO] FOREIGN KEY([PECCESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+GO
+ALTER TABLE [dbo].[PERMCOCO]  WITH CHECK ADD  CONSTRAINT [FK_PERMCOCO_MANT_CONTCOMA] FOREIGN KEY([PECCCOCO])
+REFERENCES [dbo].[MANT_CONTCOMA] ([COCOCODI])
+__________________
+
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'AsignarControlDeComandosToolStripMenuItem',
+	'Asignar Control de comandos',
+    'ac' 
+	)
+
+insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'frm_PERMCOCO',
+	'Permiso control de comandos',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+        
+__________________________
+        	
+
+
+
+

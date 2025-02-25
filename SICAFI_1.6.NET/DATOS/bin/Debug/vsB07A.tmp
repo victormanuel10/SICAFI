@@ -1,0 +1,56 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DATOS
+</name>
+</assembly>
+<members>
+<member name="M:DATOS.cExecuteNonQuery.ActualizarDb(System.Data.SqlClient.SqlParameter[],System.String)">
+	<summary>
+ Función que recibe los parametros y el procedimiento StoredProcedure para actualizar, insertar y eliminar
+ </summary>
+</member><member name="M:DATOS.cExecuteNonQuery.ActualizarDb(System.String)">
+	<summary>
+ Función que recibe el procedimiento StoredProcedure para actualizar, insertar y eliminar
+ </summary>
+</member><member name="M:DATOS.cExecuteNonQuery.ActualizarDb_Text_SQL(System.String)">
+	<summary>
+ Función que recibe el procedimiento SQL Text para actualizar, insertar y eliminar
+ </summary>
+</member><member name="M:DATOS.cExecuteQuery.ConsultarDb(System.Data.SqlClient.SqlParameter[],System.String)">
+	<summary>
+ Función que recibe el parametro y el procedimiento StoredProcedure para consultar
+ </summary>
+</member><member name="M:DATOS.cExecuteQuery.ConsultarDb(System.String)">
+	<summary>
+ Función que recibe el procedimiento StoredProcedure para consultar
+ </summary>
+</member><member name="M:DATOS.cExecuteQuery.Consultarset(System.Data.SqlClient.SqlParameter[],System.String)">
+	<summary>
+ Función que recibe el parametro y el procedimiento StoredProcedure para consultar
+ </summary>
+</member><member name="M:DATOS.cExecuteQuery.Consultarset(System.String)">
+	<summary>
+ Función que recibe el procedimiento StoredProcedure para consultar
+ </summary>
+</member><member name="M:DATOS.cExecuteQuery.ConsultarDb_Text_SQL(System.String)">
+	<summary>
+ Función que recibe el procedimiento SQL Text para consultar
+ </summary>
+</member><member name="P:DATOS.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:DATOS.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso con establecimiento inflexible de tipos.
+</summary>
+</member><member name="T:DATOS.My.Resources.Resources">
+	<summary>
+  Clase de recurso con establecimiento inflexible de tipos, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+</members>
+</doc>

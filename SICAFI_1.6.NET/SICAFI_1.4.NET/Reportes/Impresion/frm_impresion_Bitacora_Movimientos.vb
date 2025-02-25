@@ -1,0 +1,3 @@
+﻿Public Class frm_impresion_Bitacora_Movimientos
+
+End Class

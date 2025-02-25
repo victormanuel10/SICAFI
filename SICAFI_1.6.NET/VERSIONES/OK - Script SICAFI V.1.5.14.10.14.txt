@@ -1,0 +1,488 @@
+DROP TABLE LIRAPRED
+DROP TABLE LIRASOLI
+DROP TABLE LIRAPRED
+
+_______________________________
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[LIBRRADI]    Fecha de la secuencia de comandos: 10/14/2014 15:09:06 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[LIBRRADI](
+	[LIRAIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[LIRASECU] [int] NOT NULL,
+	[LIRAACAD] [int] NOT NULL,
+	[LIRAMERE] [int] NOT NULL,
+	[LIRANURA] [int] NOT NULL CONSTRAINT [DF_LIBRRADI_LIRANURA]  DEFAULT ((0)),
+	[LIRAFERA] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[LIRAASUN] [char](100) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[LIRAMENO] [int] NULL,
+	[LIRAFEMN] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[LIRADIVI] [int] NOT NULL,
+	[LIRANUDO] [char](20) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[LIRAUSUA] [char](50) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[LIRAFEIN] [datetime] NOT NULL,
+	[LIRAVIGE] [int] NOT NULL,
+	[LIRAOBSE] [char](4000) COLLATE Modern_Spanish_CI_AS NULL,
+	[LIRAOFSA] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[LIRAESTA] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+ CONSTRAINT [PK_LIBRRADI_1] PRIMARY KEY CLUSTERED 
+(
+	[LIRANURA] ASC,
+	[LIRAFERA] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ID REGISTRO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIBRRADI', @level2type=N'COLUMN', @level2name=N'LIRAIDRE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'SECUENCIA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIBRRADI', @level2type=N'COLUMN', @level2name=N'LIRASECU'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ACTO ADMINISTRATIVO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIBRRADI', @level2type=N'COLUMN', @level2name=N'LIRAACAD'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'MEDO DE RESEPCION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIBRRADI', @level2type=N'COLUMN', @level2name=N'LIRAMERE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO RADICADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIBRRADI', @level2type=N'COLUMN', @level2name=N'LIRANURA'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA RADICADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIBRRADI', @level2type=N'COLUMN', @level2name=N'LIRAFERA'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ASUNTO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIBRRADI', @level2type=N'COLUMN', @level2name=N'LIRAASUN'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'MEDIO NOTIFICACION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIBRRADI', @level2type=N'COLUMN', @level2name=N'LIRAMENO'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA MEDIO NOTIFICACION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIBRRADI', @level2type=N'COLUMN', @level2name=N'LIRAFEMN'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'DIVISION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIBRRADI', @level2type=N'COLUMN', @level2name=N'LIRADIVI'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO DOCUMENTO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIBRRADI', @level2type=N'COLUMN', @level2name=N'LIRANUDO'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'USUARIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIBRRADI', @level2type=N'COLUMN', @level2name=N'LIRAUSUA'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA INGRESO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIBRRADI', @level2type=N'COLUMN', @level2name=N'LIRAFEIN'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'OBSERVACION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIBRRADI', @level2type=N'COLUMN', @level2name=N'LIRAOBSE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'OFICIO DE SALIDA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIBRRADI', @level2type=N'COLUMN', @level2name=N'LIRAOFSA'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ESTADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIBRRADI', @level2type=N'COLUMN', @level2name=N'LIRAESTA'
+
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[LIBRRADI]  WITH CHECK ADD  CONSTRAINT [FK_LIBRRADI_ESTADO] FOREIGN KEY([LIRAESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+GO
+ALTER TABLE [dbo].[LIBRRADI]  WITH CHECK ADD  CONSTRAINT [FK_LIBRRADI_MANT_DIVISION] FOREIGN KEY([LIRADIVI])
+REFERENCES [dbo].[MANT_DIVISION] ([DIVICODI])
+GO
+ALTER TABLE [dbo].[LIBRRADI]  WITH CHECK ADD  CONSTRAINT [FK_LIBRRADI_MANT_MEDINOTI] FOREIGN KEY([LIRAMENO])
+REFERENCES [dbo].[MANT_MEDINOTI] ([MENOCODI])
+GO
+ALTER TABLE [dbo].[LIBRRADI]  WITH CHECK ADD  CONSTRAINT [FK_LIBRRADI_MANT_MEDIRESE] FOREIGN KEY([LIRAMERE])
+REFERENCES [dbo].[MANT_MEDIRESE] ([MERECODI])
+GO
+ALTER TABLE [dbo].[LIBRRADI]  WITH CHECK ADD  CONSTRAINT [FK_LIBRRADI_VIGENCIA] FOREIGN KEY([LIRAVIGE])
+REFERENCES [dbo].[VIGENCIA] ([VIGECODI])
+
+
+_____________________
+
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[LIRASOLI]    Fecha de la secuencia de comandos: 10/14/2014 15:09:20 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[LIRASOLI](
+	[LRSOIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[LRSONURA] [int] NOT NULL,
+	[LRSOFERA] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[LRSOSECU] [int] NOT NULL,
+	[LRSONUDO] [char](20) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[LRSONOMB] [char](50) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[LRSOPRAP] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[LRSOSEAP] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[LRSODIPR] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[LRSODINO] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[LRSOTELE] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[LRSOCELU] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[LRSOCOEL] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[LRSOCOPO] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[LRSORESO] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[LRSOSOLI] [int] NOT NULL,
+ CONSTRAINT [PK_LIRASOLI] PRIMARY KEY CLUSTERED 
+(
+	[LRSONURA] ASC,
+	[LRSOFERA] ASC,
+	[LRSOSECU] ASC,
+	[LRSONUDO] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ID REGISTRO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRASOLI', @level2type=N'COLUMN', @level2name=N'LRSOIDRE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO RADICADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRASOLI', @level2type=N'COLUMN', @level2name=N'LRSONURA'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA RADICADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRASOLI', @level2type=N'COLUMN', @level2name=N'LRSOFERA'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'SECUENCIA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRASOLI', @level2type=N'COLUMN', @level2name=N'LRSOSECU'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO DOCUMENTO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRASOLI', @level2type=N'COLUMN', @level2name=N'LRSONUDO'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NOMBRE' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRASOLI', @level2type=N'COLUMN', @level2name=N'LRSONOMB'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'PRIMER APELLIDO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRASOLI', @level2type=N'COLUMN', @level2name=N'LRSOPRAP'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'SEGUNDO APELLIDO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRASOLI', @level2type=N'COLUMN', @level2name=N'LRSOSEAP'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'DIRECCION PREDIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRASOLI', @level2type=N'COLUMN', @level2name=N'LRSODIPR'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'DIRECCION NOTIFICACION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRASOLI', @level2type=N'COLUMN', @level2name=N'LRSODINO'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'TELEFONO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRASOLI', @level2type=N'COLUMN', @level2name=N'LRSOTELE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CELULAR' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRASOLI', @level2type=N'COLUMN', @level2name=N'LRSOCELU'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CORREO ELECTRONICO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRASOLI', @level2type=N'COLUMN', @level2name=N'LRSOCOEL'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CODIGO POSTAL' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRASOLI', @level2type=N'COLUMN', @level2name=N'LRSOCOPO'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'REDES SOCIALES' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRASOLI', @level2type=N'COLUMN', @level2name=N'LRSORESO'
+
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[LIRASOLI]  WITH CHECK ADD  CONSTRAINT [FK_LIRASOLI_LIBRRADI] FOREIGN KEY([LRSONURA], [LRSOFERA])
+REFERENCES [dbo].[LIBRRADI] ([LIRANURA], [LIRAFERA])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[LIRASOLI]  WITH CHECK ADD  CONSTRAINT [FK_LIRASOLI_MANT_SOLICITANTE] FOREIGN KEY([LRSOSOLI])
+REFERENCES [dbo].[MANT_SOLICITANTE] ([SOLICODI])
+
+
+_____________________
+
+
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[LIRAPRED]    Fecha de la secuencia de comandos: 10/14/2014 15:09:34 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[LIRAPRED](
+	[LRPRIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[LRPRNURA] [int] NOT NULL,
+	[LRPRFERA] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[LRPRSECU] [int] NOT NULL,
+	[LRPRMAIN] [int] NOT NULL CONSTRAINT [DF_LIRAPRED_LRPRMAIN]  DEFAULT ((0)),
+	[LRPRMUNI] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[LRPRCORR] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[LRPRBARR] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[LRPRMANZ] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[LRPRPRED] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[LRPREDIF] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[LRPRUNPR] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[LRPRCLSE] [int] NOT NULL,
+	[LRPRNUFI] [int] NULL CONSTRAINT [DF_LIRAPRED_LRPRNUFI]  DEFAULT ((0)),
+ CONSTRAINT [PK_LIRAPRED_1] PRIMARY KEY CLUSTERED 
+(
+	[LRPRNURA] ASC,
+	[LRPRFERA] ASC,
+	[LRPRSECU] ASC,
+	[LRPRMAIN] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ID REGISTRO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRAPRED', @level2type=N'COLUMN', @level2name=N'LRPRIDRE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO RADICADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRAPRED', @level2type=N'COLUMN', @level2name=N'LRPRNURA'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA RADICADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRAPRED', @level2type=N'COLUMN', @level2name=N'LRPRFERA'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'SECUENCIA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRAPRED', @level2type=N'COLUMN', @level2name=N'LRPRSECU'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'MATRICULA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRAPRED', @level2type=N'COLUMN', @level2name=N'LRPRMAIN'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO FICHA ' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRAPRED', @level2type=N'COLUMN', @level2name=N'LRPRNUFI'
+
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[LIRAPRED]  WITH CHECK ADD  CONSTRAINT [FK_LIRAPRED_LIBRRADI] FOREIGN KEY([LRPRNURA], [LRPRFERA])
+REFERENCES [dbo].[LIBRRADI] ([LIRANURA], [LIRAFERA])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[LIRAPRED]  WITH CHECK ADD  CONSTRAINT [FK_LIRAPRED_MANT_CLASSECT] FOREIGN KEY([LRPRCLSE])
+REFERENCES [dbo].[MANT_CLASSECT] ([CLSECODI])
+
+
+
+___________________
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[LIRADEDI]    Fecha de la secuencia de comandos: 10/17/2014 12:58:08 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[LIRADEDI](
+	[LRDDIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[LRDDNURA] [int] NOT NULL,
+	[LRDDFERA] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[LRDDSECU] [int] NOT NULL,
+	[LRDDDIVI] [int] NOT NULL,
+	[LRDDFEAS] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[LRDDFEIN] [datetime] NOT NULL,
+	[LRDDNUDO] [char](20) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[LRDDUSUA] [char](50) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[LRDDNRDE] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[LRDDFEDE] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+ CONSTRAINT [PK_LIRADEDI_1] PRIMARY KEY CLUSTERED 
+(
+	[LRDDNURA] ASC,
+	[LRDDFERA] ASC,
+	[LRDDSECU] ASC,
+	[LRDDDIVI] ASC,
+	[LRDDFEAS] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ID REGISTRO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRADEDI', @level2type=N'COLUMN', @level2name=N'LRDDIDRE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO RADICADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRADEDI', @level2type=N'COLUMN', @level2name=N'LRDDNURA'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA RADICADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRADEDI', @level2type=N'COLUMN', @level2name=N'LRDDFERA'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'SECUENCIA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRADEDI', @level2type=N'COLUMN', @level2name=N'LRDDSECU'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'DIVISION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRADEDI', @level2type=N'COLUMN', @level2name=N'LRDDDIVI'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA ASIGNACION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRADEDI', @level2type=N'COLUMN', @level2name=N'LRDDFEAS'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA INGRESO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRADEDI', @level2type=N'COLUMN', @level2name=N'LRDDFEIN'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO DOCUMENTO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRADEDI', @level2type=N'COLUMN', @level2name=N'LRDDNUDO'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'USUARIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRADEDI', @level2type=N'COLUMN', @level2name=N'LRDDUSUA'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO RADICADO DESTINATARIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRADEDI', @level2type=N'COLUMN', @level2name=N'LRDDNRDE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA DESTINATARIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRADEDI', @level2type=N'COLUMN', @level2name=N'LRDDFEDE'
+
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[LIRADEDI]  WITH CHECK ADD  CONSTRAINT [FK_LIRADEDI_LIBRRADI] FOREIGN KEY([LRDDNURA], [LRDDFERA])
+REFERENCES [dbo].[LIBRRADI] ([LIRANURA], [LIRAFERA])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[LIRADEDI]  WITH CHECK ADD  CONSTRAINT [FK_LIRADEDI_MANT_DIVISION] FOREIGN KEY([LRDDDIVI])
+REFERENCES [dbo].[MANT_DIVISION] ([DIVICODI])
+
+
+_________________________
+
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[LIRADEFU]    Fecha de la secuencia de comandos: 10/17/2014 12:58:36 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[LIRADEFU](
+	[LRDFIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[LRDFNURA] [int] NOT NULL,
+	[LRDFFERA] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[LRDFSECU] [int] NOT NULL,
+	[LRDFNUDO] [char](20) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[LRDFFEAS] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[LRDFFEIN] [datetime] NOT NULL,
+	[LRDFUSUA] [char](50) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[LRDFNRDE] [int] NULL CONSTRAINT [DF_LIRADEFU_LRDFNRDE]  DEFAULT ((0)),
+	[LRDFFEDE] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+ CONSTRAINT [PK_LIRADEFU] PRIMARY KEY CLUSTERED 
+(
+	[LRDFNURA] ASC,
+	[LRDFFERA] ASC,
+	[LRDFSECU] ASC,
+	[LRDFNUDO] ASC,
+	[LRDFFEAS] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ID REGISTRO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRADEFU', @level2type=N'COLUMN', @level2name=N'LRDFIDRE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO RADICADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRADEFU', @level2type=N'COLUMN', @level2name=N'LRDFNURA'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA DE RADICADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRADEFU', @level2type=N'COLUMN', @level2name=N'LRDFFERA'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'SECUENCIA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRADEFU', @level2type=N'COLUMN', @level2name=N'LRDFSECU'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA DE ASIGNACION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRADEFU', @level2type=N'COLUMN', @level2name=N'LRDFFEAS'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA DE INGRESO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRADEFU', @level2type=N'COLUMN', @level2name=N'LRDFFEIN'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO RADICADO DESTINATARIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRADEFU', @level2type=N'COLUMN', @level2name=N'LRDFNRDE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA RADICADO DESTINATARIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'LIRADEFU', @level2type=N'COLUMN', @level2name=N'LRDFFEDE'
+
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[LIRADEFU]  WITH CHECK ADD  CONSTRAINT [FK_LIRADEFU_LIBRRADI] FOREIGN KEY([LRDFNURA], [LRDFFERA])
+REFERENCES [dbo].[LIBRRADI] ([LIRANURA], [LIRAFERA])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+
+
+
+__________________________
+
+
+
+
+
+insert into PERMSUFO (PESFUSUA,PESFFORM,PESFDESC,PESFAGRE,PESFMODI,PESFELIM,PESFESTA) values
+	(
+	'ADMINISTRADOR',
+	'BindingNavigator_LIRASOLI_1',
+	'Libro Radicador - Solicitante',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+	
+
+insert into PERMSUFO (PESFUSUA,PESFFORM,PESFDESC,PESFAGRE,PESFMODI,PESFELIM,PESFESTA) values
+	(
+	'ADMINISTRADOR',
+	'BindingNavigator_LIRAPRED_1',
+	'Libro Radicador - Predios',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+	
+insert into PERMSUFO (PESFUSUA,PESFFORM,PESFDESC,PESFAGRE,PESFMODI,PESFELIM,PESFESTA) values
+	(
+	'ADMINISTRADOR',
+	'BindingNavigator_LIRADEDI_1',
+	'Libro Radicador - Destinatario Division',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+
+
+insert into PERMSUFO (PESFUSUA,PESFFORM,PESFDESC,PESFAGRE,PESFMODI,PESFELIM,PESFESTA) values
+	(
+	'ADMINISTRADOR',
+	'BindingNavigator_LIRADEFU_1',
+	'Libro Radicador - Destinatario Funcionario',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+        
+_____________________
+
+
+
+
+
+

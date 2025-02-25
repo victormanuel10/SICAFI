@@ -1,0 +1,8 @@
+C:\Users\dell\Desktop\SICAFI_1.5.NET\SICAFI_1.4.NET\bin\Debug\SICAFI_1.4.NET.exe.config
+C:\Users\dell\Desktop\SICAFI_1.5.NET\SICAFI_1.4.NET\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\dell\Desktop\SICAFI_1.5.NET\SICAFI_1.4.NET\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\dell\Desktop\SICAFI_1.5.NET\SICAFI_1.4.NET\obj\Debug\Interop.VBIDE.dll
+C:\Users\dell\Desktop\SICAFI_1.5.NET\SICAFI_1.4.NET\obj\Debug\SICAFI_1.4.NET.vbproj.ResolveComReference.cache
+C:\Users\dell\Desktop\SICAFI_1.5.NET\SICAFI_1.4.NET\obj\Debug\SICAFI_1.4.NET.exe
+C:\Users\dell\Desktop\SICAFI_1.5.NET\SICAFI_1.4.NET\obj\Debug\SICAFI_1.4.xml
+C:\Users\dell\Desktop\SICAFI_1.5.NET\SICAFI_1.4.NET\obj\Debug\SICAFI_1.4.NET.pdb

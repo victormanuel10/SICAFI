@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Temp\\SICAFI\\SICAFI_1.6.NET\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCF1066-4CAD-4065-A562-14CF7C619C8D}|DATOS\\DATOS.vbproj|c:\\temp\\sicafi\\sicafi_1.6.net\\datos\\conexi\u00F3n\\cconexion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{2DCF1066-4CAD-4065-A562-14CF7C619C8D}|DATOS\\DATOS.vbproj|solutionrelative:datos\\conexi\u00F3n\\cconexion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "cConexion.vb",
+              "DocumentMoniker": "C:\\Temp\\SICAFI\\SICAFI_1.6.NET\\DATOS\\Conexi\u00F3n\\cConexion.vb",
+              "RelativeDocumentMoniker": "DATOS\\Conexi\u00F3n\\cConexion.vb",
+              "ToolTip": "C:\\Temp\\SICAFI\\SICAFI_1.6.NET\\DATOS\\Conexi\u00F3n\\cConexion.vb",
+              "RelativeToolTip": "DATOS\\Conexi\u00F3n\\cConexion.vb",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-02-20T20:30:57.69Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

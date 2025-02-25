@@ -1,0 +1,1359 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+REGLASDELNEGOCIO
+</name>
+</assembly>
+<members>
+<member name="M:REGLAS_DEL_NEGOCIO.cla_ESTADO.fun_Consultar_ESTADO">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_ESTADO.fun_Consultar_TODOS_LOS_ESTADOS">
+	<summary>
+ Llena el ComboBox con datos activos e inactivos formulario modificar estado 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_ESTADO.fun_Consultar_ESTADO_X_ESTADO">
+	<summary>
+ Llena el ComboBox con datos activos formulario insertar 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_ESTADO.fun_Insertar_ESTADO(System.String,System.String,System.String)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_ESTADO.fun_Eliminar_ESTADO(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_ESTADO.fun_Actualizar_ESTADO(System.Int32,System.String,System.String,System.String)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_ESTADO.fun_Buscar_ESTADO(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_VIGENCIA.fun_Consultar_VIGENCIA">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_VIGENCIA.fun_Consultar_CAMPOS_VIGENCIA">
+	<summary>
+ Llena el ComboBox con datos activos e inactivos formulario principal 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_VIGENCIA.fun_Consultar_VIGENCIA_X_ESTADO">
+	<summary>
+ Llena el ComboBox con datos activos formulario insertar y modificar 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_VIGENCIA.fun_Insertar_VIGENCIA(System.Int32,System.String,System.String)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_VIGENCIA.fun_Eliminar_VIGENCIA(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_VIGENCIA.fun_Actualizar_VIGENCIA(System.Int32,System.Int32,System.String,System.String)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_VIGENCIA.fun_Buscar_ID_VIGENCIA(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_VIGENCIA.fun_Buscar_CODIGO_VIGENCIA(System.Int32)">
+	<summary>
+ Función que busca el CÓDIGO DE LA VIGENCIA para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_DATASET.fun_Consultar_MANT_CALIPROP">
+	<summary>
+ Procedimiento que consulta de varias tablas sin parametros de entrada
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_DATASET.consulta_individual_prestamo(System.String)">
+	<summary>
+ Procedimiento que consulta de varias tablas con parametros de entrada
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FICHPRED.fun_Consultar_FICHPRED">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FICHPRED.fun_Consultar_CAMPOS_FICHPRED">
+	<summary>
+ Llena el ComboBox con datos activos e inactivos formulario principal 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FICHPRED.fun_Consultar_FICHPRED_X_ESTADO">
+	<summary>
+ Funcion que busca el campo de la notaria en estado activo 
+ (Solo debuelve el campo de la notaria)
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FICHPRED.fun_Insertar_FICHPRED(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String,System.Boolean,System.DateTime,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Boolean,System.String,System.String,System.Int32,System.String,System.String)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FICHPRED.fun_Eliminar_FICHPRED(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FICHPRED.fun_Actualizar_FICHPRED(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String,System.Boolean,System.DateTime,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.String,System.String)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FICHPRED.fun_buscar_NRO_FICHA_FICHPRED(System.Int32)">
+	<summary>
+ Función que busca el Nro ficha del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FICHPRED.fun_buscar_ID_FICHPRED(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FICHPRED.fun_Buscar_CODIGO_FICHPRED(System.String)">
+	<summary>
+ Función que busca el CÓDIGO del registro para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FICHPRED.fun_Buscar_DEPARTAMENTO_Y_MUNICIPIO_Y_TIPORESOLUCION_Y_SECTOR_Y_VIGENCIA_Y_CODIGO_FICHPRED(System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Función que busca el MUNICIPIO, TIPO RESOLUCION, SECTOR, VIGENCIA Y CÓDIGO DE FICHA PREDIAL
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FICHPRED.fun_Consultar_FICHA_PREDIAL_X_RESOLUCION(System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Función que busca la FICHA PREDIAL CON LOS PARAMETROS  DEPARTAMENT, MUNICIPIO, TIPO RESOLUCION, SECTOR, 
+ VIGENCIA Y CÓDIGO DE FICHA PREDIAL.
+ para llenar el datagridview
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FICHPRED.fun_Consultar_FICHA_PREDIAL_X_NRO_FICHA_PREDIAL(System.Int32)">
+	<summary>
+ Función que busca la FICHA PREDIAL mandando el parametro de ficha predial
+ para consultar una sola ficha.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FICHPRED.fun_Buscar_NRO_REGISTRO_FICHA_PREDIAL_X_DEPARTAMENTO_Y_MUNICIPIO_Y_TIPORESOLUCION_Y_SECTOR_Y_VIGENCIA_Y_CODIGO_FICHPRED(System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Función que busca el EL NUMERO DE REGISTRO DE FICHA PREDIAL MAXIMO de acuerdo
+ a la resolución que se encuentre la ficha predial.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FICHPRED.fun_Buscar_CEDULA_CATASTRAL_FICHPRED(System.String,System.String,System.String,System.String,System.String,System.Int32)">
+	<summary>
+ Función que buscar el predio por medio de la cedula catastral.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FICHPRED.fun_Buscar_DIRECCION_FICHPRED(System.String)">
+	<summary>
+ Función que busca el predio por medio de la dirección.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FICHPRED.fun_actualizar_OBSERVACION_FICHPRED(System.Int32,System.String)">
+	<summary>
+ Función actualiza las observación de la fiocha predial
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CODICALI.fun_Consultar_MANT_CODICALI">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CODICALI.fun_Consultar_CAMPOS_MANT_CODICALI">
+	<summary>
+ Llena el ComboBox con datos activos e inactivos formulario principal 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CODICALI.fun_Consultar_MANT_CODICALI_X_ESTADO">
+	<summary>
+ Llena el ComboBox con datos activos formulario insertar y modificar 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CODICALI.fun_Insertar_MANT_CODICALI(System.Int32,System.String,System.String,System.String,System.String)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CODICALI.fun_Eliminar_MANT_CODICALI(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CODICALI.fun_Actualizar_MANT_CODICALI(System.Int32,System.Int32,System.String,System.String,System.String,System.String)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CODICALI.fun_Buscar_ID_MANT_CODICALI(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CODICALI.fun_Buscar_CODIGO_MANT_CODICALI(System.Int32)">
+	<summary>
+ Función que busca el CÓDIGO DE LA CLASE O SECTOR para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_PUNTCARD.fun_Consultar_MANT_PUNTCARD">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_PUNTCARD.fun_Consultar_CAMPOS_MANT_PUNTCARD">
+	<summary>
+ Llena el ComboBox con datos activos e inactivos formulario principal 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_PUNTCARD.fun_Consultar_MANT_PUNTCARD_X_ESTADO">
+	<summary>
+ Llena el ComboBox con datos activos formulario insertar y modificar 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_PUNTCARD.fun_Insertar_MANT_PUNTCARD(System.String,System.String,System.String)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_PUNTCARD.fun_Eliminar_MANT_PUNTCARD(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_PUNTCARD.fun_Actualizar_MANT_PUNTCARD(System.Int32,System.String,System.String,System.String)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_PUNTCARD.fun_Buscar_ID_MANT_PUNTCARD(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_PUNTCARD.fun_Buscar_CODIGO_MANT_PUNTCARD(System.String)">
+	<summary>
+ Función que busca el CÓDIGO DEL PUNTO CARDINAL para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_PUNTCARD.fun_Buscar_ID_X_CONSULTA_PARAMETRIZADA_MANT_PUNTCARD(System.Int32)">
+	<summary>
+ Función que busca el ID del codigo buscado para ejecutar la consulta
+ parametrizada.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_MODOADQU.fun_Consultar_MANT_MODOADQU">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_MODOADQU.fun_Consultar_CAMPOS_MANT_MODOADQU">
+	<summary>
+ Llena el ComboBox con datos activos e inactivos formulario principal 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_MODOADQU.fun_Consultar_MANT_MODOADQU_X_ESTADO">
+	<summary>
+ Llena el ComboBox con datos activos formulario insertar y modificar 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_MODOADQU.fun_Insertar_MANT_MODOADQU(System.Int32,System.String,System.String)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_MODOADQU.fun_Eliminar_MANT_MODOADQU(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_MODOADQU.fun_Actualizar_MANT_MODOADQU(System.Int32,System.Int32,System.String,System.String)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_MODOADQU.fun_Buscar_ID_MANT_MODOADQU(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_MODOADQU.fun_Buscar_CODIGO_MANT_MODOADQU(System.Int32)">
+	<summary>
+ Función que busca el CÓDIGO DEL MODO DE ADQUISICIÓN para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_MODOADQU.fun_Buscar_ID_X_CONSULTA_PARAMETRIZADA_MANT_MODOADQU(System.Int32)">
+	<summary>
+ Función que busca el ID del codigo buscado para ejecutar la consulta
+ parametrizada.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_RESOLUCION.fun_Consultar_RESOLUCION">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_RESOLUCION.fun_Consultar_CAMPOS_RESOLUCION">
+	<summary>
+ Llena el ComboBox con datos activos e inactivos formulario principal 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_RESOLUCION.fun_Consultar_RESOLUCION_X_ESTADO">
+	<summary>
+ Funcion que busca el campo de la notaria en estado activo 
+ (Solo debuelve el campo de la notaria)
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_RESOLUCION.fun_Insertar_RESOLUCION(System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Boolean,System.String)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_RESOLUCION.fun_Eliminar_RESOLUCION(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_RESOLUCION.fun_Actualizar_RESOLUCION(System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Double,System.Double,System.Int32,System.Boolean,System.String,System.String,System.DateTime,System.String)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_RESOLUCION.fun_Buscar_ID_RESOLUCION(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_RESOLUCION.fun_Buscar_CODIGO_RESOLUCION(System.String)">
+	<summary>
+ Función que busca el CÓDIGO del registro para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_RESOLUCION.fun_Buscar_DEPARTAMENTO_Y_MUNICIPIO_TIPO_Y_CLASE_Y_VIGENCIA_Y_CODIGO_RESOLUCION(System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Función que busca el DEPARTAMENTO, MUNICIPIO Y CÓDIGO DE NOTARIA para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPORESO.fun_Consultar_MANT_TIPORESO">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPORESO.fun_Consultar_CAMPOS_MANT_TIPORESO">
+	<summary>
+ Llena el ComboBox con datos activos e inactivos formulario principal 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPORESO.fun_Consultar_MANT_TIPORESO_X_ESTADO">
+	<summary>
+ Llena el ComboBox con datos activos formulario insertar y modificar 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPORESO.fun_Insertar_MANT_TIPORESO(System.Int32,System.String,System.String)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPORESO.fun_Eliminar_MANT_TIPORESO(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPORESO.fun_Actualizar_MANT_TIPORESO(System.Int32,System.Int32,System.String,System.String)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPORESO.fun_Buscar_ID_MANT_TIPORESO(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPORESO.fun_Buscar_CODIGO_MANT_TIPORESO(System.String)">
+	<summary>
+ Función que busca el CÓDIGO DE TIPO DE RESOLUCIÓN para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CONTRASENA.fun_Consultar_CONTRASENA">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CONTRASENA.fun_Consultar_CAMPOS_CONTRASENA">
+	<summary>
+ Llena el ComboBox con datos activos e inactivos formulario principal 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CONTRASENA.fun_Consultar_USUARIO_CONTRASENA_X_ESTADO">
+	<summary>
+ Llena el ComboBox con datos activos formulario insertar y modificar 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CONTRASENA.fun_Insertar_CONTRASENA(System.String,System.String,System.String,System.String,System.Boolean,System.Boolean,System.Boolean)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CONTRASENA.fun_Eliminar_CONTRASENA(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CONTRASENA.fun_Actualizar_CONTRASENA(System.Int32,System.String,System.String,System.String,System.String,System.Boolean,System.Boolean,System.Boolean)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CONTRASENA.fun_Buscar_ID_CONTRASENA(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CONTRASENA.fun_Buscar_CODIGO_CONTRASENA(System.String)">
+	<summary>
+ Función que busca el CÓDIGO DE LA CALIDAD DE PROPIETARIO para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CONTRASENA.fun_Buscar_USUARIO_CONTRASENA(System.String)">
+	<summary>
+ Función que busca el USUARIO DE LA CONSTRASEÑA para encontrar el ID del usuario.  
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_USUARIO.fun_Consultar_USUARIO">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_USUARIO.fun_Consultar_CAMPOS_USUARIO">
+	<summary>
+ Llena el ComboBox con datos activos e inactivos formulario principal 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_USUARIO.fun_Consultar_USUARIO_X_ESTADO">
+	<summary>
+ Llena el ComboBox con datos activos formulario insertar y modificar 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_USUARIO.fun_Insertar_USUARIO(System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_USUARIO.fun_Eliminar_USUARIO(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_USUARIO.fun_Actualizar_USUARIO(System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_USUARIO.fun_Buscar_ID_USUARIO(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_USUARIO.fun_Buscar_CODIGO_USUARIO(System.String)">
+	<summary>
+ Función que busca el CÓDIGO DEL USUARIO (Documento de identidad)
+ para que no se guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CLASCONS.fun_Consultar_MANT_CLASCONS">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CLASCONS.fun_Consultar_CAMPOS_MANT_CLASCONS">
+	<summary>
+ Llena el ComboBox con datos activos e inactivos formulario principal 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CLASCONS.fun_Consultar_MANT_CLASCONS_X_ESTADO">
+	<summary>
+ Llena el ComboBox con datos activos formulario insertar y modificar 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CLASCONS.fun_Insertar_MANT_CLASCONS(System.Int32,System.String,System.String)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CLASCONS.fun_Eliminar_MANT_CLASCONS(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CLASCONS.fun_Actualizar_MANT_CLASCONS(System.Int32,System.Int32,System.String,System.String)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CLASCONS.fun_Buscar_ID_MANT_CLASCONS(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CLASCONS.fun_Buscar_CODIGO_MANT_CLASCONS(System.Int32)">
+	<summary>
+ Función que busca el CÓDIGO DE LA CLASE DE CONSTRUCCIÓN para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CLASCONS.fun_Buscar_ID_X_CONSULTA_PARAMETRIZADA_MANT_CLASCONS(System.Int32)">
+	<summary>
+ Función que busca el ID del codigo buscado para ejecutar la consulta
+ parametrizada.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPOCALI.fun_Consultar_MANT_TIPOCALI">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPOCALI.fun_Consultar_CAMPOS_MANT_TIPOCALI">
+	<summary>
+ Llena el ComboBox con datos activos e inactivos formulario principal 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPOCALI.fun_Consultar_MANT_TIPOCALI_X_ESTADO">
+	<summary>
+ Llena el ComboBox con datos activos formulario insertar y modificar 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPOCALI.fun_Insertar_MANT_TIPOCALI(System.String,System.String,System.String)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPOCALI.fun_Eliminar_MANT_TIPOCALI(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPOCALI.fun_Actualizar_MANT_TIPOCALI(System.Int32,System.String,System.String,System.String)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPOCALI.fun_Buscar_ID_MANT_TIPOCALI(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPOCALI.fun_Buscar_CODIGO_MANT_TIPOCALI(System.String)">
+	<summary>
+ Función que busca el CÓDIGO DEL TIPO DE CALIFICACIÓN para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_LIVAMANT.fun_Actualizar_ListaDeValores_MANT_TIPORESO">
+	<summary>
+ Lista de valores de FICHA PREDIAL
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_LIVAMANT.fun_Actualizar_ListaDeValores_MANT_CLASSECT">
+	<summary>
+ Lista de valores de FICHA PREDIAL
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_LIVAMANT.fun_Actualizar_ListaDeValores_MANT_CATESUEL">
+	<summary>
+ Lista de valores de FICHA PREDIAL
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_LIVAMANT.fun_Actualizar_ListaDeValores_MANT_CARAPRED">
+	<summary>
+ Lista de valores de FICHA PREDIAL
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_LIVAMANT.fun_Actualizar_ListaDeValores_MANT_MODOADQU">
+	<summary>
+ Lista de valores de FICHA PREDIAL
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_LIVAMANT.fun_Actualizar_ListaDeValores_MANT_DESTECON">
+	<summary>
+ Lista de valores de FICHA PREDIAL
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_LIVAMANT.fun_Actualizar_ListaDeValores_MANT_CALIPROP">
+	<summary>
+ Lista de valores de FICHA PREDIAL
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_LIVAMANT.fun_Actualizar_ListaDeValores_MANT_TIPODOCU">
+	<summary>
+ Lista de valores de FICHA PREDIAL
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_LIVAMANT.fun_Actualizar_ListaDeValores_MANT_SEXO">
+	<summary>
+ Lista de valores de FICHA PREDIAL
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_LIVAMANT.fun_Actualizar_ListaDeValores_MANT_DEPARTAMENTO">
+	<summary>
+ Lista de valores de FICHA PREDIAL
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_LIVAMANT.fun_Actualizar_ListaDeValores_MANT_MUNICIPIO">
+	<summary>
+ Lista de valores de FICHA PREDIAL
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_LIVAMANT.fun_Actualizar_ListaDeValores_MANT_CLASCONS">
+	<summary>
+ Lista de valores de FICHA PREDIAL
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_LIVAMANT.fun_Actualizar_ListaDeValores_MANT_CODICALI">
+	<summary>
+ Lista de valores de FICHA PREDIAL
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_LIVAMANT.fun_Actualizar_ListaDeValores_MANT_TIPOCALI">
+	<summary>
+ Lista de valores de FICHA PREDIAL
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_LIVAMANT.fun_Consultar_TABLAS_MANT_FICHPRED">
+	<summary>
+ Procedimiento que consulta de varias tablas sin parametros de entrada
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CARAPRED.fun_Consultar_MANT_CARAPRED">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CARAPRED.fun_Consultar_CAMPOS_MANT_CARAPRED">
+	<summary>
+ Llena el ComboBox con datos activos e inactivos formulario principal 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CARAPRED.fun_Consultar_MANT_CARAPRED_X_ESTADO">
+	<summary>
+ Llena el ComboBox con datos activos formulario insertar y modificar 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CARAPRED.fun_Insertar_MANT_CARAPRED(System.Int32,System.String,System.String)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CARAPRED.fun_Eliminar_MANT_CARAPRED(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CARAPRED.fun_Actualizar_MANT_CARAPRED(System.Int32,System.Int32,System.String,System.String)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CARAPRED.fun_Buscar_ID_MANT_CARAPRED(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CARAPRED.fun_Buscar_CODIGO_MANT_CARAPRED(System.Int32)">
+	<summary>
+ Función que busca el CÓDIGO DE LA CARACTERISTICA DE PREDIO para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CARAPRED.fun_Buscar_ID_X_CONSULTA_PARAMETRIZADA_MANT_CARAPRED(System.Int32)">
+	<summary>
+ Función que busca el ID del codigo buscado para ejecutar la consulta
+ parametrizada.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CLASSECT.fun_Consultar_MANT_CLASSECT">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CLASSECT.fun_Consultar_CAMPOS_MANT_CLASSECT">
+	<summary>
+ Llena el ComboBox con datos activos e inactivos formulario principal 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CLASSECT.fun_Consultar_MANT_CLASSECT_X_ESTADO">
+	<summary>
+ Llena el ComboBox con datos activos formulario insertar y modificar 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CLASSECT.fun_Insertar_MANT_CLASSECT(System.Int32,System.String,System.String)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CLASSECT.fun_Eliminar_MANT_CLASSECT(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CLASSECT.fun_Actualizar_MANT_CLASSECT(System.Int32,System.Int32,System.String,System.String)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CLASSECT.fun_Buscar_ID_MANT_CLASSECT(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CLASSECT.fun_Buscar_CODIGO_MANT_CLASSECT(System.Int32)">
+	<summary>
+ Función que busca el CÓDIGO DE LA CLASE O SECTOR para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CLASSECT.fun_Buscar_ID_X_CONSULTA_PARAMETRIZADA_MANT_CLASSECT(System.Int32)">
+	<summary>
+ Función que busca el ID del codigo buscado para ejecutar la consulta
+ parametrizada.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_PERMUSUA.fun_Consultar_PERMUSUA">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_PERMUSUA.fun_Consultar_CAMPOS_PERMUSUA">
+	<summary>
+ Llena el ComboBox con datos activos e inactivos formulario principal 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_PERMUSUA.fun_Consultar_USUARIO_AGRUPADO_PERMUSUA">
+	<summary>
+ Función que consulta los usarios agrupados por usuario 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_PERMUSUA.fun_Insertar_PERMUSUA(System.String,System.String,System.Boolean,System.Boolean,System.Boolean)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_PERMUSUA.fun_Eliminar_PERMUSUA(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_PERMUSUA.fun_Actualizar_PERMUSUA(System.Int32,System.String,System.String,System.Boolean,System.Boolean,System.Boolean)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_PERMUSUA.fun_Buscar_ID_PERMUSUA(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_PERMUSUA.fun_Buscar_USUARIO_Y_ETIQUETA_PERMUSUA(System.String,System.String)">
+	<summary>
+ Función que busca el CÓDIGO del registro para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_PERMUSUA.fun_Buscar_USUARIO_PERMUSUA(System.String)">
+	<summary>
+ Función que busca los permisos asignados al usuario para verificar cuales
+ etiquetas tiene avilitadas. (consulta en permiso de usuario)
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_DEPARTAMENTO.fun_Consultar_MANT_DEPARTAMENTO">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_DEPARTAMENTO.fun_Consultar_CAMPOS_MANT_DEPARTAMENTO">
+	<summary>
+ Llena el ComboBox con datos activos e inactivos formulario principal 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_DEPARTAMENTO.fun_Consultar_MANT_DEPARTAMENTO_X_ESTADO">
+	<summary>
+ Llena el ComboBox con datos activos formulario insertar y modificar 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_DEPARTAMENTO.fun_Insertar_MANT_DEPARTAMENTO(System.String,System.String,System.String)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_DEPARTAMENTO.fun_Eliminar_MANT_DEPARTAMENTO(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_DEPARTAMENTO.fun_Actualizar_MANT_DEPARTAMENTO(System.Int32,System.String,System.String,System.String)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_DEPARTAMENTO.fun_Buscar_ID_MANT_DEPARTAMENTO(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_DEPARTAMENTO.fun_Buscar_CODIGO_MANT_DEPARTAMENTO(System.String)">
+	<summary>
+ Función que busca el CÓDIGO DEL DEPARTAMENTO para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_DEPARTAMENTO.fun_Buscar_ID_X_CONSULTA_PARAMETRIZADA_MANT_DEPARTAMENTO(System.Int32)">
+	<summary>
+ Función que busca el ID del codigo buscado para ejecutar la consulta
+ parametrizada.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_DESTECON.fun_Consultar_MANT_DESTECON">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_DESTECON.fun_Consultar_CAMPOS_MANT_DESTECON">
+	<summary>
+ Llena el ComboBox con datos activos e inactivos formulario principal 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_DESTECON.fun_Consultar_MANT_DESTECON_X_ESTADO">
+	<summary>
+ Llena el ComboBox con datos activos formulario insertar y modificar 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_DESTECON.fun_Insertar_MANT_DESTECON(System.Int32,System.String,System.String)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_DESTECON.fun_Eliminar_MANT_DESTECON(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_DESTECON.fun_Actualizar_MANT_DESTECON(System.Int32,System.Int32,System.String,System.String)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_DESTECON.fun_Buscar_ID_MANT_DESTECON(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_DESTECON.fun_Buscar_CODIGO_MANT_DESTECON(System.Int32)">
+	<summary>
+ Función que busca el CÓDIGO DE LA DESTINACIÓN ECONÓMICA para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_DESTECON.fun_Buscar_ID_X_CONSULTA_PARAMETRIZADA_MANT_DESTECON(System.Int32)">
+	<summary>
+ Función que busca el ID del codigo buscado para ejecutar la consulta
+ parametrizada.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_ZONAFISI.fun_Consultar_MANT_ZONAFISI">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_ZONAFISI.fun_Consultar_CAMPOS_MANT_ZONAFISI">
+	<summary>
+ Llena el ComboBox con datos activos e inactivos formulario principal 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_ZONAFISI.fun_Consultar_MANT_ZONAFISI_X_ESTADO">
+	<summary>
+ Llena el ComboBox con datos activos formulario insertar y modificar 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_ZONAFISI.fun_Insertar_MANT_ZONAFISI(System.String,System.String,System.Int32,System.Int32,System.String,System.String)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_ZONAFISI.fun_Eliminar_MANT_ZONAFISI(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_ZONAFISI.fun_Actualizar_MANT_ZONAFISI(System.Int32,System.String,System.String,System.Int32,System.Int32,System.String,System.String)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_ZONAFISI.fun_Buscar_ID_MANT_ZONAFISI(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_ZONAFISI.fun_Buscar_CODIGO_MANT_ZONAFISI(System.Int32)">
+	<summary>
+ Función que busca el CÓDIGO del registro para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_ZONAFISI.fun_Buscar_DEPARTAMENTO_Y_MUNICIPIO_Y_SECTOR_Y_CODIGO_MANT_ZONAFISI(System.String,System.String,System.Int32,System.Int32)">
+	<summary>
+ Función que busca el DEPARTAMENTO, MUNICIPIO, SECTOR Y CÓDIGO DE ZONA ECONOMICA
+ para que no se guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TERCERO.fun_Consultar_TERCERO">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TERCERO.fun_Consultar_CAMPOS_TERCERO">
+	<summary>
+ Llena el ComboBox con datos activos e inactivos formulario principal 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TERCERO.fun_Buscar_ID_X_CONSULTA_PARAMETRIZADA_TERCERO(System.Int32)">
+	<summary>
+ Función que busca el ID del codigo buscado para ejecutar la consulta
+ parametrizada.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TERCERO.fun_Insertar_TERCERO(System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TERCERO.fun_Eliminar_TERCERO(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TERCERO.fun_Actualizar_TERCERO(System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TERCERO.fun_Buscar_ID_TERCERO(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TERCERO.fun_Buscar_CODIGO_TERCERO(System.String)">
+	<summary>
+ Función que busca el CÓDIGO DEL TERCERO (Documento de identidad)
+ para que no se guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_NOTARIA.fun_Consultar_MANT_NOTARIA">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_NOTARIA.fun_Consultar_CAMPOS_MANT_NOTARIA">
+	<summary>
+ Llena el ComboBox con datos activos e inactivos formulario principal 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_NOTARIA.fun_Consultar_MANT_NOTARIA_X_ESTADO">
+	<summary>
+ Funcion que busca el campo de la notaria en estado activo 
+ (Solo debuelve el campo de la notaria)
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_NOTARIA.fun_Insertar_MANT_NOTARIA(System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_NOTARIA.fun_Eliminar_MANT_NOTARIA(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_NOTARIA.fun_Actualizar_MANT_NOTARIA(System.Int32,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_NOTARIA.fun_Buscar_ID_MANT_NOTARIA(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_NOTARIA.fun_Buscar_CODIGO_MANT_NOTARIA(System.String,System.String,System.String)">
+	<summary>
+ Función que busca el CÓDIGO del registro para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_NOTARIA.fun_Buscar_DEPARTAMENTO_Y_MUNICIPIO_Y_CODIGO_MANT_NOTARIA(System.String,System.String,System.String)">
+	<summary>
+ Función que busca el DEPARTAMENTO, MUNICIPIO Y CÓDIGO DE NOTARIA para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CATESUEL.fun_Consultar_MANT_CATESUEL">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CATESUEL.fun_Consultar_CAMPOS_MANT_CATESUEL">
+	<summary>
+ Llena el ComboBox con datos activos e inactivos formulario principal 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CATESUEL.fun_Consultar_MANT_CATESUEL_X_ESTADO">
+	<summary>
+ Llena el ComboBox con datos activos formulario insertar y modificar 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CATESUEL.fun_Insertar_MANT_CATESUEL(System.Int32,System.String,System.String)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CATESUEL.fun_Eliminar_MANT_CATESUEL(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CATESUEL.fun_Actualizar_MANT_CATESUEL(System.Int32,System.Int32,System.String,System.String)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CATESUEL.fun_Buscar_ID_MANT_CATESUEL(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CATESUEL.fun_Buscar_CODIGO_MANT_CATESUEL(System.Int32)">
+	<summary>
+ Función que busca el CÓDIGO DE LA CATEGORIA DE SUELO para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CATESUEL.fun_Buscar_ID_X_CONSULTA_PARAMETRIZADA_MANT_CATESUEL(System.Int32)">
+	<summary>
+ Función que busca el ID del codigo buscado para ejecutar la consulta
+ parametrizada.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_MENUCONT.fun_Consultar_MANT_MENUCONT">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_MENUCONT.fun_Consultar_CAMPOS_MANT_MENUCONT">
+	<summary>
+ Llena el ComboBox con datos activos e inactivos formulario principal 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_MENUCONT.fun_Consultar_MENUCONT_X_ESTADO">
+	<summary>
+ Llena el ComboBox con datos activos formulario insertar y modificar 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_MENUCONT.fun_Insertar_MANT_MENUCONT(System.String,System.String,System.String)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_MENUCONT.fun_Eliminar_MANT_MENUCONT(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_MENUCONT.fun_Actualizar_MANT_MENUCONT(System.Int32,System.String,System.String,System.String)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_MENUCONT.fun_Buscar_ID_MANT_MENUCONT(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_MENUCONT.fun_Buscar_CODIGO_MANT_MENUCONT(System.String)">
+	<summary>
+ Función que busca el CÓDIGO DEL MENU CONTENEDOR (Etiqueta menu)
+ para que no se guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FIPRDEEC.fun_Consultar_FIPRDEEC(System.Int32)">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FIPRDEEC.fun_Insertar_FIPRDEEC(System.Int32,System.Int32,System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FIPRDEEC.fun_Eliminar_FIPRDEEC(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FIPRDEEC.fun_Actualizar_FIPRDEEC(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String,System.DateTime)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FIPRDEEC.fun_Buscar_ID_FIPRDEEC(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FIPRDEEC.fun_Buscar_CODIGO_FIPRDEEC(System.Int32,System.Int32)">
+	<summary>
+ Función que busca el CÓDIGO DE LA DESTINACIÓN ECONÓMICA para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FIPRDEEC.fun_Buscar_ID_X_CONSULTA_PARAMETRIZADA_FIPRDEEC(System.Int32,System.Int32)">
+	<summary>
+ Función que busca el ID del codigo buscado para ejecutar la consulta
+ parametrizada.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FIPRDEEC.fun_Buscar_NRO_SECUENCIA_FIPRDEEC_X_FICHA_PREDIAL(System.Int32)">
+	<summary>
+ Función que busca el EL NUMERO DE SECUENCIA DE LA DESTINACIÓN ECONOMICA MAXIMO de acuerdo
+ al numero de la ficha predial.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FIPRDEEC.fun_Consultar_SUMA_X_FPDEDEEC_FIPRDEEC(System.Int32)">
+	<summary>
+ Función que consulta la sumatoria de los porcentajes de la destinación economica
+ que se encuantran activos.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPOCONS.fun_Consultar_MANT_TIPOCONS">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPOCONS.fun_Consultar_CAMPOS_MANT_TIPOCONS">
+	<summary>
+ Llena el ComboBox con datos activos e inactivos formulario principal 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPOCONS.fun_Consultar_MANT_TIPOCONS_X_ESTADO">
+	<summary>
+ Llena el ComboBox con datos activos formulario insertar y modificar 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPOCONS.fun_Insertar_MANT_TIPOCONS(System.String,System.String,System.Int32,System.String,System.Int32,System.String,System.Int32,System.Int32,System.Double,System.Double,System.String,System.Boolean,System.String,System.Int32)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPOCONS.fun_Eliminar_MANT_TIPOCONS(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPOCONS.fun_Actualizar_MANT_TIPOCONS(System.Int32,System.String,System.String,System.Int32,System.String,System.Int32,System.String,System.Int32,System.Int32,System.Double,System.Double,System.String,System.Boolean,System.String,System.Int32)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPOCONS.fun_Buscar_ID_MANT_TIPOCONS(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPOCONS.fun_Buscar_CODIGO_MANT_TIPOCONS(System.Int32)">
+	<summary>
+ Función que busca el CÓDIGO del registro para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPOCONS.fun_Buscar_DEPARTAMENTO_Y_MUNICIPIO_Y_CLASE_Y_TIPO_Y_SECTOR_Y_CODIGO_MANT_TIPOCONS(System.String,System.String,System.Int32,System.String,System.Int32,System.Int32)">
+	<summary>
+ Función que busca el DEPARTAMENTO, MUNICIPIO, CLASE, TIPO  Y CODIGO DE IDENTIFICADOR
+ para que no se guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_MUNICIPIO.fun_Consultar_MANT_MUNICIPIO">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_MUNICIPIO.fun_Consultar_CAMPOS_MANT_MUNICIPIO">
+	<summary>
+ Llena el ComboBox con datos activos e inactivos formulario principal 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_MUNICIPIO.fun_Consultar_MANT_MUNICIPIO_X_ESTADO">
+	<summary>
+ Llena el ComboBox con datos activos formulario insertar y modificar 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_MUNICIPIO.fun_Insertar_MANT_MUNICIPIO(System.String,System.String,System.String,System.Int32,System.Int32,System.String)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_MUNICIPIO.fun_Eliminar_MANT_MUNICIPIO(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_MUNICIPIO.fun_Actualizar_MANT_MUNICIPIO(System.Int32,System.String,System.String,System.String,System.Int32,System.Int32,System.String)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_MUNICIPIO.fun_Buscar_ID_MANT_MUNICIPIO(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_MUNICIPIO.fun_Buscar_CODIGO_MANT_MUNICIPIO(System.String)">
+	<summary>
+ Función que busca el CÓDIGO del registro para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_MUNICIPIO.fun_Buscar_DEPARTAMENTO_Y_CODIGO_MANT_MUNICIPIO(System.String,System.String)">
+	<summary>
+ Función que busca el DEPARTAMENTO Y EL CÓDIGO DEL MUNICIPIO para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_MUNICIPIO.fun_Buscar_MUNICIPIO_X_DEPARTAMENTO_MANT_MUNICIPIO(System.String)">
+	<summary>
+ Función que busca el municipio correspondiente al departamento seleccionado,
+ este se carga en el combobox correspondiente al municipio.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPODOCU.fun_Consultar_MANT_TIPODOCU">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPODOCU.fun_Consultar_CAMPOS_MANT_TIPODOCU">
+	<summary>
+ Llena el ComboBox con datos activos e inactivos formulario principal 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPODOCU.fun_Consultar_MANT_TIPODOCU_X_ESTADO">
+	<summary>
+ Llena el ComboBox con datos activos formulario insertar y modificar 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPODOCU.fun_Insertar_MANT_TIPODOCU(System.Int32,System.String,System.String)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPODOCU.fun_Eliminar_MANT_TIPODOCU(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPODOCU.fun_Actualizar_MANT_TIPODOCU(System.Int32,System.Int32,System.String,System.String)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPODOCU.fun_Buscar_ID_MANT_TIPODOCU(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPODOCU.fun_Buscar_CODIGO_MANT_TIPODOCU(System.Int32)">
+	<summary>
+ Función que busca el CÓDIGO del registro para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_TIPODOCU.fun_Validar_Rangos_Nro_Documento(System.String,System.Int32)">
+	<summary>
+ Función que valida los randos de numero de idenficación contra
+ el tipo de documento.
+ </summary>
+</member><member name="P:REGLAS_DEL_NEGOCIO.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:REGLAS_DEL_NEGOCIO.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso con establecimiento inflexible de tipos.
+</summary>
+</member><member name="T:REGLAS_DEL_NEGOCIO.My.Resources.Resources">
+	<summary>
+  Clase de recurso con establecimiento inflexible de tipos, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CALIPROP.fun_Consultar_MANT_CALIPROP">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CALIPROP.fun_Consultar_CAMPOS_MANT_CALIPROP">
+	<summary>
+ Llena el ComboBox con datos activos e inactivos formulario principal 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CALIPROP.fun_Consultar_MANT_CALIPROP_X_ESTADO">
+	<summary>
+ Llena el ComboBox con datos activos formulario insertar y modificar 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CALIPROP.fun_Insertar_MANT_CALIPROP(System.Int32,System.String,System.String)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CALIPROP.fun_Eliminar_MANT_CALIPROP(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CALIPROP.fun_Actualizar_MANT_CALIPROP(System.Int32,System.Int32,System.String,System.String)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CALIPROP.fun_Buscar_ID_MANT_CALIPROP(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CALIPROP.fun_Buscar_CODIGO_MANT_CALIPROP(System.Int32)">
+	<summary>
+ Función que busca el CÓDIGO DE LA CALIDAD DE PROPIETARIO para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CALIPROP.fun_Buscar_ID_X_CONSULTA_PARAMETRIZADA_MANT_CALIPROP(System.Int32)">
+	<summary>
+ Función que busca el ID del codigo buscado para ejecutar la consulta
+ parametrizada.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_VALIFIPR.fun_Consultar_TABLAS_FICHA_PREDIAL(System.Int32)">
+	<summary>
+ Procedimiento que consultar las tablas de ficha predial
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_VALIFIPR.fun_Consultar_Inconsistencia_por_ficha_predial(System.String)">
+	<summary>
+ Procedimiento que consultar las inconsistencias por numero de ficha predial
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_SEXO.fun_Consultar_MANT_SEXO">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_SEXO.fun_Consultar_CAMPOS_MANT_SEXO">
+	<summary>
+ Llena el ComboBox con datos activos e inactivos formulario principal 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_SEXO.fun_Consultar_MANT_SEXO_X_ESTADO">
+	<summary>
+ Llena el ComboBox con datos activos formulario insertar y modificar 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_SEXO.fun_Insertar_MANT_SEXO(System.Int32,System.String,System.String)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_SEXO.fun_Eliminar_MANT_SEXO(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_SEXO.fun_Actualizar_MANT_SEXO(System.Int32,System.Int32,System.String,System.String)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_SEXO.fun_Buscar_ID_MANT_SEXO(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_SEXO.fun_Buscar_CODIGO_MANT_SEXO(System.Int32)">
+	<summary>
+ Función que busca el CÓDIGO DEL SEXO para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_SEXO.fun_Buscar_ID_X_CONSULTA_PARAMETRIZADA_MANT_SEXO(System.Int32)">
+	<summary>
+ Función que busca el ID del codigo buscado para ejecutar la consulta
+ parametrizada.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FIPRPROP.fun_Consultar_FIPRPROP(System.Int32)">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FIPRPROP.fun_Insertar_FIPRPROP(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.Double,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,System.Double,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FIPRPROP.fun_Eliminar_FIPRPROP(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FIPRPROP.fun_Actualizar_FIPRPROP(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.Double,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,System.Double,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String,System.DateTime)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FIPRPROP.fun_Buscar_ID_FIPRPROP(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FIPRPROP.fun_Buscar_CODIGO_FIPRPROP(System.Int32,System.String)">
+	<summary>
+ Función que busca el CÓDIGO DEL PROPIETARIO para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FIPRPROP.fun_Buscar_ID_X_CONSULTA_PARAMETRIZADA_FIPRPROP(System.Int32,System.String)">
+	<summary>
+ Función que busca el ID del codigo buscado para ejecutar la consulta
+ parametrizada.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FIPRPROP.fun_Buscar_NRO_SECUENCIA_FIPRPROP_X_FICHA_PREDIAL(System.Int32)">
+	<summary>
+ Función que busca el EL NUMERO DE SECUENCIA DEL PROPIETARIO MAXIMO de acuerdo
+ al numero de la ficha predial.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_FIPRPROP.fun_Consultar_SUMA_X_FPPRDERE_FIPRPROP(System.Int32)">
+	<summary>
+ Función que consulta la sumatoria de los porcentajes de la destinación economica
+ que se encuantran activos.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CODICACO.fun_Consultar_MANT_CODICACO">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CODICACO.fun_Consultar_CAMPOS_MANT_CODICACO">
+	<summary>
+ Llena el ComboBox con datos activos e inactivos formulario principal 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CODICACO.fun_Consultar_MANT_CODICACO_X_ESTADO">
+	<summary>
+ Llena el ComboBox con datos activos formulario insertar y modificar 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CODICACO.fun_Insertar_MANT_CODICACO(System.Int32,System.String,System.Int32,System.String)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CODICACO.fun_Eliminar_MANT_CODICACO(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CODICACO.fun_Actualizar_MANT_CODICACO(System.Int32,System.Int32,System.String,System.Int32,System.String)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CODICACO.fun_Buscar_ID_MANT_CODICACO(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CODICACO.fun_Buscar_CODIGO_MANT_CODICACO(System.Int32)">
+	<summary>
+ Función que busca el CÓDIGO 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_CODICACO.fun_Buscar_CODIGO_Y_TIPO_MANT_CODICACO(System.Int32,System.String)">
+	<summary>
+ Función que busca el CÓDIGO Y TIPO para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_ZONAECON.fun_Consultar_MANT_ZONAECON">
+	<summary>
+ Consulta para llenar el DataGridView y colocar el nombre del encabezado
+ de la columna. 
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_ZONAECON.fun_Consultar_CAMPOS_MANT_ZONAECON">
+	<summary>
+ Llena el ComboBox con datos activos e inactivos formulario principal 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_ZONAECON.fun_Consultar_MANT_ZONAECON_X_ESTADO">
+	<summary>
+ Llena el ComboBox con datos activos formulario insertar y modificar 
+ esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_ZONAECON.fun_Insertar_MANT_ZONAECON(System.String,System.String,System.Int32,System.Int32,System.String,System.Int32,System.String)">
+	<summary>
+ Función que inserta el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_ZONAECON.fun_Eliminar_MANT_ZONAECON(System.Int32)">
+	<summary>
+ Función que Elimina el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_ZONAECON.fun_Actualizar_MANT_ZONAECON(System.Int32,System.String,System.String,System.Int32,System.Int32,System.String,System.Int32,System.String)">
+	<summary>
+ Función que Modifica o actualiza el registro.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_ZONAECON.fun_Buscar_ID_MANT_ZONAECON(System.Int32)">
+	<summary>
+ Función que busca el ID del registro a modificar o eliminar.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_ZONAECON.fun_Buscar_CODIGO_MANT_ZONAECON(System.Int32)">
+	<summary>
+ Función que busca el CÓDIGO del registro para que no se 
+ guarden registros duplicados.
+ </summary>
+</member><member name="M:REGLAS_DEL_NEGOCIO.cla_ZONAECON.fun_Buscar_DEPARTAMENTO_Y_MUNICIPIO_Y_SECTOR_Y_CODIGO_MANT_ZONAECON(System.String,System.String,System.Int32,System.Int32)">
+	<summary>
+ Función que busca el DEPARTAMENTO, MUNICIPIO, SECTOR Y CÓDIGO DE ZONA ECONOMICA
+ para que no se guarden registros duplicados.
+ </summary>
+</member>
+</members>
+</doc>

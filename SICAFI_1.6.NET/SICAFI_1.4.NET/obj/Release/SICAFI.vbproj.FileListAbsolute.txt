@@ -1,0 +1,12 @@
+C:\Users\ramir\OneDrive\Cloud\SICAFI\SICAFI_1.6.NET\SICAFI_1.6.NET\SICAFI_1.4.NET\obj\Release\SICAFI.vbproj.AssemblyReference.cache
+C:\Users\ramir\OneDrive\Cloud\SICAFI\SICAFI_1.6.NET\SICAFI_1.6.NET\SICAFI_1.4.NET\obj\Release\Interop.AcroPDFLib.dll
+C:\Users\ramir\OneDrive\Cloud\SICAFI\SICAFI_1.6.NET\SICAFI_1.6.NET\SICAFI_1.4.NET\obj\Release\Interop.Microsoft.Office.Core.dll
+C:\Users\ramir\OneDrive\Cloud\SICAFI\SICAFI_1.6.NET\SICAFI_1.6.NET\SICAFI_1.4.NET\obj\Release\Interop.VBIDE.dll
+C:\Users\ramir\OneDrive\Cloud\SICAFI\SICAFI_1.6.NET\SICAFI_1.6.NET\SICAFI_1.4.NET\obj\Release\AxInterop.AcroPDFLib.dll
+C:\Users\ramir\OneDrive\Cloud\SICAFI\SICAFI_1.6.NET\SICAFI_1.6.NET\SICAFI_1.4.NET\obj\Release\SICAFI_1.4.xml
+C:\Temp\SICAFI\SICAFI_1.6.NET\SICAFI_1.4.NET\obj\Release\SICAFI.vbproj.AssemblyReference.cache
+C:\Temp\SICAFI\SICAFI_1.6.NET\SICAFI_1.4.NET\obj\Release\Interop.AcroPDFLib.dll
+C:\Temp\SICAFI\SICAFI_1.6.NET\SICAFI_1.4.NET\obj\Release\Interop.Microsoft.Office.Core.dll
+C:\Temp\SICAFI\SICAFI_1.6.NET\SICAFI_1.4.NET\obj\Release\Interop.VBIDE.dll
+C:\Temp\SICAFI\SICAFI_1.6.NET\SICAFI_1.4.NET\obj\Release\AxInterop.AcroPDFLib.dll
+C:\Temp\SICAFI\SICAFI_1.6.NET\SICAFI_1.4.NET\obj\Release\SICAFI_1.4.xml

@@ -1,0 +1,518 @@
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'ClaseDeVersionToolStripMenuItem',
+	'Clase de version',
+    'ac' 
+	)
+	
+insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'frm_CLASVERS',
+	'Clase de version',
+    '1', 
+    '1',
+    '1',
+    'ac'
+	)
+        
+---------
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[MANT_CLASVERS]    Fecha de la secuencia de comandos: 02/19/2014 15:16:16 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[MANT_CLASVERS](
+	[CLVEIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[CLVECODI] [int] NOT NULL,
+	[CLVEDESC] [char](100) COLLATE Modern_Spanish_CI_AS NULL,
+	[CLVEESTA] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+ CONSTRAINT [PK_MANT_CLASVERS] PRIMARY KEY CLUSTERED 
+(
+	[CLVECODI] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[MANT_CLASVERS]  WITH CHECK ADD  CONSTRAINT [FK_MANT_CLASVERS_ESTADO] FOREIGN KEY([CLVEESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+
+
+_________________
+
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[MANT_CATEPRED]    Fecha de la secuencia de comandos: 03/19/2014 14:01:22 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[MANT_CATEPRED](
+	[CAPRIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[CAPRCODI] [int] NOT NULL,
+	[CAPRDESC] [char](100) COLLATE Modern_Spanish_CI_AS NULL,
+	[CAPRESTA] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+ CONSTRAINT [PK_MANT_CATEPRED] PRIMARY KEY CLUSTERED 
+(
+	[CAPRCODI] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[MANT_CATEPRED]  WITH CHECK ADD  CONSTRAINT [FK_MANT_CATEPRED_ESTADO] FOREIGN KEY([CAPRESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+
+---------
+
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'CategoriaDePredioToolStripMenuItem',
+	'Categoria de predio',
+    'ac' 
+	)
+	
+        
+insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'frm_CATEPRED',
+	'Categoria de predio',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+
+
+--------
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[CAPRFIPR]    Fecha de la secuencia de comandos: 03/19/2014 14:03:15 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[CAPRFIPR](
+	[CPFPIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[CPFPNUFI] [int] NOT NULL,
+	[CPFPCAPR] [int] NOT NULL,
+	[CPFPESTA] [char](10) COLLATE Modern_Spanish_CI_AS NULL
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[CAPRFIPR]  WITH CHECK ADD  CONSTRAINT [FK_CAPRFIPR_ESTADO] FOREIGN KEY([CPFPESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+GO
+ALTER TABLE [dbo].[CAPRFIPR]  WITH CHECK ADD  CONSTRAINT [FK_CAPRFIPR_MANT_CATEPRED] FOREIGN KEY([CPFPCAPR])
+REFERENCES [dbo].[MANT_CATEPRED] ([CAPRCODI])
+
+
+------------
+
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'PlanoPredialCatastralToolStripMenuItem',
+	'Plano predial catastral',
+    'ac' 
+	)
+	
+insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'frm_consulta_plano_predial_catastral',
+	'Plano predial catastral',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+        
+--------------        
+
+
+
+insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'frm_MOVIGEOG',
+	'Movimientos geograficos',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+        
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'MovimientosGeograficosToolStripMenuItem',
+	'Movimientos geograficos',
+    'ac' 
+	)
+        
+-----------------------------------
+
+
+insert into PERMSUFO (PESFUSUA,PESFFORM,PESFDESC,PESFAGRE,PESFMODI,PESFELIM,PESFESTA) values
+	(
+	'ADMINISTRADOR',
+	'BindingNavigator_MOVIGEOG_1',
+	'Menu Movimientos Geograficos - Menu Principal',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+	
+_________________________________
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[MOVIGEOG]    Fecha de la secuencia de comandos: 05/13/2014 08:35:16 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[MOVIGEOG](
+	[MOGEIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[MOGESECU] [int] NOT NULL,
+	[MOGEDEPA] [char](2) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[MOGEMUNI] [char](3) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[MOGECORR] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[MOGEBARR] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[MOGEMANZ] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[MOGEPRED] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[MOGECLSE] [int] NOT NULL,
+	[MOGEVIGE] [int] NOT NULL,
+	[MOGENUDO] [char](14) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[MOGEUSUA] [char](20) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[MOGEFEAS] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[MOGECAAC] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[MOGECLVE] [int] NOT NULL,
+	[MOGEFFMU] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[MOGEOBSE] [char](4000) COLLATE Modern_Spanish_CI_AS NULL,
+	[MOGEESTA] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[MOGEFEIN] [datetime] NULL,
+ CONSTRAINT [PK_MOVIGEOG] PRIMARY KEY CLUSTERED 
+(
+	[MOGESECU] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ID REGISTRO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIGEOG', @level2type=N'COLUMN', @level2name=N'MOGEIDRE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'SECUENCIA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIGEOG', @level2type=N'COLUMN', @level2name=N'MOGESECU'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'MUNICIPIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIGEOG', @level2type=N'COLUMN', @level2name=N'MOGEMUNI'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CORREGIMIENTO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIGEOG', @level2type=N'COLUMN', @level2name=N'MOGECORR'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'BARRIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIGEOG', @level2type=N'COLUMN', @level2name=N'MOGEBARR'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'MANZANA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIGEOG', @level2type=N'COLUMN', @level2name=N'MOGEMANZ'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'PREDIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIGEOG', @level2type=N'COLUMN', @level2name=N'MOGEPRED'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CLASE O SECTOR' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIGEOG', @level2type=N'COLUMN', @level2name=N'MOGECLSE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO DE DOCUMENTO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIGEOG', @level2type=N'COLUMN', @level2name=N'MOGENUDO'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'USUARIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIGEOG', @level2type=N'COLUMN', @level2name=N'MOGEUSUA'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA DE ENTREGA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIGEOG', @level2type=N'COLUMN', @level2name=N'MOGEFEAS'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CAUSA DEL ACTO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIGEOG', @level2type=N'COLUMN', @level2name=N'MOGECAAC'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CLASE DE VERSION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIGEOG', @level2type=N'COLUMN', @level2name=N'MOGECLVE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA DE FINALIZACION MUNICIPIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIGEOG', @level2type=N'COLUMN', @level2name=N'MOGEFFMU'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'OBSERVACIONES' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIGEOG', @level2type=N'COLUMN', @level2name=N'MOGEOBSE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ESTADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIGEOG', @level2type=N'COLUMN', @level2name=N'MOGEESTA'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA DE INGRESO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MOVIGEOG', @level2type=N'COLUMN', @level2name=N'MOGEFEIN'
+
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[MOVIGEOG]  WITH CHECK ADD  CONSTRAINT [FK_MOVIGEOG_ESTADO] FOREIGN KEY([MOGEESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+GO
+ALTER TABLE [dbo].[MOVIGEOG]  WITH CHECK ADD  CONSTRAINT [FK_MOVIGEOG_MANT_CAUSACTO] FOREIGN KEY([MOGECAAC])
+REFERENCES [dbo].[MANT_CAUSACTO] ([CAACCODI])
+GO
+ALTER TABLE [dbo].[MOVIGEOG]  WITH CHECK ADD  CONSTRAINT [FK_MOVIGEOG_MANT_CLASSECT] FOREIGN KEY([MOGECLSE])
+REFERENCES [dbo].[MANT_CLASSECT] ([CLSECODI])
+GO
+ALTER TABLE [dbo].[MOVIGEOG]  WITH CHECK ADD  CONSTRAINT [FK_MOVIGEOG_MANT_CLASVERS] FOREIGN KEY([MOGECLVE])
+REFERENCES [dbo].[MANT_CLASVERS] ([CLVECODI])
+GO
+ALTER TABLE [dbo].[MOVIGEOG]  WITH CHECK ADD  CONSTRAINT [FK_MOVIGEOG_MANT_MUNICIPIO] FOREIGN KEY([MOGEDEPA], [MOGEMUNI])
+REFERENCES [dbo].[MANT_MUNICIPIO] ([MUNIDEPA], [MUNICODI])
+GO
+ALTER TABLE [dbo].[MOVIGEOG]  WITH CHECK ADD  CONSTRAINT [FK_MOVIGEOG_VIGENCIA] FOREIGN KEY([MOGEVIGE])
+REFERENCES [dbo].[VIGENCIA] ([VIGECODI])
+
+
+____________________________________
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[MOGEPRNU]    Fecha de la secuencia de comandos: 05/12/2014 12:58:49 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[MOGEPRNU](
+	[MGPNIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[MGPNSECU] [int] NOT NULL CONSTRAINT [DF_MOGEPRNU_MGPNSECU]  DEFAULT ((0)),
+	[MGPNMUNI] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[MGPNCORR] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[MGPNBARR] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[MGPNMANZ] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[MGPNPRED] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[MGPNEDIF] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[MGPNUNPR] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[MGPNCLSE] [int] NOT NULL,
+	[MGPNNUFI] [int] NOT NULL CONSTRAINT [DF_MOGEPRNU_MGPNNUFI]  DEFAULT ((0)),
+	[MGPNNUOV] [int] NOT NULL CONSTRAINT [DF_MOGEPRNU_MGPNNUOV]  DEFAULT ((0))
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[MOGEPRNU]  WITH CHECK ADD  CONSTRAINT [FK_MOGEPRNU_MANT_CLASSECT] FOREIGN KEY([MGPNCLSE])
+REFERENCES [dbo].[MANT_CLASSECT] ([CLSECODI])
+GO
+ALTER TABLE [dbo].[MOGEPRNU]  WITH CHECK ADD  CONSTRAINT [FK_MOGEPRNU_MOVIGEOG] FOREIGN KEY([MGPNSECU])
+REFERENCES [dbo].[MOVIGEOG] ([MOGESECU])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+
+__________________________________________________
+
+
+insert into PERMSUFO (PESFUSUA,PESFFORM,PESFDESC,PESFAGRE,PESFMODI,PESFELIM,PESFESTA) values
+	(
+	'ADMINISTRADOR',
+	'BindingNavigator_MOGEPRNU_1',
+	'Menu Movimientos Geograficos - Predios Nuevos',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)        
+	
+	
+-----------------------------------------------
+
+
+insert into PERMSUFO (PESFUSUA,PESFFORM,PESFDESC,PESFAGRE,PESFMODI,PESFELIM,PESFESTA) values
+	(
+	'ADMINISTRADOR',
+	'BindingNavigator_MOGEMEAY_1',
+	'Menu Movimientos Geograficos - Mesa de Ayuda',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+        
+        
+------------------------------------------------
+
+
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[MOGEMEAY]    Fecha de la secuencia de comandos: 05/12/2014 12:59:35 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[MOGEMEAY](
+	[MGMAIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[MGMASECU] [int] NOT NULL,
+	[MGMANURA] [int] NULL CONSTRAINT [DF_MOGEMEAY_MGMANURA]  DEFAULT ((0)),
+	[MGMAFERA] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[MGMANUCA] [int] NULL CONSTRAINT [DF_MOGEMEAY_MGMANUCA]  DEFAULT ((0)),
+	[MGMAVERS] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[MGMAPEAS] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[MGMAOBSE] [char](4000) COLLATE Modern_Spanish_CI_AS NULL
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[MOGEMEAY]  WITH CHECK ADD  CONSTRAINT [FK_MOGEMEAY_MOVIGEOG] FOREIGN KEY([MGMASECU])
+REFERENCES [dbo].[MOVIGEOG] ([MOGESECU])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+
+
+----------------------
+
+
+insert into PERMSUFO (PESFUSUA,PESFFORM,PESFDESC,PESFAGRE,PESFMODI,PESFELIM,PESFESTA) values
+	(
+	'ADMINISTRADOR',
+	'BindingNavigator_MOGETRAM_1',
+	'Menu Movimientos Geograficos - Tramites OVC',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+	
+	
+-------------------------
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[MOGETRAM]    Fecha de la secuencia de comandos: 05/12/2014 13:00:02 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[MOGETRAM](
+	[MGTRIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[MGTRSECU] [int] NOT NULL,
+	[MGTRNUTR] [int] NULL CONSTRAINT [DF_MOGETRAM_MGTRNUTR]  DEFAULT ((0)),
+	[MGTRFETR] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[MGTRNURE] [int] NULL CONSTRAINT [DF_MOGETRAM_MGTRNURE]  DEFAULT ((0)),
+	[MGTRFERE] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[MGTRFEFI] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[MGTROBSE] [char](4000) COLLATE Modern_Spanish_CI_AS NULL
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[MOGETRAM]  WITH CHECK ADD  CONSTRAINT [FK_MOGETRAM_MOVIGEOG] FOREIGN KEY([MGTRSECU])
+REFERENCES [dbo].[MOVIGEOG] ([MOGESECU])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+
+
+----------------------------------------
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[MOGEDIGI]    Fecha de la secuencia de comandos: 05/12/2014 14:21:12 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[MOGEDIGI](
+	[MGDIIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[MGDISECU] [int] NOT NULL,
+	[MGDINUDO] [char](20) COLLATE Modern_Spanish_CI_AS NULL,
+	[MGDIFEEN] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[MGDIOBSE] [char](4000) COLLATE Modern_Spanish_CI_AS NULL
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[MOGEDIGI]  WITH CHECK ADD  CONSTRAINT [FK_MOGEDIGI_MOVIGEOG] FOREIGN KEY([MGDISECU])
+REFERENCES [dbo].[MOVIGEOG] ([MOGESECU])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+
+
+____________________________________
+
+
+
+insert into PERMSUFO (PESFUSUA,PESFFORM,PESFDESC,PESFAGRE,PESFMODI,PESFELIM,PESFESTA) values
+	(
+	'ADMINISTRADOR',
+	'BindingNavigator_MOGEDIGI_1',
+	'Menu Movimientos Geograficos - Digitación OVC',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+	
+_____________________
+
+
+
+
+
+                        	
+
+                	

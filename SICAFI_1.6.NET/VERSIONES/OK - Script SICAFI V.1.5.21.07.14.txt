@@ -1,0 +1,67 @@
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'MaterialDeCampoPorFormularioToolStripMenuItem',
+	'Material de campo por formulario',
+    'ac' 
+	)
+	
+
+	
+	
+
+__________________________
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[MANT_FORMULARIO]    Fecha de la secuencia de comandos: 07/22/2014 22:33:08 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[MANT_FORMULARIO](
+	[FORMIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[FORMCODI] [char](100) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[FORMDESC] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[FORMESTA] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+ CONSTRAINT [PK_FORMULARIO] PRIMARY KEY CLUSTERED 
+(
+	[FORMCODI] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[MANT_FORMULARIO]  WITH CHECK ADD  CONSTRAINT [FK_MANT_FORMULARIO_ESTADO] FOREIGN KEY([FORMESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+
+
+______________________________
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'FormularioToolStripMenuItem',
+	'Formulario',
+    'ac'
+	)
+
+
+insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'frm_FORMULARIO',
+	'Formulario',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+	
+___________________________
+

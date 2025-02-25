@@ -1,0 +1,3059 @@
+PROCEDIMIENTO PARA INFORMAR LOS MOVIMIENTOS
+
+APLICATIVO PARA LA CAPTURA DE INFORMACIÓN CATASTRAL
+
+
+Al llamar el PROGRAMA se debe LLENAR la siguiente información para INGRESAR:
+
+Usuario: Ingrese el usuario de la persona que usará el aplicativo. Debe ser una palabra con máximo 18  caracteres. Por defecto, el usuario general será ADMIN
+
+Clave: Ingrese la clave de acceso al aplicativo asignada al usuario. Por seguridad, esta no se visualiza en el campo. Debe ser una palabra con máximo 18 caracteres.
+
+Cédula: Ingrese el número de la cédula del funcionario que va a ingresar la información al sistema.
+
+Una vez haya digitado el usuario y la clave, el aplicativo valida la existencia o no del usuario que trata  de ingresar al sistema, mostrando un mensaje de error en caso de que sea errada. 
+
+En caso de ser correcta, el sistema muestra un menú en el cual se debe seleccionar la opción deseada:
+
+·	CONFIGURACIÓN
+·	FORMULARIOS
+·	GENERAR PLANOS
+·	CONSULTAS
+·	SALIR
+
+
+Al momento de ingresar al sistema, LO PRIMERO QUE DEBE REALIZARSE ES POR CONFIGURACIÓN EJECUTAR LA OPCIÓN MANTENIMIENTO BASE DE DATOS, con esto, se realiza un mantenimiento General de todas las tablas y la base de datos que conforman el sistema.
+OPCIÓN MANTENIMIENTO BASE DE DATOS : Digite Si ó No, de acuerdo a la acción que desee realizar. Al digitar SI, el sistema despliega un mensaje el cual se borra al momento de terminar el mantenimiento.
+
+Esta opción debe ejecutarse siempre al inicio del sistema y cada vez que se realice el borrado de un registro.
+
+Elegimos del menú: CONFIGURACIÓN y buscamos la OPCIÓN RESOLUCIÓN.
+
+
+ 
+OPCIÓN RESOLUCIÓN
+
+Por medio de esta opción se matriculan todas las resoluciones a las que posteriormente se le digitará el movimiento de fichas prediales y fichas resumen.
+
+Vigencia: Año de la resolución a Ingresar COMPLETO.
+
+Tipo: Tipo de Resolución 182
+
+Resolución: Número de la resolución. Los tres primeros campos deben corresponder al código del municipio, los dos siguientes a la semana en curso, los dos siguientes corresponden al sector.   
+Ejemplo: Municipio el Retiro 607, semana 13 y sector urbano 01: 6071301
+
+Municipio: Pulsar la fecha y ubicarse en el Municipio al que pertenece la resolución.
+
+Sector: Sector Urbano o Rural de la resolución.
+
+Nrore: Número de registros  de la Resolución.
+
+Nropa: Número de páginas
+
+Nrodir: Número de disquete
+
+NOTA: Los campos subrayados y en negrilla indican que deben ser ingresados SIEMPRE, en caso contrario, no podrá acceder al aplicativo con la resolución creada. El resto de campos pueden dejarse en blanco.
+
+Una vez digitada la información le damos GRABAR y luego SALIR.
+
+
+ 
+Elegimos del menú: OPCIÓN FORMULARIOS y en FORMULARIOS buscamos la opción MOVIMIENTO y elegimos el Submenú Conservación/Mutación.
+
+
+OPCIÓN MOVIMIENTO:
+
+Por medio de este menú se realizan los ingresos de las fichas prediales y fichas resumen al sistema correspondiente a una resolución previamente digitada.
+
+
+Submenú Conservación / Mutación
+
+Por medio de esta opción se puede agregar, borrar, modificar o consultar las características del predio.
+
+Esta opción posee ocho pestañas, cada una de las cuales representa una tabla del aplicativo con información propia de la mutación que se está ingresando así:
+
+-	Resolución
+-	Mutación
+-	Destinaciones
+-	Propietarios
+-	Zona Geoeconómica
+-	Zona Geofísica
+-	Construcciones
+-	Linderos
+
+Se debe ingresar a las pestañas Resolución y Mutación siempre, las otras pestañas de acuerdo a la causa del acto.
+
+Pestaña Resolución
+
+En esta pestaña debe ingresarse la información correspondiente a la Resolución previamente matriculada. El aplicativo, valida que la información exista.
+
+Ø	Vigencia: Ingrese el año al que corresponde la resolución a digitar - la ya ingresada en la matricula de la resolución. 
+Ø	Tipo de Resolución: Ingrese el tipo de resolución a digitar.
+Ø	Resolución: Ingrese el número de resolución a digitar.
+
+El sistema verifica la existencia de la Resolución ingresada. En caso de que no haya sido matriculada previamente muestra el mensaje "Resolución No existe". En caso de que ya haya sido matriculada muestra los campos Municipio y sector al que pertenece la Resolución.
+
+NOTA: Pueden ingresarse diferentes tipos de Resoluciones al mismo tiempo, sin que el número de registro se pierda.
+
+Pestaña Mutación
+
+Esta pestaña permite ingresar, modificar o borrar la información correspondiente a las mutaciones.
+
+El sistema muestra en la parte superior de la pantalla la vigencia, tipo de Resolución y Resolución sobre la cual se está ingresando la información.
+
+
+Como Agregar Información?
+
+Presione el Botón Agregar de la barra de herramienta. El aplicativo prepara  las variables para recibir los datos:
+
+Ø	Causa Acto: Ingrese el código de la causa del acto. Una vez se ingresa y se graba la causa con toda la información asociada, el aplicativo valida que se ingrese la causa asociada, pues de lo contrario la información quedaría incompleta
+ 
+Ø	Novedad: Presione click sobre la flecha. El sistema desplega una lista donde debe seleccionar Ingreso 1, Retiro 2 ó modificación 3. También se puede digitar I,R ó M.
+
+Ø	Nro. Ficha: número de ficha a ingresar.
+
+Ø	Dirección: Dirección indicada en la ficha.
+Ø	Cédula Catastral:
+Ø	Mpio: código del Municipio
+Ø	Correg: Corregimiento 
+Ø	Barrio  
+Ø	Man-Ver: Manzana  ó vereda.
+Ø	Predio 
+Ø	Edificio
+Ø	Unidad Predial
+
+Ø	Sector: Presione la flecha que hay en el campo y el sistema desplega una lista con los tipos de sector: Urbano, Rural o Expansión; también puede Ingresar la primera letra de cada palabra U,R ó E.
+
+Ø	Categoría del Suelo: Presione la flecha que hay en el campo y el sistema desplega una lista con los tipos de categorías del suelo: Suburbano, Protección o No se aplica; también puede Ingresar la primera letra de cada palabra S,P ó N.
+
+Ø	Característica: Presione la flecha que hay en el campo y el sistema desplega una lista con los tipos de características: Normal, R.P.H, parcelación, condominio, parque cementerio, embalse, baldio, Urbano, Rural o Expansión; también puede Ingresar la primera letra de cada palabra.
+
+
+
+
+Ø	Valor Terreno
+
+Ø	Cédula catastral anterior
+Ø	Mpio ant: municipio anterior
+Ø	Correg ant : corregimiento anterior
+Ø	Barrio ant: barrio anterior
+Ø	Man/ver ant: manzana verda anterior
+Ø	Predio ant: predio anterior
+Ø	Edifio ant: edificio anterior
+Ø	Und pred ant: unidad predial anterior
+
+Ø	Sector anterior
+Ø	Area terreno
+Ø	Coeficiente Predio: Coeficiente del predio
+Ø	Coeficiente Edificio: coeficiente edificio anterior
+Ø	Vigencia fiscal
+Ø	Nro predio anterior: número de predio anterior
+Ø	Autoavaluo: Ingresar 1 ó 2
+Ø	Fecha autoavaluo: si ingresa cuando el campo autoavaluo es 1.
+
+Ø	Documento persona: Número de documento de identidad de la persona que ingresa la información. Este se digita la primera vez y continua igual para los demás registros  ingresados. 
+
+Presione el botón Grabar después de ingresar la información.
+
+En caso de que después de haber presionado el botón Agregar no desee continuar con la acción, presione el botón Deshacer, pues en caso contrario, el sistema deja un regisro en blanco el cual ocasionará errores en el aplicativo posteriormente.
+
+IMPORTANTE!!
+
+Cada tipo de causa tiene la información que debe ser informada, sin embargo los campos que están en negrilla y subrayados SIEMPRE deben ser ingresados.
+
+Como Modificar Información?
+
+Para modificar información previamente ingresada y grabada utilice el botón Buscar para ubicar la ficha a la cual desea realizarle los cambios. También puede desplazarse a través de los registros por medio de los botones Anterior y Siguiente . Después de ubicado el registro presione el botón Modificar y realice los cambios necesarios a excepción de los campos Causa y Número de ficha. Presione el botón Grabar para confirmar los cambios.
+
+Como Borrar Información?
+
+Para borrar información previamente ingresada y grabada utilice el botón Buscar para ubicar la ficha que desea retirar. También puede desplazarse a través de los registros por medio de los botones Anterior y Siguiente . Después de ubicado el registro presione el botón Borrar. El sistema muestra un mensaje de confirmación y al dar SI, se procede a retirar el registro.
+IMPORTANTE!!
+
+Se debe tener muy presente que cuando se retira un registro de la pantalla mutación, automáticamente se retiran TODOS LOS REGISTROS  asociados a esa ficha en el resto de tablas (propietarios, destinación económica, zonas geoeconómicas, zonas físicas, linderos, construcciones y calificación de construcciones).
+
+Pestaña Destinaciones
+
+En esta opción se pueden ingresar las destinaciones económicas de un predio en caso de que existan y de acuerdo a directrices de Catastro Departamental.
+
+El sistema muestra en la parte superior la información de la resolución y la ficha que se esta trabajando en ese momento: Vigencia, Tipo Resolución, Resolución, Número de ficha y número de Registro.
+
+
+Como Agregar Información?
+
+Presione el botón Agregar. El aplicativo se ubicará en la primera columna del grid . Presione la flecha hacia abajo para desplegar una lista de las destinaciones económicas. Seleccione haciendo clic sobre la que necesita e ingrese el porcentaje correspondiente a ese destino económico.
+
+En la parte inferior de la pantalla se encuentra el campo Porcentaje Total, el cual muestra el porcentaje de destinaciones acumulado. Cuando llega al 100% el aplicativo no permite el ingreso de más destinaciones económicas. 
+
+Presione el botón Grabar para confirmar la información que se acabo de ingresar. El aplicativo habilita inmediatamente el botón Agregar, para continuar insertando registros de destinaciones económicas en caso de que aplique.
+
+Si una vez presionado el botón agregar, se desiste de continuar con la acción, presione el botón Deshacer, y el sistema ignora la última acción ejecutada.
+
+Como Borrar Información?
+
+Para eliminar un registro ingresado y grabado, presione clic sobre la primera columna de cada registro en el grid (campo en blanco). Este campo se pondrá de color negro; esto indica que el registro ha sido borrado y puede nuevamente ingresar información. Puede presionarse nuevamente click sobre el campo y el registro quedará  desmarcado, es decir, no borrado.
+
+RECOMENDACIÓN!!
+
+En caso de que se necesite modificar un registro, se recomienda borrar el registro a corregir e ingresar el registro correcto.
+
+
+
+Pestaña Propietarios
+
+Permite ingresar toda la información correspondiente a los propietarios de un predio.
+
+El sistema muestra en la parte superior la información de la resolución y la ficha que se esta trabajando en ese momento: Vigencia, Tipo Resolución, Resolución, Número de ficha y número de Registro.
+
+Como Agregar Información?
+
+Para adicionar información de un propietario de un predio,  presione el botón Agregar  de la barra de herramientas y proceda a ingresar la información, de acuerdo al tipo de movimiento que este matriculando en el aplicativo y las directrices de Catastro Departamental al respecto (Cartilla de Catastro):
+
+Ø	Adquisición: Siempre es 1 ó 2
+
+Ø	Litigio: Siempre es 1 ó 2
+
+Ø	Porcentaje Litigio: En caso de que  litigio sea 2, este campo se deshabilita automáticamente.
+
+Ø	Calidad del Propietario: Presione la flecha hacia abajo y el aplicativo despliega  una lista de la calidad  de propietarios: 1 particular, 2 nacional, 3 Departamental, 4 municipal, 5 religioso, 6 oficial, 7 comunidades Indígenas.
+
+Ø	Gravable: Presione la flecha hacia abajo y el sistema despliega la lista: 1 Gravable,  2 No Gravable.
+
+Ø	Primer apellido: Este campo puede quedar en blanco sin embargo, una vez digitado no puede dejarse espacio en blanco al principio del campo.
+
+Ø	Segundo apellido: puede dejarse en blanco.
+
+Ø	Nombre: Este campo puede quedar en blanco sin embargo, una vez digitado no puede dejarse espacio en blanco al principio del campo.
+
+Ø	Sexo: Digite M (masculino), F (femenino) ó J (jurídico) o presione la flecha hacia abajo y el aplicativo despliega la lista. Presione clic sobre la opción deseada.
+
+Ø	Sigla Comercial: Puede dejarse en blanco.
+
+Ø	Tipo Documento: Presione click sobre la flecha hacia abajo y el sistema despliega la lista correspondiente: 1 Cédula de ciudadanía hombre, 2 Cédula de ciudadanía mujer, 3 NIT, 4 cédula de extranjería, 5 registro civil, 6 tarjeta de identidad, 7 pasaporte, 8 Código asignado, 9 NUIP. En caso de que este campo no sea seleccionado, el sistema asigna por defecto el código 10, para que sea procesado en la etapa de crítica.
+
+
+Ø	Documento: Digite el numero de documento correspondiente. El aplicativo valida que los rangos correspondan al tipo de documento ingresado.  Cuando se selecciona el tipo de documento 8 y se esta realizando un ingreso, este campo debe quedar en blanco y al momento de grabar el registro el sistema le asigna  un número consecutivo que lo hace único.
+
+Ø	Derecho: Porcentaje de derecho del propietario ingresado.
+
+Ø	Escritura: número de escritura.
+
+Ø	Notaría: Este campo esta compuesto por:
+
+Ø	Departamento: Por defecto es 05 (Antioquia); puede ingresarse un código diferente.
+Ø	Municipio: Ingrese el código del municipio al cual pertenece la notaría. El aplicativo valida que el Departamento y la Notaría existan. En caso de ingresar un código que no pertenezca al Departamento de Antioquia, el sistema despliega  un mensaje de advertencia "Ingresó una Notaría que no pertenece a Antioquia", con el objetivo de que se corrija en caso de que sea un error o se continué en caso de que sea un dato valido.
+Ø	Notaría: Ingrese el número de la notaría. Al confirmar esta opción,  el aplicativo muestra el número completo ingresado, es decir, el departamento, el municipio  y la notaría.
+
+Ø	Fecha escritura: puede dejarse en blanco. Ingrese en formato DD/MM/AAAA
+
+Ø	Fecha registro: puede dejarse en blanco. Ingrese en formato DD/MM/AAAA
+
+Ø	Tomo: Puede quedar en blanco
+
+Ø	Matricula: Puede quedar en blanco
+
+Después de Ingresar correctamente la información, presione el botón Grabar de la barra de herramientas. En caso de que no se haya digitado ningún campo, el sistema muestra el mensaje "Debe Ingresar al menos un campo" y no permite continuar. 
+
+En caso de no querer adicionar un registro después de haber presionado el botón agregar, presione el botón Deshacer de la barra de herramientas para cancelar la acción ya que en caso contrario, quedaría un registro en blanco en el archivo de propietarios el cual podría causar un mal funcionamiento del sistema. 
+
+Como Modificar  Información?
+
+En caso de que se necesite modificar la información de un propietario ya ingresado y grabado, utilice los botones Anterior y Siguiente para seleccionar el registro deseado. Cabe anotar que estos botones permiten visualizar hacia delante o hacia atrás la información  de los propietarios que estén asociados a una resolución y número de ficha específica, sin que los campos estén habilitados para realizar correcciones sobre ellos.
+
+Una vez seleccionado el registro a modificar, presione el botón Modificar de la barra de herramientas. El aplicativo habilitará los campos para que se proceda a modificar la información.  Presione el botón Grabar para confirmar los cambios.
+Como Borrar Información?
+
+En caso de que se necesite borrar la información de un propietario ya ingresado, utilice los botones Anterior y Siguiente para seleccionar el registro deseado. Cabe anotar que estos botones permiten visualizar hacia delante o hacia atrás la información  de los propietarios que estén asociados a una resolución y número de ficha específica, sin que los campos estén habilitados para realizar correcciones sobre ellos.
+
+Una vez seleccionado el registro a borrar, presione el botón Borrar de la barra de herramientas. El aplicativo muestra un mensaje de confirmación de la acción. Al Indicar que si, se procede a retirar el registro.
+
+Pestaña Zona Geoeconómica
+
+Por medio de esta opción pueden ingresarse al aplicativo  las zonas geoeconómicas existentes para un predio en caso de que existan. Es una ventana tipo Grid, por lo tanto la captura de la información se realiza directamente sobre la tabla de zonas geoeconómicas. 
+
+El sistema muestra en la parte superior la información de la resolución y la ficha que se esta trabajando en ese momento: Vigencia, Tipo Resolución, Resolución, Número de ficha y número de Registro.
+
+Como Agregar Información?
+
+Presione el botón Agregar. El aplicativo se ubicará en el primer campo ubicado en la parte inferior del grid. Ingrese el código de la zona geoeconómica. El porcentaje correspondiente se debe ingresar en el campo siguiente.
+
+En la parte inferior de la pantalla se encuentra el campo Porcentaje Total, el cual muestra el porcentaje acumulado. Cuando llega al 100% el aplicativo no permite el ingreso de más registros. 
+
+Presione el botón Grabar  para confirmar la información que se acabo de ingresar. El aplicativo habilita inmediatamente el botón Agregar, para continuar insertando registros en caso de que aplique.
+
+Si una vez presionado el botón agregar, se desiste de continuar con la acción, presione el botón Deshacer, y el sistema ignora la última acción ejecutada.
+
+Como Borrar Información?
+
+Para eliminar un registro ingresado y grabado, presione clic sobre la primera columna  de cada registro en el grid (campo en blanco). Este campo se pondrá de color negro; esto indica que el registro ha sido borrado y puede nuevamente ingresar información. Puede presionarse nuevamente click sobre el campo y el registro quedará  desmarcado, es decir, no borrado.
+
+RECOMENDACIÓN!!
+
+En caso de que se necesite modificar un registro, se recomienda borrar el registro a corregir e ingresar el registro correcto.
+Pestaña Zona Física
+
+Por medio de esta opción pueden ingresarse al aplicativo las zonas físicas existentes para un predio en caso de que existan. Es una ventana tipo Grid, por lo tanto la captura de la información se realiza directamente sobre la tabla de zonas físicas. 
+
+El sistema muestra en la parte superior la información de la resolución y la ficha que se esta trabajando en ese momento: Vigencia, Tipo Resolución, Resolución, Número de ficha y número de Registro.
+
+Como Agregar Información?
+
+Presione el botón Agregar. El aplicativo se ubicará en el primer campo ubicado en la parte inferior del grid (campo en blanco). Ingrese el código de la zona física. El porcentaje correspondiente se debe ingresar en el campo siguiente.
+
+En la parte inferior de la pantalla se encuentra el campo Porcentaje Total, el cual muestra el porcentaje acumulado. Cuando llega al 100% el aplicativo no permite el ingreso de más registros. 
+
+Presione el botón Grabar  para confirmar la información que se acabo de ingresar. El aplicativo habilita inmediatamente el botón Agregar, para continuar insertando registros en caso de que aplique.
+
+Si una vez presionado el botón agregar, se desiste de continuar con la acción, presione el botón Deshacer, y el sistema ignora la última acción ejecutada.
+
+Como Borrar Información?
+
+Para eliminar un registro ingresado y grabado, presione clic sobre la primera columna  de cada registro en el grid (campo en blanco). Este campo se pondrá de color negro; esto indica que el registro ha sido borrado y puede nuevamente ingresar información. Puede presionarse nuevamente click sobre el campo y el registro quedará  desmarcado, es decir, no borrado.
+
+RECOMENDACIÓN!!
+
+En caso de que se necesite modificar un registro, se recomienda borrar el registro a corregir e ingresar el registro correcto.
+
+Pestaña Construcciones
+
+Por medio de esta opción se ingresan las construcciones asociadas a una ficha y sus respectivas calificaciones.
+
+El sistema muestra en la parte superior la información de la resolución y la ficha que se esta trabajando en ese momento: Vigencia, Tipo Resolución, Resolución, Número de ficha y número de Registro.
+
+
+La pantalla esta dividida en dos secciones: la primera corresponde a la información de la construcción y la segunda corresponde a las calificaciones asociadas a dicha construcción. Por metodología se recomienda ingresar siempre primero las construcciones y luego las calificaciones a al construcción.
+
+Como Agregar Información?
+
+Para adicionar información de una construcción,  presione el botón Agregar  de la barra de herramientas y proceda a ingresar la información, de acuerdo a las directrices de Catastro Departamental al respecto (Cartilla de Catastro):
+
+Ø	Tipo Construcción: Presione la flecha hacia abajo y el sistema despliega la lista de los tipos de Construcciones que estén en el aplicativo: Residencial R, Industrial I, Comercial C, Otros O. Presione click sobre la opción deseada o digite la primera letra de las palabras. Si este campo no se selecciona, el botón Agregar calificación no se habilita.
+Ø	Nro. Construcción: Número de Construcción 
+Ø	Identificador 
+Ø	Puntos: Digite el total de puntos indicado en la ficha
+Ø	Area Construida 
+
+Para los siguientes campos puede desplegarse la lista asociada la cual posee las opciones No Tiene, Si tiene y presione click sobre la opción deseada. También puede digitar S ó N par agilizar la captura.
+
+Ø	Mejora 
+Ø	Ley 56
+Ø	Acueducto 
+Ø	Alcantarillado
+Ø	Teléfono
+Ø	Gas 
+Ø	Fibra óptica
+Ø	Parabólica
+Ø	Nro. Pisos
+Ø	Edad Construcción
+Ø	Porcentaje Construido
+
+NOTA: Los campo subrayados y con negrilla siempre deben ser digitados, en caso contrario el aplicativo no realiza el ingreso de la información al sistema.
+
+Después de Ingresar correctamente la información, presione el botón Grabar de la barra de herramientas.
+
+En caso de no querer adicionar un registro después de haber presionado el botón agregar, presione el botón Deshacer de la barra de herramientas para cancelar la acción ya que en caso contrario, quedaría un registro en blanco en el archivo de construcciones el cual podría causar un mal funcionamiento del sistema. 
+
+Como Agregar Información de Calificaciones?
+
+
+
+Después de agregar y grabar la información correspondiente a las construcciones, presione el botón Agregar calificaciones. El sistema habilita el campo Calificaciones para que se digite el código de la calificación. El aplicativo verifica la existencia del mismo y si es correcto, despliega  en el grid (campo en blanco), el código calificación, tipo construcción, descripción de la calificación y puntaje.
+
+En el campo Total Puntos se va acumulando el valor correspondiente al puntaje con el fin de que pueda validarse el puntaje ingresado en la sección de construcciones con el puntaje ingresado en la sección de calificaciones. Este campo es solo informativo, es decir, el aplicativo no realizará ninguna acción en caso de que los campos puntaje sean diferentes.
+
+Para adicionar una nueva construcción presione nuevamente el botón Agregar de la sección de construcciones.
+
+Como Modificar  Información?
+
+En caso de que se necesite modificar la información de una construcción ya ingresada y grabada, utilice los botones Anterior y Siguiente para seleccionar el registro deseado. Cabe anotar que estos botones permiten visualizar hacia delante o hacia atrás la información  de las construcciones pertenecientes a una resolución y ficha específica, sin que los campos estén habilitados para realizar correcciones sobre ellos. 
+
+Una vez seleccionado el registro a modificar, presione el botón Modificar de la barra de herramientas. El aplicativo habilitará los campos para que se proceda a modificar la información.  De igual forma, el sistema muestra las calificaciones que se han ingresado a la construcción con el fin de que se agreguen mas o se realicen los cambios que sean necesarios.
+
+Después de realizadas  las modificaciones presione el botón Grabar para confirmar la información. 
+
+En caso de no continuar con la acción presione el botón Deshacer.
+
+RECOMENDACIÓN !!
+
+En caso de querer modificar una calificación de una construcción, se recomienda borrar el registro e ingresar nuevamente la calificación.
+
+Como Borrar Información?
+
+En caso de que se necesite borrar la información de una construcción ya ingresada, utilice los botones Anterior y Siguiente para seleccionar el registro deseado. Cabe anotar que estos botones permiten visualizar hacia delante o hacia atrás la información  de las construcciones que estén asociados a una resolución y número de ficha específica, sin que los campos estén habilitados para realizar correcciones sobre ellos.
+
+Una vez seleccionado el registro a borrar, presione el botón Borrar de la barra de herramientas.
+
+El aplicativo muestra un mensaje de confirmación de la acción. Al Indicar que si, se procede a retirar el registro y automáticamente se borrarán las calificaciones asociadas a esa construcción.
+
+Para borrar un registro de la sección de calificaciones, haga click en  el campo en blanco ubicado en la primera fila del grid (campo en blanco) de calificaciones. Para desmarcarlo haga click nuevamente  sobre el mismo.
+
+Pestaña Linderos
+
+Permite adicionar, borrar o modificar la información correspondiente a los linderos de un predio y su información cartográfica correspondiente.
+
+La pantalla comprende dos secciones: la primera corresponde a una captura tipo grid y contiene la información de los linderos. La segunda sección corresponde a la información cartográfica. Pueden ingresarse tantos registros sean necesarios para la cartografía.
+
+Como Agregar Información de Linderos?
+
+Presione el botón Agregar linderos, ubicado al lado derecho superior de la pantalla. El sistema se ubica en la primera columna del grid (campo en blanco). Presione la flecha hacia abajo y el sistema despliega la lista de los linderos disponibles:  Norte, Oriente, Sur, Occidente, Zenit, Nadir. Haga click sobre la opción deseada. Ingrese la información del lindero en la columna dos del grid (campo en blanco). Al dar Enter para confirmar la información, el aplicativo muestra mensaje "Desea Agregar otro lindero?", Seleccione la opción deseada Si ó No, para agregar un nuevo lindero o no hacer mas ingresos.
+
+Después de ingresada  la información de linderos, realice  el ingreso de la información cartográfica.
+
+Como Agregar Información Cartográfica?
+
+Presione el botón agregar de la barra de herramientas e ingrese la información correspondiente:
+
+Plancha
+Ventana
+Escala plancha: por defecto el sistema muestra 1:
+Vigencia Plancha: no puede ser inferior a 1983
+Nro. Vuelo
+Nro faja
+Nro foto
+Vigencia Foto: no puede ser inferior a 1983
+Ampliación
+Escala foto: por defecto el sistema muestra 1: 
+Presione el botón Grabar para confirmar la información ingresada. 
+
+
+
+Recuerde que si agregó un registro y no desea continuar con el ingreso debe presionar el botón Deshacer, pues en caso contrario se crean registros en blanco que van deteriorando el funcionamiento posterior del aplicativo.
+
+Como Modificar  Información?
+
+Como la captura de la información de linderos es tipo grid (campo en blanco), se recomienda borrar el registro a modificar y agregar nuevamente la información. 
+
+Para modificar la información correspondiente a la cartografía, presione el botón Modificar de la barra de herramientas y realice los cambios correspondientes. Presione el botón Grabar para confirmar la información.
+
+Como Borrar Información?
+
+Para borrar un registro de la sección de linderos, haga click en  el campo en blanco ubicado en la primera fila del grid (campo en blanco) de linderos. Para desmarcarlo haga click nuevamente  sobre el mismo.
+
+Para borrar un registro correspondiente a la información cartográfica de una ficha, presione el botón Borrar de la barra de herramientas. El aplicativo muestra un mensaje de confirmación de la acción. Al Indicar que si, se procede a retirar el registro.
+
+Presione el botón Salir para abandonar la opción de fichas prediales en cualquiera de las pestañas.
+
+
+Submenú Ficha Resumen 1
+
+Por medio de esta opción se puede agregar, borrar, modificar o consultar las fichas Resumen tipo 1 concernientes a una Resolución y sus respectivas fichas prediales.
+
+Esta opción posee siete pestañas, cada una de las cuales representa una tabla del aplicativo de fichas resumen, con información propia de la ficha que se está ingresando así:
+
+-	Resolución
+-	Ficha R1
+-	Cartografía
+-	Linderos
+-	Zona Geoeconómica
+-	Zona Física
+-	Construcciones
+
+Pestaña Resolución
+
+En esta pestaña debe ingresarse la información correspondiente a la Resolución previamente matriculada. El aplicativo, valida que la información exista. Su funcionalidad es igual a la pestaña de Resolución de fichas prediales.
+
+Pestaña Ficha R1
+Esta pestaña permite ingresar, modificar o borrar la información correspondiente a la ficha resumen tipo 1.
+
+El sistema muestra en la parte superior de la pantalla la vigencia, tipo de Resolución y Resolución sobre la cual se está ingresando la información de ficha resumen 1.
+
+Como Agregar Información?
+
+Presione el Botón Agregar de la barra de herramienta. El aplicativo prepara  las variables para recibir los datos:
+
+Ø	Novedad: Presione click sobre la flecha. El sistema desplega una lista donde debe seleccionar Retiro 1, Ingreso 2 ó modificación 3. También se puede digitar I,R ó M .   
+Ø	Dirección: Dirección indicada en la ficha Resumen. Cuando la novedad sera Retiro, no se debe ingresar la Dirección.
+Ø	Cédula Catastral:
+Ø	Municipio
+Ø	Sector: Presione la flecha y el sistema despliega 1 Urbano, 2 Rural, 3 Expansión.
+Ø	Corregimiento 
+Ø	Barrio  
+Ø	Man-Ver: Manzana  ó vereda 
+Ø	Predio 
+Ø	Característica delmpredio: Para Ficha Resumen , siempre será condiominio (4)
+Ø	Area Total Lote: expresada en hectáreas
+Ø	Area Común Lote: expresada en hectáreas
+Ø	Total Edificios: Número total de edificios reportados en la ficha resumen 1. Debe ser mayor o igual a 2.
+Ø	Total Apartamentos: Número total de apartamentos reportados en la ficha resumen  1
+Ø	Total locales: Número total de locales reportados en la ficha resumen 1
+Ø	Total Cuarto ütil: Número total de cuartos util reportados en la ficha resumen 1
+Ø	Total Edificios: Número total de edificios reportados en la ficha resumen 1
+Ø	Total Garajes Cubierto: Número total de garajes cubiertos reportados en la ficha resumen
+Ø	Total Parqueadero Descubierto: Número total de parqueaderos descubiertos reportados en la ficha resumen 1
+Ø	Total Unidades. Condominio: Número total de unidades condominio reportados en la ficha resumen 1
+
+Presione el botón Grabar después de ingresar la información.
+
+En caso de que después de haber presionado el botón Agregar no desee continuar con la acción, presione el botón Deshacer, pues en caso contrario, el sistema deja un regisro en blanco el cual ocasionará errores en el aplicativo posteriormente.
+
+Como Modificar Información?
+
+Para modificar información previamente ingresada y grabada utilice el botón Buscar para ubicar la ficha resumen a la cual desea realizarle los cambios. 
+Ingrese los campos solicitados (la cédula catastral) y presione el botón Buscar, el sistema se ubica sobre el registro solicitado.También puede desplazarse a través de los registros por medio de los botones Anterior y Siguiente . Después de ubicado el registro presione el botón Modificar y realice los cambios necesarios. Presione el botón Grabar para confirmar los cambios.
+
+Como Borrar Información?
+
+Para borrar información previamente ingresada y grabada utilice el botón Buscar para ubicar la ficha que desea retirar.Realice los pasos indicados anteriormente para seleccionar el registro a retirar.  También puede desplazarse a través de los registros por medio de los botones Anterior y Siguiente . Después de ubicado el registro presione el botón Borrar. El sistema muestra un mensaje de confirmación y al dar SI, se procede a retirar el registro.
+
+Pestaña Cartografía
+
+Esta pestaña permite ingresar, modificar o borrar la información correspondiente a la información cartográfica de la ficha resumen tipo 1.
+El sistema despliega en la parte superior la información correspondiente a la cédula catastral ingresada en la pestaña anterior.
+
+Como Agregar Información Cartográfica?
+
+Presione el botón agregar de la barra de herramientas e ingrese la información correspondiente:
+
+Plancha
+Ventana
+Escala plancha: por defecto el sistema muestra 1:
+Vigencia Plancha: no puede ser inferior a 1983
+Nro. Vuelo
+Nro faja
+Nro foto
+Vigencia Foto: no puede ser inferior a 1983
+Ampliación
+Escala foto: por defecto el sistema muestra 1: 
+
+Presione el botón Grabar para confirmar la información ingresada. 
+
+Recuerde que si agregó un registro y no desea continuar con el ingreso debe presionar el botón Deshacer, pues en caso contrario se crean registros en blanco que van deteriorando el funcionamiento posterior del aplicativo.
+
+Como Modificar  Información?
+
+Como la captura de la información de linderos es tipo grid, se recomienda borrar el registro a modificar y agregar nuevamente la información. 
+
+
+
+Para modificar la información correspondiente a la cartografía, presione el botón Modificar de la barra de herramientas y realice los cambios correspondientes. Presione el botón Grabar para confirmar la información.
+
+Como Borrar Información?
+
+Ubíquese sobre el registro a retirar y presione el botón Borrar. El sistema elimina el registro. Se recomienda ejecutar la opción  Mantenimiento de Base de Datos  para conservar la integridad de los mismos.
+
+Presione el botón Salir para abandonar la opción de fichas resumen 1 en cualquiera de las pestañas.
+
+Pestaña Linderos
+
+Permite adicionar, borrar o modificar la información correspondiente a los linderos informados en la ficha resumen.
+
+Presione el botón Agregar, el sistema se ubica en el grid (campo en blanco) ubicado debajo de punto cardinal. Presione la flecha hacia abajo y el sistema despliega la lista de los linderos disponibles: Norte, Oriente, Sur, Occidente, Zenit, Nadir. Haga click sobre la opción deseada. Ingrese la información del lindero.
+
+Presione el botón Grabar o Deshacer dependiendo de la opción a ejecutar.
+
+Pestaña Zona Geoeconómica
+
+Por medio de esta opción pueden ingresarse a la opción de fichas resumen 1 las zonas geoeconómicas existentes para un predio en caso de que existan. 
+El sistema muestra en la parte superior la información de la resolución y la ficha Resumen 1 (cédula catastral) que se esta trabajando en ese momento.
+
+Como Agregar Información?
+
+Presione el botón Agregar. El aplicativo se ubicará en el primer campo ubicado en la parte inferior del grid (campo en blanco). Ingrese el código de la zona geoeconómica. El porcentaje correspondiente se debe ingresar en el campo siguiente .
+
+En la parte inferior de la pantalla se encuentra el campo Porcentaje Total, el cual muestra el porcentaje acumulado. Cuando llega al 100% el aplicativo no permite el ingreso de más registros. 
+
+Presione el botón Grabar  para confirmar la información que se acabo de ingresar. El aplicativo habilita inmediatamente el botón Agregar, para continuar insertando registros en caso de que aplique.
+
+Si una vez presionado el botón agregar, se desiste de continuar con la acción, presione el botón Deshacer, y el sistema ignora la última acción ejecutada.
+
+Como Borrar Información?
+
+Para eliminar un registro ingresado y grabado, presione clic sobre la primera columna  de cada registro en el grid (campo en blanco). Este campo se pondrá de color negro; esto indica que el registro ha sido borrado y puede nuevamente ingresar información. Puede presionarse nuevamente click sobre el campo y el registro quedará  desmarcado, es decir, no borrado.
+
+RECOMENDACIÓN!!
+
+En caso de que se necesite modificar un registro, se recomienda borrar el registro a corregir e ingresar el registro correcto.
+
+Pestaña Zona Física
+
+Por medio de esta opción pueden ingresarse al sistema las zonas físicas existentes para una ficha resumen tipo 1 en caso de que existan.. 
+
+El sistema muestra en la parte superior la información de la resolución y la ficha resumen que se esta trabajando en ese momento
+
+Como Agregar Información?
+
+Presione el botón Agregar. El aplicativo se ubicará en el primer campo ubicado en la parte inferior del grid (campo en blanco). Ingrese el código de la zona física. El porcentaje correspondiente se debe ingresar en el campo siguiente .
+
+En la parte inferior de la pantalla se encuentra el campo Porcentaje Total, el cual muestra el porcentaje acumulado. Cuando llega al 100% el aplicativo no permite el ingreso de más registros. 
+
+Presione el botón Grabar  para confirmar la información que se acabo de ingresar. El aplicativo habilita inmediatamente el botón Agregar, para continuar insertando registros en caso de que aplique.
+
+Si una vez presionado el botón agregar, se desiste de continuar con la acción, presione el botón Deshacer, y el sistema ignora la última acción ejecutada.
+
+Como Borrar Información?
+
+Para eliminar un registro ingresado y grabado, presione clic sobre la primera columna  de cada registro en el grid (campo en blanco). Este campo se pondrá de color negro; esto indica que el registro ha sido borrado y puede nuevamente ingresar información. Puede presionarse nuevamente click sobre el campo y el registro quedará  desmarcado, es decir, no borrado.
+
+RECOMENDACIÓN!!
+
+En caso de que se necesite modificar un registro, se recomienda borrar el registro a corregir e ingresar el registro correcto.
+Pestaña Construcciones
+
+Por medio de esta opción se ingresan las construcciones asociadas a una ficha resumen tipo 1 y sus respectivas calificaciones.
+
+El sistema muestra en la parte superior la información de la resolución y la cédula catastral que se esta trabajando en ese momento.
+
+La pantalla esta dividida en dos secciones: la primera corresponde a la información de la construcción y la segunda corresponde a las calificaciones asociadas a dicha construcción. Por metodología se recomienda ingresar siempre primero las construcciones y luego las calificaciones a la construcción.
+
+Como Agregar Información?
+
+Para adicionar información de una construcción,  presione el botón Agregar  de la barra de herramientas y proceda a ingresar la información, de acuerdo a las directrices de Catastro Departamental al respecto (Cartilla de Catastro):
+
+Ø	Tipo Construcción: Presione la flecha hacia abajo y el sistema despliega la lista de los tipos de Construcciones que estén en el aplicativo: Residencial R, Industrial I, Comercial C, Otros O. Presione click sobre la opción deseada o digite la primera letra de las palabras. Si este campo no se selecciona, el botón Agregar calificación no se habilita.
+Ø	Nro. Const: Número de Construcción 
+Ø	Identificador 
+Ø	Puntos: Digite el total de puntos indicado en la ficha
+Ø	Area Construida 
+
+Para los siguientes campos puede desplegarse la lista asociada la cual posee las opciones No Tiene, Si tiene y presione click sobre la opción deseada. También puede digitar S ó N par agilizar la captura.
+
+Ø	Mejora 
+Ø	Ley 56
+Ø	Acueducto 
+Ø	Alcantarillado
+Ø	Teléfono
+Ø	Gas 
+Ø	Fibra óptica
+Ø	Parabólica
+Ø	Nro. Pisos
+Ø	Edad Constr.: Edad de construcción
+Ø	Porc. Constr.: Porcentaje Construido
+
+NOTA: Los campo subrayados y con negrilla siempre deben ser digitados, en caso contrario el aplicativo no realiza el ingreso de la información al sistema.
+
+Después de Ingresar correctamente la información, presione el botón Grabar de la barra de herramientas.
+ 
+En caso de no querer adicionar un registro después de haber presionado el botón agregar, presione el botón Deshacer de la barra de herramientas para cancelar la acción ya que en caso contrario, quedaría un registro en blanco en el archivo de construcciones el cual podría causar un mal funcionamiento del sistema. 
+
+Como Agregar Información de Calificaciones?
+
+Después de agregar y grabar la información correspondiente a las construcciones, presione el botón Agregar calificaciones. El sistema habilita el campo Calificaciones para que se digite el código de la calificación. El aplicativo verifica la existencia del mismo y si es correcto, despliega  en el grid, el código calificación, tipo construcción, descripción de la calificación y puntaje.
+
+En el campo Total Puntos se va acumulando el valor correspondiente al puntaje con el fin de que pueda validarse el puntaje ingresado en la sección de construcciones con el puntaje ingresado en la sección de calificaciones. Este campo es solo informativo, es decir, el aplicativo no realizará ninguna acción en caso de que los campos puntaje sean diferentes.
+
+Para adicionar una nueva construcción presione nuevamente el botón Agregar de la sección de construcciones.
+
+Como Modificar  Información?
+
+En caso de que se necesite modificar la información de una construcción ya ingresada y grabada, utilice los botones Anterior y Siguiente para seleccionar el registro deseado. Cabe anotar que estos botones permiten visualizar hacia delante o hacia atrás la información  de las construcciones pertenecientes a una resolución y ficha específica, sin que los campos estén habilitados para realizar correcciones sobre ellos.
+
+Una vez seleccionado el registro a modificar, presione el botón Modificar de la barra de herramientas. El aplicativo habilitará los campos para que se proceda a modificar la información.  De igual forma, el sistema muestra las calificaciones que se han ingresado a la construcción con el fin de que se agreguen mas o se realicen los cambios que sean necesarios.
+
+Después de realizadas  las modificaciones presione el botón Grabar para confirmar la información.
+
+En caso de no continuar con la acción presione el botón Deshacer.
+
+RECOMENDACIÓN!!
+
+En caso de querer modificar una calificación de una construcción, se recomienda borrar el registro e ingresar nuevamente la calificación.
+
+Como Borrar Información?
+
+En caso de que se necesite borrar la información de una construcción ya ingresada, utilice los botones Anterior y Siguiente para seleccionar el registro deseado.
+Cabe anotar que estos botones permiten visualizar hacia delante o hacia atrás la información  de las construcciones que estén asociados a una resolución y número de ficha específica, sin que los campos estén habilitados para realizar correcciones sobre ellos.
+
+Una vez seleccionado el registro a borrar, presione el botón Borrar de la barra de herramientas. El aplicativo muestra un mensaje de confirmación de la acción. Al Indicar que si, se procede a retirar el registro y automáticamente se borrarán las calificaciones asociadas a esa construcción.
+
+Para borrar un registro de la sección de calificaciones, haga click en  el campo en blanco ubicado en la primera fila del grid (campo en blanco) de calificaciones. Para desmarcarlo haga click nuevamente  sobre el mismo.
+
+
+Submenú Ficha Resumen 2
+
+Por medio de esta opción se puede agregar, borrar, modificar o consultar las fichas Resumen tipo 2 concernientes a una Resolución y sus respectivas fichas prediales.
+
+Esta opción posee siete pestañas, cada una de las cuales representa una tabla del aplicativo de fichas resumen, con información propia de la ficha que se está ingresando así:
+
+-	Resolución
+-	Ficha R2
+-	Cartografía
+-	Linderos
+-	Zona Geoeconómica
+-	Zona Física
+-	Construcciones
+
+Pestaña Resolución
+
+En esta pestaña debe ingresarse la información correspondiente  a la Resolución previamente matriculada. El aplicativo, valida que la información exista. Su funcionalidad es igual a la pestaña de Resolución de fichas prediales.
+
+Pestaña Ficha R2
+
+Esta pestaña permite ingresar, modificar o borrar la información correspondiente a la ficha resumen tipo 2. El sistema muestra la última Resolución ingresada. Si desea puede cambiar la información.
+
+El sistema muestra en la parte superior de la pantalla la vigencia, tipo de Resolución y Resolución sobre la cual se está ingresando la información de ficha resumen 2.
+
+Como Agregar Información?
+
+Presione el Botón Agregar de la barra de herramienta. El aplicativo prepara  las variables para recibir los datos:
+Ø	Novedad: Presione click sobre la flecha. El sistema desplega una lista donde debe seleccionar Retiro 1, Ingreso 2 ó modificación 3. También se puede digitar I,R ó M.
+ 
+Ø	Dirección: Dirección indicada en la ficha Resumen. Cuando la novedad sera Retiro, no se debe ingresar la Dirección.
+
+Ø	Cédula Catastral:
+Ø	Mpio: Municipio
+Ø	Sector: Presione la flecha y el sistema despliega 1 Urbano, 2 Rural, 3 Expansión.
+Ø	Correg: Corregimiento 
+Ø	Barrio  
+Ø	Man-Ver: Manzana  ó vereda 
+Ø	Predio 
+Ø	Edificio
+Ø	Característica del predio: Para Ficha Resumen tipo 2 es RPH (2), Parcelación (3), Condominio (4)
+Ø	Area Total Lote: expresada en hectáreas
+Ø	Area Común Lote: expresada en hectáreas
+Ø	Total Aptos: Número total de apartamentos reportados en la ficha resumen  1
+Ø	Total locales: Número total de locales reportados en la ficha resumen 1
+Ø	Total Cuarto ütil: Número total de cuartos util reportados en la ficha resumen 1
+Ø	Total Edificios: Número total de edificios reportados en la ficha resumen 1
+Ø	Total Gar. Cubierto: Número total de garajes cubiertos reportados en la ficha resumen
+Ø	Total Parq. Descub.: Número total de parqueaderos descubiertos reportados en la ficha resumen 1
+Ø	Total Unds. RPH: Número total de unidades condominio reportados en la ficha resumen 2
+Ø	Total pisos: Número total de pisos reportados en la ficha resumen
+
+Presione el botón Grabar después de ingresar la información.
+
+En caso de que después de haber presionado el botón Agregar no desee continuar con la acción, presione el botón Deshacer, pues en caso contrario, el sistema deja un registro en blanco el cual ocasionará errores en el aplicativo posteriormente.
+
+Como Modificar Información?
+
+Para modificar información previamente ingresada y grabada utilice el botón Buscar para ubicar la ficha resumen a la cual desea realizarle los cambios. 
+Ingrese los campos solicitados (la cédula catastral) y presione el botón Buscar, el sistema se ubica sobre el registro solicitado.También puede desplazarse a través de los registros por medio de los botones Anterior y Siguiente . Después de ubicado el registro presione el botón Modificar y realice los cambios necesarios. Presione el botón Grabar para confirmar los cambios.
+
+Como Borrar Información?
+
+Para borrar información previamente ingresada y grabada utilice el botón Buscar para ubicar la ficha que desea retirar.Realice los pasos indicados anteriormente para seleccionar el registro a retirar.
+También puede desplazarse a través de los registros por medio de los botones Anterior y Siguiente. Después de ubicado el registro presione el botón Borrar. El sistema muestra un mensaje de confirmación y al dar SI, se procede a retirar el registro.
+
+Pestaña Cartografía
+
+Esta pestaña permite ingresar, modificar o borrar la información correspondiente a la información cartográfica de la ficha resumen tipo 2.
+
+El sistema despliega en la parte superior la información correspondiente a la cédula catastral ingresada en la pestaña anterior.
+
+Como Agregar Información Cartográfica?
+
+Presione el botón agregar de la barra de herramientas e ingrese la información correspondiente:
+
+Ø	Plancha
+Ø	Ventana
+Ø	Escala plancha: por defecto el sistema muestra 1:
+Ø	Vig. Plancha: no puede ser inferior a 1983
+Ø	Nro. Vuelo
+Ø	Nro faja
+Ø	Nro foto
+Ø	Vig. Foto: no puede ser inferior a 1983
+Ø	Ampliación
+Ø	Escala foto: por defecto el sistema muestra 1.
+ 
+Presione el botón Grabar para confirmar la información ingresada. 
+
+Recuerde que si agregó un registro y no desea continuar con el ingreso debe presionar el botón Deshacer, pues en caso contrario se crean registros en blanco que van deteriorando el funcionamiento posterior del aplicativo.
+
+Como Modificar  Información?
+
+Para modificar la información correspondiente a la cartografía, presione el botón Modificar de la barra de herramientas y realice los cambios correspondientes. Presione el botón Grabar para confirmar la información.
+
+Como Borrar Información?
+
+Seleccione el registro a retirar y presione el botón Borrar. El sistema elimina el registro. Se recomienda ejecutar la opción  Mantenimiento de Base de Datos para conservar la integridad de los mismos.
+
+Presione el botón Salir para abandonar la opción de fichas resumen 2 en cualquiera de las pestañas.
+ 
+Pestaña Linderos
+
+Permite adicionar, borrar o modificar la información correspondiente a los linderos informados en la ficha resumen.
+
+Presione el botón Agregar, el sistema se ubica en el grid  (campo en blanco) ubicado debajo de punto cardinal. Presione la flecha hacia abajo y el sistema despliega la lista de los linderos disponibles: Norte, Oriente, Sur, Occidente, Zenit, Nadir. Haga click sobre la opción deseada. Ingrese la información del lindero.
+
+Presione el botón Grabar o Deshacer dependiendo de la opción a ejecutar.
+
+Pestaña Zona Geoeconómica
+
+Por medio de esta opción pueden ingresarse a la opción de fichas resumen 2 las zonas geoeconómicas existentes para un predio en caso de que existan. 
+
+El sistema muestra en la parte superior la información de la resolución y la ficha Resumen 2 (cédula catastral) que se esta trabajando en ese momento.
+
+Como Agregar Información?
+
+Presione el botón Agregar. El aplicativo se ubicará en el primer campo ubicado en la parte inferior del grid (campo en blanco). Ingrese el código de la zona geoeconómica. El porcentaje correspondiente se debe ingresar en el campo siguiente.
+
+En la parte inferior de la pantalla se encuentra el campo Porcentaje Total, el cual muestra el porcentaje acumulado. Cuando llega al 100% el aplicativo no permite el ingreso de más registros. 
+
+Presione el botón Grabar  para confirmar la información que se acabo de ingresar. El aplicativo habilita inmediatamente el botón Agregar, para continuar insertando registros en caso de que aplique.
+
+Si una vez presionado el botón agregar, se desiste de continuar con la acción, presione el botón Deshacer, y el sistema ignora la última acción ejecutada.
+
+Como Borrar Información?
+
+Para eliminar un registro ingresado y grabado, presione clic sobre la primera columna  de cada registro en el grid (campo en blanco). Este campo se pondrá de color negro; esto indica que el registro ha sido borrado y puede nuevamente ingresar información. Puede presionarse nuevamente click sobre el campo y el registro quedará  desmarcado, es decir, no borrado.
+
+RECOMENDACIÓN!!
+
+En caso de que se necesite modificar un registro, se recomienda borrar el registro a corregir e ingresar el registro correcto.
+
+Pestaña Zona Física
+
+Por medio de esta opción pueden ingresarse al sistema las zonas físicas existentes para una ficha resumen tipo 2 en caso de que existan.. 
+
+El sistema muestra en la parte superior la información de la resolución y la ficha resumen que se esta trabajando en ese momento
+
+Como Agregar Información?
+
+Presione el botón Agregar. El aplicativo se ubicará en el primer campo ubicado en la parte inferior del grid (campo en blanco). Ingrese el código de la zona física. El porcentaje correspondiente se debe ingresar en el campo siguiente.
+
+En la parte inferior de la pantalla se encuentra el campo Porcentaje Total, el cual muestra el porcentaje acumulado. Cuando llega al 100% el aplicativo no permite el ingreso de más registros. 
+
+Presione el botón Grabar  para confirmar la información que se acabo de ingresar. El aplicativo habilita inmediatamente el botón Agregar, para continuar insertando registros en caso de que aplique.
+
+Si una vez presionado el botón agregar, se desiste de continuar con la acción, presione el botón Deshacer, y el sistema ignora la última acción ejecutada.
+
+Como Borrar Información?
+
+Para eliminar un registro ingresado y grabado, presione clic sobre la primera columna  de cada registro en el grid (campo en blanco). Este campo se pondrá de color negro; esto indica que el registro ha sido borrado y puede nuevamente ingresar información. Puede presionarse nuevamente click sobre el campo y el registro quedará  desmarcado, es decir, no borrado.
+
+
+RECOMENDACIÓN!!
+
+En caso de que se necesite modificar un registro, se recomienda borrar el registro a corregir e ingresar el registro correcto.
+
+Pestaña Construcciones
+
+Por medio de esta opción se ingresan las construcciones asociadas a una ficha resumen tipo 2 y sus respectivas calificaciones.
+
+
+El sistema muestra en la parte superior la información de la resolución y la cédula catastral que se esta trabajando en ese momento.
+
+
+
+La pantalla esta dividida en dos secciones: la primera corresponde a la información de la construcción y la segunda corresponde a las calificaciones asociadas a dicha construcción. Por metodología se recomienda ingresar siempre primero las construcciones y luego las calificaciones a la construcción.
+
+Como Agregar Información?
+
+Para adicionar información de una construcción,  presione el botón Agregar  de la barra de herramientas y proceda a ingresar la información, de acuerdo a las directrices de Catastro Departamental al respecto (Cartilla de Catastro):
+
+Ø	Tipo Construcción: Presione la flecha hacia abajo y el sistema despliega la lista de los tipos de Construcciones que estén en el aplicativo: Residencial R, Industrial I, Comercial C, Otros O. Presione click sobre la opción deseada o digite la primera letra de las palabras. Si este campo no se selecciona, el botón Agregar calificación no se habilita.
+Ø	Nro. Const: Número de Construcción 
+Ø	Identificador 
+Ø	Puntos: Digite el total de puntos indicado en la ficha
+Ø	Area Construida 
+
+Para los siguientes campos puede desplegarse la lista asociada la cual posee las opciones No Tiene, Si tiene y presione click sobre la opción deseada. También puede digitar S ó N par agilizar la captura.
+
+Ø	Mejora 
+Ø	Ley 56
+Ø	Acueducto 
+Ø	Alcantarillado
+Ø	Teléfono
+Ø	Gas 
+Ø	Fibra óptica
+Ø	Parabólica
+Ø	Nro. Pisos
+Ø	Edad Constr.: Edad de construcción
+Ø	Porc. Constr.: Porcentaje Construido
+
+NOTA: Los campo subrayados y con negrilla siempre deben ser digitados, en caso contrario el aplicativo no realiza el ingreso de la información al sistema.
+
+Después de Ingresar correctamente la información, presione el botón Grabar de la barra de herramientas.
+
+En caso de no querer adicionar un registro después de haber presionado el botón agregar, presione el botón Deshacer de la barra de herramientas para cancelar la acción ya que en caso contrario, quedaría un registro en blanco en el archivo de construcciones el cual podría causar un mal funcionamiento del sistema. 
+
+
+
+Como Agregar Información de Calificaciones?
+
+Después de agregar y grabar la información correspondiente a las construcciones, presione el botón Agregar calificaciones. El sistema habilita el campo Calificaciones para que se digite el código de la calificación. El aplicativo verifica la existencia del mismo y si es correcto, despliega  en el grid (campo en blanco), el código calificación, tipo construcción, descripción de la calificación y puntaje.
+
+En el campo Total Puntos se va acumulando el valor correspondiente al puntaje con el fin de que pueda validarse el puntaje ingresado en la sección de construcciones con el puntaje ingresado en la sección de calificaciones. Este campo es solo informativo, es decir, el aplicativo no realizará ninguna acción en caso de que los campos puntaje sean diferentes.
+
+Para adicionar una nueva construcción presione nuevamente el botón Agregar de la sección de construcciones.
+
+Como Modificar  Información?
+
+En caso de que se necesite modificar la información de una construcción ya ingresada y grabada, utilice los botones Anterior y Siguiente para seleccionar el registro deseado. Cabe anotar que estos botones permiten visualizar hacia delante o hacia atrás la información  de las construcciones pertenecientes a una resolución y ficha específica, sin que los campos estén habilitados para realizar correcciones sobre ellos. 
+
+Una vez seleccionado el registro a modificar, presione el botón Modificar de la barra de herramientas. El aplicativo habilitará los campos para que se proceda a modificar la información.  De igual forma, el sistema muestra las calificaciones que se han ingresado a la construcción con el fin de que se agreguen mas o se realicen los cambios que sean necesarios.
+
+Después de realizadas las modificaciones presione el botón Grabar para confirmar la información.
+
+En caso de no continuar con la acción presione el botón Deshacer.
+
+
+RECOMENDACIÓN !!
+
+En caso de querer modificar una calificación de una construcción, se recomienda borrar el registro e ingresar nuevamente la calificación.
+
+Como Borrar Información?
+
+En caso de que se necesite borrar la información de una construcción ya ingresada, utilice los botones Anterior y Siguiente para seleccionar el registro deseado. Cabe anotar que estos botones permiten visualizar hacia delante o hacia atrás la información  de las construcciones que estén asociados a una resolución y número de ficha específica, sin que los campos estén habilitados para realizar correcciones sobre ellos.
+
+Una vez seleccionado el registro a borrar, presione el botón Borrar de la barra de herramientas. El aplicativo muestra un mensaje de confirmación de la acción. Al Indicar que si, se procede a retirar el registro y automáticamente se borrarán las calificaciones asociadas a esa construcción.
+
+Para borrar un registro de la sección de calificaciones, haga click en  el campo en blanco ubicado en la primera fila del grid  de calificaciones. Para desmarcarlo haga click nuevamente  sobre el mismo.
+MENÚ GENERAR PLANOS
+
+Una vez digitada la información correspondiente a una Resolución, se debe proceder a la Generación del archivo Plano tanto para fichas prediales como para fichas resumen 1 y 2. para ser enviado a Catastro Departamental. Posee el siguiente Submenú:
+
+ARCHIVO PLANO
+
+Permite generar un archivo plano con la información correspondiente a la ficha predial de una resolución ingresada para ser enviada a Catastro Departamental. Sólo se genera un archivo plano por resolución, es decir, se deben generar tantos archivos planos como Resoluciones vayan a ser informadas a Catastro Departamental.
+
+Como Generar el Archivo Plano?
+
+Ingrese los campos:
+
+Ø	Municipio
+Ø	Vigencia
+Ø	Tipo 
+Ø	Resolución
+
+Presione el botón Generar Consulta y luego presione el botón Generar Plano. El sistema realiza internamente la conversión de la información de la Resolución ingresada y genera el archivo plano correspondiente.
+
+En el campo Ruta y Nombre del archivo Plano generado, muestra la ruita donde quedó el archivo para ser posteriormente copiado. Por defecto es c:\catastrovfp\planos\.
+
+Opción Ficha Resumen
+
+Permite generar un archivo plano con la información correspondiente a la ficha resumen de una resolución ingresada para ser enviada a Catastro Departamental. Sólo se genera un archivo plano por resolución, es decir, se deben generar tantos archivos planos como Resoluciones vayan a ser informadas a Catastro Departamental.
+
+Como Generar el Archivo Plano?
+
+Ingrese los campos:
+
+Ø	Municipio
+Ø	Vigencia
+Ø	Tipo 
+Ø	Resolución
+
+Presione el botón Generar Consulta y luego presione el botón Generar Plano. El sistema realiza internamente la conversión de la información de la Resolución ingresada y genera el archivo plano correspondiente.
+
+En el campo Ruta y Nombre del archivo Plano generado, muestra la ruta donde quedó el archivo para ser posteriormente copiado. Por defecto es c:\catastrovfp\planos\.
+
+ 
+A continuación se dan las pautas necesarias de mutación para alimentar el programa de captura de información.
+
+RETIROS
+
+Para retiro de predios, propietarios o construcciones se debe comparar la Ficha Predial con los datos consignados en el listado, con el fin de verificar la debida correspondencia; y se retira de acuerdo a los datos del listado de la Base de Datos de la Dirección de Catastro.
+
+RETIROS DE PREDIO
+
+Recordar que en cada pestaña se debe dar click en agregar para activar y llenar los campos, luego grabar y pasar a la pestaña siguiente.
+
+
+CAUSA 001: RETIRO DE PREDIO (por inexistencia física y jurídica. R.A. - Por Resolución Administrativa Especial. Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 001, Movimiento y número de ficha.
+
+NO TIENE CONTRAPARTIDA. ***
+
+
+CAUSA 002: RETIRO DE PREDIO POR ENGLOBE. (se cancelan los predios que se van a englobar y luego se procede a inscribir el predio nuevo). Llenar los siguientes campos:
+
+Pestaña Mutación: CAUSA del Acto 002, Movimiento y número de ficha.
+
+
+CONTRAPARTIDA: 
+
+INSCRIPCIÓN PREDIO. Causa del Acto 156. Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 156, Movimiento, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo, cédula catastral anterior, sector, categorías  del suelo, característica del predio y terreno.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Adquisición, litigio, % litigio, calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, clase de documento, número, derecho, número escritura, notaria (DPTO,MPIO, NUMERO), fecha (día, mes y año), fecha de registro (día, mes y año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+
+CAUSA 003: CANCELA PREDIO  POR REGLAMENTO DE PROPIEDAD HORIZONTAL, CARACTERÍSTICA 2 ó 3, (predio sometido a Rph. Edificio o parcelación). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 003, Movimiento y número de ficha.
+
+
+CONTRAPARTIDA: 
+
+INSCRIPCIÓN DE UNIDAD PREDIAL DE PREDIO CON CARACTERÍSTICA 2 ó 3. Causa del Acto 155. Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 155, Movimiento, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo, cédula catastral anterior, sector, categorías  del suelo, característica del predio y terreno (sí expresamente lo dice el RPH, de lo contrario se deja en blanco) y coeficiente edificio.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Adquisición, litigio, % litigio, calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, clase de documento, número, derecho, número escritura, notaria (DPTO,MPIO, NUMERO), fecha (día, mes y año), fecha de registro (día, mes y año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación) y Complemento industria (Industria). De lo contrario dejarlo en blanco.
+
+Pestaña Linderos: Colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación y escala.
+
+
+INFORMAR LA FICHA RESUMEN 2.
+
+Elegimos del menú: OPCIÓN FORMULARIOS, buscamos la opción MOVIMIENTO y elegimos el Submenú Ficha Resumen 2.
+
+Submenú Ficha Resumen 2
+
+Llenar los siguientes campos:
+
+Pestaña Resolución: Vigencia, tipo de Resolución y número de la resolución previamente matriculada. 
+
+Pestaña Ficha R2: Novedad (movimiento), dirección de predio, cédula catastral (municipio, sector, corregimiento, barrio, manzana ó vereda, predio, edificio), característica del predio rph, area total lote, area común lote, total apartamentos, total locales, total cuarto ütil, total edificios, total garajes cubiertos, total parqueaderos descubiertos, total unidades condominio y total pisos.
+
+Pestaña cartografía: Plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación y escala.
+
+Pestaña Linderos: colindantes.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) común(s) ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación) y Complemento industria (Industria). 
+
+
+CAUSA 004: DIVISIÓN TOTAL DEL PREDIO ADQUISICIÓN 1 (cancelar el predio por reloteo total y crear predios nuevos).
+
+Pestaña Mutación: Llenar los siguientes campos: Causa del Acto 004, Movimiento y número de ficha.
+
+
+CONTRAPARTIDA: 
+
+INSCRIPCIÓN PREDIO. Causa del Acto 156. Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 156, Movimiento, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo, cédula catastral anterior, sector, categorías  del suelo, característica del predio y terreno.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Adquisición, litigio, % litigio, calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, clase de documento, número, derecho, número escritura, notaria (DPTO,MPIO, NUMERO), fecha (día, mes y año), fecha de registro (día, mes y año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+
+CAUSA 005: CANCELA UNIDAD PREDIAL (ocurre cuando existe un reglamento de propiedad horizontal que ha sido mal levantado, porque se hizo sobre todo el predio y era sobre parte, por lo tanto se cancela todo el R.P.H.).
+
+Pestaña Mutación: Llenar los siguientes campos: Causa del Acto 005, Movimiento y número de ficha.
+
+
+CONTRAPARTIDA: 
+
+INSCRIPCIÓN PREDIO YA UTILIZADO. Causa del Acto 151. Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 151, Movimiento, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo, cédula catastral anterior, sector, categorías  del suelo, característica del predio y terreno.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Adquisición, litigio, % litigio, calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, clase de documento, número, derecho, número escritura, notaria (DPTO,MPIO, NUMERO), fecha (día, mes y año), fecha de registro (día, mes y año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+
+CAUSA 006: CANCELACIÓN DE LITIGIO (cuando se da por terminado un litigio y hay una sentencia de juzgado al respecto; y requiere R.A.).
+
+Pestaña Mutación: Llenar los siguientes campos: Causa del Acto 006, Movimiento y número de ficha.
+
+
+CONTRAPARTIDA: 
+
+
+CAUSA 509: MODIFICACIÓN LITIGIO SI: (cambiar de litigio 1 a  2, que ya  no tiene litigio, cuando por fallo judicial ó sentencia se aclara el real propietario del predio.).
+
+Pestaña Mutación: Llenar los siguientes campos: Causa del Acto 509, Movimiento y número de ficha.
+
+Pestaña Propietario: Adquisición, litigio, % litigio, calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, clase de documento, número, derecho, número escritura, notaria (DPTO,MPIO, NUMERO), fecha (día, mes y año) y  fecha de registro (día, mes y año).
+
+
+CAUSA 007: CANCELACIÓN DE PREDIO (En el predio ocurrió un desastre natural u otro caso que demuestre que ya no existe, por lo tanto requiere que se haya hecho cancelación de la matrícula inmobiliaria y requiere de Resolución Administrativa).
+
+Pestaña Mutación: Llenar los siguientes campos: Causa del Acto 007, Movimiento y número de ficha.
+
+
+NO TIENE CONTRAPARTIDA. ***
+
+
+
+
+CAUSA 009: RETIRO DE PREDIO POSESION POR ENGLOBE. (se da cuando por error en la formación se inscribió y ya existía esta otra ubicación, está repetida la información, solo se debe hacer por R.A.)
+
+Pestaña Mutación: Llenar los siguientes campos: Causa del Acto 007, Movimiento y número de ficha.
+
+ 
+CONTRAPARTIDA: 
+
+INSCRIPCIÓN PREDIO ADQUISICIÓN 2. (inscribir predio de posesión). Causa del Acto 162. Llenar los siguientes campos: 
+
+Pestaña Mutación: Causa del Acto 162, Movimiento y número de ficha, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo, cédula catastral anterior, sector, categorías  del suelo, característica del predio y terreno.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Adquisición, litigio, % litigio, calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, clase de documento, número, derecho, número escritura, notaria (DPTO,MPIO, NUMERO) y fecha (día, mes y año).
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+
+
+
+CAUSA 010: CANCELACIÓN DE PREDIO POR ENGLOBE PREDIO POSESIÓN Y DERECHO REAL, (se cancela, informándolo tantas veces como predios que se englobaron. Solo se debe hacer por R.A., tipo reclamos por avalúo y área).
+
+Pestaña Mutación: Causa del Acto 010, Movimiento y número de ficha.
+
+
+CONTRAPARTIDA: 
+
+Causa 156: INSCRIPCIÓN PREDIO POR ENGLOBE ADQUISICIÓN 1. (Ocurre cuando existían varios predios y por escritura pública registrada se engloban en uno solo).
+
+Pestaña Mutación: Causa del Acto 156, Movimiento, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo, cédula catastral anterior, sector, categorías  del suelo, característica del predio y terreno.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Adquisición, litigio, % litigio, calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, clase de documento, número, derecho, número escritura, notaria (DPTO, MPIO, NUMERO), fecha (día, mes y año), fecha de registro (día, mes y año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+
+
+CAUSA 011: RETIRO DE  MEJORA. (Por inexistencia física ó por ser construcción que pertenece al predio).
+
+Pestaña Mutación: Causa del Acto 011, movimiento, número de ficha, INCLUIR VIGENCIA FISCAL.
+
+NO TIENE CONTRAPARTIDA. ***
+
+
+CAUSA 012: CANCELA PREDIO POR REGLAMENTO DE PROPIEDAD HORIZONTAL, CARACTERÍSTICA 4, (predio sometido a Rph. Condominio). 
+
+Pestaña Mutación: Causa del Acto 012, Movimiento, Numero de ficha.
+
+
+CONTRAPARTIDA: 
+
+INSCRIPCIÓN DE UNIDAD PREDIAL DE PREDIO CON CARACTERÍSTICA 4. (Ocurre cuando un predio es sometido a R.P.H. condominio; cuando en una propiedad existe mas de un edificio y tiene tanto coeficientes de edificio, como de predio). Causa del Acto 157. Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 157, Movimiento, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo, cédula catastral anterior, sector, categorías  del suelo, característica del predio, terreno (sí expresamente lo dice el RPH, de lo contrario se deja en blanco), coeficientes predio y coeficiente edificio.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Adquisición, litigio, % litigio, calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, clase de documento, número, derecho, número escritura, notaria (DPTO,MPIO, NUMERO), fecha (día, mes y año), fecha de registro (día, mes y año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+
+INFORMAR LA FICHA RESUMEN 1.
+
+Elegimos del menú: OPCIÓN FORMULARIOS, buscamos la opción MOVIMIENTO y elegimos el Submenú Ficha Resumen 1.
+
+Submenú Ficha Resumen 1 (de todo el condominio y construcciones comunes).
+
+Llenar los siguientes campos:
+
+Pestaña Resolución: Vigencia, tipo de Resolución y número de la resolución previamente matriculada. 
+
+Pestaña Ficha R1: Novedad (movimiento), dirección de predio, cédula catastral (municipio, sector, corregimiento, barrio, manzana ó vereda, predio, edificio), característica del predio rph, area total lote, area común lote, total apartamentos, total locales, total cuarto ütil, total edificios, total garajes cubiertos, total parqueaderos descubiertos, total unidades condominio y total pisos.
+
+Pestaña cartografía: Plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación y escala.
+
+Pestaña Linderos: colindantes.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) común(s) del condominio, ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación) y Complemento industria (Industria). 
+
+INFORMAR LA FICHA RESUMEN 2. Una por cada edificio con coeficiente edificio 100%.
+
+Elegimos del menú: OPCIÓN FORMULARIOS, buscamos la opción MOVIMIENTO y elegimos el Submenú Ficha Resumen 2.
+
+Submenú Ficha Resumen 2 (cada edificio con coeficiente 100% y construcciones comunes del edificio).
+
+Llenar los siguientes campos:
+
+Pestaña Resolución: Vigencia, tipo de Resolución y número de la resolución previamente matriculada. 
+
+Pestaña Ficha R2: Novedad (movimiento), dirección de predio, cédula catastral (municipio, sector, corregimiento, barrio, manzana ó vereda, predio, edificio), característica del predio rph, area total lote, area común lote, total apartamentos, total locales, total cuarto ütil, total edificios, total garajes cubiertos, total parqueaderos descubiertos, total unidades condominio y total pisos.
+
+Pestaña cartografía: Plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación y escala.
+
+Pestaña Linderos: colindantes.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) común(s) el edificio, ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación) y Complemento industria (Industria). 
+
+CAUSA 013: RETIRO DE PREDIO POR ENGLOBE. (Se debe cancelar el predio por mal ubicado en campo en el proceso de actualización o formación). Causa del Acto 013. Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 013, movimiento y número de ficha.
+
+
+CONTRAPARTIDA: 
+
+CAUSA 334. MODIFICACIÓN DEL PREDIO POR ENGLOBE. (Ocurre cuando a un predio por error le sale otro englobado por mal levantamiento en proceso de actualización o formación). Causa del Acto 334. Llenar los siguientes campos
+
+Pestaña Mutación: Causa del Acto 334, movimiento, nombre o dirección del predio (si cambia), número de ficha y terreno.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: llenar estos campos si CAMBIAN: Escritura número, notaria (DPTO,MPIO, NÚMERO), fecha titulo(día, mes, año), fecha de registro (día mes año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+
+CAUSA 014: DIVISIÓN TOTAL DEL PREDIO ADQUISICIÓN 2. (Se refiere a un predio que se relotea totalmente, por lo que se debe tener en cuenta que este código catastral no se puede reutilizar). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 014, movimiento y número de ficha.
+
+
+CONTRAPARTIDA: 
+
+INSCRIPCIÓN PREDIO. Causa del Acto 154. Llenar los siguientes campos:
+ 
+Pestaña Mutación: Causa del Acto 154, Movimiento, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo, cédula catastral anterior, sector, categorías  del suelo, característica del predio y terreno.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Adquisición, litigio, % litigio, calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, clase de documento, número, derecho, número escritura, notaria (DPTO, MPIO, NUMERO), fecha (día, mes y año), fecha de registro (día, mes y año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+
+CAUSA 015: RETIRA UNIDAD PREDIAL CARACTERÍSTICA 2 o 3 y modificación de RPH. (Se refiere a Unidad predial sometida a reglamento de propiedad horizontal Edificio o Parcelación que se cancela por no construirse o por dividirse en otra más). Llenar los siguientes campos: 
+
+Pestaña Mutación: Causa del Acto 015, movimiento y número de ficha.
+
+CONTRAPARTIDA:
+
+Causa 336: MODIFICACIÓN UNIDAD PREDIAL. Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 336, movimiento, nombre o dirección del predio (Sí cambia), terreno, coeficiente edificio y número de ficha.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: llenar estos campos si CAMBIAN: Escritura número, notaria (DPTO,MPIO, NÚMERO), fecha titulo(día, mes, año), fecha de registro (día mes año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+
+INFORMAMOS FICHA RESUMEN 2
+
+Elegimos del menú: OPCIÓN FORMULARIOS, buscamos la opción MOVIMIENTO y elegimos el Submenú Ficha Resumen 2.
+
+Submenú Ficha Resumen 2. Llenar los siguientes campos:
+
+Pestaña Resolución: Vigencia, tipo de Resolución y número de la resolución previamente matriculada. 
+
+Pestaña Ficha R2: Novedad (movimiento), dirección de predio, cédula catastral (municipio, sector, corregimiento, barrio, manzana ó vereda, predio, edificio), característica del predio rph, area total lote, area común lote, total apartamentos, total locales, total cuarto ütil, total edificios, total garajes cubiertos, total parqueaderos descubiertos, total unidades condominio y total pisos.
+
+Pestaña cartografía: Plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación y escala.
+
+Pestaña Linderos: colindantes.
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) común(s) el edificio, ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación) y Complemento industria (Industria). 
+
+
+CAUSA 016: RETIRO DE PREDIO POR ENGLOBE EN PREDIO CARACTERISTICA 2 ó 3. (se cancela el predio que se van a englobar al RPH, permite modificar unidades prediales e inscribir otras). Llenar los siguientes campos:
+
+Pestaña Mutación: CAUSA del Acto 016, Movimiento y número de ficha.
+
+
+DOS CONTRAPARTIDAS:
+
+Causa 336: MODIFICACIÓN UNIDAD PREDIAL. Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 336, movimiento, nombre o dirección del predio (Sí cambia), terreno, coeficiente edificio y número de ficha.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: llenar estos campos si CAMBIAN: Escritura número, notaria (DPTO,MPIO, NÚMERO), fecha titulo(día, mes, año), fecha de registro (día mes año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+
+Causa 155: INSCRIPCIÓN UNIDAD PREDIAL DE PREDIO CON CARACTERÍSTICA 2 ó 3. Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 155, Movimiento, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo, cédula catastral anterior, sector, categorías  del suelo, característica del predio y terreno (sí expresamente lo dice el RPH, de lo contrario se deja en blanco) y coeficiente edificio.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Adquisición, litigio, % litigio, calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, clase de documento, número, derecho, número escritura, notaria (DPTO,MPIO, NUMERO), fecha (día, mes y año), fecha de registro (día, mes y año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación) y Complemento industria (Industria). De lo contrario dejarlo en blanco.
+
+Pestaña Linderos: Colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación y escala.
+
+
+INFORMAMOS FICHA RESUMEN 2
+
+Elegimos del menú: OPCIÓN FORMULARIOS, buscamos la opción MOVIMIENTO y elegimos el Submenú Ficha Resumen 2.
+
+
+Submenú Ficha Resumen 2. Llenar los siguientes campos:
+
+Pestaña Resolución: Vigencia, tipo de Resolución y número de la resolución previamente matriculada. 
+
+Pestaña Ficha R2: Novedad (movimiento), dirección de predio, cédula catastral (municipio, sector, corregimiento, barrio, manzana ó vereda, predio, edificio), característica del predio rph, area total lote, area común lote, total apartamentos, total locales, total cuarto ütil, total edificios, total garajes cubiertos, total parqueaderos descubiertos, total unidades condominio y total pisos.
+
+Pestaña cartografía: Plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación y escala.
+
+Pestaña Linderos: colindantes.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) común(s) el edificio, ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación) y Complemento industria (Industria). 
+
+
+CAUSA 017: RETIRO DE PREDIO CARACTERISTICA RPH, POR ENGLOBE EN PREDIO CARACTERISTICA RPH. (se cancela la ficha resumen y tantas unidades prediales tenga el RPH que se va a englobar a otro RPH, permite modificar unidades prediales e inscribir otras). Llenar los siguientes campos:
+
+Pestaña Mutación: CAUSA del Acto 017, Movimiento y número de ficha.
+
+CANCELAMOS LA FICHA RESUMEN 2 (porque se engloba en otra RPH)
+
+
+Elegimos del menú: OPCIÓN FORMULARIOS, buscamos la opción MOVIMIENTO y elegimos el Submenú Ficha Resumen 2.
+
+
+Submenú Ficha Resumen 2. Llenar los siguientes campos:
+
+Pestaña Resolución: Vigencia, tipo de Resolución y número de la resolución previamente matriculada. 
+
+Pestaña Ficha R2: Novedad (movimiento), dirección de predio, cédula catastral (municipio, sector, corregimiento, barrio, manzana ó vereda, predio, edificio) y característica del predio rph.
+
+
+DOS CONTRAPARTIDAS:
+
+Causa 336: MODIFICACIÓN UNIDAD PREDIAL. Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 336, movimiento, nombre o dirección del predio (Sí cambia), terreno, coeficiente edificio y número de ficha.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Llenar estos campos si CAMBIAN: Escritura número, notaria (DPTO,MPIO, NÚMERO), fecha titulo(día, mes, año), fecha de registro (día mes año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+
+
+
+Causa 155: INSCRIPCIÓN UNIDAD PREDIAL DE PREDIO CON CARACTERÍSTICA RPH. Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 155, Movimiento, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo, cédula catastral anterior, sector, categorías  del suelo, característica del predio y terreno (sí expresamente lo dice el RPH, de lo contrario se deja en blanco) y coeficiente edificio.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Adquisición, litigio, % litigio, calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, clase de documento, número, derecho, número escritura, notaria (DPTO,MPIO, NUMERO), fecha (día, mes y año), fecha de registro (día, mes y año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación) y Complemento industria (Industria). De lo contrario dejarlo en blanco.
+
+Pestaña Linderos: Colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación y escala.
+
+INFORMAMOS FICHA RESUMEN 2
+
+Elegimos del menú: OPCIÓN FORMULARIOS, buscamos la opción MOVIMIENTO y elegimos el Submenú Ficha Resumen 2.
+
+Submenú Ficha Resumen 2. Llenar los siguientes campos:
+
+Pestaña Resolución: Vigencia, tipo de Resolución y número de la resolución previamente matriculada. 
+
+Pestaña Ficha R2: Novedad (movimiento), dirección de predio, cédula catastral (municipio, sector, corregimiento, barrio, manzana ó vereda, predio, edificio), característica del predio rph, area total lote, area común lote, total apartamentos, total locales, total cuarto ütil, total edificios, total garajes cubiertos, total parqueaderos descubiertos, total unidades condominio y total pisos.
+Pestaña cartografía: Plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación y escala.
+
+Pestaña Linderos: colindantes.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) común(s) el edificio, ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación) y Complemento industria (Industria). 
+
+
+RETIRO DE PROPIETARIO
+
+Recordar que en cada pestaña se debe dar click en agregar para activar y llenar los campos, luego grabar y pasar a la pestaña siguiente.
+
+CAUSA 051: RETIRO DE PROPIETARIO ADQUISICIÓN 1. (Ocurre cuando el predio es vendido totalmente con escritura registrada). Llenar los siguientes campos:
+
+Pestaña Mutación: CAUSA del Acto 051, Movimiento y número de ficha.
+
+Pestaña Propietario: tipo de documento y número.
+
+CONTRAPARTIDA:
+
+Causa del Acto 201: INSCRIPCIÓN DE PROPIETARIO ADQUISICIÓN 1. Llenar los siguientes campos:
+
+Pestaña Mutación: Llenar los siguientes campos: CAUSA del Acto 201, Movimiento y número de ficha.
+
+Pestaña Propietario: calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, sigla comercial, clase de documento, número, derecho, Escritura número, notaria (DPTO,MPIO, NÚMERO), fecha titulo (día, mes, año) y fecha de registro (día mes año).
+CAUSA 052: RETIRO DE PROPIETARIO POR ADQUISICIÓN 2, (posesión, ocurre cuando el predio es adquirido por escritura simple, y el predio es adquirido totalmente). Llenar los siguientes campos:
+
+Pestaña Mutación: Llenar los siguientes campos: CAUSA del Acto 052, Movimiento y número de ficha.
+
+Pestaña Propietario: tipo de documento y número.
+
+
+CONTRAPARTIDA:
+
+CAUSA 202: INSCRIPCIÓN PROPIETARIO ADQUISICIÓN 2 (posesión, ocurre cuando el predio es adquirido por escritura simple). Llenar los siguientes campos:
+
+Pestaña Mutación: CAUSA del Acto 201, Movimiento y número de ficha.
+
+Pestaña Propietario: calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, sigla comercial, clase de documento, número, derecho, Escritura número, notaria (DPTO,MPIO, NÚMERO) y fecha titulo (día, mes, año).
+
+
+CAUSA 053: CORRECCIÓN DOCUMENTO DE IDENTIDAD, (ocurre cuando la cédula del propietario es mal informada). Llenar los siguientes campos:
+
+Pestaña Mutación: CAUSA del Acto 053, Movimiento y número de ficha.
+
+Pestaña Propietario: tipo de documento y número.
+
+
+ CONTRAPARTIDA:
+
+CAUSA 204: INSCRIPCIÓN PROPIETARIO POR DOCUMENTO DE IDENTIDAD MAL INFORMADO. (Ocurre cuando la cédula es mal informada por lo que requiere que se ingrese y se informe nuevamente). Llenar los siguientes campos:
+
+Pestaña Mutación: CAUSA del Acto 204, Movimiento y número de ficha.
+
+Pestaña Propietario: calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, sigla comercial, clase de documento y número.
+
+
+CAUSA 054: RETIRO DE PROPIETARIO. Ocurre cuando el que figura en la ficha no es el propietario del predio, se requiere retirarlo con cambio de adquisición. Llenar los siguientes campos:
+
+Pestaña Mutación: CAUSA del Acto 054, Movimiento y número de ficha.
+
+Pestaña Propietario: tipo de documento y número.
+
+CONTRAPARTIDA:
+
+CAUSA 205: INSCRIPCIÓN PROPIETARIO CON CAMBIO DE ADQUISICIÓN. (Ocurre cuando: 1) el propietario presenta escritura registrada requiere que se cambie adquisición e ingresar datos jurídicos - 2) tiene datos jurídicos que no le corresponden al predio y se requiere que se cambie adquisición de 2 a 1). Llenar los siguientes campos:
+
+Pestaña Mutación: Llenar los siguientes campos: CAUSA del Acto 205, Movimiento y número de ficha.
+
+Pestaña Propietario: adquisición, calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, sigla comercial, clase de documento, número, derecho, Escritura número, notaria (DPTO,MPIO, NÚMERO), fecha titulo (día, mes, año) y fecha de registro (día mes año), matricula inmobiliaria.
+
+
+CAUSA 055: RETIRO DE PROPIETARIO DE DERECHO, (ocurre por dos razones: 1)cuando se vende el derecho que se posee en un predio y el propietario que compra posee derechos en él. 2) cuando el propietario de derecho no tiene que ver con el predio). Llenar los siguientes campos:
+
+Pestaña Mutación: CAUSA del Acto 055, Movimiento y número de ficha.
+
+Pestaña Propietario: tipo de documento y número.
+
+
+CONTRAPARTIDA: 
+
+Causa 503: CORRECCIÓN DE DERECHOS. (Ocurre cuando en un predio los propietarios que figuran tienen los derechos pero no en la proporción que debe ser, por lo que se requiere modificar los derechos de acuerdo al certificado de libertad). Llenar los siguientes campos:
+
+Pestaña Mutación: CAUSA del Acto 503, Movimiento y número de ficha.
+
+Pestaña Propietario: primer apellido, segundo apellido, nombre, sigla comercial, clase de documento, número, derecho, escritura número, notaria (DPTO,MPIO, NÚMERO ),fecha titulo(día, mes, año),fecha de registro (día mes año).
+
+
+CAUSA 058: RETIRO PROPIETARIO DE MEJORA. (Ocurre cuando un propietario de una mejora la vende). Llenar los siguientes campos:
+
+Pestaña Mutación: CAUSA del Acto 053, Movimiento y número de ficha.
+
+Pestaña Propietario: tipo de documento y número.
+
+CONTRAPARTIDA: 
+
+Causa 203: INSCRIPCIÓN PROPIETARIO DE MEJORA. Llenar los siguientes campos:
+
+Pestaña Mutación: CAUSA del Acto 203, Movimiento y número de ficha.
+
+Pestaña Propietario: calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, sigla comercial, clase de documento, número, derecho, Escritura número, notaria (DPTO,MPIO, NÚMERO ),fecha titulo(día, mes, año).
+
+
+RETIRO DE CONSTRUCCION
+
+
+Recordar que en cada pestaña se debe dar click en agregar para activar y llenar los campos, luego grabar y pasar a la pestaña siguiente.
+
+CAUSA 101: RETIRO DE CONSTRUCCIÓN QUE YA NO EXISTE. (Ocurre cuando se cancela una construcción porque ha sido demolida, se debe hacer por R.A). Llenar los siguientes campos:
+
+Pestaña Mutación: CAUSA del Acto 101, Movimiento, número de ficha y VIGENCIA FISCAL.
+
+Pestaña Construcciones: N° construcción.
+
+NO TIENE CONTRAPARTIDA. ***
+
+
+CAUSA 102: RETIRO DE CONSTRUCCIÓN QUE ES MEJORA DEL PREDIO. (Ocurre cuando la construcción es una mejora del predio). Llenar los siguientes campos:
+
+Pestaña Mutación: CAUSA del Acto 102, Movimiento, número de ficha y VIGENCIA FISCAL.
+
+Pestaña Construcciones: N° construcción.
+
+CONTRAPARTIDA: 
+
+INSCRIPCIÓN MEJORA Y PROPIETARIO. Causa del Acto 152. Llenar los siguientes campos:
+
+Pestaña Mutación: CAUSA del Acto 152, Movimiento, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo, característica del predio. 
+Pestaña Propietario: primer apellido, segundo apellido, nombre, sigla comercial, clase de documento, número, derecho, escritura número, notaria (DPTO,MPIO, NÚMERO ) y fecha titulo(día, mes, año).
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación) y Complemento industria (Industria). 
+
+Pestaña Linderos: Colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación y escala.
+
+
+INSCRIPCIONES
+
+Para la inscripción de predios, propietarios o construcciones se debe realizar la inscripción de acuerdo a los datos consignados en la ficha predial (documento fuente), si hay error se debe corregir antes de realizar la inscripción.
+
+
+INSCRIPCIÓN PREDIO
+
+Recordar que en cada pestaña se debe dar click en agregar para activar y llenar los campos, luego grabar y pasar a la pestaña siguiente.
+
+CAUSA 161: INSCRIPCIÓN PREDIO NO INCLUIDO EN PROCESO DE FORMACIÓN O ACTUALIZACIÓN. (Ocurre cuando no existe en la base de datos y no afecta otro predio). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 161, Movimiento, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo, cédula catastral anterior, sector, categorías  del suelo, característica del predio y terreno.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Adquisición, litigio, % litigio, calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, clase de documento, número, derecho, número escritura, notaria (DPTO, MPIO, NUMERO), fecha (día, mes y año), fecha de registro (día, mes y año) y matricula inmobiliaria.
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+NO TIENE CONTRAPARTIDA. ***
+
+
+CAUSA 163: INCORPORA MEJORA Y PROPIETARIO. (Ocurre cuando se encuentra una mejora en campo que no existe en la base de datos, por lo tanto se debe inscribir). Llenar los siguientes campos:
+
+Pestaña Mutación: CAUSA del Acto 163, Movimiento, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo, característica del predio. 
+
+Pestaña Propietario: primer apellido, segundo apellido, nombre, sigla comercial, clase de documento, número, derecho, escritura número, notaria (DPTO,MPIO, NÚMERO ) y fecha titulo(día, mes, año).
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación) y Complemento industria (Industria).
+
+
+Pestaña Linderos: Colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación y escala.
+
+
+NO TIENE CONTRAPARTIDA. ***
+
+
+
+INSCRIPCIÓN CONSTRUCCIÓN
+
+
+Recordar que en cada pestaña se debe dar click en agregar para activar y llenar los campos, luego grabar y pasar a la pestaña siguiente.
+
+CAUSA 251: INCORPORACIÓN DE CONSTRUCCIÓN. (Ocurre cuando al visitar una propiedad se encuentra que existe una construcción que no había sido reportada). Llenar los siguientes campos:
+
+
+Pestaña Mutación: Causa del Acto 251, Movimiento, nombre o dirección del predio, número de ficha y VIGENCIA FISCAL.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación) y Complemento industria (Industria). 
+
+
+NO TIENE CONTRAPARTIDA. ***
+
+
+
+ 
+MODIFICACIÓN
+
+Para los cambios que se registran en los predios, propietarios o construcciones se debe realizar de acuerdo a los datos consignados en la ficha predial (documento fuente).
+
+Recordar que en cada pestaña se debe dar click en agregar para activar y llenar los campos, luego grabar y pasar a la pestaña siguiente.
+
+
+MODIFICACIÓN PREDIO
+
+
+CAUSA 301: MODIFICA UNIDAD PREDIAL. (Ocurre cuando a un predio sometido a R.P.H característica 4, se le adiciona o modifican las unidades prediales mediante una escritura debidamente registrada). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 301, movimiento, nombre o dirección del predio (Sí cambia), número de ficha, terreno, coeficientes predio y coeficiente edificio.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: llenar estos campos si CAMBIAN: Escritura número, notaria (DPTO,MPIO, NÚMERO), fecha titulo(día, mes, año), fecha de registro (día mes año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+
+
+INFORMAMOS FICHA RESUMEN 2
+
+Elegimos del menú: OPCIÓN FORMULARIOS, buscamos la opción MOVIMIENTO y elegimos el Submenú Ficha Resumen 2.
+
+
+Submenú Ficha Resumen 2. Llenar los siguientes campos:
+
+Pestaña Resolución: Vigencia, tipo de Resolución y número de la resolución previamente matriculada. 
+
+Pestaña Ficha R2: Novedad (movimiento), dirección de predio, cédula catastral (municipio, sector, corregimiento, barrio, manzana ó vereda, predio, edificio), característica del predio rph, area total lote, area común lote, total apartamentos, total locales, total cuarto ütil, total edificios, total garajes cubiertos, total parqueaderos descubiertos, total unidades condominio y total pisos.
+
+Pestaña cartografía: Plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación y escala.
+
+Pestaña Linderos: colindantes.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) común(s) el edificio, ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación) y Complemento industria (Industria). 
+
+
+CONTRAPARTIDA: 
+
+Causa 157: INSCRIPCIÓN DE UNIDAD PREDIAL DE PREDIO CON CARACTERÍSTICA 4. (Ocurre cuando un predio es sometido a R.P.H. condominio, que es cuando en una propiedad existe mas de un edificio y tiene tanto coeficientes de edificio, como de predio). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 157, Movimiento, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo, cédula catastral anterior, sector, categorías  del suelo, característica del predio y terreno (sí expresamente lo dice el RPH, de lo contrario se deja en blanco) y coeficiente edificio.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Adquisición, litigio, % litigio, calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, clase de documento, número, derecho, número escritura, notaria (DPTO,MPIO, NUMERO), fecha (día, mes y año), fecha de registro (día, mes y año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación) y Complemento industria (Industria). De lo contrario dejarlo en blanco.
+
+Pestaña Linderos: Colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación y escala.
+
+
+
+CAUSA 302: CAMBIO FÍSICO PARCIAL SIN MODIFICACIÓN DE LAS CONSTRUCCIONES, ADQUISICIÓN 1. (Ocurre cuando hay una venta parcial, o modificación del área del lote sin afectar las construcciones existentes, con escritura debidamente registrada). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 302, Movimiento, nombre o dirección del predio, número de ficha y terreno.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Los siguientes ítems los informa si CAMBIAN Escritura número, notaria (Dpto., Mpio, número), fecha titulo (día, mes, año), fecha de registro (día mes año)  y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+
+CONTRAPARTIDA: 
+
+Causa 153: INSCRIPCIÓN PREDIO. Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 153, Movimiento, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo, cédula catastral anterior, sector, categorías  del suelo, característica del predio y terreno.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Adquisición, litigio, % litigio, calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, clase de documento, número, derecho, número escritura, notaria (DPTO, MPIO, NUMERO), fecha (día, mes y año), fecha de registro (día, mes y año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+
+CAUSA 303: CAMBIO FÍSICO PARCIAL SIN MODIFICACIÓN DE LAS CONSTRUCCIONES, ADQUISICIÓN 2. (Ocurre cuando hay una venta parcial, o modificación del área del lote por escritura simple, pero sin afectar las construcciones existentes - posesión). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 303, Movimiento, nombre o dirección del predio, número de ficha y terreno.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Los siguientes ítems los informa si CAMBIAN Escritura número, notaria (Dpto., Mpio, número) y fecha titulo (día, mes, año).
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+
+CONTRAPARTIDA:
+
+
+Causa 154: INSCRIPCIÓN PREDIO ADQUISICIÓN 2. (Posesión). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 154, Movimiento, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo, cédula catastral anterior, sector, categorías  del suelo, característica del predio y terreno.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Adquisición, litigio, % litigio, calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, clase de documento, número, derecho, número escritura, notaria (DPTO, MPIO, NUMERO) y fecha (día, mes y año).
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+
+CAUSA 304: CORRECCIÓN AL PREDIO CUANDO POR ERROR SALE OTRO ENGLOBADO. (Ocurre cuando por error sale un predio englobado en otro). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 304, Movimiento, nombre o dirección del predio, número de ficha y terreno.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Los siguientes ítems los informa si CAMBIAN Escritura número, notaria (Dpto., Mpio, Número), fecha titulo(día, mes, año), fecha de registro (día mes año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+Pestaña Linderos: colindantes.
+
+CONTRAPARTIDA: 
+
+Causa 160: INSCRIPCIÓN PREDIO ADQUISICIÓN 1. (inscripción de predio con escritura registrada). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 160, Movimiento, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo, cédula catastral anterior, sector, categorías  del suelo, característica del predio y terreno.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Adquisición, litigio, % litigio, calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, clase de documento, número, derecho, número escritura, notaria (DPTO, MPIO, NUMERO), fecha (día, mes y año), fecha de registro (día, mes y año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+
+CAUSA 305: CORRECCIÓN CARACTERÍSTICAS DEL PREDIO. (Ocurre cuando un predio ha sido mal informado o cambia de característica por modificaciones hechas a la propiedad como en el caso de las características 2, 3 y 4). Llenar los siguientes campos:
+Pestaña Mutación: Causa del Acto 305, Movimiento, número de ficha y característica del predio.
+
+Pestaña Destinaciones: Destino económico.
+
+NO TIENE CONTRAPARTIDA***
+CAUSA 306: CORRECCIÓN DE COLINDANTES. (Ocurre cuando a un predio se le deben modificar los colindantes por que habían sido mal informados o porque se han modificado por cambios hechos a la propiedad - no toca terreno). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 305, Movimiento y número de ficha.
+
+Pestaña Linderos: colindantes
+
+NO TIENE CONTRAPARTIDA***
+
+
+CAUSA 307: CORRECCIÓN DIRECCIÓN. (Ocurre cuando un predio presenta inconsistencia de dirección). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 307, Movimiento, nombre o dirección del predio y número de ficha.
+
+NO TIENE CONTRAPARTIDA***
+
+
+CAUSA 308: CORRECCIÓN MATRICULA INMOBILIARIA. (Ocurre cuando se presenta inconsistencia en la matrícula, por que fue mal informada o porque se cambió en la Oficina de Registro de Instrumentos Públicos). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 308, Movimiento y número de ficha.
+
+Pestaña Propietario: matricula inmobiliaria.
+
+NO TIENE CONTRAPARTIDA***
+
+
+CAUSA 309: DIVISIÓN PARCIAL DEL PREDIO SIN MODIFICACIÓN DE LAS CONSTRUCCIONES. (Ocurre cuando un predio se divide parcialmente en varios lotes pero queda aún con área el predio de mayor extensión). Llenar los siguientes campos:
+
+
+Pestaña Mutación: Causa del Acto 309, Movimiento, nombre o dirección del predio, número de ficha y terreno.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Los siguientes ítems los informa si CAMBIAN Escritura número, notaria (Dpto., Mpio, Número), fecha titulo(día, mes, año), fecha de registro (día mes año) y matricula inmobiliaria.
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Pestaña Linderos: colindantes.
+
+
+CONTRAPARTIDA:
+
+
+Causa 153: INSCRIPCIÓN PREDIO ADQUISICIÓN 1. (inscripción de predio con escritura registrada). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 153, Movimiento, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo, cédula catastral anterior, sector, categorías  del suelo, característica del predio y terreno.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Adquisición, litigio, % litigio, calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, clase de documento, número, derecho, número escritura, notaria (DPTO, MPIO, NUMERO), fecha (día, mes y año), fecha de registro (día, mes y año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+
+
+
+
+CAUSA 310: MAL CÁLCULO DE ÁREA DE TERRENO. (Ocurre cuando un predio ha sido reportado con un área de terreno y luego de realizar la visita se encuentra que hubo mal cálculo de área. R.A.). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 310, Movimiento, nombre o dirección del predio, número de ficha, terreno y VIGENCIA FISCAL.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Pestaña Linderos: colindantes
+
+NO TIENE CONTRAPARTIDA***
+
+
+CAUSA 311: CAMBIO ÁREA DE LOTE POR MALOS LINDEROS. (Ocurre cuando un predio ha sido reportado con un área de terreno y luego de realizar la visita se encuentra que hubo mal reporte de linderos y se modifican las áreas R.A.). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 311, Movimiento, nombre o dirección del predio, número de ficha y terreno.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Los siguientes ítems los informa si CAMBIAN Escritura número, notaria (Dpto., Mpio, Número), fecha titulo(día, mes, año), fecha de registro (día mes año), matricula inmobiliaria.
+.
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Pestaña Linderos: colindantes
+
+NO TIENE CONTRAPARTIDA***
+
+
+CAUSA 312: CAMBIO DESTINACIÓN ECONÓMICA. (Ocurre cuando se solicita sea  revisado el destino económico de un predio por que se considera no reúne las características R.A.). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 312, Movimiento  y número de ficha.
+
+Pestaña Destinaciones: destinación económica y % destinación económica. 
+.
+Pestaña Construcciones: Si se requiere informar construcciones:  Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+
+NO TIENE CONTRAPARTIDA***
+
+
+
+CAUSA 313: MODIFICACIÓN AVALUO (AUTOAVALÚO CATASTRAL: Consiste en aumentar el avalúo catastral de un inmueble debido a mejoras o valorizaciones, producto de la actividad cambiante del mercado inmobiliario y a solicitud del propietario. Debe solicitarse ante Catastro Departamental antes del 30 de Junio de cada año y no podrá ser inferior al avalúo catastral vigente). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 313, movimiento  número de ficha, valor terreno, vigencia fiscal, terreno, avalúo, autoavalúo y fecha autoavalúo.
+
+NO TIENE CONTRAPARTIDA***
+
+
+CAUSA 314: MODIFICACIÓN CÉDULA  CATASTRAL POR CAMBIO DE SECTOR. (Ocurre cuando se cambia un predio de ubicación, de un sector a otro porque se presenta modificación de limites de los sectores municipales o  se crea por Acuerdo del Concejo, la zona de expansión R.A.). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 314, movimiento, nombre o dirección del predio, número de ficha, cédula catastral actual, sector actual, cédula catastral anterior, sector anterior, categorías  del suelo.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Pestaña Linderos: colindantes
+
+NO TIENE CONTRAPARTIDA***
+
+CAUSA 315: MODIFICACIÓN CÉDULA  CATASTRAL POR CAMBIO DE CIRCUNSCRIPCIÓN TERRITORIAL. (Se presenta cuando no hay claridad en los limites municipales o departamentales, por lo que se requiere que se realice una definición de limites por parte de la Dirección de Limites R.A.). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 315, movimiento, nombre o dirección del predio, número de ficha, cédula catastral actual, sector actual, cédula catastral anterior, sector anterior, categorías  del suelo.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Pestaña Linderos: colindantes
+
+NO TIENE CONTRAPARTIDA***
+
+
+CAUSA 316: CAMBIO FÍSICO PARCIAL CON MODIFICACIÓN DE LAS CONSTRUCCIONES Y RETIRO DE OTRA ADQUISICIÓN 1, SI SE REQUIERE (Se presenta cuando se hace una modificación del predio por una venta solo de parte de la propiedad  y además se incluyen parte de las construcciones - derecho real).
+
+Pestaña Mutación: Causa del Acto 316, Movimiento, nombre o dirección del predio, número de ficha y terreno.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Los siguientes ítems los informa si CAMBIAN Escritura número, notaria (Dpto., Mpio, número), fecha titulo (día, mes, año), fecha de registro (día mes año)  y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+
+DOS  CONTRAPARTIDAS: 
+
+1.	Causa 153: INSCRIPCIÓN PREDIO. Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 153, Movimiento, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo, cédula catastral anterior, sector, categorías  del suelo, característica del predio y terreno.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Adquisición, litigio, % litigio, calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, clase de documento, número, derecho, número escritura, notaria (DPTO, MPIO, NUMERO), fecha (día, mes y año), fecha de registro (día, mes y año) y matricula inmobiliaria.
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+Pestaña Linderos: colindantes.
+
+
+2.	Causa 103: RETIRO DE CONSTRUCCIÓN (se retira la construcción del predio modificado). Llenar los siguientes campos:
+
+Pestaña Mutación: CAUSA del Acto 101, Movimiento, número de ficha y VIGENCIA FISCAL.
+
+Pestaña Construcciones: N° construcción.
+
+
+CAUSA 317: CAMBIO FÍSICO PARCIAL CON MODIFICACIÓN DE CONSTRUCCIONES Y RETIRO DE OTRA ADQUISICIÓN 2 -SI SE REQUIERE - (Se presenta cuando se hace una modificación del predio por una venta solo de parte de la propiedad y además se incluyen parte de las construcciones -(Posesión). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 317, Movimiento, nombre o dirección del predio, número de ficha y terreno.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Los siguientes ítems los informa si CAMBIAN Escritura número, notaria (Dpto., Mpio, número) y fecha titulo (día, mes, año).
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+
+DOS  CONTRAPARTIDAS:
+
+
+1. Causa 154: INSCRIPCIÓN PREDIO. Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 154, Movimiento, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo, cédula catastral anterior, sector, categorías  del suelo, característica del predio y terreno.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Adquisición, litigio, % litigio, calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, clase de documento, número, derecho, número escritura, notaria (DPTO, MPIO, NUMERO) y fecha (día, mes y año).
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+Pestaña Linderos: colindantes.
+
+
+2.  Causa 103: RETIRO DE CONSTRUCCIÓN (se retira la construcción del predio modificado). Llenar los siguientes campos:
+
+
+Pestaña Mutación: CAUSA del Acto 101, Movimiento, número de ficha y VIGENCIA FISCAL.
+
+Pestaña Construcciones: N° construcción.
+
+
+
+CAUSA 318: CORRECCIÓN LOTE Y CONSTRUCCIÓN POR ERROR DE LISTADO. (Ocurre cuando se hace confrontación ficha contra listado y se detecta que la información que se grabó es diferente a la de la ficha catastral - R.A. Resolución Administrativa). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 318, Movimiento, nombre o dirección del predio, número de ficha y terreno.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Los siguientes ítems los informa si CAMBIAN Escritura número, notaria (Dpto., Mpio, número), fecha titulo (día, mes, año), fecha de registro (día mes año)  y matricula inmobiliaria.
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+Pestaña Linderos: colindantes.
+ 
+
+NO TIENE CONTRAPARTIDA***
+
+
+
+
+CAUSA 319: R.A. ÁREA DE LOTE Y ÁREA DE CONSTRUCCIÓN MAL CALCULADA. (Ocurre cuando un predio ha sido reportado con un área de terreno y luego de realizar la visita se encuentra que hubo mal cálculo de área de terreno y a la vez de la construcción - R.A.- Resolución Administrativa). Llenar los siguientes campos:
+
+
+Pestaña Mutación: Causa del Acto 319, Movimiento, nombre o dirección del predio, número de ficha y terreno.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Los siguientes ítems los informa si CAMBIAN Escritura número, notaria (Dpto., Mpio, número), fecha titulo (día, mes, año), fecha de registro (día mes año)  y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+Pestaña Linderos: colindantes.
+ 
+
+
+NO TIENE CONTRAPARTIDA***
+
+
+CAUSA 320: MODIFICA UNIDAD PREDIAL. (Ocurre cuando a un predio sometido a R.P.H característica 2 ó 3, se le adiciona o modifican las unidades prediales mediante una escritura debidamente registrada). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 320, movimiento, nombre o dirección del predio (Sí cambia), terreno, coeficiente edificio y número de ficha.
+
+Pestaña Destinaciones: Destino económico.
+
+
+
+
+
+Pestaña Propietario: llenar estos campos si CAMBIAN: Escritura número, notaria (DPTO,MPIO, NÚMERO), fecha titulo(día, mes, año), fecha de registro (día mes año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Modificar la construcción informando los siguientes ítems:
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+
+INFORMAMOS FICHA RESUMEN 2
+
+
+Elegimos del menú: OPCIÓN FORMULARIOS, buscamos la opción MOVIMIENTO y elegimos el Submenú Ficha Resumen 2.
+
+
+
+Submenú Ficha Resumen 2. Llenar los siguientes campos:
+
+Pestaña Resolución: Vigencia, tipo de Resolución y número de la resolución previamente matriculada. 
+
+Pestaña Ficha R2: Novedad (movimiento), dirección de predio, cédula catastral (municipio, sector, corregimiento, barrio, manzana ó vereda, predio, edificio), característica del predio rph, area total lote, area común lote, total apartamentos, total locales, total cuarto ütil, total edificios, total garajes cubiertos, total parqueaderos descubiertos, total unidades condominio y total pisos.
+
+Pestaña cartografía: Plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación y escala.
+
+
+
+
+Pestaña Linderos: colindantes.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) común(s) el edificio, ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación) y Complemento industria (Industria). 
+
+
+CONTRAPARTIDA: 
+
+
+INSCRIPCIÓN DE UNIDAD PREDIAL DE PREDIO CON CARACTERÍSTICA 2 ó 3. Causa del Acto 155. Llenar los siguientes campos:
+
+
+Pestaña Mutación: Causa del Acto 155, Movimiento, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo, cédula catastral anterior, sector, categorías  del suelo, característica del predio y terreno (sí expresamente lo dice el RPH, de lo contrario se deja en blanco) y coeficiente edificio.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Adquisición, litigio, % litigio, calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, clase de documento, número, derecho, número escritura, notaria (DPTO,MPIO, NUMERO), fecha (día, mes y año), fecha de registro (día, mes y año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación) y Complemento industria (Industria). De lo contrario dejarlo en blanco.
+
+Pestaña Linderos: Colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación y escala.
+
+
+CAUSA 321: MODIFICACIÓN DE PREDIO Y RETIRO DE MEJORA ADQUISICIÓN 1 (Ocurre cuando un predio que tiene mejora, se vende un lote desgajado del mayor incluyendo en esta venta la mejora existente, por lo que se requiere modificar el predio de mayor extensión - Derecho real.- la mejora pasa a ser construcción del predio). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 321, Movimiento, nombre o dirección del predio, número de ficha y terreno.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Los siguientes ítems los informa si CAMBIAN Escritura número, notaria (Dpto., Mpio, número), fecha titulo (día, mes, año), fecha de registro (día mes año)  y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Linderos: colindantes.
+
+
+DOS  CONTRAPARTIDAS: 
+
+1.  Causa 153: INSCRIPCIÓN PREDIO. Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 153, Movimiento, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo, cédula catastral anterior, sector, categorías  del suelo, característica del predio y terreno.
+
+Pestaña Destinaciones: Destino económico.
+
+
+
+Pestaña Propietario: Adquisición, litigio, % litigio, calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, clase de documento, número, derecho, número escritura, notaria (DPTO, MPIO, NUMERO), fecha (día, mes y año), fecha de registro (día, mes y año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+2.  Causa 16: RETIRO DE MEJORA (se cancela la ficha de mejora). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 16, Movimiento y número de ficha.
+
+
+CAUSA 322: MODIFICACIÓN  DE PREDIO Y RETIRO DE MEJORA ADQUISICIÓN 2 (POSESIÓN). (Ocurre cuando un predio  que tiene mejora, se vende un lote desgajado del mayor incluyendo en esta venta la mejora existente, por lo que se requiere modificar el predio  de mayor extensión - pasa a ser construcción del predio).
+
+Pestaña Mutación: Causa del Acto 321, Movimiento, nombre o dirección del predio, número de ficha y terreno.
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Los siguientes ítems los informa si CAMBIAN Escritura número, notaria (Dpto., Mpio, número), fecha titulo (día, mes, año), fecha de registro (día mes año)  y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Linderos: colindantes.
+
+
+DOS  CONTRAPARTIDAS: 
+
+
+1.   Causa 154: INSCRIPCIÓN PREDIO ADQUISICIÓN 2. (Posesión).
+
+Pestaña Mutación: Causa del Acto 154, Movimiento, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo, cédula catastral anterior, sector, categorías  del suelo, característica del predio y terreno.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Adquisición, litigio, % litigio, calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, clase de documento, número, derecho, número escritura, notaria (DPTO, MPIO, NUMERO) y fecha (día, mes y año).
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+2.  Causa 16: RETIRO DE MEJORA (se cancela la ficha de mejora).
+
+Pestaña Mutación: Causa del Acto 16, Movimiento y número de ficha.
+
+
+
+CAUSA 323: R.A. NO ALTERA EL AVALÚO - MODIFICA RESOLUCIÓN. (Solo ocurre cuando hay solicitud de Apelación a la  revisión de avalúo y no se modifica). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 323, Movimiento y número de ficha.
+
+NO TIENE CONTRAPARTIDA***
+
+
+CAUSA 324: R.A. SE SOSTIENE EL AVALÚO - MODIFICA RESOLUCIÓN. (Solo ocurre cuando hay solicitud de revisión de avalúo y no se modifica). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 324, Movimiento y número de ficha.
+
+NO TIENE CONTRAPARTIDA***
+ 
+
+CAUSA 325: MODIFICACIÓN COEFICIENTE EDIFICIO PARA PREDIO CON CARACTERISTICA 2 ó 3: (Ocurre cuando por escritura se modifican los porcentajes de coeficientes edificio). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 325, Movimiento, número de ficha y coeficiente edificio.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Los siguientes ítems los informa si CAMBIAN Escritura número, notaria (Dpto., Mpio, número), fecha titulo (día, mes, año), fecha de registro (día mes año)  y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+INFORMAMOS FICHA RESUMEN 2
+
+Elegimos del menú: OPCIÓN FORMULARIOS, buscamos la opción MOVIMIENTO y elegimos el Submenú Ficha Resumen 2.
+
+
+Submenú Ficha Resumen 2. Llenar los siguientes campos:
+
+Pestaña Resolución: Vigencia, tipo de Resolución y número de la resolución previamente matriculada. 
+
+Pestaña Ficha R2: Novedad (movimiento), dirección de predio, cédula catastral (municipio, sector, corregimiento, barrio, manzana ó vereda, predio, edificio), característica del predio rph, area total lote, area común lote, total apartamentos, total locales, total cuarto ütil, total edificios, total garajes cubiertos, total parqueaderos descubiertos, total unidades condominio y total pisos.
+
+Pestaña cartografía: Plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación y escala.
+
+Pestaña Linderos: colindantes.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) común(s), ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación) y Complemento industria (Industria). 
+
+NO TIENE CONTRAPARTIDA***
+CAUSA 326: MODIFICACIÓN COEFICIENTE PREDIO PARA PREDIO CON CARACTERISTICA 4: (Ocurre cuando por escritura se modifican los porcentajes de coeficientes edificio y coeficiente predio). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 326, Movimiento, número de ficha, coeficiente predio y coeficiente edificio.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Los siguientes ítems los informa si CAMBIAN Escritura número, notaria (Dpto., Mpio, número), fecha titulo (día, mes, año), fecha de registro (día mes año)  y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+
+INFORMAR LA FICHA RESUMEN 1.
+
+Elegimos del menú: OPCIÓN FORMULARIOS, buscamos la opción MOVIMIENTO y elegimos el Submenú Ficha Resumen 1.
+
+Submenú Ficha Resumen 1 (de todo el condominio y construcciones comunes).
+
+Llenar los siguientes campos:
+
+Pestaña Resolución: Vigencia, tipo de Resolución y número de la resolución previamente matriculada. 
+
+
+
+Pestaña Ficha R1: Novedad (movimiento), dirección de predio, cédula catastral (municipio, sector, corregimiento, barrio, manzana ó vereda, predio, edificio), característica del predio rph, area total lote, area común lote, total apartamentos, total locales, total cuarto ütil, total edificios, total garajes cubiertos, total parqueaderos descubiertos, total unidades condominio y total pisos.
+
+Pestaña cartografía: Plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación y escala.
+
+Pestaña Linderos: colindantes.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) común(s) del condominio, ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación) y Complemento industria (Industria). 
+
+
+INFORMAR LA FICHA RESUMEN 2. Una por cada edificio con coeficiente edificio 100%.
+
+Elegimos del menú: OPCIÓN FORMULARIOS, buscamos la opción MOVIMIENTO y elegimos el Submenú Ficha Resumen 2.
+
+Llenar los siguientes campos:
+
+Pestaña Resolución: Vigencia, tipo de Resolución y número de la resolución previamente matriculada. 
+
+Pestaña Ficha R2: Novedad (movimiento), dirección de predio, cédula catastral (municipio, sector, corregimiento, barrio, manzana ó vereda, predio, edificio), característica del predio rph, area total lote, area común lote, total apartamentos, total locales, total cuarto ütil, total edificios, total garajes cubiertos, total parqueaderos descubiertos, total unidades condominio y total pisos.
+
+
+Pestaña cartografía: Plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación y escala.
+
+Pestaña Linderos: colindantes.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) común(s) el edificio, ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación) y Complemento industria (Industria). 
+
+
+NO TIENE CONTRAPARTIDA***
+
+
+CAUSA 327: DIVISIÓN PARCIAL DEL PREDIO. (Ocurre cuando un predio se divide parcialmente en varios lotes pero queda aún con área el predio de mayor extensión). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 327, Movimiento, nombre o dirección del predio, número de ficha y terreno.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Los siguientes ítems los informa si CAMBIAN Escritura número, notaria (Dpto., Mpio, número), fecha titulo (día, mes, año), fecha de registro (día mes año)  y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación) y Complemento industria (Industria). 
+
+Pestaña Linderos: colindantes.
+
+
+CONTRAPARTIDA: 
+
+INSCRIPCIÓN PREDIO. Causa del Acto 153. Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 153, Movimiento, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo, cédula catastral anterior, sector, categorías  del suelo, característica del predio y terreno.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Adquisición, litigio, % litigio, calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, clase de documento, número, derecho, número escritura, notaria (DPTO,MPIO, NUMERO), fecha (día, mes y año), fecha de registro (día, mes y año) y matricula inmobiliaria.
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+
+CAUSA 328: MODIFICACIÓN UNIDAD PREDIAL DE PREDIO, CARACTERÍSTICA 2 ó 3. (Ocurre cuando se modifica unidad predial y construcción por reforma al Rph, creando otra unidad predial o cancelando unidades prediales). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 328, movimiento, nombre o dirección del predio (Sí cambia), terreno, coeficiente edificio y número de ficha.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: llenar estos campos si CAMBIAN: Escritura número, notaria (DPTO,MPIO, NÚMERO), fecha titulo(día, mes, año), fecha de registro (día mes año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Modificar la construcción informando los siguientes ítems:
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+
+INFORMAMOS FICHA RESUMEN 2
+
+Elegimos del menú: OPCIÓN FORMULARIOS, buscamos la opción MOVIMIENTO y elegimos el Submenú Ficha Resumen 2.
+
+
+Submenú Ficha Resumen 2. Llenar los siguientes campos:
+
+Pestaña Resolución: Vigencia, tipo de Resolución y número de la resolución previamente matriculada. 
+
+
+
+Pestaña Ficha R2: Novedad (movimiento), dirección de predio, cédula catastral (municipio, sector, corregimiento, barrio, manzana ó vereda, predio, edificio), característica del predio rph, area total lote, area común lote, total apartamentos, total locales, total cuarto ütil, total edificios, total garajes cubiertos, total parqueaderos descubiertos, total unidades condominio y total pisos.
+
+Pestaña cartografía: Plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación y escala.
+
+Pestaña Linderos: colindantes.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) común(s) el edificio, ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación) y Complemento industria (Industria). 
+
+
+CONTRAPARTIDA: 
+
+INSCRIPCIÓN DE UNIDAD PREDIAL DE PREDIO CON CARACTERÍSTICA 2 ó 3. Causa del Acto 155. Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 155, Movimiento, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo, cédula catastral anterior, sector, categorías  del suelo, característica del predio y terreno (sí expresamente lo dice el RPH, de lo contrario se deja en blanco) y coeficiente edificio.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Adquisición, litigio, % litigio, calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, clase de documento, número, derecho, número escritura, notaria (DPTO,MPIO, NUMERO), fecha (día, mes y año), fecha de registro (día, mes y año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación) y Complemento industria (Industria). De lo contrario dejarlo en blanco.
+
+Pestaña Linderos: Colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación y escala.
+
+
+CAUSA 329: MODIFICACIÓN DE CÉDULA CATASTRAL POR REFORMA AL REGLAMENTO. (Ocurre cuando por escritura de reglamento se modifica la cédula catastral del predio). 
+
+Pestaña Mutación: Causa del Acto 155, Movimiento, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo, cédula catastral anterior, sector, categorías  del suelo, característica del predio y terreno (sí expresamente lo dice el RPH, de lo contrario se deja en blanco) y coeficiente edificio.
+
+Pestaña Destinaciones: Destino económico y % destino económico.
+
+Pestaña Linderos: colindantes.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+NO TIENE CONTRAPARTIDA***
+
+
+CAUSA 330: MODIFICA UNIDAD PREDIAL POR REFORMA AL REGLAMENTO QUE IMPLICA CREAR PREDIO NUEVO FUERA DEL RPH.  (Ocurre cuando se hace división parcial de la unidad predial y crea predio nuevo).
+
+Pestaña Mutación: Causa del Acto 330, movimiento, nombre o dirección del predio (Sí cambia), número de ficha, terreno, coeficientes predio y coeficiente edificio.
+
+Pestaña Destinaciones: Destino económico y % destino económico.
+
+Pestaña Propietario: llenar estos campos si CAMBIAN: Escritura número, notaria (DPTO,MPIO, NÚMERO), fecha titulo(día, mes, año), fecha de registro (día mes año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+
+INFORMAMOS FICHA RESUMEN 2
+
+Elegimos del menú: OPCIÓN FORMULARIOS, buscamos la opción MOVIMIENTO y elegimos el Submenú Ficha Resumen 2.
+
+
+Submenú Ficha Resumen 2. Llenar los siguientes campos:
+
+Pestaña Resolución: Vigencia, tipo de Resolución y número de la resolución previamente matriculada. 
+
+Pestaña Ficha R2: Novedad (movimiento), dirección de predio, cédula catastral (municipio, sector, corregimiento, barrio, manzana ó vereda, predio, edificio), característica del predio rph, area total lote, area común lote, total apartamentos, total locales, total cuarto ütil, total edificios, total garajes cubiertos, total parqueaderos descubiertos, total unidades condominio y total pisos.
+Pestaña cartografía: Plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación y escala.
+
+Pestaña Linderos: colindantes.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) común(s) el edificio, ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación) y Complemento industria (Industria). 
+
+
+CONTRAPARTIDA: 
+
+
+Causa 153: INSCRIPCIÓN PREDIO NUEVO FUERA DEL RPH.(predio nuevo no afectado por RPH). (Ocurre (Ocurre cuando se hace división parcial de la unidad predial y crea predio nuevo). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 153, Movimiento, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo, cédula catastral anterior, sector, categorías  del suelo, característica del predio y terreno (sí expresamente lo dice el RPH, de lo contrario se deja en blanco) y coeficiente edificio.
+
+Pestaña Destinaciones: Destino económico y % destino económico.
+
+Pestaña Propietario: Adquisición, litigio, % litigio, calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, clase de documento, número, derecho, número escritura, notaria (DPTO,MPIO, NUMERO), fecha (día, mes y año), fecha de registro (día, mes y año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+
+Pestaña Zona Física: Código zona física y % zona.
+
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación) y Complemento industria (Industria). De lo contrario dejarlo en blanco.
+
+Pestaña Linderos: Colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación y escala.
+
+
+CAUSA 331: MODIFICA ÁREA DE TERRENO POR ERROR DE LISTADO. (Ocurre cuando en el listado el área del terreno es diferente al real). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 331, Movimiento, nombre o dirección del predio (si cambia), número de ficha, terreno y vigencia fiscal.
+
+Pestaña Destinaciones: Destino económico y % destino económico.
+
+NO TIENE CONTRAPARTIDA***
+
+
+CAUSA 332: R.A. CAMBIO ÁREA LOTE Y CONSTRUCCIÓN POR MALOS LINDEROS. (Ocurre cuando en un predio se hizo mal levantamiento de linderos y afecta predios colindantes, por que se modifica el área del lote y construcción). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 332, Movimiento, nombre o dirección del predio (si cambia), número de ficha, terreno.
+
+Pestaña Destinaciones: Destino económico y % destino económico.
+
+Pestaña Propietario: llenar estos campos si CAMBIAN: Escritura número, notaria (DPTO,MPIO, NÚMERO), fecha titulo(día, mes, año), fecha de registro (día mes año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+NO TIENE CONTRAPARTIDA***
+
+
+CAUSA 333: MODIFICA PREDIO E INSCRIBE UNIDADES PREDIALES. (Ocurre cuando se hace una modificación del predio por una venta solo de parte de la propiedad, creando unidades prediales). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 333, Movimiento, nombre o dirección del predio (si cambia), número de ficha, terreno.
+
+Pestaña Destinaciones: Destino económico y % destino económico.
+
+Pestaña Propietario: llenar estos campos si CAMBIAN: Escritura número, notaria (DPTO,MPIO, NÚMERO), fecha titulo(día, mes, año), fecha de registro (día mes año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+
+INFORMAMOS FICHA RESUMEN 2
+
+Elegimos del menú: OPCIÓN FORMULARIOS, buscamos la opción MOVIMIENTO y elegimos el Submenú Ficha Resumen 2.
+
+
+Submenú Ficha Resumen 2. Llenar los siguientes campos:
+
+Pestaña Resolución: Vigencia, tipo de Resolución y número de la resolución previamente matriculada.
+
+
+Pestaña Ficha R2: Novedad (movimiento), dirección de predio, cédula catastral (municipio, sector, corregimiento, barrio, manzana ó vereda, predio, edificio), característica del predio rph, area total lote, area común lote, total apartamentos, total locales, total cuarto ütil, total edificios, total garajes cubiertos, total parqueaderos descubiertos, total unidades condominio y total pisos.
+
+Pestaña cartografía: Plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación y escala.
+
+Pestaña Linderos: colindantes.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Si el predio tiene construcción(s) común(s) el edificio, ingresar a la pestaña construcciones, de lo contrario dejarlo en blanco.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación) y Complemento industria (Industria). 
+
+
+CONTRAPARTIDA: 
+
+INSCRIPCIÓN DE UNIDAD PREDIAL DE PREDIO CON CARACTERÍSTICA 2 ó 3. Causa del Acto 155. Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 155, Movimiento, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo, cédula catastral anterior, sector, categorías  del suelo, característica del predio y terreno (sí expresamente lo dice el RPH, de lo contrario se deja en blanco) y coeficiente edificio.
+
+Pestaña Destinaciones: Destino económico.
+
+Pestaña Propietario: Adquisición, litigio, % litigio, calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, clase de documento, número, derecho, número escritura, notaria (DPTO,MPIO, NUMERO), fecha (día, mes y año), fecha de registro (día, mes y año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación) y Complemento industria (Industria). De lo contrario dejarlo en blanco.
+
+Pestaña Linderos: Colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación y escala.
+
+
+CAUSA 335: MODIFICA ÁREA DE TERRENO POR VENTA PARCIAL Y ENGLOBE EN OTRO EXISTENTE. (Ocurre cuando se vende parte de un predio e inmediatamente se engloba en otro. Llenar los siguientes campos: Nota: este movimiento se hace tanto para el predio que vende, como para el predio en el que se engloba.
+
+Pestaña Mutación: Causa del Acto 332, Movimiento, nombre o dirección del predio (si cambia), número de ficha, terreno.
+
+Pestaña Destinaciones: Destino económico y % destino económico.
+
+Pestaña Propietario: llenar estos campos si CAMBIAN: Escritura número, notaria (DPTO,MPIO, NÚMERO), fecha titulo(día, mes, año), fecha de registro (día mes año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+Pestaña Linderos: colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación, escala.
+
+NO TIENE CONTRAPARTIDA***
+
+ 
+MODIFICACIÓN PROPIETARIO
+
+
+Recordar que en cada pestaña se debe dar click en agregar para activar y llenar los campos, luego grabar y pasar a la pestaña siguiente.
+
+CAUSA 501: CORRECCIÓN ADQUISICIÓN. (Ocurre cuando es necesario complementar datos jurídicos). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 501, Movimiento y número de ficha.
+
+Pestaña Propietario: Adquisición, calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, clase de documento, número, derecho, número escritura, notaria (DPTO,MPIO, NUMERO), fecha (día, mes y año), fecha de registro (día, mes y año) y matricula inmobiliaria.
+
+NO TIENE CONTRAPARTIDA***
+
+
+CAUSA 502: CORRECCIÓN CALIDAD DEL PROPIETARIO Y GRAVABLE. (Permite cambiar la calidad del propietario y gravable cuando se encuentra mal informado). Llenar los siguientes campos:
+Pestaña Mutación: Causa del Acto 502, Movimiento y número de ficha.
+
+Pestaña Propietario: calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, clase de documento, número y derecho.
+
+NO TIENE CONTRAPARTIDA***
+
+
+CAUSA 504: CORRECCIÓN LITIGIO. (Ocurre cuando en un predio se presenta, en esa misma ubicación otro propietario con toda su información jurídica, demostrando que posee tanto física como jurídicamente propiedad en ese mismo código). Llenar los siguientes campos:
+Pestaña Mutación: Causa del Acto 504, Movimiento y número de ficha.
+
+Pestaña Propietario: primer apellido, segundo apellido, nombre, clase de documento, número, derecho, número escritura, notaria (DPTO,MPIO, NUMERO), fecha (día, mes y año) y fecha de registro (día, mes y año).
+
+
+CONTRAPARTIDA
+
+Causa 159: INSCRIPCIÓN PREDIO EN LITIGIO.( Ocurre cuando en un predio se presenta mas de un propietario con diferente información jurídica, área de terreno, pero igual ubicación y se debe señalar en la ficha predial). Llenar los siguientes campos:
+Pestaña Mutación: Causa del Acto 159, Movimiento, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo y terreno.
+
+Pestaña Destinaciones: Destino económico y % destino económico.
+
+Pestaña Propietario: Adquisición, litigio, % litigio, calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, clase de documento, número, derecho, número escritura, notaria (DPTO,MPIO, NUMERO), fecha (día, mes y año), fecha de registro (día, mes y año) y matricula inmobiliaria.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+Pestaña Zona Física: Código zona física y % zona.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación) y Complemento industria (Industria). De lo contrario dejarlo en blanco.
+
+Pestaña Linderos: Colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación y escala.
+
+
+CAUSA 505: MODIFICACIÓN DERECHOS POR VENTA DE PARTE, ADQUISICIÓN 1. (Ocurre cuando un propietario vende parte de su derecho). Llenar los siguientes campos:
+
+Pestaña Mutación: CAUSA del Acto 505, Movimiento y número de ficha.
+
+
+Pestaña Propietario: Primer apellido, segundo apellido, nombre, sigla comercial, clase de documento, número, derecho, escritura número, notaria (DPTO, MPIO, NÚMERO), fecha titulo (día, mes, año) y fecha de registro (día mes año).
+
+
+CONTRAPARTIDA:
+
+Causa del Acto 201: INSCRIPCIÓN DE PROPIETARIO ADQUISICIÓN 1. Llenar los siguientes campos:
+
+Pestaña Mutación: Llenar los siguientes campos: CAUSA del Acto 201, Movimiento y número de ficha.
+
+Pestaña Propietario: calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, sigla comercial, clase de documento, número, derecho, Escritura número, notaria (DPTO,MPIO, NÚMERO), fecha titulo (día, mes, año) y fecha de registro (día mes año).
+
+
+CAUSA 506: Modifica propietario derecho. (Se presenta cuando en un predio los propietarios que figuran tienen los derechos pero no en la proporción que debe ser, por lo que se requiere modificar los derechos de acuerdo al certificado de libertad). ). Llenar los siguientes campos:
+
+Pestaña Mutación: CAUSA del Acto 506, Movimiento y número de ficha.
+
+
+Pestaña Propietario: Primer apellido, segundo apellido, nombre, sigla comercial, clase de documento, número, derecho, escritura número, notaria (DPTO, MPIO, NÚMERO), fecha titulo (día, mes, año) y fecha de registro (día mes año).
+
+NO TIENE CONTRAPARTIDA***
+
+
+CAUSA 508: MODIFICA DERECHOS POR VENTA DE PARTE, ADQUISICIÓN 2. (Ocurre cuando un propietario vende parte de su derecho - posesión, escritura simple). Llenar los siguientes campos:
+
+Pestaña Mutación: CAUSA del Acto 508, Movimiento y número de ficha.
+
+Pestaña Propietario: Primer apellido, segundo apellido, nombre, sigla comercial, clase de documento, número, derecho, escritura número, notaria (DPTO, MPIO, NÚMERO) y fecha titulo (día, mes, año)
+
+
+CONTRAPARTIDA:
+
+CAUSA 202: INSCRIPCIÓN PROPIETARIO ADQUISICIÓN 2 (posesión, ocurre cuando el predio es adquirido por escritura simple). Llenar los siguientes campos:
+
+Pestaña Mutación: CAUSA del Acto 202, Movimiento y número de ficha.
+
+
+Pestaña Propietario: calidad del propietario, gravable, sexo, primer apellido, segundo apellido, nombre, sigla comercial, clase de documento, número, derecho, Escritura número, notaria (DPTO, MPIO, NÚMERO) y fecha titulo (día, mes, año).
+
+
+
+
+ 
+MODIFICACIÓN CONSTRUCCIONES
+
+
+Recordar que en cada pestaña se debe dar click en agregar para activar y llenar los campos, luego grabar y pasar a la pestaña siguiente.
+
+Causa 701: MODIFICAR CONSTRUCCIÓN EXISTENTE. (Ocurre cuando al visitar un predio se encuentra que el área construida no es la real). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 701, Movimiento, nombre o dirección del predio (si cambia) y número de ficha.
+
+Pestaña Destinaciones: Destino económico y % destino económico.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+
+NO TIENE CONTRAPARTIDA***
+
+
+
+Causa 702: AREA CONSTRUIDA MAL CALCULADA. (Ocurre cuando un predio presenta mal cálculo del área construida). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 702, Movimiento, nombre o dirección del predio (si cambia) y número de ficha.
+
+Pestaña Destinaciones: Destino económico y % destino económico.
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+NO TIENE CONTRAPARTIDA***
+
+Causa 703: CAMBIO DE IDENTIFICADOR DE LA CONSTRUCCIÓN. (Ocurre cuando un predio presenta mal reportado el identificador de la construcción). Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 703, Movimiento y número de ficha.
+
+Pestaña Destinaciones: Destino económico y % destino económico.
+
+Pestaña Construcciones: N° construcción e identificador construcción.
+
+
+NO TIENE CONTRAPARTIDA***
+
+
+Causa 704: MODIFICACIÓN DE LA MEJORA (Ocurre cuando en una construcción-mejora se presenta venta y en ella se incluye una de las construcciones) Llenar los siguientes campos:
+
+Pestaña Mutación: Causa del Acto 704, Movimiento, nombre o dirección del predio (si cambia) y número de ficha.
+
+Pestaña Construcciones: N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+CONTRAPARTIDA:
+
+INSCRIPCIÓN MEJORA Y PROPIETARIO. Causa del Acto 152. Llenar los siguientes campos:
+
+Pestaña Mutación: CAUSA del Acto 152, Movimiento, nombre o dirección del predio, número de ficha, cédula catastral, Sector, categoría del suelo, característica del predio. 
+
+Pestaña Propietario: primer apellido, segundo apellido, nombre, sigla comercial, clase de documento, número, derecho, escritura número, notaria (DPTO,MPIO, NÚMERO ) y fecha titulo(día, mes, año).
+
+Pestaña Construcciones: Tipo de construcción, N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación) y Complemento industria (Industria). 
+
+Pestaña Linderos: Colindantes, plancha, ventana, escala cartográfica, año cartografía, vuelo, faja, foto, año foto, ampliación y escala.
+
+
+Causa 705: MODIFICACIÓN DE LA CONSTRUCCIÓN ERROR LISTADO. (Ocurre cuando en el listado sale mal informada la construcción, por lo que se requiere se modifique ésta).
+
+
+Pestaña Mutación: Causa del Acto 705, Movimiento, nombre o dirección del predio (si cambia) y número de ficha.
+
+Pestaña Destinaciones: Destino económico y % destino económico.
+
+Pestaña Construcciones: N° construcción, identificador construcción, total puntos, área construida, mejora, ley 56, acueducto, alcantarillado, energía eléctrica, teléfono, gas, fibra óptica, parabólica, total pisos, edad construcción y %construcción.
+
+
+Agregar calificaciones: digitar el código de cada ítem de calificaciones: Estructura (armazón, muros, cubierta, conservación), Acabados principales (fachada, cubrimiento, pisos, conservación), Baños (tamaño, enchapes, mobiliario, conservación), Cocina (tamaño, enchapes, mobiliario,  conservación), Complemento industria (Industria).
+
+
+
+NO TIENE CONTRAPARTIDA***
+
+
+
+
+ 
+MODIFICACIÓN ZONAS
+
+
+Recordar que en cada pestaña se debe dar click en agregar para activar y llenar los campos, luego grabar y pasar a la pestaña siguiente.
+
+Causa 801: MODIFICACIÓN DE ZONAS GEOECONOMICAS. (Ocurre cuando en un predio se encuentra mala lectura de zonas geoeconómicas). Llenar los siguientes campos:
+
+Pestaña Mutación: CAUSA del Acto 801, Movimiento, número de ficha y cédula catastral.
+
+Pestaña Zona Geoeconómica: Código zona geoeconómica y % zona.
+
+
+NO TIENE CONTRAPARTIDA***
+
+
+
+Causa 802: MODIFICACIÓN DE ZONAS FÍSICAS. (Ocurre cuando en un predio se encuentra mala lectura de zonas físicas). Llenar los siguientes campos:
+
+
+Pestaña Mutación: CAUSA del Acto 802, Movimiento, número de ficha y cédula catastral.
+
+
+Pestaña Zona Física: Código zona física y % zona.
+
+
+NO TIENE CONTRAPARTIDA***
+
+
+
+
+
+Gobernacion de Antioquia
+CATASTRO DEPARTAMENTAL
+27/07/2005

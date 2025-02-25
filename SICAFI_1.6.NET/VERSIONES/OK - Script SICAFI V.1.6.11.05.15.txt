@@ -1,0 +1,1129 @@
+ok
+
+ALTER TABLE LIBRRADI
+ADD LIRAFEFI CHAR(10) NOT NULL DEFAULT ''
+
+UPDATE LIBRRADI
+SET LIRAFEFI = LIRAFEAS
+WHERE LIRAESTA = 'fi'
+
+-------------------------------------
+ok
+
+insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'frm_consulta_propietario_anterior_PROPANTE',
+	'Consulta propietario anterior',
+    '1',
+    '1',
+    '1',
+    'ac'
+	)
+
+insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'frm_consulta_investigacion_juridica_INVEJURI',
+	'Consulta investigación juridica',
+    '1',
+    '1',
+    '1',
+    'ac'
+	)
+
+==========================================================================================================================
+==========================================================================================================================
+
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'ConsultaPlanoCartograficoToolStripMenuItem',
+	'Consulta plano cartografico',
+    'ac'
+	)
+
+insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'frm_consulta_Plano_Cartografico',
+	'Consulta plano cartografico',
+    '1',
+    '1',
+    '1',
+    'ac'
+	)        	
+	
+----------------------------------------------------------
+
+	
+CREATE TABLE [dbo].[MANT_PLANCART](
+	[PLCAIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[PLCACODI] [int] NOT NULL,
+	[PLCADESC] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[PLCAESTA] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+ CONSTRAINT [PK_MANT_PLANCART] PRIMARY KEY CLUSTERED 
+(
+	[PLCACODI] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[MANT_PLANCART]  WITH CHECK ADD  CONSTRAINT [FK_MANT_PLANCART_ESTADO] FOREIGN KEY([PLCAESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+
+-----------------------------------------------------------------
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'PlanoCartograficoToolStripMenuItem',
+	'Plano cartografico',
+    'ac' 
+	)
+	
+insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'frm_PLANCART',
+	'Plano cartografico',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+        
+--------------------------------------------------------------------
+
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'RutaPlanoCartograficoToolStripMenuItem',
+	'Ruta Plano cartografico',
+    'ac' 
+	)
+	
+insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'frm_RUTAPLCA',
+	'Ruta Plano cartografico',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+        	
+------------------------------------------
+
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[MANT_RUTAPLCA]    Fecha de la secuencia de comandos: 05/20/2015 11:03:46 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[MANT_RUTAPLCA](
+	[RUPCIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[RUPCDEPA] [char](2) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RUPCMUNI] [char](3) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RUPCCLSE] [int] NOT NULL,
+	[RUPCPLCA] [int] NOT NULL,
+	[RUPCRUTA] [char](200) COLLATE Modern_Spanish_CI_AS NULL,
+	[RUPCESTA] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+ CONSTRAINT [PK_MANT_RUTAPLCA] PRIMARY KEY CLUSTERED 
+(
+	[RUPCDEPA] ASC,
+	[RUPCMUNI] ASC,
+	[RUPCCLSE] ASC,
+	[RUPCPLCA] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[MANT_RUTAPLCA]  WITH CHECK ADD  CONSTRAINT [FK_MANT_RUTAPLCA_ESTADO] FOREIGN KEY([RUPCESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+GO
+ALTER TABLE [dbo].[MANT_RUTAPLCA]  WITH CHECK ADD  CONSTRAINT [FK_MANT_RUTAPLCA_MANT_PLANCART] FOREIGN KEY([RUPCPLCA])
+REFERENCES [dbo].[MANT_PLANCART] ([PLCACODI])
+GO
+ALTER TABLE [dbo].[MANT_RUTAPLCA]  WITH CHECK ADD  CONSTRAINT [FK_MANT_RUTAPLCA_MANT_CLASSECT] FOREIGN KEY([RUPCCLSE])
+REFERENCES [dbo].[MANT_CLASSECT] ([CLSECODI])
+GO
+ALTER TABLE [dbo].[MANT_RUTAPLCA]  WITH CHECK ADD  CONSTRAINT [FK_MANT_RUTAPLCA_MANT_MUNICIPIO] FOREIGN KEY([RUPCDEPA], [RUPCMUNI])
+REFERENCES [dbo].[MANT_MUNICIPIO] ([MUNIDEPA], [MUNICODI])
+
+
+------------------------------------------
+
+DROP TABLE TARIRAAV
+
+------------------------------------------
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[TARIRAAV]    Fecha de la secuencia de comandos: 06/04/2015 09:55:41 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[TARIRAAV](
+	[TARAIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[TARADEPA] [char](2) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[TARAMUNI] [char](3) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[TARACLSE] [int] NOT NULL,
+	[TARAVIGE] [int] NOT NULL,
+	[TARADEEC] [int] NOT NULL,
+	[TARAESTR] [int] NOT NULL,
+	[TARATIPO] [char](1) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[TARATARI] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL CONSTRAINT [DF_TARIRAAV_ALPUTARI]  DEFAULT ((0)),
+	[TARAAVIN] [bigint] NOT NULL CONSTRAINT [DF_TARIRAAV_ALPUAVIN]  DEFAULT ((0)),
+	[TARAAVFI] [bigint] NOT NULL CONSTRAINT [DF_TARIRAAV_ALPUAVFI]  DEFAULT ((0)),
+	[TARAESTA] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[TARAUSIN] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[TARAUSMO] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[TARAMAQU] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+ CONSTRAINT [PK_TARIRAAV] PRIMARY KEY CLUSTERED 
+(
+	[TARADEPA] ASC,
+	[TARAMUNI] ASC,
+	[TARACLSE] ASC,
+	[TARAVIGE] ASC,
+	[TARADEEC] ASC,
+	[TARAESTR] ASC,
+	[TARATIPO] ASC,
+	[TARAAVIN] ASC,
+	[TARAAVFI] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[TARIRAAV]  WITH CHECK ADD  CONSTRAINT [FK_TARIRAAV_ESTADO] FOREIGN KEY([TARAESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+GO
+ALTER TABLE [dbo].[TARIRAAV]  WITH CHECK ADD  CONSTRAINT [FK_TARIRAAV_MANT_CLASSECT] FOREIGN KEY([TARACLSE])
+REFERENCES [dbo].[MANT_CLASSECT] ([CLSECODI])
+GO
+ALTER TABLE [dbo].[TARIRAAV]  WITH CHECK ADD  CONSTRAINT [FK_TARIRAAV_MANT_DESTECON] FOREIGN KEY([TARADEEC])
+REFERENCES [dbo].[MANT_DESTECON] ([DEECCODI])
+GO
+ALTER TABLE [dbo].[TARIRAAV]  WITH CHECK ADD  CONSTRAINT [FK_TARIRAAV_MANT_ESTRATO] FOREIGN KEY([TARAESTR])
+REFERENCES [dbo].[MANT_ESTRATO] ([ESTRCODI])
+GO
+ALTER TABLE [dbo].[TARIRAAV]  WITH CHECK ADD  CONSTRAINT [FK_TARIRAAV_MANT_MUNICIPIO] FOREIGN KEY([TARADEPA], [TARAMUNI])
+REFERENCES [dbo].[MANT_MUNICIPIO] ([MUNIDEPA], [MUNICODI])
+GO
+ALTER TABLE [dbo].[TARIRAAV]  WITH CHECK ADD  CONSTRAINT [FK_TARIRAAV_MANT_TIPOCALI] FOREIGN KEY([TARATIPO])
+REFERENCES [dbo].[MANT_TIPOCALI] ([TICACODI])
+GO
+ALTER TABLE [dbo].[TARIRAAV]  WITH CHECK ADD  CONSTRAINT [FK_TARIRAAV_VIGENCIA] FOREIGN KEY([TARAVIGE])
+REFERENCES [dbo].[VIGENCIA] ([VIGECODI])
+
+
+__________________________________________
+
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[TARIZOFI]    Fecha de la secuencia de comandos: 06/04/2015 11:09:40 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[TARIZOFI](
+	[TAZFIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[TAZFDEPA] [char](2) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[TAZFMUNI] [char](3) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[TAZFCLSE] [int] NOT NULL,
+	[TAZFZOFI] [int] NOT NULL,
+	[TAZFTA01] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[TAZFTA02] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[TAZFTA03] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[TAZFTA04] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[TAZFTA05] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[TAZFTA06] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[TAZFZOAP] [int] NOT NULL,
+	[TAZFESTA] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[TAZFVIGE] [int] NOT NULL,
+	[TAZFUSIN] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[TAZFUSMO] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[TAZFMAQU] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[TAZFSIGN] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[TAZFPORC] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[TAZFTALO] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+ CONSTRAINT [PK_TARIZOFI] PRIMARY KEY CLUSTERED 
+(
+	[TAZFDEPA] ASC,
+	[TAZFMUNI] ASC,
+	[TAZFCLSE] ASC,
+	[TAZFZOFI] ASC,
+	[TAZFVIGE] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'Zona aplica en formula' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'TARIZOFI', @level2type=N'COLUMN', @level2name=N'TAZFZOAP'
+
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[TARIZOFI]  WITH CHECK ADD  CONSTRAINT [FK_TARIZOFI_ESTADO] FOREIGN KEY([TAZFESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+GO
+ALTER TABLE [dbo].[TARIZOFI]  WITH CHECK ADD  CONSTRAINT [FK_TARIZOFI_MANT_ZONAFISI] FOREIGN KEY([TAZFDEPA], [TAZFMUNI], [TAZFCLSE], [TAZFZOFI])
+REFERENCES [dbo].[MANT_ZONAFISI] ([ZOFIDEPA], [ZOFIMUNI], [ZOFICLSE], [ZOFICODI])
+GO
+ALTER TABLE [dbo].[TARIZOFI]  WITH CHECK ADD  CONSTRAINT [FK_TARIZOFI_VIGENCIA] FOREIGN KEY([TAZFVIGE])
+REFERENCES [dbo].[VIGENCIA] ([VIGECODI])
+
+
+
+___________________________________
+
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'TarifasPorZonasFisicasToolStripMenuItem',
+	'Tarifas por zona fisica',
+    'ac' 
+	)
+	
+insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'frm_TARIZOFI',
+	'Tarifas por zona fisica',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+        
+______________________________________
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[HISTZOFI]    Fecha de la secuencia de comandos: 06/11/2015 14:29:38 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[HISTZOFI](
+	[HIZFIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[HIZFNUFI] [int] NOT NULL,
+	[HIZFDEPA] [char](2) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[HIZFMUNI] [char](3) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[HIZFCORR] [nchar](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[HIZFBARR] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[HIZFMANZ] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[HIZFPRED] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[HIZFEDIF] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[HIZFUNPR] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[HIZFTIFI] [int] NULL,
+	[HIZFCLSE] [int] NOT NULL,
+	[HIZFVIGE] [int] NOT NULL,
+	[HIZFZOFI] [int] NOT NULL,
+	[HIZFPORC] [int] NOT NULL,
+	[HIZFESTA] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+ CONSTRAINT [PK_HISTZOFI] PRIMARY KEY CLUSTERED 
+(
+	[HIZFNUFI] ASC,
+	[HIZFDEPA] ASC,
+	[HIZFMUNI] ASC,
+	[HIZFCLSE] ASC,
+	[HIZFVIGE] ASC,
+	[HIZFZOFI] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[HISTZOFI]  WITH CHECK ADD  CONSTRAINT [FK_HISTZOFI_ESTADO] FOREIGN KEY([HIZFESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+GO
+ALTER TABLE [dbo].[HISTZOFI]  WITH CHECK ADD  CONSTRAINT [FK_HISTZOFI_MANT_CLASSECT] FOREIGN KEY([HIZFCLSE])
+REFERENCES [dbo].[MANT_CLASSECT] ([CLSECODI])
+GO
+ALTER TABLE [dbo].[HISTZOFI]  WITH CHECK ADD  CONSTRAINT [FK_HISTZOFI_MANT_MUNICIPIO] FOREIGN KEY([HIZFDEPA], [HIZFMUNI])
+REFERENCES [dbo].[MANT_MUNICIPIO] ([MUNIDEPA], [MUNICODI])
+GO
+ALTER TABLE [dbo].[HISTZOFI]  WITH CHECK ADD  CONSTRAINT [FK_HISTZOFI_MANT_ZONAFISI] FOREIGN KEY([HIZFDEPA], [HIZFMUNI], [HIZFCLSE], [HIZFZOFI])
+REFERENCES [dbo].[MANT_ZONAFISI] ([ZOFIDEPA], [ZOFIMUNI], [ZOFICLSE], [ZOFICODI])
+GO
+ALTER TABLE [dbo].[HISTZOFI]  WITH CHECK ADD  CONSTRAINT [FK_HISTZOFI_VIGENCIA] FOREIGN KEY([HIZFVIGE])
+REFERENCES [dbo].[VIGENCIA] ([VIGECODI])
+
+
+_____________________________________
+
+
+
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'ResolucionDeConservacionToolStripMenuItem',
+	'Resolucion de conservacion',
+    'ac' 
+	)
+	
+insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'frm_RESOCONS',
+	'Resolucion de conservacion',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+        
+___________________________________________
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[RESOCONS]    Fecha de la secuencia de comandos: 06/30/2015 12:56:45 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[RESOCONS](
+	[RECOIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[RECOSECU] [int] NOT NULL,
+	[RECOCLAS] [int] NOT NULL,
+	[RECONURE] [int] NOT NULL,
+	[RECOFERE] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RECOCLSE] [int] NOT NULL,
+	[RECOVIRE] [int] NOT NULL,
+	[RECOVIFI] [int] NOT NULL,
+	[RECONURA] [int] NULL,
+	[RECOFERA] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[RECODESC] [char](100) COLLATE Modern_Spanish_CI_AS NULL,
+	[RECONUDO] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[RECOUSUA] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[RECOFEIN] [datetime] NULL,
+	[RECOOBSE] [char](3000) COLLATE Modern_Spanish_CI_AS NULL,
+	[RECOESTA] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+ CONSTRAINT [PK_RESOCONS] PRIMARY KEY CLUSTERED 
+(
+	[RECONURE] ASC,
+	[RECOFERE] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ID REGISTRO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RESOCONS', @level2type=N'COLUMN', @level2name=N'RECOIDRE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'SECUENCIA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RESOCONS', @level2type=N'COLUMN', @level2name=N'RECOSECU'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CLASIFICACION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RESOCONS', @level2type=N'COLUMN', @level2name=N'RECOCLAS'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO DE RESOLUCION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RESOCONS', @level2type=N'COLUMN', @level2name=N'RECONURE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA DE RESOLUCION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RESOCONS', @level2type=N'COLUMN', @level2name=N'RECOFERE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CLASE O SECTOR' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RESOCONS', @level2type=N'COLUMN', @level2name=N'RECOCLSE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'VIGENCIA RESOLUCION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RESOCONS', @level2type=N'COLUMN', @level2name=N'RECOVIRE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'VIGENCIA FISCAL' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RESOCONS', @level2type=N'COLUMN', @level2name=N'RECOVIFI'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO DE RADICADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RESOCONS', @level2type=N'COLUMN', @level2name=N'RECONURA'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA DE RADICADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RESOCONS', @level2type=N'COLUMN', @level2name=N'RECOFERA'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'OBSERVACION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RESOCONS', @level2type=N'COLUMN', @level2name=N'RECOOBSE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ESTADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RESOCONS', @level2type=N'COLUMN', @level2name=N'RECOESTA'
+
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[RESOCONS]  WITH CHECK ADD  CONSTRAINT [FK_RESOCONS_ESTADO] FOREIGN KEY([RECOESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+GO
+ALTER TABLE [dbo].[RESOCONS]  WITH CHECK ADD  CONSTRAINT [FK_RESOCONS_MANT_CLASIFICACION] FOREIGN KEY([RECOCLAS])
+REFERENCES [dbo].[MANT_CLASIFICACION] ([CLASCODI])
+GO
+ALTER TABLE [dbo].[RESOCONS]  WITH CHECK ADD  CONSTRAINT [FK_RESOCONS_MANT_CLASSECT] FOREIGN KEY([RECOCLSE])
+REFERENCES [dbo].[MANT_CLASSECT] ([CLSECODI])
+GO
+ALTER TABLE [dbo].[RESOCONS]  WITH CHECK ADD  CONSTRAINT [FK_RESOCONS_VIGENCIA] FOREIGN KEY([RECOVIRE])
+REFERENCES [dbo].[VIGENCIA] ([VIGECODI])
+GO
+ALTER TABLE [dbo].[RESOCONS]  WITH CHECK ADD  CONSTRAINT [FK_RESOCONS_VIGENCIA1] FOREIGN KEY([RECOVIFI])
+REFERENCES [dbo].[VIGENCIA] ([VIGECODI])
+
+
+_________________________
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[RECOPRRE]    Fecha de la secuencia de comandos: 06/30/2015 12:57:24 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[RECOPRRE](
+	[RCPRIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[RCPRSECU] [int] NOT NULL,
+	[RCPRNURE] [int] NOT NULL,
+	[RCPRFERE] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RCPRNUFI] [int] NOT NULL,
+	[RCPRDEPA] [char](2) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPRMUNI] [char](3) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPRCORR] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPRBARR] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPRMANZ] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPRPRED] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPREDIF] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPRUNPR] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPRCECA] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPRCLSE] [int] NOT NULL,
+	[RCPRDIRE] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPRMAIN] [char](11) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPRESTA] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+ CONSTRAINT [PK_RECOPRRE] PRIMARY KEY CLUSTERED 
+(
+	[RCPRNURE] ASC,
+	[RCPRFERE] ASC,
+	[RCPRNUFI] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[RECOPRRE]  WITH CHECK ADD  CONSTRAINT [FK_RECOPRRE_ESTADO] FOREIGN KEY([RCPRESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+GO
+ALTER TABLE [dbo].[RECOPRRE]  WITH CHECK ADD  CONSTRAINT [FK_RECOPRRE_MANT_CLASSECT] FOREIGN KEY([RCPRCLSE])
+REFERENCES [dbo].[MANT_CLASSECT] ([CLSECODI])
+GO
+ALTER TABLE [dbo].[RECOPRRE]  WITH CHECK ADD  CONSTRAINT [FK_RECOPRRE_MANT_MUNICIPIO] FOREIGN KEY([RCPRDEPA], [RCPRMUNI])
+REFERENCES [dbo].[MANT_MUNICIPIO] ([MUNIDEPA], [MUNICODI])
+
+
+________________
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[RECOPRSE]    Fecha de la secuencia de comandos: 06/30/2015 12:57:40 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[RECOPRSE](
+	[RCPSIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[RCPSSECU] [int] NOT NULL,
+	[RCPSNURE] [int] NOT NULL,
+	[RCPSFERE] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RCPSNUFI] [int] NOT NULL,
+	[RCPSDEPA] [char](2) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPSMUNI] [char](3) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPSCORR] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPSBARR] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPSMANZ] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPSPRED] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPSEDIF] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPSUNPR] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPSCECA] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPSCLSE] [int] NOT NULL,
+	[RCPSDIRE] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPSMAIN] [char](11) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPSESTA] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+ CONSTRAINT [PK_RECOPRSE] PRIMARY KEY CLUSTERED 
+(
+	[RCPSNURE] ASC,
+	[RCPSFERE] ASC,
+	[RCPSNUFI] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[RECOPRSE]  WITH CHECK ADD  CONSTRAINT [FK_RECOPRSE_ESTADO] FOREIGN KEY([RCPSESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+GO
+ALTER TABLE [dbo].[RECOPRSE]  WITH CHECK ADD  CONSTRAINT [FK_RECOPRSE_MANT_CLASSECT] FOREIGN KEY([RCPSCLSE])
+REFERENCES [dbo].[MANT_CLASSECT] ([CLSECODI])
+GO
+ALTER TABLE [dbo].[RECOPRSE]  WITH CHECK ADD  CONSTRAINT [FK_RECOPRSE_MANT_MUNICIPIO] FOREIGN KEY([RCPSDEPA], [RCPSMUNI])
+REFERENCES [dbo].[MANT_MUNICIPIO] ([MUNIDEPA], [MUNICODI])
+
+
+
+__________________________
+
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[RECOPRMO]    Fecha de la secuencia de comandos: 06/30/2015 12:58:00 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[RECOPRMO](
+	[RCPMIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[RCPMSECU] [int] NOT NULL,
+	[RCPMNURE] [int] NOT NULL,
+	[RCPMFERE] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RCPMNUFI] [int] NOT NULL,
+	[RCPMDEPA] [char](2) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPMMUNI] [char](3) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPMCORR] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPMBARR] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPMMANZ] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPMPRED] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPMEDIF] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPMUNPR] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPMCECA] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPMCLSE] [int] NOT NULL,
+	[RCPMDIRE] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPMMAIN] [char](11) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPMESTA] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+ CONSTRAINT [PK_RECOPRMO] PRIMARY KEY CLUSTERED 
+(
+	[RCPMNURE] ASC,
+	[RCPMFERE] ASC,
+	[RCPMNUFI] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[RECOPRMO]  WITH CHECK ADD  CONSTRAINT [FK_RECOPRMO_ESTADO] FOREIGN KEY([RCPMESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+GO
+ALTER TABLE [dbo].[RECOPRMO]  WITH CHECK ADD  CONSTRAINT [FK_RECOPRMO_MANT_CLASSECT] FOREIGN KEY([RCPMCLSE])
+REFERENCES [dbo].[MANT_CLASSECT] ([CLSECODI])
+GO
+ALTER TABLE [dbo].[RECOPRMO]  WITH CHECK ADD  CONSTRAINT [FK_RECOPRMO_MANT_MUNICIPIO] FOREIGN KEY([RCPMDEPA], [RCPMMUNI])
+REFERENCES [dbo].[MANT_MUNICIPIO] ([MUNIDEPA], [MUNICODI])
+
+
+____________________
+
+
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[RECOAVAL]    Fecha de la secuencia de comandos: 06/30/2015 12:58:21 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[RECOAVAL](
+	[RCAVIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[RCAVSECU] [int] NOT NULL,
+	[RCAVNURE] [int] NOT NULL,
+	[RCAVFERE] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RCAVNUFI] [int] NOT NULL,
+	[RCAVVIGE] [int] NOT NULL,
+	[RCAVATPR] [bigint] NULL,
+	[RCAVATCO] [bigint] NULL,
+	[RCAVACPR] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCAVACCO] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCAVVTPR] [bigint] NULL,
+	[RCAVVTCO] [bigint] NULL,
+	[RCAVVCPR] [bigint] NULL,
+	[RCAVVCCO] [bigint] NULL,
+	[RCAVAVAL] [bigint] NULL,
+	[RCAVAUTO] [bit] NULL,
+	[RCAVESTA] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+ CONSTRAINT [PK_RECOAVAL] PRIMARY KEY CLUSTERED 
+(
+	[RCAVNURE] ASC,
+	[RCAVFERE] ASC,
+	[RCAVNUFI] ASC,
+	[RCAVVIGE] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ID REGISTRO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOAVAL', @level2type=N'COLUMN', @level2name=N'RCAVIDRE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'SECUENCIA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOAVAL', @level2type=N'COLUMN', @level2name=N'RCAVSECU'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO DE RESOLUCION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOAVAL', @level2type=N'COLUMN', @level2name=N'RCAVNURE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA DE RESOLUCION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOAVAL', @level2type=N'COLUMN', @level2name=N'RCAVFERE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NUMERO DE FICHA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOAVAL', @level2type=N'COLUMN', @level2name=N'RCAVNUFI'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'VIGENCIA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOAVAL', @level2type=N'COLUMN', @level2name=N'RCAVVIGE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'AREA DE TERRENO PRIVADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOAVAL', @level2type=N'COLUMN', @level2name=N'RCAVATPR'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'AREA DE TERRENO COMUN' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOAVAL', @level2type=N'COLUMN', @level2name=N'RCAVATCO'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'AREA DE CONSTRUCCION PRIVADA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOAVAL', @level2type=N'COLUMN', @level2name=N'RCAVACPR'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'AREA DE CONSTRUCCION COMUN' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOAVAL', @level2type=N'COLUMN', @level2name=N'RCAVACCO'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'VALOR TERRENO PRIVADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOAVAL', @level2type=N'COLUMN', @level2name=N'RCAVVTPR'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'VALOR TERRENO COMUN' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOAVAL', @level2type=N'COLUMN', @level2name=N'RCAVVTCO'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'VALOR CONSTRUCCION PRIVADA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOAVAL', @level2type=N'COLUMN', @level2name=N'RCAVVCPR'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'VALOR CONSTRUCCION COMUN' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOAVAL', @level2type=N'COLUMN', @level2name=N'RCAVVCCO'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'AVALUO CATASTRAL' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOAVAL', @level2type=N'COLUMN', @level2name=N'RCAVAVAL'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'AUTOESTIMACION DE AVALUO ' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOAVAL', @level2type=N'COLUMN', @level2name=N'RCAVAUTO'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ESTADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOAVAL', @level2type=N'COLUMN', @level2name=N'RCAVESTA'
+
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[RECOAVAL]  WITH CHECK ADD  CONSTRAINT [FK_RECOAVAL_ESTADO] FOREIGN KEY([RCAVESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+GO
+ALTER TABLE [dbo].[RECOAVAL]  WITH CHECK ADD  CONSTRAINT [FK_RECOAVAL_RESOCONS] FOREIGN KEY([RCAVNURE], [RCAVFERE])
+REFERENCES [dbo].[RESOCONS] ([RECONURE], [RECOFERE])
+GO
+ALTER TABLE [dbo].[RECOAVAL]  WITH CHECK ADD  CONSTRAINT [FK_RECOAVAL_VIGENCIA] FOREIGN KEY([RCAVVIGE])
+REFERENCES [dbo].[VIGENCIA] ([VIGECODI])
+
+
+___________________________
+
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[RECOPRED]    Fecha de la secuencia de comandos: 06/30/2015 12:58:33 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[RECOPRED](
+	[RCPRIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[RCPRSECU] [int] NOT NULL,
+	[RCPRNURE] [int] NOT NULL,
+	[RCPRFERE] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RCPRNUFI] [int] NOT NULL,
+	[RCPRDEPA] [char](2) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RCPRMUNI] [char](3) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RCPRCORR] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RCPRBARR] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RCPRMANZ] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RCPRPRED] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RCPREDIF] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RCPRUNPR] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RCPRCECA] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPRCLSE] [int] NOT NULL,
+	[RCPRDIRE] [char](100) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPRFEIN] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPRNUPN] [nchar](30) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPRTITR] [char](65) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPRESTA] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+ CONSTRAINT [PK_RECOPRED] PRIMARY KEY CLUSTERED 
+(
+	[RCPRNURE] ASC,
+	[RCPRFERE] ASC,
+	[RCPRNUFI] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ID REGISTRO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPRED', @level2type=N'COLUMN', @level2name=N'RCPRIDRE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'SECUENCIA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPRED', @level2type=N'COLUMN', @level2name=N'RCPRSECU'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NUMERO DE FICHA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPRED', @level2type=N'COLUMN', @level2name=N'RCPRNUFI'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'DEPARTAMENTO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPRED', @level2type=N'COLUMN', @level2name=N'RCPRDEPA'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'MUNICIPIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPRED', @level2type=N'COLUMN', @level2name=N'RCPRMUNI'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CORREGIMIENTO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPRED', @level2type=N'COLUMN', @level2name=N'RCPRCORR'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'BARRIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPRED', @level2type=N'COLUMN', @level2name=N'RCPRBARR'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'MANZANA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPRED', @level2type=N'COLUMN', @level2name=N'RCPRMANZ'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'PREDIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPRED', @level2type=N'COLUMN', @level2name=N'RCPRPRED'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'EDIFICIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPRED', @level2type=N'COLUMN', @level2name=N'RCPREDIF'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'UNIDAD PREDIAL' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPRED', @level2type=N'COLUMN', @level2name=N'RCPRUNPR'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CEDULA CATASTRAL' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPRED', @level2type=N'COLUMN', @level2name=N'RCPRCECA'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CLASE O SECTOR' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPRED', @level2type=N'COLUMN', @level2name=N'RCPRCLSE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'DIRECCION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPRED', @level2type=N'COLUMN', @level2name=N'RCPRDIRE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA DE INSCRIPCION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPRED', @level2type=N'COLUMN', @level2name=N'RCPRFEIN'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NUMERO UNICO PREDIAL NACIONAL' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPRED', @level2type=N'COLUMN', @level2name=N'RCPRNUPN'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'TIPO DE TRAMITE' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPRED', @level2type=N'COLUMN', @level2name=N'RCPRTITR'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ESTADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPRED', @level2type=N'COLUMN', @level2name=N'RCPRESTA'
+
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[RECOPRED]  WITH CHECK ADD  CONSTRAINT [FK_RECOPRED_ESTADO] FOREIGN KEY([RCPRESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+GO
+ALTER TABLE [dbo].[RECOPRED]  WITH CHECK ADD  CONSTRAINT [FK_RECOPRED_MANT_CLASSECT] FOREIGN KEY([RCPRCLSE])
+REFERENCES [dbo].[MANT_CLASSECT] ([CLSECODI])
+GO
+ALTER TABLE [dbo].[RECOPRED]  WITH CHECK ADD  CONSTRAINT [FK_RECOPRED_MANT_MUNICIPIO] FOREIGN KEY([RCPRDEPA], [RCPRMUNI])
+REFERENCES [dbo].[MANT_MUNICIPIO] ([MUNIDEPA], [MUNICODI])
+GO
+ALTER TABLE [dbo].[RECOPRED]  WITH CHECK ADD  CONSTRAINT [FK_RECOPRED_RESOCONS] FOREIGN KEY([RCPRNURE], [RCPRFERE])
+REFERENCES [dbo].[RESOCONS] ([RECONURE], [RECOFERE])
+
+
+
+_______________________
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[RECOZOEC]    Fecha de la secuencia de comandos: 06/30/2015 13:04:45 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[RECOZOEC](
+	[RCZEIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[RCZESECU] [int] NOT NULL,
+	[RCZENURE] [int] NOT NULL,
+	[RCZEFERE] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RCZENUFI] [int] NOT NULL,
+	[RCZEZOEC] [int] NOT NULL,
+	[RCZEPORC] [int] NULL,
+	[RCZEESTA] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+ CONSTRAINT [PK_RECOZOEC] PRIMARY KEY CLUSTERED 
+(
+	[RCZENURE] ASC,
+	[RCZEFERE] ASC,
+	[RCZENUFI] ASC,
+	[RCZEZOEC] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ID REGISTRO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOZOEC', @level2type=N'COLUMN', @level2name=N'RCZEIDRE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'SECUENCIA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOZOEC', @level2type=N'COLUMN', @level2name=N'RCZESECU'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO DE RESOLUCION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOZOEC', @level2type=N'COLUMN', @level2name=N'RCZENURE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA DE RESOLUCION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOZOEC', @level2type=N'COLUMN', @level2name=N'RCZEFERE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO DE FICHA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOZOEC', @level2type=N'COLUMN', @level2name=N'RCZENUFI'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ZONA ECONOMICA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOZOEC', @level2type=N'COLUMN', @level2name=N'RCZEZOEC'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'PORCENTAJE' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOZOEC', @level2type=N'COLUMN', @level2name=N'RCZEPORC'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ESTADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOZOEC', @level2type=N'COLUMN', @level2name=N'RCZEESTA'
+
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[RECOZOEC]  WITH CHECK ADD  CONSTRAINT [FK_RECOZOEC_ESTADO] FOREIGN KEY([RCZEESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+GO
+ALTER TABLE [dbo].[RECOZOEC]  WITH CHECK ADD  CONSTRAINT [FK_RECOZOEC_RESOCONS] FOREIGN KEY([RCZENURE], [RCZEFERE])
+REFERENCES [dbo].[RESOCONS] ([RECONURE], [RECOFERE])
+
+
+________________________
+
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[RECOPROP]    Fecha de la secuencia de comandos: 06/30/2015 13:05:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[RECOPROP](
+	[RCPRIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[RCPRSECU] [int] NOT NULL,
+	[RCPRNURE] [int] NOT NULL,
+	[RCPRFERE] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RCPRNUDO] [char](14) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RCPRMAIN] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RCPRPRAP] [char](15) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPRSEAP] [nchar](15) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPRNOMB] [char](30) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPRDERE] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPRESCR] [int] NULL CONSTRAINT [DF_RECOPROP_RCPRESCR]  DEFAULT ((0)),
+	[RCPRFEES] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[RCPRESTA] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+ CONSTRAINT [PK_RECOPROP] PRIMARY KEY CLUSTERED 
+(
+	[RCPRNURE] ASC,
+	[RCPRFERE] ASC,
+	[RCPRNUDO] ASC,
+	[RCPRMAIN] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ID REGISTRO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPROP', @level2type=N'COLUMN', @level2name=N'RCPRIDRE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'SECUENCIA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPROP', @level2type=N'COLUMN', @level2name=N'RCPRSECU'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO DE RESOLUCION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPROP', @level2type=N'COLUMN', @level2name=N'RCPRNURE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA DE RESOLUCION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPROP', @level2type=N'COLUMN', @level2name=N'RCPRFERE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO DE DOCUMENTO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPROP', @level2type=N'COLUMN', @level2name=N'RCPRNUDO'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'MATRICULA INMOBILIRIA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPROP', @level2type=N'COLUMN', @level2name=N'RCPRMAIN'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'PRIMER APELLIDO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPROP', @level2type=N'COLUMN', @level2name=N'RCPRPRAP'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'SEGUNDO APELLIDO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPROP', @level2type=N'COLUMN', @level2name=N'RCPRSEAP'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NOMBRES' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPROP', @level2type=N'COLUMN', @level2name=N'RCPRNOMB'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'DERECHO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPROP', @level2type=N'COLUMN', @level2name=N'RCPRDERE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ESCRITURA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPROP', @level2type=N'COLUMN', @level2name=N'RCPRESCR'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA DE ESCRITURA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPROP', @level2type=N'COLUMN', @level2name=N'RCPRFEES'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ESTADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'RECOPROP', @level2type=N'COLUMN', @level2name=N'RCPRESTA'
+
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[RECOPROP]  WITH CHECK ADD  CONSTRAINT [FK_RECOPROP_ESTADO] FOREIGN KEY([RCPRESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+GO
+ALTER TABLE [dbo].[RECOPROP]  WITH CHECK ADD  CONSTRAINT [FK_RECOPROP_RESOCONS] FOREIGN KEY([RCPRNURE], [RCPRFERE])
+REFERENCES [dbo].[RESOCONS] ([RECONURE], [RECOFERE])
+
+
+____________________________
+
+
+
+
+insert into PERMSUFO (PESFUSUA,PESFFORM,PESFDESC,PESFAGRE,PESFMODI,PESFELIM,PESFESTA) values
+	(
+	'ADMINISTRADOR',
+	'BindingNavigator_RESOCONS_1',
+	'Resolucion Conservacion - Menu Principal',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+	
+_________________-
+
+
+insert into PERMSUFO (PESFUSUA,PESFFORM,PESFDESC,PESFAGRE,PESFMODI,PESFELIM,PESFESTA) values
+	(
+	'ADMINISTRADOR',
+	'BindingNavigator_RECOPRRE_1',
+	'Resolucion Conservacion - Predio Retirado',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+        
+        
+_____________________
+
+
+
+insert into PERMSUFO (PESFUSUA,PESFFORM,PESFDESC,PESFAGRE,PESFMODI,PESFELIM,PESFESTA) values
+	(
+	'ADMINISTRADOR',
+	'BindingNavigator_RECOPRSE_1',
+	'Resolucion Conservacion - Predio Segregado',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+        
+        
+        
+________________________
+
+
+
+insert into PERMSUFO (PESFUSUA,PESFFORM,PESFDESC,PESFAGRE,PESFMODI,PESFELIM,PESFESTA) values
+	(
+	'ADMINISTRADOR',
+	'BindingNavigator_RECOPRMO_1',
+	'Resolucion Conservacion - Predio Modificado',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+        
+        
+___________________________
+
+
+                        	
+
+
+
+
+        	
+
+
+
+        
+
+
+
+
+
+
+

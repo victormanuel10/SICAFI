@@ -1,0 +1,713 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SICAFI
+</name>
+</assembly>
+<members>
+<member name="M:SICAFI.frm_Comandos_CARPFOTO.#ctor(System.Boolean,System.Boolean)">
+	<summary>
+ constructor para insertar
+ </summary>
+</member><member name="M:SICAFI.frm_Comandos_CARPFOTO.#ctor(System.Int32)">
+	<summary>
+ constructor para modificar
+ </summary>
+</member><member name="M:SICAFI.frm_comandos_FORMULARIO.#ctor(System.Boolean,System.Boolean)">
+	<summary>
+ constructor para insertar
+ </summary>
+</member><member name="M:SICAFI.frm_comandos_FORMULARIO.#ctor(System.Int32)">
+	<summary>
+ constructor para modificar
+ </summary>
+</member><member name="M:SICAFI.mod_fun_FORMATO_DECIMAL.fun_Formato_Decimal_2_Decimales(System.String)">
+	<summary>
+  Se utiliza para darle formato decimal a un campo alfanumerico
+ </summary>
+</member><member name="M:SICAFI.mod_fun_FORMATO_DECIMAL.fun_Formato_Mascara_2_Reales(System.String)">
+	<summary>
+  Se utiliza cuando el dato se sabe que numerico
+ </summary>
+</member><member name="M:SICAFI.mod_fun_FORMATO_DECIMAL.fun_Formato_Mascara_2_String(System.String)">
+	<summary>
+  Se utiliza cuando se sabe que es caracter y se tiene que validar 
+  primero para darle el formato.
+ </summary>
+</member><member name="M:SICAFI.mod_fun_FORMATO_DECIMAL.fun_Formato_Mascara_Pesos(System.String)">
+	<summary>
+  Se utiliza para dar formato de pesos a un dato numerico o decimal
+ </summary>
+</member><member name="M:SICAFI.mod_fun_FORMATO_DECIMAL.fun_Formato_Mascara_Pesos_Enteros(System.String)">
+	<summary>
+  Se utiliza para dar formato de pesos a un dato numerico o decimal
+ </summary>
+</member><member name="M:SICAFI.frm_CARAPRED.pro_Reconsultar">
+	<summary>
+ Llena el DataGridView de acuerdo al tipo de consulta de consulta 
+ </summary>
+</member><member name="M:SICAFI.frm_Comandos_AHT.#ctor(System.Boolean,System.Boolean)">
+	<summary>
+ constructor para insertar
+ </summary>
+</member><member name="M:SICAFI.frm_Comandos_AHT.#ctor(System.Int32)">
+	<summary>
+ constructor para modificar
+ </summary>
+</member><member name="M:SICAFI.frm_comandos_CLASENTI.#ctor(System.Boolean,System.Boolean)">
+	<summary>
+ constructor para insertar
+ </summary>
+</member><member name="M:SICAFI.frm_comandos_CLASENTI.#ctor(System.Int32)">
+	<summary>
+ constructor para modificar
+ </summary>
+</member><member name="M:SICAFI.frm_Comandos_CLASVERS.#ctor(System.Boolean,System.Boolean)">
+	<summary>
+ constructor para insertar
+ </summary>
+</member><member name="M:SICAFI.frm_Comandos_CLASVERS.#ctor(System.Int32)">
+	<summary>
+ constructor para modificar
+ </summary>
+</member><member name="M:SICAFI.mod_fun_CARGAR_ComboBox_CON_TODOS_LOS_DATOS.fun_Cargar_ComboBox_Con_Todos_Los_Datos_DEPARTAMENTO(System.Object,System.Int32)">
+	<summary>
+ CARGA LOS COMBOBOX CON TODOS LOS REGISTROS ACTIVOS E INACTIVOS( Nombre del campo, Posicion de la seleccion )
+ EJ: (cboFIPRCLSE,cboFIPRCLSE.SelectedIndex)
+ </summary>
+</member><member name="M:SICAFI.mod_fun_LISTA_VALORES_FICHA_PREDIAL.fun_Buscar_Lista_Valores_DEPARTAMENTO_Codigo(System.Object)">
+	<summary>
+ carga el codigo seleccionado desde un combobox
+ </summary>
+</member><member name="M:SICAFI.mod_fun_LISTA_VALORES_FICHA_PREDIAL.fun_Buscar_Lista_Valores_DEPARTAMENTO(System.String)">
+	<summary>
+ carga la descripcion
+ </summary>
+</member><member name="M:SICAFI.mod_fun_LISTA_VALORES_FICHA_PREDIAL.fun_Buscar_Lista_Valores_Formulario_Principal_DEPARTAMENTO_Codigo(System.String)">
+	<summary>
+ lista los codigos para los formularios principales
+ </summary>
+</member><member name="M:SICAFI.mod_PERMISO_CONTROL_DE_COMANDOS.fun_PermisoControlDeComandos(System.String,System.String,System.String)">
+	<summary>
+ Configura los botones del control de comando para las exportaciones y barras de menu
+ </summary>
+</member><member name="M:SICAFI.frm_comandos_MEDINOTI.#ctor(System.Boolean,System.Boolean)">
+	<summary>
+ constructor para insertar
+ </summary>
+</member><member name="M:SICAFI.frm_comandos_MEDINOTI.#ctor(System.Int32)">
+	<summary>
+ constructor para modificar
+ </summary>
+</member><member name="M:SICAFI.frm_comandos_RESOAJUS.#ctor(System.Boolean,System.Boolean)">
+	<summary>
+ constructor para insertar
+ </summary>
+</member><member name="M:SICAFI.frm_comandos_RESOAJUS.#ctor(System.Int32)">
+	<summary>
+ constructor para modificar
+ </summary>
+</member><member name="M:SICAFI.frm_Comandos_METOINVE.#ctor(System.Boolean,System.Boolean)">
+	<summary>
+ constructor para insertar
+ </summary>
+</member><member name="M:SICAFI.frm_Comandos_METOINVE.#ctor(System.Int32)">
+	<summary>
+ constructor para modificar
+ </summary>
+</member><member name="M:SICAFI.frm_comandos_CAMPOS.#ctor(System.Boolean,System.Boolean)">
+	<summary>
+ constructor para insertar
+ </summary>
+</member><member name="M:SICAFI.frm_comandos_CAMPOS.#ctor(System.Int32)">
+	<summary>
+ constructor para modificar
+ </summary>
+</member><member name="M:SICAFI.frm_comandos_PREDREAD.#ctor(System.Boolean,System.Boolean)">
+	<summary>
+ constructor para insertar
+ </summary>
+</member><member name="M:SICAFI.frm_comandos_PREDREAD.#ctor(System.Int32)">
+	<summary>
+ constructor para modificar
+ </summary>
+</member><member name="P:SICAFI.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso con establecimiento inflexible de tipos.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Catastro">
+	<summary>
+  Busca una cadena traducida similar a DEFINICIONES Y OBJETIVOS
+
+
+ARTÍCULO 1°.  Definición de Catastro.  El Catastro es el inventario o censo, debidamente actualizado y clasificado, de los bienes inmuebles pertenecientes al
+Estado y a los particulares, con el objeto de lograr su correcta identificación física,
+jurídica, fiscal y económica.
+.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Diligenciamiento_de_la_ficha_predial">
+	<summary>
+  Busca una cadena traducida similar a PAUTAS  PARA EL DILIGENCIAMIENTO DE LA NUEVA FICHA PREDIAL
+
+Para el diligenciamiento de la ficha predial  tener en cuenta las siguientes normas generales:
+ 
+-Letra legible
+-Letra imprenta mayúscula excepto las abreviaturas  y complementos de la dirección.
+-Tinta negra 
+-No se permite el uso de tinta mojada, ni borrable
+-Utilizar lápiz color rojo para identificar mejoras
+-Resaltador verde para cambio en la información 
+-Utilizar lápiz negro MIRADO nro. 2 o en su defecto minas HB para realizar el cr [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Estrcutura_importacion_observacion_ficha_predial">
+	<summary>
+  Busca una cadena traducida similar a IMPORTACION OBSERVACION FICHA PREDIAL
+
+CAMPOS:
+NUMERO DE FICHA (NUMERICO)
+OBSERVACION     (ALFANUMERICO 1000)
+.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Estructura_cruce_areas_bd_vs_cartografia">
+	<summary>
+  Busca una cadena traducida similar a ESTRUCTURA PARA EL CRUCE DE AREAS DE TERRENO BD VS CARTOGRAFIA
+
+CAMPOS:
+
+MUNICIPIO  (NUMERICO)
+CORREGIMIENTO  (NUMERICO)
+BARRIO  (NUMERICO)
+MANZANA  (NUMERICO)
+PREDIO (NUMERICO)
+SECTOR  (NUMERICO)
+AREA DE TERRENO (NUMERICO)
+
+NOTA: EL LISTADO DE INFORMACION DEBE CONTENER EL NOMBRE DE LAS COLUMNAS. .
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.ESTRUCTURA_CRUCE_MATRICULAS_MUNICIPIO_VS_REGISTRO_XLS___MDB">
+	<summary>
+  Busca una cadena traducida similar a ESTRUCTURA CRUCE MATRICULAS MUNICIPIO VS REGISTRO XLS - MDB 
+
+CAMPO 1: MATRICULA
+CAMPO 2: SECTOR
+
+.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Estructura_de_importacion_resoluciones_administrativas">
+	<summary>
+  Busca una cadena traducida similar a ESTRUCTURA PARA IMPORTAR RESOLUCIONES ADMINISTRATIVAS
+
+CAMPOS:
+
+TIPO DE RESOLUCION (NUMERICO)
+NRO DE FICHA       (NUMERICO)
+NRO DE RESOLUCION  (NUMERICO)
+CLASE O SECTOR     (NUMERICO)
+VIGENCIA           (NUMERICO)
+AREA DE TERRENO    (NUMERICO)
+OBSERVACION        (CARACTER 100)
+ESTADO             (CARACTER 2).
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Estructura_de_importacion_zona_economica_ficha_predial">
+	<summary>
+  Busca una cadena traducida similar a Estructura de importación zona económica ficha predial
+
+Campos:
+-	Nro. Ficha Predial = Numérico
+-	Zona = Numérico
+-	Porcentaje = Numérico
+.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Estructura_ICARE">
+	<summary>
+  Busca una cadena traducida similar a ESTRUCTURA ICARE
+
+CAMPOS:
+MATRICULA	-	CARÁCTER
+PREDIAL 	-	CARÁCTER
+TIPO		-	CARÁCTER
+DIRECCION	-	CARÁCTER
+PROPIETARIO	-	CARÁCTER	
+ESTADO      	-	CARÁCTER
+.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Estructura_Importacion_Investigacion_Juridica">
+	<summary>
+  Busca una cadena traducida similar a ESTRUCTURA PARA IMPORTAR LA INVESTIGACIÓN JURIDICA
+
+LAS COLUMNAS DEBEN CONTENER UN NOMBRE DEL CAMPO EN LA PRIMERA FILA EN EL SIGUIENTE ORDEN:
+
+NUMERO DE FICHA           - NUMERICO
+FOLIO                     - ALFANUMERICO(100)
+MATRICULA SEGREGADA       - ALFANUMERICO(100)
+MATRICULA ABIERTA         - ALFANUMERICO(100)
+TOMO ABIERTO              - ALFANUMERICO(100)
+FOLIO ABIERTO             - ALFANUMERICO(100)
+AREA DE TERRENO           - ALFANUMERICO(100)
+FALSA TRADICIÓN           - BOLEANO(VERDADERO [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Estructura_Importacion_Registro_y_Control">
+	<summary>
+  Busca una cadena traducida similar a ESTRUCTURA PARA IMPORTAR EL REGISTRO Y CONTROL DE FICHA PREDIAL Y RESUMEN
+
+LAS COLUMNAS DEBEN CONTENER UN NOMBRE DEL CAMPO EN LA PRIMERA FILA EN EL SIGUIENTE ORDEN:
+
+NUMERO DE FICHA           - NUMERICO
+INGENIERO                 - ALFANUMERICO(100)
+PREDIADOR                 - ALFANUMERICO(100)
+EMPRESA                   - ALFANUMERICO(100)
+PROPIETARIO               - ALFANUMERICO(100)
+REPRESENTANTE             - ALFANUMERICO(100)
+FECHA                     - ALFANUMERICO(10) (dd-mm-aaaa)
+
+.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Estructura_importar_cedula_catastral">
+	<summary>
+  Busca una cadena traducida similar a ESTRUCTURA PARA IMPORTAR LA CEDULA CATASTRAL
+
+ESTRUCTURA PARA CAMBIOS DE CEDULA DENTRO DE UN MISMO SECTOR
+CAMPOS:
+
+NUMERO_FICHA (NUMERICO)
+MUNICIPIO_ACTUAL  (NUMERICO)
+CORREGIMIENTO_ACTUAL  (NUMERICO)
+BARRIO_ACTUAL  (NUMERICO)
+MANZANA_ACTUAL  (NUMERICO)
+PREDIO_ACTUAL (NUMERICO)
+EDIFICIO_ACTUAL (NUMERICO)
+UNIDAD_ACTUAL (NUMERICO)
+SECTOR_ACTUAL  (NUMERICO)
+MUNICIPIO_NUEVO  (NUMERICO)
+CORREGIMIENTO_NUEVO  (NUMERICO)
+BARRIO_NUEVO  (NUMERICO)
+MANZANA_NUEVO  (NUMERICO)
+PREDIO_NUEVO (NUMERICO)
+E [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Estructura_importar_historicos_de_avaluo">
+	<summary>
+  Busca una cadena traducida similar a ESTRUCTURA DE IMPORTACIÓN DE HISTORICOS DE AVALÚOS
+CAMPOS:
+-	VIGENCIA
+-	NRO. DE FICHA
+-	AREA TERRENO PRIVADA
+-	AREA TERRENO COMUN
+-	AREA CONSTRUCCIÓN PRIVADA
+-	AREA CONSTRUCCIÓN COMUN
+-	VALOR TERRENO PRIVADO
+-	VALOR TERRENO COMUN
+-	VALOR CONSTRUCCIÓN PRIVADA
+-	VALOR CONSTRUCCIÓN COMUN
+-	AVALUO TOTAL
+.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Estructura_para_generar_areas_de_construcción_mediante_poligonos">
+	<summary>
+  Busca una cadena traducida similar a ESTRUCTURA PARA GENERAR AREAS DE CONSTRUCCIÓN MEDIANTE POLIGONOS
+
+CAMPOS:
+
+PK_CONSTRUCCIONES = ALFANUMERICO(33)
+TIPO = ALFANUMERICO
+USO = ALFANUMERICO
+SHAPE_AREA = DECIMAL
+.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Estructura_para_importar_area_de_terreno">
+	<summary>
+  Busca una cadena traducida similar a ESTRUCTURA PARA CARGAR LAS AREAS DE TERRENO
+
+CAMPOS:
+MUNICIPIO (3) - CARACTER
+CORREGIMIENTO (2) - CARACTER
+BARRIO (3) - CARACTER
+MANZANA (3) - CARACTER
+PREDIO (5) - CARACTER
+SECTOR (1) - NUMERICO
+AREAS TERRENO (22) - NUMERICO
+
+NOTA: los campos alfanumericos debe tener la marcara de la misma longitud del campo indicado.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Estructura_para_importar_el_propietario_anterior">
+	<summary>
+  Busca una cadena traducida similar a ESTRUCTURA UTILIZADA PARA IMPORTAR LOS DATOS DEL PROPIETARIO ANTERIOR
+
+Se debe crear un archivo en excel versión 2003 conformada por los siguientes campos:
+
+1. Numero de ficha
+2. Numero de documento del propietario actual
+3. Primer apellido
+4. Segundo apellido
+5. Nombre
+6. Causa del acto
+
+Nota: Se debe crear cada columna con su correspondiente titulo ubicada en la primera fila.
+
+.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.EstructuraImportacionAreaDeConstruccion">
+	<summary>
+  Busca una cadena traducida similar a ESTRUCTURA PARA CARGAR LAS AREAS DE CONSTRUCCION
+
+CAMPOS:
+MUNICIPIO (3) - CARACTER
+CORREGIMIENTO (2) - CARACTER
+BARRIO (3) - CARACTER
+MANZANA (3) - CARACTER
+PREDIO (5) - CARACTER
+EDIFICIO (3) - CARACTER
+UNIDAD (5) - CARACTER
+SECTOR - NUMERICO
+NRO CONSTRUCCION - NUMERICO
+AREA CONSTRUCCION - DECIMAL
+
+NOTA: los campos alfanumericos debe tener la marcara de la misma longitud del campo indicado.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.EstructuraImportacionCategoriaPredio">
+	<summary>
+  Busca una cadena traducida similar a Estructura importación categoría de predio ficha predial
+
+-	Numero ficha predial (numérico)
+-	Categoría de predio (numérico)
+.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.EstructuraImportacionCoeficienteDeEdificio">
+	<summary>
+  Busca una cadena traducida similar a ESTRUCTURA IMPORTACIÓN COEFICIENTE DE EDIFICIO
+
+CAMPOS:
+NUMERO DE FICHA - NUMERICO
+COEFICIENTE DE EDIFICIO - DECIMAL
+
+NOTA:
+LOS DECIMALES DEL COEFICIENTE DE EDIFICIO SERAN SEPARADOS POR EL SIGNO PUNTO.
+.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.EstructuraImportacionInformacionRPH">
+	<summary>
+  Busca una cadena traducida similar a ESTRUCTURA DE INFORMACION DE RPH
+
+CAMPOS:
+-	NRO DE FICHA  (NUMERICO)
+-	DIRECCION (CARACTER)
+-	MATRICULA (NUMERICO)
+-	AREA CONSTRUCCION (DECIMAL)
+-	COEFICIENTE EDIFICIO (DECIMAL)
+.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.EstructuraImportacionNumeroDeFicha">
+	<summary>
+  Busca una cadena traducida similar a ESTRUCTURA PARA CARGAR EL NUMERO DE LA FICHA
+
+CAMPOS:
+NRO DE FICHA ACTUAL - NUMERICO
+NRO DE FICHA NUEVA - NUMERICO
+
+
+NOTA: los campos alfanumericos debe tener la marcara de la misma longitud del campo indicado.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Estructurta_importar_identificador_de_construccion">
+	<summary>
+  Busca una cadena traducida similar a ESTRUCTURA IMPORTAR IDENTIFICADOR DE CONSTRUCCIÓN
+
+TABLA
+
+DEPARTAMENTO          ALFANUMERICO(2)
+MUNICIPIO             ALFANUMERICO(3)
+CLASE O SECTOR        NUMERICO
+CLASE DE CONSTRUCCIÓN NUMERICO
+TIPO DE CALIFICACIÓN  ALFANUMERICO(1)
+IDENTIFICADOR         ALFANUMERICO(3)
+DESCRIPCIÓN           ALFANUMERICO(50)
+PUNTAJE PREDETERM.    NUMERICO
+PUNTAJE MAXIMO        NUMERICO
+ESTADO                ALFANUMERICO(2)
+.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.ExtructuraImportacionLinderosFichaPredial">
+	<summary>
+  Busca una cadena traducida similar a ESTRUCTURA DE IMPORTACIÓN DE LINDEROS DE FICHA PREDIAL
+
+CAMPOS:
+-	NRO DE FICHA (NUMERICO)
+-	PUNTO CARDINAL NORTE (ALFANUMERICO)
+-	PUNTO CARDINAL NORTE (ALFANUMERICO)
+-	PUNTO CARDINAL NORTE (ALFANUMERICO)
+-	PUNTO CARDINAL NORTE (ALFANUMERICO)
+-	PUNTO CARDINAL ORIENTE (ALFANUMERICO)
+-	PUNTO CARDINAL ORIENTE (ALFANUMERICO)
+-	PUNTO CARDINAL ORIENTE (ALFANUMERICO)
+-	PUNTO CARDINAL ORIENTE (ALFANUMERICO)
+-	PUNTO CARDINAL SUR (ALFANUMERICO)
+-	PUNTO CARDINAL SUR (ALFANUMERICO)
+-	PUNTO CARDINAL SUR (AL [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Formulas_de_liquidación_de_avalúos_catastrales">
+	<summary>
+  Busca una cadena traducida similar a AVALÚOS CATASTRALES DEL MUNICIPIO DE ENVIGADO
+
+
+CARACTERÍSTICA 1 NORMAL
+
+
+Áreas de Terreno Ficha predial   
+
+Ø	Área de terreno x valor de la zona x % c/u zonas x % descuento. (área de terreno privada - valor lote privado).
+
+Área de Construcción Ficha predial  
+
+Ø	Área de construcción x valor de los puntos que tiene el tipo de construcción. (área construida privada - valor construcción privada).
+
+
+CARACTERÍSTICA 2 RPH EDIFICIO
+
+
+Áreas de Terreno Ficha resumen 2
+
+Ø	Área común de lote FR2 x [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Generar_areas_mediante_poligonos">
+	<summary>
+  Busca una cadena traducida similar a ESTRUCTURA PARA GENERAR AREAS DE CONSTRUCCIÓN MEDIANTE POLIGONOS
+
+CAMPOS:
+
+PK_CONSTRUCCIONES = ALFANUMERICO(33)
+TIPO = ALFANUMERICO
+USO = ALFANUMERICO
+NRO_PISOS = NUMEICO
+SHAPE_AREA = DECIMAL.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.INCO_eliminar_registro">
+	<summary>
+  Busca una cadena traducida similar a Ingrese la lista de valores o active los registros de las tablas de mantenimiento que corresponden al código padre que se ubican en las listas desplegables del formulario modificar registro..
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.INCO_insertar_registro">
+	<summary>
+  Busca una cadena traducida similar a Ingrese la lista de valores o active los registros de las tablas de mantenimiento que corresponden al código padre que se ubican en las listas desplegables del formulario insertar registro..
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.INCO_modificar_registro">
+	<summary>
+  Busca una cadena traducida similar a Ingrese la lista de valores o active los registros de las tablas de mantenimiento que corresponden al código padre que se ubican en las listas desplegables del formulario modificar registro..
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Ley_14_de_1983">
+	<summary>
+  Busca una cadena traducida similar a LEY 14 DE 1983
+(Julio 6)
+EL CONGRESO DE COLOMBIA
+DECRETA:
+CAPÍTULO I
+NORMAS SOBRE CATASTRO, IMPUESTO PREDIAL
+E IMPUESTO DE RENTA Y COMPLEMENTARIOS 
+ 
+
+ARTÍCULO 1o.  El avalúo catastral de todos los inmuebles se actualizará durante el año de 1983.  Para este efecto el último avalúo vigente se reajustará en un diez por ciento (10%) anual acumulado, año por año, de acuerdo con su antigüedad o fecha.  El período del reajuste no podrá exceder de 15 años. 
+El Instituto Geográfico "Agustín Codazzi" y las [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Ley_675_de_2001">
+	<summary>
+  Busca una cadena traducida similar a CONGRESO DE LA REPÚBLICA
+LEY 675 DE 2001
+(agosto 3)
+ 
+Diario Oficial No. 44.509, de 4 de agosto de 2001
+ 
+Por medio de la cual se expide el régimen de propiedad horizontal.
+ 
+Vigencia. Esta disposición fue modificada por el Decreto 1380 de 2002.
+ 
+La Corte Constitucional en sentencia C-782/04 declaró la exequibilidad, pero únicamente por los cargos analizados, del artículo 25 numeral 3 de la Ley 675 de 2001, así como el aparte acusado del artículo 3 de esa misma Ley, el cual literalmente dice: "la [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Procedimientos_para_informar_movimientos">
+	<summary>
+  Busca una cadena traducida similar a PROCEDIMIENTO PARA INFORMAR LOS MOVIMIENTOS
+
+APLICATIVO PARA LA CAPTURA DE INFORMACIÓN CATASTRAL
+
+
+Al llamar el PROGRAMA se debe LLENAR la siguiente información para INGRESAR:
+
+Usuario: Ingrese el usuario de la persona que usará el aplicativo. Debe ser una palabra con máximo 18  caracteres. Por defecto, el usuario general será ADMIN
+
+Clave: Ingrese la clave de acceso al aplicativo asignada al usuario. Por seguridad, esta no se visualiza en el campo. Debe ser una palabra con máximo 18 caracteres.
+
+ [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Reconocimiento_y_calificación_de_las_construcciones">
+	<summary>
+  Busca una cadena traducida similar a RECONOCIMIENTO Y CALIFICACIÓN DE LAS CONSTRUCCIONES
+
+
+
+
+Variables
+
+
+Para efectos del reconocimiento, clasificación y calificación de los diversos tipos de edificaciones existentes teniendo como objetivo final el avalúo catastral, se han escogido cuatro variables, consideradas como las más representativas dentro de la inmensa gama de características posibles de reconocer en las construcciones y las que mejor explican el avalúo de la construcción.  Algunas de ellas de carácter censal sobre condiciones [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Resolución_2555_de_1998">
+	<summary>
+  Busca una cadena traducida similar a 
+												
+
+
+RESOLUCIÓN No 2555 DE 1988
+(28 SEP. 1988)
+
+
+Por la cual se reglamenta la formación, actualización de la formación y conservación del Catastro Nacional, y subroga la resolución No. 660 de 30 de 
+marzo de 1984.
+
+
+EL DIRECTOR GENERAL DEL INSTITUTO GEOGRÁFICO 
+" AGUSTÍN CODAZZI"
+
+
+En uso de sus atribuciones legales y en especial las que le confieren la Ley 65 de 
+1939, el Decreto 1301 de 1940, el Decreto Ley 290 de 1957, el Decreto 2205 de 1983, la Ley 14 de 1983 y el Decreto 34 [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Resolucion_N_70_de_2011">
+	<summary>
+  Busca una cadena traducida similar a INSTITUTO GEOGRÁFICO AGUSTÍN CODAZZI
+
+RESOLUCIÓN Nº 0070 DE 2011
+
+(Febrero 4)
+
+"Por la cual se reglamenta técnicamente la formación catastral, la actualización de la formación catastral y la conservación catastral".
+
+El Director General del Instituto Geográfico Agustín Codazzi, en uso de sus atribuciones legales, y en especial las que le confieren la Ley 65 de 1939, el Decreto 1301 de 1940, la Ley 14 de 1983, el Decreto 3496 de 1983, el Decreto 2113 de 1992 y el Decreto 208 de 2004, y
+
+
+CONSIDERA [resto de la cadena truncado]";.
+</summary>
+</member><member name="T:SICAFI.My.Resources.Resources">
+	<summary>
+  Clase de recurso con establecimiento inflexible de tipos, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="M:SICAFI.frm_Comandos_CATEPRED.#ctor(System.Boolean,System.Boolean)">
+	<summary>
+ constructor para insertar
+ </summary>
+</member><member name="M:SICAFI.frm_Comandos_CATEPRED.#ctor(System.Int32)">
+	<summary>
+ constructor para modificar
+ </summary>
+</member><member name="M:SICAFI.frm_comandos_CONTCOMA.#ctor(System.Boolean,System.Boolean)">
+	<summary>
+ constructor para insertar
+ </summary>
+</member><member name="M:SICAFI.frm_comandos_CONTCOMA.#ctor(System.Int32)">
+	<summary>
+ constructor para modificar
+ </summary>
+</member><member name="M:SICAFI.frm_comandos_DIVISION.#ctor(System.Boolean,System.Boolean)">
+	<summary>
+ constructor para insertar
+ </summary>
+</member><member name="M:SICAFI.frm_comandos_DIVISION.#ctor(System.Int32)">
+	<summary>
+ constructor para modificar
+ </summary>
+</member><member name="M:SICAFI.frm_CALIPROP.pro_Reconsultar">
+	<summary>
+ Procedimiento que reconsulta todos los registros de la tabla
+ </summary>
+</member><member name="M:SICAFI.frm_Comandos_MOBILIARIO.#ctor(System.Boolean,System.Boolean)">
+	<summary>
+ constructor para insertar
+ </summary>
+</member><member name="M:SICAFI.frm_Comandos_MOBILIARIO.#ctor(System.Int32)">
+	<summary>
+ constructor para modificar
+ </summary>
+</member><member name="M:SICAFI.frm_Comandos_SMMLV.#ctor(System.Boolean,System.Boolean)">
+	<summary>
+ constructor para insertar
+ </summary>
+</member><member name="M:SICAFI.frm_Comandos_SMMLV.#ctor(System.Int32)">
+	<summary>
+ constructor para modificar
+ </summary>
+</member><member name="M:SICAFI.frm_comandos_ACTOADMI.#ctor(System.Boolean,System.Boolean)">
+	<summary>
+ constructor para insertar
+ </summary>
+</member><member name="M:SICAFI.frm_comandos_ACTOADMI.#ctor(System.Int32)">
+	<summary>
+ constructor para modificar
+ </summary>
+</member><member name="M:SICAFI.frm_Comandos_PLANCART.#ctor(System.Boolean,System.Boolean)">
+	<summary>
+ constructor para insertar
+ </summary>
+</member><member name="M:SICAFI.frm_Comandos_PLANCART.#ctor(System.Int32)">
+	<summary>
+ constructor para modificar
+ </summary>
+</member><member name="M:SICAFI.frm_Comandos_CLASPRED.#ctor(System.Boolean,System.Boolean)">
+	<summary>
+ constructor para insertar
+ </summary>
+</member><member name="M:SICAFI.frm_Comandos_CLASPRED.#ctor(System.Int32)">
+	<summary>
+ constructor para modificar
+ </summary>
+</member><member name="M:SICAFI.frm_comandos_PROCEDIMIENTO.#ctor(System.Boolean,System.Boolean)">
+	<summary>
+ constructor para insertar
+ </summary>
+</member><member name="M:SICAFI.frm_comandos_PROCEDIMIENTO.#ctor(System.Int32)">
+	<summary>
+ constructor para modificar
+ </summary>
+</member><member name="M:SICAFI.frm_comandos_MEDIRESE.#ctor(System.Boolean,System.Boolean)">
+	<summary>
+ constructor para insertar
+ </summary>
+</member><member name="M:SICAFI.frm_comandos_MEDIRESE.#ctor(System.Int32)">
+	<summary>
+ constructor para modificar
+ </summary>
+</member><member name="M:SICAFI.frm_comandos_CLASIFICACION.#ctor(System.Boolean,System.Boolean)">
+	<summary>
+ constructor para insertar
+ </summary>
+</member><member name="M:SICAFI.frm_comandos_CLASIFICACION.#ctor(System.Int32)">
+	<summary>
+ constructor para modificar
+ </summary>
+</member><member name="M:SICAFI.frm_comandos_TABLAS.#ctor(System.Boolean,System.Boolean)">
+	<summary>
+ constructor para insertar
+ </summary>
+</member><member name="M:SICAFI.frm_comandos_TABLAS.#ctor(System.Int32)">
+	<summary>
+ constructor para modificar
+ </summary>
+</member><member name="M:SICAFI.mod_fun_CARGAR_ComboBox_CON_DATOS_ACTIVOS.fun_Cargar_ComboBox_Con_Datos_Activos_DEPARTAMENTO_Descripcion(System.Object,System.Int32)">
+	<summary>
+ carga la descripcion
+ </summary>
+</member><member name="M:SICAFI.mod_fun_CARGAR_ComboBox_CON_DATOS_ACTIVOS.fun_Cargar_ComboBox_Con_Datos_Activos_DEPARTAMENTO(System.Object,System.Int32)">
+	<summary>
+ carga el codigo
+ </summary>
+</member><member name="M:SICAFI.frm_Comandos_AGUAS.#ctor(System.Boolean,System.Boolean)">
+	<summary>
+ constructor para insertar
+ </summary>
+</member><member name="M:SICAFI.frm_Comandos_AGUAS.#ctor(System.Int32)">
+	<summary>
+ constructor para modificar
+ </summary>
+</member>
+</members>
+</doc>

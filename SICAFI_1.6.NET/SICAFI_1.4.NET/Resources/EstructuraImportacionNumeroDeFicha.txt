@@ -1,0 +1,8 @@
+ESTRUCTURA PARA CARGAR EL NUMERO DE LA FICHA
+
+CAMPOS:
+NRO DE FICHA ACTUAL - NUMERICO
+NRO DE FICHA NUEVA - NUMERICO
+
+
+NOTA: los campos alfanumericos debe tener la marcara de la misma longitud del campo indicado

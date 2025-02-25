@@ -1,0 +1,269 @@
+ALTER TABLE OBLIURBA ADD OBURVILI INT NOT NULL DEFAULT 0
+ALTER TABLE OBLIURBA ADD OBURFELI CHAR(10) NOT NULL DEFAULT ''
+ALTER TABLE OBLIURBA ADD OBURGRCO BIT NULL DEFAULT 0
+
+UPDATE OBLIURBA SET OBURVILI = '2016'
+UPDATE OBLIURBA SET OBURFELI = '01-01-2016'
+UPDATE OBLIURBA SET OBURGRCO = 0
+
+ALTER TABLE OBURINGE ADD OUIGUSLI CHAR(50) NOT NULL DEFAULT ''
+ALTER TABLE OBURINGE ADD OUIGNDLI CHAR(20) NOT NULL DEFAULT ''
+ALTER TABLE OBURINGE ADD OUIGFELI CHAR(10) NOT NULL DEFAULT ''
+ALTER TABLE OBURINGE ADD OUIGVILI INT NOT NULL DEFAULT 0
+ALTER TABLE OBURINGE ADD OUIGMAQU CHAR(50) NOT NULL DEFAULT ''
+
+--------------------------------------  NUEVO SCRIPT
+
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'CertificacionDeEstratoToolStripMenuItem',
+	'Certificacion De Estrato',
+    'ac' 
+	)
+	
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'MantenimientoCertificacionDeDeEstratoToolStripMenuItem',
+	'Mantenimiento Certificacion De Estrato',
+    'ac' 
+	)
+	
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'MantenimientoProyectoSocioeconomicoToolStripMenuItem1',
+	'Mantenimiento Proyecto Socioeconomico',
+    'ac' 
+	)
+        
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'MantenimientoAsignacionDeEntidadToolStripMenuItem',
+	'Mantenimiento Asignacion de Entidad',
+    'ac' 
+	)
+        
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'MantenimientoUbicacionDeViviendaToolStripMenuItem',
+	'Mantenimiento Ubicacion De Vivienda',
+    'ac' 
+	)
+        
+------------------------------------------------
+
+insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'frm_ASIGENTI',
+	'Asignacion de entidad',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+	
+insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'frm_UBICVIVI',
+	'Ubicacion de vivienda',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+	
+insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'frm_PROYSOCI',
+	'Proyecto socioeconomico',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+	
+insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'cla_CERTESSO',
+	'Certificacion de estrato socioeconomico',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+	
+insert into PERMSUFO (PESFUSUA,PESFFORM,PESFDESC,PESFAGRE,PESFMODI,PESFELIM,PESFESTA) values
+	(
+	'ADMINISTRADOR',
+	'BindingNavigator_CERTESSO_1',
+	'Certificación de Estrato - Menu Principal',
+    '1',
+    '1',
+    '1',
+    'ac' 
+	)
+
+---------------------------------------------------
+
+ALTER TABLE OBURINGE ADD OUIGPLPA BIT NULL DEFAULT 0
+ALTER TABLE OBURINGE ADD OUIGOBSE CHAR(1000) NOT NULL DEFAULT ''
+
+UPDATE OBURINGE SET OUIGPLPA = 0
+
+---------------------------------------------------
+
+ALTER TABLE RESOCONS ADD RECOAJLI BIT NULL DEFAULT 0
+ALTER TABLE RESOCONS ADD RECOFELI CHAR(10) NOT NULL DEFAULT ''
+ALTER TABLE RESOCONS ADD RECOUSLI CHAR(50) NOT NULL DEFAULT ''
+ALTER TABLE RESOCONS ADD RECONDLI CHAR(20) NOT NULL DEFAULT ''
+ALTER TABLE RESOCONS ADD RECOFEAL CHAR(10) NOT NULL DEFAULT ''
+ALTER TABLE RESOCONS ADD RECOUSAL CHAR(50) NOT NULL DEFAULT ''
+ALTER TABLE RESOCONS ADD RECONDAL CHAR(20) NOT NULL DEFAULT ''
+ALTER TABLE RESOCONS ADD RECODOAL INT NOT NULL DEFAULT 0
+ALTER TABLE RESOCONS ADD RECOFEES CHAR(10) NOT NULL DEFAULT ''
+
+UPDATE RESOCONS SET RECOAJLI = 0
+UPDATE RESOCONS SET RECOFELI = ''
+UPDATE RESOCONS SET RECOUSLI = ''
+UPDATE RESOCONS SET RECONDLI = ''
+UPDATE RESOCONS SET RECOFEAL = ''
+UPDATE RESOCONS SET RECOUSAL = ''
+UPDATE RESOCONS SET RECONDAL = ''
+UPDATE RESOCONS SET RECOFEES = ''
+
+---------------------------------------------------
+        
+ALTER TABLE OBLIURBA ADD OBURAJLI BIT NULL DEFAULT 0
+
+UPDATE OBLIURBA SET OBURAJLI = 0
+
+---------------------------------------------------
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[OBURAJLI]    Fecha de la secuencia de comandos: 04/07/2016 12:52:57 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[OBURAJLI](
+	[OUALIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[OUALSECU] [int] NOT NULL,
+	[OUALCLEN] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[OUALNURE] [int] NOT NULL,
+	[OUALFERE] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[OUALCLOU] [int] NOT NULL,
+	[OUALNULI] [int] NOT NULL,
+	[OUALNUAL] [int] NOT NULL,
+	[OUALLIQU] [bigint] NOT NULL,
+	[OUALLIAJ] [bigint] NOT NULL,
+	[OUALFEIN] [datetime] NOT NULL,
+	[OUALOBSE] [char](3000) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[OUALUSIN] [char](50) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[OUALNDIN] [char](20) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[OUALMAQU] [char](50) COLLATE Modern_Spanish_CI_AS NOT NULL,
+ CONSTRAINT [PK_OBURAJLI] PRIMARY KEY CLUSTERED 
+(
+	[OUALCLEN] ASC,
+	[OUALNURE] ASC,
+	[OUALFERE] ASC,
+	[OUALCLOU] ASC,
+	[OUALNULI] ASC,
+	[OUALNUAL] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ID REGISTRO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURAJLI', @level2type=N'COLUMN', @level2name=N'OUALIDRE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'SECUENCIA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURAJLI', @level2type=N'COLUMN', @level2name=N'OUALSECU'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CLASE DE ENTIDAD' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURAJLI', @level2type=N'COLUMN', @level2name=N'OUALCLEN'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO. RADICADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURAJLI', @level2type=N'COLUMN', @level2name=N'OUALNURE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA RADICADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURAJLI', @level2type=N'COLUMN', @level2name=N'OUALFERE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CLASE DE OBLIGACION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURAJLI', @level2type=N'COLUMN', @level2name=N'OUALCLOU'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO. LIQUIDACION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURAJLI', @level2type=N'COLUMN', @level2name=N'OUALNULI'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO. AJUTE DE LIQUIDACION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURAJLI', @level2type=N'COLUMN', @level2name=N'OUALNUAL'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'LIQUIDACION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURAJLI', @level2type=N'COLUMN', @level2name=N'OUALLIQU'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'LIQUIDACION AJUSTADA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURAJLI', @level2type=N'COLUMN', @level2name=N'OUALLIAJ'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA INGRESO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURAJLI', @level2type=N'COLUMN', @level2name=N'OUALFEIN'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'OBSERVACION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURAJLI', @level2type=N'COLUMN', @level2name=N'OUALOBSE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'USUARIO INGRESO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURAJLI', @level2type=N'COLUMN', @level2name=N'OUALUSIN'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO DOCUMENTO INGRESO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURAJLI', @level2type=N'COLUMN', @level2name=N'OUALNDIN'
+
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[OBURAJLI]  WITH CHECK ADD  CONSTRAINT [FK_OBURAJLI_OBLIURBA] FOREIGN KEY([OUALCLEN], [OUALNURE], [OUALFERE])
+REFERENCES [dbo].[OBLIURBA] ([OBURCLEN], [OBURNURE], [OBURFERE])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+
+
+--------------------------------------------------
+
+
+insert into PERMSUFO (PESFUSUA,PESFFORM,PESFDESC,PESFAGRE,PESFMODI,PESFELIM,PESFESTA) values
+	(
+	'ADMINISTRADOR',
+	'BindingNavigator_OBURAJLI_1',
+	'Obligación Urbaniastica - Ajuste de Liquidacion',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+	
+---------------------------------------------------
+
+	
+
+
+
+        	
+        
+        	
+
+
+
+
+
+

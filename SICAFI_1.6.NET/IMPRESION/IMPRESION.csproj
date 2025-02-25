@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E1482694-DAEC-4009-B40A-36913B14ECAF}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IMPRESION</RootNamespace>
+    <AssemblyName>IMPRESION</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>..\IMPRESION FICHA\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa">
+      <HintPath>..\IMPRESION FICHA\itextsharp.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xtra">
+      <HintPath>..\IMPRESION FICHA\itextsharp.xtra.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLite.Designer">
+      <HintPath>..\IMPRESION FICHA\SQLite.Designer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ImprimirFicha.cs" />
+    <Compile Include="Modelo\Conexion.cs" />
+    <Compile Include="Modelo\EntitySicafi.cs" />
+    <Compile Include="Modelo\Listas\Consultar_Calificacion_Result.cs" />
+    <Compile Include="Modelo\Listas\Consultar_CategoriaPredio_Result.cs" />
+    <Compile Include="Modelo\Listas\Consultar_Colindantes_Result.cs" />
+    <Compile Include="Modelo\Listas\Consultar_Construcciones_Result.cs" />
+    <Compile Include="Modelo\Listas\Consultar_Estado_Impresion.cs" />
+    <Compile Include="Modelo\Listas\Consultar_Informacion_Complementaria_Result.cs" />
+    <Compile Include="Modelo\Listas\Consultar_Informacion_Geografica_Result.cs" />
+    <Compile Include="Modelo\Listas\Consultar_Predio_Result.cs" />
+    <Compile Include="Modelo\Listas\Consultar_Propietario_Result.cs" />
+    <Compile Include="Modelo\Listas\Consultar_Tipo_Foto_Result.cs" />
+    <Compile Include="Modelo\Listas\Consultar_Zonas_Economicas_Result.cs" />
+    <Compile Include="Modelo\Listas\Consultar_Zonas_Fisicas_Result.cs" />
+    <Compile Include="Modelo\sqlite\Conexion.cs" />
+    <Compile Include="Modelo\sqlite\Entity.cs" />
+    <Compile Include="Negocio\DataTablesFichaPredial.cs" />
+    <Compile Include="Negocio\Reportes\a_Encabezado.cs" />
+    <Compile Include="Negocio\Reportes\b_DatosPredio.cs" />
+    <Compile Include="Negocio\Reportes\c_CedulaCatastral.cs" />
+    <Compile Include="Negocio\Reportes\d_CedulaCatastralAnterior.cs" />
+    <Compile Include="Negocio\Reportes\e_DestinoEconomico.cs" />
+    <Compile Include="Negocio\Reportes\f_CaracteristicaPredio.cs" />
+    <Compile Include="Negocio\Reportes\g_Adquisicion.cs" />
+    <Compile Include="Negocio\Reportes\h_Propietario.cs" />
+    <Compile Include="Negocio\Reportes\i_JustificacionPropietario.cs" />
+    <Compile Include="Negocio\Reportes\ja_Calificacion.cs" />
+    <Compile Include="Negocio\Reportes\jb_Fotos.cs" />
+    <Compile Include="Negocio\Reportes\j_Construccion.cs" />
+    <Compile Include="Negocio\Reportes\k_PlanoConstruccion.cs" />
+    <Compile Include="Negocio\Reportes\l_Linderos.cs" />
+    <Compile Include="Negocio\Reportes\m_InformacionGrafica.cs" />
+    <Compile Include="Negocio\Reportes\n_InformacionAerografica.cs" />
+    <Compile Include="Negocio\Reportes\o_ZonasFisicas.cs" />
+    <Compile Include="Negocio\Reportes\p_ZonasEconomicos.cs" />
+    <Compile Include="Negocio\Reportes\q_InformacionResumen.cs" />
+    <Compile Include="Negocio\Reportes\r_InformacionResumenGenerales.cs" />
+    <Compile Include="Negocio\Reportes\s_InformacionComplementaria.cs" />
+    <Compile Include="Negocio\Reportes\t_InformacionFecha.cs" />
+    <Compile Include="Negocio\Reportes\_formatoReporte.cs" />
+    <Compile Include="Negocio\Utilidades\Enum\tipoEstadoPlano.cs" />
+    <Compile Include="Negocio\Utilidades\TipoDato\tipoImagenes.cs" />
+    <Compile Include="Negocio\Utilidades\UPdfReportes.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilidades\CopiarArchivos.cs" />
+    <Compile Include="Utilidades\PythonUtilities.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Modelo\Libreria\sqlite4\EntityFramework.dll" />
+    <Content Include="Modelo\Libreria\sqlite4\SQLite.Designer.dll" />
+    <Content Include="Modelo\Libreria\sqlite4\SQLite.Interop.dll" />
+    <Content Include="Modelo\Libreria\sqlite4\System.Data.SQLite.dll" />
+    <Content Include="Modelo\Libreria\sqlite4\System.Data.SQLite.EF6.dll" />
+    <Content Include="Modelo\Libreria\sqlite4\System.Data.SQLite.Linq.dll" />
+    <Content Include="Modelo\Libreria\System.Data.SQLite.dll" />
+    <Content Include="Negocio\Librerias\itextsharp.dll" />
+    <Content Include="Negocio\Librerias\itextsharp.pdfa.dll" />
+    <Content Include="Negocio\Librerias\itextsharp.xtra.dll" />
+    <None Include="app.config" />
+    <None Include="Resources\Portada.png" />
+    <None Include="Resources\JEJCatastro.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\FondoBlanco400.png" />
+    <None Include="Resources\M1.mxd" />
+    <None Include="Resources\M2.mxd" />
+    <None Include="Resources\M3.mxd" />
+    <None Include="Resources\M4.mxd" />
+    <None Include="Resources\MC1.mxd" />
+    <None Include="Resources\MC2.mxd" />
+    <None Include="Resources\MC3.mxd" />
+    <None Include="Resources\MC4.mxd" />
+    <None Include="Resources\PA.mxd" />
+    <None Include="Resources\PU.mxd" />
+    <None Include="Resources\PUP.mxd" />
+    <None Include="Resources\UPU.mxd" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C0.mxd" />
+    <None Include="Resources\C1.mxd" />
+    <None Include="Resources\C2.mxd" />
+    <None Include="Resources\C3.mxd" />
+    <None Include="Resources\C4.mxd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

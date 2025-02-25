@@ -1,0 +1,319 @@
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[MANT_FORMULARIO]    Fecha de la secuencia de comandos: 07/25/2014 12:56:59 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[MANT_FORMULARIO](
+	[FORMIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[FORMCODI] [char](100) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[FORMDESC] [char](100) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[FORMESTA] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+ CONSTRAINT [PK_MANT_FORMULARIO] PRIMARY KEY CLUSTERED 
+(
+	[FORMCODI] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[MANT_FORMULARIO]  WITH CHECK ADD  CONSTRAINT [FK_MANT_FORMULARIO_ESTADO] FOREIGN KEY([FORMESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+
+
+_________________________
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[MANT_MACAFORM]    Fecha de la secuencia de comandos: 07/25/2014 12:57:30 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[MANT_MACAFORM](
+	[MCFOIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[MCFOFORM] [char](100) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[MCFOMACA] [int] NOT NULL,
+	[MCFOESTA] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+ CONSTRAINT [PK_MANT_MACAFORM] PRIMARY KEY CLUSTERED 
+(
+	[MCFOFORM] ASC,
+	[MCFOMACA] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[MANT_MACAFORM]  WITH CHECK ADD  CONSTRAINT [FK_MANT_MACAFORM_ESTADO] FOREIGN KEY([MCFOESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+GO
+ALTER TABLE [dbo].[MANT_MACAFORM]  WITH CHECK ADD  CONSTRAINT [FK_MANT_MACAFORM_MANT_FORMULARIO] FOREIGN KEY([MCFOFORM])
+REFERENCES [dbo].[MANT_FORMULARIO] ([FORMCODI])
+GO
+ALTER TABLE [dbo].[MANT_MACAFORM]  WITH CHECK ADD  CONSTRAINT [FK_MANT_MACAFORM_MANT_MATECAMP] FOREIGN KEY([MCFOMACA])
+REFERENCES [dbo].[MANT_MATECAMP] ([MACACODI])
+
+
+_______________________________
+
+
+insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'frm_MACAFORM',
+	'Material de campo por formulario',
+    '1',
+    '1',
+    '1',
+    'ac' 
+	)
+	
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'MaterialDeCampoPorFormularioToolStripMenuItem',
+	'Material de campo por formulario',
+    'ac' 
+	)
+__________________________________
+
+
+ALTER TABLE TRABCAMP ADD TRCAMAIN VARCHAR(11) NOT NULL DEFAULT ''
+
+
+___________________________________
+
+
+ALTER TABLE MUTACIONES ADD MUTANURE INT NOT NULL DEFAULT '0'
+ALTER TABLE MUTACIONES ADD MUTAFERE VARCHAR(12) NOT NULL DEFAULT ''
+
+___________________________________
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'RegistroDeMutacionToolStripMenuItem',
+	'Registro de Mutaciones',
+    'ac' 
+	)
+	
+insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'frm_REGIMUTA',
+	'Registro de mutaciones',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+
+__________________________________
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[REGIMUTA]    Fecha de la secuencia de comandos: 08/14/2014 15:59:24 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[REGIMUTA](
+	[REMUIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[REMUSECU] [int] NOT NULL,
+	[REMUVIGE] [int] NOT NULL,
+	[REMUMES] [int] NOT NULL,
+	[REMUFEIN] [datetime] NOT NULL,
+	[REMUFEAS] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[REMUFEFI] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[REMUNUDO] [char](20) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[REMUUSUA] [char](50) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[REMUESTA] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[REMUNUPR] [int] NULL CONSTRAINT [DF_REGIMUTA_REMUNUPR]  DEFAULT ((0)),
+	[REMUNUAR] [int] NULL CONSTRAINT [DF_REGIMUTA_REMUNUAR]  DEFAULT ((0)),
+	[REMUOBSE] [char](4000) COLLATE Modern_Spanish_CI_AS NULL,
+ CONSTRAINT [PK_REGIMUTA] PRIMARY KEY CLUSTERED 
+(
+	[REMUSECU] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[REGIMUTA]  WITH CHECK ADD  CONSTRAINT [FK_REGIMUTA_ESTADO] FOREIGN KEY([REMUESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+GO
+ALTER TABLE [dbo].[REGIMUTA]  WITH CHECK ADD  CONSTRAINT [FK_REGIMUTA_MANT_PERIODO] FOREIGN KEY([REMUVIGE], [REMUMES])
+REFERENCES [dbo].[MANT_PERIODO] ([PERIVIGE], [PERIMES])
+_______________________________
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[REMUPRED]    Fecha de la secuencia de comandos: 08/20/2014 13:12:13 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[REMUPRED](
+	[RMPRIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[RMPRSECU] [int] NOT NULL,
+	[RMPRDEPA] [char](2) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RMPRMUNI] [char](3) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RMPRCORR] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RMPRBARR] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RMPRMANZ] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RMPRPRED] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RMPREDIF] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RMPRUNPR] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RMPRCLSE] [int] NOT NULL,
+	[RMPRVIGE] [int] NOT NULL,
+	[RMPRNURE] [int] NULL CONSTRAINT [DF_REMUPRED_RMPRNURE]  DEFAULT ((0)),
+	[RMPRFERE] [char](10) COLLATE Modern_Spanish_CI_AS NULL CONSTRAINT [DF_REMUPRED_RMPRFERE]  DEFAULT (''),
+	[RMPRESCR] [int] NULL,
+	[RMPRFEES] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[RMPRNUFI] [int] NULL,
+	[RMPRMAIN] [char](11) COLLATE Modern_Spanish_CI_AS NULL,
+	[RMPRFEIN] [datetime] NULL
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[REMUPRED]  WITH CHECK ADD  CONSTRAINT [FK_REMUPRED_MANT_CLASSECT] FOREIGN KEY([RMPRCLSE])
+REFERENCES [dbo].[MANT_CLASSECT] ([CLSECODI])
+GO
+ALTER TABLE [dbo].[REMUPRED]  WITH CHECK ADD  CONSTRAINT [FK_REMUPRED_MANT_MUNICIPIO] FOREIGN KEY([RMPRDEPA], [RMPRMUNI])
+REFERENCES [dbo].[MANT_MUNICIPIO] ([MUNIDEPA], [MUNICODI])
+GO
+ALTER TABLE [dbo].[REMUPRED]  WITH CHECK ADD  CONSTRAINT [FK_REMUPRED_REGIMUTA] FOREIGN KEY([RMPRSECU])
+REFERENCES [dbo].[REGIMUTA] ([REMUSECU])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+___________________________
+
+
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'GenerarRegistroDeMutacionesToolStripMenuItem',
+	'Generar Registro de Mutaciones',
+    'ac'
+	)
+	
+
+insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'frm_Generar_Registro_de_Mutaciones',
+	'Generar Registro de mutaciones',
+    '1', 
+    '1',
+    '1',
+    'ac'
+	)
+        
+______________________________
+
+
+insert into PERMSUFO (PESFUSUA,PESFFORM,PESFDESC,PESFAGRE,PESFMODI,PESFELIM,PESFESTA) values
+	(
+	'ADMINISTRADOR',
+	'BindingNavigator_REGIMUTA_1',
+	'Menu Registro de mutaciones - Menu principal',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+	
+_______________________________
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[REMURESO]    Fecha de la secuencia de comandos: 08/25/2014 13:45:46 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[REMURESO](
+	[RMREIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[RMRENUFI] [int] NOT NULL,
+	[RMREDEPA] [char](2) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RMREMUNI] [char](3) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RMRECORR] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RMREBARR] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RMREMANZ] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RMREPRED] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RMREEDIF] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RMREUNPR] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[RMRECLSE] [int] NOT NULL,
+	[RMREMAIN] [char](11) COLLATE Modern_Spanish_CI_AS NULL,
+	[RMRENURE] [int] NULL CONSTRAINT [DF_REMURESO_RMRENURE]  DEFAULT ((0)),
+	[RMREFERE] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[RMREARCH] [char](200) COLLATE Modern_Spanish_CI_AS NULL
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+
+
+
+______________________________________
+
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'FormularioToolStripMenuItem',
+	'Formulario',
+    'ac' 
+	)
+	
+insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'frm_FORMULARIO',
+	'Formulario',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+	
+__________________________________
+
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'GenerarRegistroDeMutacionesToolStripMenuItem',
+	'Generar Registro de Mutaciones',
+    'ac' 
+	)	
+        
+
+

@@ -1,0 +1,611 @@
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[REPOGERE]    Fecha de la secuencia de comandos: 07/15/2015 13:03:55 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[REPOGERE](
+	[REGEIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[REGENUFI] [int] NOT NULL,
+	[REGEDEPA] [char](2) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[REGEMUNI] [char](3) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[REGECORR] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[REGEBARR] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[REGEMANZ] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[REGEPRED] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[REGEEDIF] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[REGEUNPR] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[REGECLSE] [int] NOT NULL,
+	[REGEREGE] [bit] NULL,
+	[REGEVERS] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[REGEOBSE] [char](2000) COLLATE Modern_Spanish_CI_AS NULL,
+	[REGEESTA] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+ CONSTRAINT [PK_REPOGERE] PRIMARY KEY CLUSTERED 
+(
+	[REGENUFI] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ID REGISTRO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'REPOGERE', @level2type=N'COLUMN', @level2name=N'REGEIDRE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO DE FICHA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'REPOGERE', @level2type=N'COLUMN', @level2name=N'REGENUFI'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'DEPARTAMENTO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'REPOGERE', @level2type=N'COLUMN', @level2name=N'REGEDEPA'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'MUNICIPIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'REPOGERE', @level2type=N'COLUMN', @level2name=N'REGEMUNI'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CORREGIMIENTO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'REPOGERE', @level2type=N'COLUMN', @level2name=N'REGECORR'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'BARRIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'REPOGERE', @level2type=N'COLUMN', @level2name=N'REGEBARR'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'MANZANA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'REPOGERE', @level2type=N'COLUMN', @level2name=N'REGEMANZ'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'PREDIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'REPOGERE', @level2type=N'COLUMN', @level2name=N'REGEPRED'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'EDIFICIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'REPOGERE', @level2type=N'COLUMN', @level2name=N'REGEEDIF'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'UNIDAD PREDIAL' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'REPOGERE', @level2type=N'COLUMN', @level2name=N'REGEUNPR'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CLASE O SECTOR' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'REPOGERE', @level2type=N'COLUMN', @level2name=N'REGECLSE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'REPORTE GENERADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'REPOGERE', @level2type=N'COLUMN', @level2name=N'REGEREGE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'VERSION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'REPOGERE', @level2type=N'COLUMN', @level2name=N'REGEVERS'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'OBSERVACIONES' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'REPOGERE', @level2type=N'COLUMN', @level2name=N'REGEOBSE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ESTADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'REPOGERE', @level2type=N'COLUMN', @level2name=N'REGEESTA'
+
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[REPOGERE]  WITH CHECK ADD  CONSTRAINT [FK_REPOGERE_ESTADO] FOREIGN KEY([REGEESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+GO
+ALTER TABLE [dbo].[REPOGERE]  WITH CHECK ADD  CONSTRAINT [FK_REPOGERE_MANT_CLASSECT] FOREIGN KEY([REGECLSE])
+REFERENCES [dbo].[MANT_CLASSECT] ([CLSECODI])
+GO
+ALTER TABLE [dbo].[REPOGERE]  WITH CHECK ADD  CONSTRAINT [FK_REPOGERE_MANT_MUNICIPIO] FOREIGN KEY([REGEDEPA], [REGEMUNI])
+REFERENCES [dbo].[MANT_MUNICIPIO] ([MUNIDEPA], [MUNICODI])
+
+
+----------------------------------------------------------------------------
+
+ALTER TABLE [dbo].[PROPANTE]  WITH CHECK ADD  CONSTRAINT [FK_PROPANTE_FICHPRED] FOREIGN KEY([PRANNUFI])
+REFERENCES [dbo].[FICHPRED] ([FIPRNUFI])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+
+
+------------------------------------------------------------------
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'SalariosMinimosMensualesLegalesVigentesToolStripMenuItem',
+	'Salarios Minimos Mensuales Legales Vigentes',
+    'ac' 
+	)
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'MantenimientoObligacionesUrbanisticasToolStripMenuItem',
+	'Mantenimiento Obligaciones Urbanisticas',
+    'ac' 
+	)
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'CirculoRegistralMunicipalToolStripMenuItem',
+	'Circulo Registral Municipal',
+    'ac' 
+	)
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'ClaseDeObligacionUrbanisticaToolStripMenuItem',
+	'Clase De Obligacion Urbanistica',
+    'ac' 
+	)
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'TipoDeLiquidacionToolStripMenuItem',
+	'Tipo De Liquidacion',
+    'ac' 
+	)
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'CesionesEspacioPublicoToolStripMenuItem',
+	'Cesiones Espacio Publico',
+    'ac' 
+	)
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'CesionesEquipamientoToolStripMenuItem',
+	'Cesiones Equipamiento',
+    'ac' 
+	)
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'DensidadToolStripMenuItem',
+	'Densidad',
+    'ac' 
+	)
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'ObligacionesUrbanisticasToolStripMenuItem',
+	'Obligaciones Urbanisticas',
+    'ac' 
+	)
+	
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'ClaseDeEntidadMunicipalToolStripMenuItem',
+	'Clase De Entidad Municipal',
+    'ac' 
+	)
+
+------------------------------------------------------------------------------------
+
+ALTER TABLE [dbo].[RELISOLI]  WITH CHECK ADD  CONSTRAINT [FK_RELISOLI_MANT_SOLICITANTE] FOREIGN KEY([RLSOSOLI])
+REFERENCES [dbo].[MANT_SOLICITANTE] ([SOLICODI])
+
+------------------------------------------------------------------------------------
+
+ALTER TABLE RESOCONS ADD RECOFEFI VARCHAR(10) NOT NULL DEFAULT ''
+ALTER TABLE RESOCONS ADD RECOUSFI VARCHAR(50) NOT NULL DEFAULT ''
+ALTER TABLE RESOCONS ADD RECONDFI VARCHAR(20) NOT NULL DEFAULT ''
+
+
+-------------------------------------------------------------------------------------
+
+
+insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'frm_TIPOLIQU',
+	'Tipo de liquidacion',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+	
+insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'frm_CLASOBUR',
+	'Clase de Obligaciones Urbanisticas',
+    '1', 
+    '1',
+    '1',
+    'ac'
+	)
+	
+insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'frm_CESIESPU',
+	'Cesion espacion publico',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+	
+insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'frm_CESIEQUI',
+	'Cesion equipamiento',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)	
+        
+
+ insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'frm_DENSIDAD',
+	'Densidad',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+        
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'ZonaDePlanificacionToolStripMenuItem',
+	'Zona de Planificacion',
+    'ac' 
+	)
+	
+insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'frm_ZONAPLAN',
+	'Zona de Planificación',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)	
+        
+
+-----------------------------------------------------------------------------------------
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[MANT_TIPOLIQU]    Fecha de la secuencia de comandos: 01/28/2016 12:49:10 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[MANT_TIPOLIQU](
+	[TILIIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[TILICODI] [int] NOT NULL,
+	[TILIDESC] [char](100) COLLATE Modern_Spanish_CI_AS NULL,
+	[TILIESTA] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+ CONSTRAINT [PK_MANT_TIPOLIQU] PRIMARY KEY CLUSTERED 
+(
+	[TILICODI] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ID REGISTRO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_TIPOLIQU', @level2type=N'COLUMN', @level2name=N'TILIIDRE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CODIGO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_TIPOLIQU', @level2type=N'COLUMN', @level2name=N'TILICODI'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'DESCRIPCION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_TIPOLIQU', @level2type=N'COLUMN', @level2name=N'TILIDESC'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ESTADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_TIPOLIQU', @level2type=N'COLUMN', @level2name=N'TILIESTA'
+
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[MANT_TIPOLIQU]  WITH CHECK ADD  CONSTRAINT [FK_MANT_TIPOLIQU_ESTADO] FOREIGN KEY([TILIESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+
+
+------------------------------------------------------------
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[MANT_CESIESPU]    Fecha de la secuencia de comandos: 01/28/2016 12:50:06 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[MANT_CESIESPU](
+	[CEEPIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[CEEPDEVI] [int] NOT NULL,
+	[CEEPDESC] [char](100) COLLATE Modern_Spanish_CI_AS NULL,
+	[CEEPARCE] [int] NOT NULL,
+	[CEEPOTUS] [int] NOT NULL,
+	[CEEPAMCE] [int] NOT NULL,
+	[CEEPESTA] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+ CONSTRAINT [PK_MANT_CESIESPU] PRIMARY KEY CLUSTERED 
+(
+	[CEEPDEVI] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ID REGISTRO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_CESIESPU', @level2type=N'COLUMN', @level2name=N'CEEPIDRE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'DENSIDAD DE VIVIENDA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_CESIESPU', @level2type=N'COLUMN', @level2name=N'CEEPDEVI'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'DESCRIPCION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_CESIESPU', @level2type=N'COLUMN', @level2name=N'CEEPDESC'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'AREA A CEDER POR UNIDAD DE VIVIENDA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_CESIESPU', @level2type=N'COLUMN', @level2name=N'CEEPARCE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'OTROS USUS POR UNIDAD' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_CESIESPU', @level2type=N'COLUMN', @level2name=N'CEEPOTUS'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'AREA MINIMA A CEDER' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_CESIESPU', @level2type=N'COLUMN', @level2name=N'CEEPAMCE'
+
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[MANT_CESIESPU]  WITH CHECK ADD  CONSTRAINT [FK_MANT_CESIESPU_ESTADO] FOREIGN KEY([CEEPESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+
+
+-----------------------------------------------------
+
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[MANT_CESIEQUI]    Fecha de la secuencia de comandos: 01/28/2016 12:50:26 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[MANT_CESIEQUI](
+	[CEEQIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[CEEQESSO] [int] NOT NULL,
+	[CEEQDESC] [char](100) COLLATE Modern_Spanish_CI_AS NULL,
+	[CEEQUNDE] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[CEEQEQSA] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[CEEQESTA] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+ CONSTRAINT [PK_MANT_EQUIPAMIENTO] PRIMARY KEY CLUSTERED 
+(
+	[CEEQESSO] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ID REGISTRO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_CESIEQUI', @level2type=N'COLUMN', @level2name=N'CEEQIDRE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ESTRATO SOCIOECONOMICO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_CESIEQUI', @level2type=N'COLUMN', @level2name=N'CEEQESSO'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'DESCRIPCION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_CESIEQUI', @level2type=N'COLUMN', @level2name=N'CEEQDESC'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'UNIDAD DE DESTINACION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_CESIEQUI', @level2type=N'COLUMN', @level2name=N'CEEQUNDE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'EQUIBALENCIA EN SALARIOS' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_CESIEQUI', @level2type=N'COLUMN', @level2name=N'CEEQEQSA'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ESTADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_CESIEQUI', @level2type=N'COLUMN', @level2name=N'CEEQESTA'
+
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[MANT_CESIEQUI]  WITH CHECK ADD  CONSTRAINT [FK_MANT_CESIEQUI_ESTADO] FOREIGN KEY([CEEQESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+
+
+
+--------------------------------------------------------
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[MANT_DENSIDAD]    Fecha de la secuencia de comandos: 01/28/2016 12:50:49 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[MANT_DENSIDAD](
+	[DENSIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[DENSCECA] [char](100) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[DENSDENS] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[DENSESTA] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+ CONSTRAINT [PK_MANT_DENSIDAD] PRIMARY KEY CLUSTERED 
+(
+	[DENSCECA] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ID REGISTRO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_DENSIDAD', @level2type=N'COLUMN', @level2name=N'DENSIDRE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CEDULA CATASTRAL' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_DENSIDAD', @level2type=N'COLUMN', @level2name=N'DENSCECA'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'DENSIDAD' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_DENSIDAD', @level2type=N'COLUMN', @level2name=N'DENSDENS'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ESTADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_DENSIDAD', @level2type=N'COLUMN', @level2name=N'DENSESTA'
+
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[MANT_DENSIDAD]  WITH CHECK ADD  CONSTRAINT [FK_MANT_DENSIDAD_ESTADO] FOREIGN KEY([DENSESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+
+
+
+--------------------------------------------
+
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[MANT_CLASOBUR]    Fecha de la secuencia de comandos: 01/28/2016 12:51:18 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[MANT_CLASOBUR](
+	[CLOUIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[CLOUCODI] [int] NOT NULL,
+	[CLOUDESC] [char](100) COLLATE Modern_Spanish_CI_AS NULL,
+	[CLOUESTA] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+ CONSTRAINT [PK_MANT_CLASOBUR] PRIMARY KEY CLUSTERED 
+(
+	[CLOUCODI] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ID REGISTRO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_CLASOBUR', @level2type=N'COLUMN', @level2name=N'CLOUIDRE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CODIGO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_CLASOBUR', @level2type=N'COLUMN', @level2name=N'CLOUCODI'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'DESCRIPCION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_CLASOBUR', @level2type=N'COLUMN', @level2name=N'CLOUDESC'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ESTADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_CLASOBUR', @level2type=N'COLUMN', @level2name=N'CLOUESTA'
+
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[MANT_CLASOBUR]  WITH CHECK ADD  CONSTRAINT [FK_MANT_CLASOBUR_ESTADO] FOREIGN KEY([CLOUESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+
+
+------------------------------------------------------
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[MANT_ZONAPLAN]    Fecha de la secuencia de comandos: 01/28/2016 13:00:35 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[MANT_ZONAPLAN](
+	[ZOPLIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[ZOPLCODI] [int] NOT NULL,
+	[ZOPLDESC] [char](100) COLLATE Modern_Spanish_CI_AS NULL,
+	[ZOPLESTA] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+ CONSTRAINT [PK_MANT_ZONAPLAN] PRIMARY KEY CLUSTERED 
+(
+	[ZOPLCODI] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ID REGISTRO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_ZONAPLAN', @level2type=N'COLUMN', @level2name=N'ZOPLIDRE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CODIGO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_ZONAPLAN', @level2type=N'COLUMN', @level2name=N'ZOPLCODI'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'DESCRIPCION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_ZONAPLAN', @level2type=N'COLUMN', @level2name=N'ZOPLDESC'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ESTADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_ZONAPLAN', @level2type=N'COLUMN', @level2name=N'ZOPLESTA'
+
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[MANT_ZONAPLAN]  WITH CHECK ADD  CONSTRAINT [FK_MANT_ZONAPLAN_ESTADO] FOREIGN KEY([ZOPLESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+
+------------------------------------------------------
+
+insert into PERMSUFO (PESFUSUA,PESFFORM,PESFDESC,PESFAGRE,PESFMODI,PESFELIM,PESFESTA) values
+	(
+	'ADMINISTRADOR',
+	'BindingNavigator_OBLIURBA_1',
+	'Obligación Urbaniastica - Menu Principal',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+	
+insert into PERMSUFO (PESFUSUA,PESFFORM,PESFDESC,PESFAGRE,PESFMODI,PESFELIM,PESFESTA) values
+	(
+	'ADMINISTRADOR',
+	'BindingNavigator_OBURSOLI_1',
+	'Obligación Urbaniastica - Solicitante',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+        
+insert into PERMSUFO (PESFUSUA,PESFFORM,PESFDESC,PESFAGRE,PESFMODI,PESFELIM,PESFESTA) values
+	(
+	'ADMINISTRADOR',
+	'BindingNavigator_OBURPRED_1',
+	'Obligación Urbaniastica - Predio',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+        
+insert into PERMSUFO (PESFUSUA,PESFFORM,PESFDESC,PESFAGRE,PESFMODI,PESFELIM,PESFESTA) values
+	(
+	'ADMINISTRADOR',
+	'BindingNavigator_OBURAVCO_1',
+	'Obligación Urbaniastica - Avaluo Comercial',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+        
+------------------------------------------------------------
+
+
+                        	
+
+
+
+
+
+

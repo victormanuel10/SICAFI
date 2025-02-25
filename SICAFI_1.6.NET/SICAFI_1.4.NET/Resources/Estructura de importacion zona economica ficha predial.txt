@@ -1,0 +1,6 @@
+Estructura de importación zona económica ficha predial
+
+Campos:
+-	Nro. Ficha Predial = Numérico
+-	Zona = Numérico
+-	Porcentaje = Numérico

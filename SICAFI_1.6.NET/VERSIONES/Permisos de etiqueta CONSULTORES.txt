@@ -1,0 +1,103 @@
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'CURADURIAS',
+	'CatastroToolStripMenuItem',
+	'Diligenciar Catastro',
+    'ac' 
+	)
+	
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'CURADURIAS',
+	'FichapredialToolStripMenuItem',
+	'Ficha predial',
+    'ac' 
+	)
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'CURADURIAS',
+	'FicharesumenToolStripMenuItem',
+	'Ficha resumen',
+    'ac' 
+	)
+        
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'CURADURIAS',
+	'FichaPredialToolStripMenuItem2',
+	'Consulta ficha predial y resumen',
+    'ac' 
+	)
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'CURADURIAS',
+	'ConsultaAreaDeTerrenoToolStripMenuItem',
+	'Consulta área de terreno',
+    'ac' 
+	)
+        
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'CURADURIAS',
+	'ConsultaPropietarioToolStripMenuItem',
+	'Consulta propietarios',
+    'ac' 
+	)
+        
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'CURADURIAS',
+	'ConsultaConstruccionToolStripMenuItem',
+	'Consulta construcción',
+    'ac' 
+	)
+        
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'CURADURIAS',
+	'ImagenDelPredioToolStripMenuItem',
+	'Imagen del Predio',
+    'ac' 
+	)
+        
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'CURADURIAS',
+	'PlanoManzaneroToolStripMenuItem',
+	'Consulta plano manzanero',
+    'ac' 
+	)
+        
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'CURADURIAS',
+	'PlanoPredialCatastralToolStripMenuItem',
+	'Plano predial catastral',
+    'ac' 
+	)
+        
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'CURADURIAS',
+	'ConsultaPlanoCartograficoToolStripMenuItem',
+	'Consulta plano cartografico',
+    'ac' 
+	)
+        
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'CURADURIAS',
+	'PlaneacionToolStripMenuItem',
+	'Planeacion',
+    'ac' 
+	)
+        
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'CURADURIAS',
+	'ResolucionesYLicenciasToolStripMenuItem',
+	'Resoluciones y licencias',
+    'ac' 
+	)

@@ -1,0 +1,579 @@
+insert into PERMSUFO (PESFUSUA,PESFFORM,PESFDESC,PESFAGRE,PESFMODI,PESFELIM,PESFESTA) values
+	(
+	'ADMINISTRADOR',
+	'BindingNavigator_OBURINGE_1',
+	'Obligación Urbaniastica - Información General',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+	
+	
+-------------------------------------------------------
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[OBLIURBA]    Fecha de la secuencia de comandos: 02/05/2016 06:53:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[OBLIURBA](
+	[OBURIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[OBURSECU] [int] NOT NULL,
+	[OBURCLEN] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[OBURNURE] [int] NOT NULL,
+	[OBURFERE] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[OBURVIRE] [int] NOT NULL,
+	[OBURFEIN] [datetime] NOT NULL,
+	[OBUROBSE] [char](3000) COLLATE Modern_Spanish_CI_AS NULL,
+	[OBURESTA] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[OBURUSIN] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[OBURNDIN] [char](20) COLLATE Modern_Spanish_CI_AS NULL,
+	[OBURUSFI] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[OBURNDFI] [nchar](20) COLLATE Modern_Spanish_CI_AS NULL,
+	[OBURFEFI] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[OBURMAQU] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+ CONSTRAINT [PK_OBLIURBA] PRIMARY KEY CLUSTERED 
+(
+	[OBURCLEN] ASC,
+	[OBURNURE] ASC,
+	[OBURFERE] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ID REGISTRO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBLIURBA', @level2type=N'COLUMN', @level2name=N'OBURIDRE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'SECUENCIA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBLIURBA', @level2type=N'COLUMN', @level2name=N'OBURSECU'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CLASE DE ENTIDAD' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBLIURBA', @level2type=N'COLUMN', @level2name=N'OBURCLEN'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO DE RESOLUCION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBLIURBA', @level2type=N'COLUMN', @level2name=N'OBURNURE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA DE RESOLUCION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBLIURBA', @level2type=N'COLUMN', @level2name=N'OBURFERE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'VIGENCIA DE RESOLUCION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBLIURBA', @level2type=N'COLUMN', @level2name=N'OBURVIRE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA DE INGRESO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBLIURBA', @level2type=N'COLUMN', @level2name=N'OBURFEIN'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'OBSERVACION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBLIURBA', @level2type=N'COLUMN', @level2name=N'OBUROBSE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ESTADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBLIURBA', @level2type=N'COLUMN', @level2name=N'OBURESTA'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'USUARIO DE INGRESO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBLIURBA', @level2type=N'COLUMN', @level2name=N'OBURUSIN'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO DOCUMENTO INGRESA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBLIURBA', @level2type=N'COLUMN', @level2name=N'OBURNDIN'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'USUARIO FINALIZA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBLIURBA', @level2type=N'COLUMN', @level2name=N'OBURUSFI'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO DOCUMENTO FINALIZA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBLIURBA', @level2type=N'COLUMN', @level2name=N'OBURNDFI'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA FINALIZACION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBLIURBA', @level2type=N'COLUMN', @level2name=N'OBURFEFI'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'MAQUINA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBLIURBA', @level2type=N'COLUMN', @level2name=N'OBURMAQU'
+
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[OBLIURBA]  WITH CHECK ADD  CONSTRAINT [FK_OBLIURBA_ESTADO] FOREIGN KEY([OBURESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+GO
+ALTER TABLE [dbo].[OBLIURBA]  WITH CHECK ADD  CONSTRAINT [FK_OBLIURBA_VIGENCIA] FOREIGN KEY([OBURVIRE])
+REFERENCES [dbo].[VIGENCIA] ([VIGECODI])
+
+
+---------------------------------
+
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[OBURSOLI]    Fecha de la secuencia de comandos: 02/05/2016 06:54:09 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[OBURSOLI](
+	[OUSOIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[OUSOSECU] [int] NOT NULL,
+	[OUSOCLEN] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[OUSONURE] [int] NOT NULL,
+	[OUSOFERE] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[OUSONUDO] [char](20) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[OUSOSOLI] [int] NOT NULL,
+	[OUSONOMB] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[OUSOPRAP] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[OUSOSEAP] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[OUSODIPR] [char](100) COLLATE Modern_Spanish_CI_AS NULL,
+	[OUSODINO] [char](100) COLLATE Modern_Spanish_CI_AS NULL,
+	[OUSOTELE] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[OUSOCELU] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[OUSOCOEL] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[OUSOCOPO] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[OUSORESO] [char](50) COLLATE Modern_Spanish_CI_AS NULL,
+	[OUSOESTA] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+ CONSTRAINT [PK_OBURSOLI] PRIMARY KEY CLUSTERED 
+(
+	[OUSOCLEN] ASC,
+	[OUSONURE] ASC,
+	[OUSOFERE] ASC,
+	[OUSONUDO] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ID REGISTRO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURSOLI', @level2type=N'COLUMN', @level2name=N'OUSOIDRE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CLASE DE ENTIDAD' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURSOLI', @level2type=N'COLUMN', @level2name=N'OUSOCLEN'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO DE RESOLUCION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURSOLI', @level2type=N'COLUMN', @level2name=N'OUSONURE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA DE RESOLUCION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURSOLI', @level2type=N'COLUMN', @level2name=N'OUSOFERE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO DE DOCUMENTO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURSOLI', @level2type=N'COLUMN', @level2name=N'OUSONUDO'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'SOLICITANTE' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURSOLI', @level2type=N'COLUMN', @level2name=N'OUSOSOLI'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NOMBRE' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURSOLI', @level2type=N'COLUMN', @level2name=N'OUSONOMB'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'PRIMER APELLIDO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURSOLI', @level2type=N'COLUMN', @level2name=N'OUSOPRAP'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'SEGUNDO APELLIDO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURSOLI', @level2type=N'COLUMN', @level2name=N'OUSOSEAP'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'DIRECCION DE PREDIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURSOLI', @level2type=N'COLUMN', @level2name=N'OUSODIPR'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'DIRECCION DE NOTIFICACION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURSOLI', @level2type=N'COLUMN', @level2name=N'OUSODINO'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'TELEFONO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURSOLI', @level2type=N'COLUMN', @level2name=N'OUSOTELE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CELULAR' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURSOLI', @level2type=N'COLUMN', @level2name=N'OUSOCELU'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CORREO ELECTRONICO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURSOLI', @level2type=N'COLUMN', @level2name=N'OUSOCOEL'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CODIGO POSTAL' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURSOLI', @level2type=N'COLUMN', @level2name=N'OUSOCOPO'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'RED SOCIAL' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURSOLI', @level2type=N'COLUMN', @level2name=N'OUSORESO'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ESTADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURSOLI', @level2type=N'COLUMN', @level2name=N'OUSOESTA'
+
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[OBURSOLI]  WITH CHECK ADD  CONSTRAINT [FK_OBURSOLI_ESTADO] FOREIGN KEY([OUSOESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+GO
+ALTER TABLE [dbo].[OBURSOLI]  WITH CHECK ADD  CONSTRAINT [FK_OBURSOLI_ESTADO1] FOREIGN KEY([OUSOESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+GO
+ALTER TABLE [dbo].[OBURSOLI]  WITH CHECK ADD  CONSTRAINT [FK_OBURSOLI_MANT_SOLICITANTE] FOREIGN KEY([OUSOSOLI])
+REFERENCES [dbo].[MANT_SOLICITANTE] ([SOLICODI])
+GO
+ALTER TABLE [dbo].[OBURSOLI]  WITH CHECK ADD  CONSTRAINT [FK_OBURSOLI_OBLIURBA] FOREIGN KEY([OUSOCLEN], [OUSONURE], [OUSOFERE])
+REFERENCES [dbo].[OBLIURBA] ([OBURCLEN], [OBURNURE], [OBURFERE])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+
+
+----------------------------
+
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[OBURPRED]    Fecha de la secuencia de comandos: 02/05/2016 06:54:23 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[OBURPRED](
+	[OUPRIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[OUPRSECU] [int] NOT NULL,
+	[OUPRCLEN] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[OUPRNURE] [int] NOT NULL,
+	[OUPRFERE] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[OUPRMAIN] [int] NOT NULL,
+	[OUPRMUNI] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[OUPRCORR] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[OUPRBARR] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[OUPRMANZ] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[OUPRPRED] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[OUPREDIF] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[OUPRUNPR] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[OUPRCLSE] [int] NOT NULL,
+	[OUPRNUFI] [int] NOT NULL,
+	[OUPRARTE] [int] NOT NULL CONSTRAINT [DF_OBURPRED_OUPRARTE]  DEFAULT ((0)),
+	[OUPRVATP] [bigint] NOT NULL CONSTRAINT [DF_OBURPRED_OUPRVATP]  DEFAULT ((0)),
+	[OUPRVACP] [bigint] NOT NULL,
+	[OUPRAVCA] [bigint] NOT NULL CONSTRAINT [DF_OBURPRED_OUPRAVCA]  DEFAULT ((0)),
+	[OUPRZOPL] [int] NOT NULL,
+	[OUPRESTA] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+ CONSTRAINT [PK_OBURPRED] PRIMARY KEY CLUSTERED 
+(
+	[OUPRCLEN] ASC,
+	[OUPRNURE] ASC,
+	[OUPRFERE] ASC,
+	[OUPRMAIN] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ID REGISTRO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURPRED', @level2type=N'COLUMN', @level2name=N'OUPRIDRE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'SECUENCIA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURPRED', @level2type=N'COLUMN', @level2name=N'OUPRSECU'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CLASE DE ENTIDAD' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURPRED', @level2type=N'COLUMN', @level2name=N'OUPRCLEN'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO DE RESOLUCION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURPRED', @level2type=N'COLUMN', @level2name=N'OUPRNURE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA DE RESOLUCION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURPRED', @level2type=N'COLUMN', @level2name=N'OUPRFERE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'MATRICULA INMOBILIRIA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURPRED', @level2type=N'COLUMN', @level2name=N'OUPRMAIN'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'MUNICIPIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURPRED', @level2type=N'COLUMN', @level2name=N'OUPRMUNI'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CORREGIMIENTO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURPRED', @level2type=N'COLUMN', @level2name=N'OUPRCORR'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'BARRIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURPRED', @level2type=N'COLUMN', @level2name=N'OUPRBARR'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'MANZANA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURPRED', @level2type=N'COLUMN', @level2name=N'OUPRMANZ'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'PREDIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURPRED', @level2type=N'COLUMN', @level2name=N'OUPRPRED'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'EDIFICIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURPRED', @level2type=N'COLUMN', @level2name=N'OUPREDIF'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'UNIDAD PREDIAL' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURPRED', @level2type=N'COLUMN', @level2name=N'OUPRUNPR'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CLASE O SECTOR' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURPRED', @level2type=N'COLUMN', @level2name=N'OUPRCLSE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO DE FICHA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURPRED', @level2type=N'COLUMN', @level2name=N'OUPRNUFI'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'AREA DE TERRENO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURPRED', @level2type=N'COLUMN', @level2name=N'OUPRARTE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'VALOR TERRENO PRIVADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURPRED', @level2type=N'COLUMN', @level2name=N'OUPRVATP'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'VALOR CONSTRUCCION PRIVADA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURPRED', @level2type=N'COLUMN', @level2name=N'OUPRVACP'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'AVALUO CATASTRAL' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURPRED', @level2type=N'COLUMN', @level2name=N'OUPRAVCA'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ZONA DE PLANIFICACION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURPRED', @level2type=N'COLUMN', @level2name=N'OUPRZOPL'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ESTADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURPRED', @level2type=N'COLUMN', @level2name=N'OUPRESTA'
+
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[OBURPRED]  WITH CHECK ADD  CONSTRAINT [FK_OBURPRED_ESTADO] FOREIGN KEY([OUPRESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+GO
+ALTER TABLE [dbo].[OBURPRED]  WITH CHECK ADD  CONSTRAINT [FK_OBURPRED_MANT_CLASSECT] FOREIGN KEY([OUPRCLSE])
+REFERENCES [dbo].[MANT_CLASSECT] ([CLSECODI])
+GO
+ALTER TABLE [dbo].[OBURPRED]  WITH CHECK ADD  CONSTRAINT [FK_OBURPRED_MANT_ZONAPLAN] FOREIGN KEY([OUPRZOPL])
+REFERENCES [dbo].[MANT_ZONAPLAN] ([ZOPLCODI])
+GO
+ALTER TABLE [dbo].[OBURPRED]  WITH CHECK ADD  CONSTRAINT [FK_OBURPRED_OBLIURBA] FOREIGN KEY([OUPRCLEN], [OUPRNURE], [OUPRFERE])
+REFERENCES [dbo].[OBLIURBA] ([OBURCLEN], [OBURNURE], [OBURFERE])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+
+
+
+-------------------------
+
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[OBURAVCO]    Fecha de la secuencia de comandos: 02/05/2016 06:54:42 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[OBURAVCO](
+	[OUACIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[OUACSECU] [int] NOT NULL,
+	[OUACCLEN] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[OUACNURE] [int] NOT NULL,
+	[OUACFERE] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[OUACNUAV] [int] NOT NULL,
+	[OUACVIAV] [int] NOT NULL,
+	[OUACEMPR] [char](100) COLLATE Modern_Spanish_CI_AS NULL,
+	[OUACFEVI] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[OUACFEIN] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[OUACSOLI] [char](100) COLLATE Modern_Spanish_CI_AS NULL CONSTRAINT [DF_OBURAVCO_OUACSOLI]  DEFAULT ('SOLICITANTE'),
+	[OUACPUNT] [char](10) COLLATE Modern_Spanish_CI_AS NULL,
+	[OUACPROY] [char](100) COLLATE Modern_Spanish_CI_AS NULL,
+	[OUACDIRE] [char](100) COLLATE Modern_Spanish_CI_AS NULL,
+	[OUACARTE] [int] NOT NULL,
+	[OUACAVCO] [bigint] NOT NULL,
+	[OUACACM2] [bigint] NOT NULL,
+	[OUACESTA] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+ CONSTRAINT [PK_OBURAVCO] PRIMARY KEY CLUSTERED 
+(
+	[OUACCLEN] ASC,
+	[OUACNURE] ASC,
+	[OUACFERE] ASC,
+	[OUACNUAV] ASC,
+	[OUACVIAV] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ID REGISTRO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURAVCO', @level2type=N'COLUMN', @level2name=N'OUACIDRE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CLASE DE ENTIDAD' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURAVCO', @level2type=N'COLUMN', @level2name=N'OUACCLEN'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO DE RESOLUCION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURAVCO', @level2type=N'COLUMN', @level2name=N'OUACNURE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA DE RESOLUCION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURAVCO', @level2type=N'COLUMN', @level2name=N'OUACFERE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO DE AVALUO ' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURAVCO', @level2type=N'COLUMN', @level2name=N'OUACNUAV'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'VIGENCIA AVALUO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURAVCO', @level2type=N'COLUMN', @level2name=N'OUACVIAV'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'EMPRESA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURAVCO', @level2type=N'COLUMN', @level2name=N'OUACEMPR'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA VISITA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURAVCO', @level2type=N'COLUMN', @level2name=N'OUACFEVI'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA DE INFORME' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURAVCO', @level2type=N'COLUMN', @level2name=N'OUACFEIN'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'PUNTO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURAVCO', @level2type=N'COLUMN', @level2name=N'OUACPUNT'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'PROYECTO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURAVCO', @level2type=N'COLUMN', @level2name=N'OUACPROY'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'AREA TERRENO M2' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURAVCO', @level2type=N'COLUMN', @level2name=N'OUACARTE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'AVALUO COMERCIAL' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURAVCO', @level2type=N'COLUMN', @level2name=N'OUACAVCO'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'AVALUO COMERCIAL M2' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURAVCO', @level2type=N'COLUMN', @level2name=N'OUACACM2'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ESTADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURAVCO', @level2type=N'COLUMN', @level2name=N'OUACESTA'
+
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[OBURAVCO]  WITH CHECK ADD  CONSTRAINT [FK_OBURAVCO_ESTADO] FOREIGN KEY([OUACESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+GO
+ALTER TABLE [dbo].[OBURAVCO]  WITH CHECK ADD  CONSTRAINT [FK_OBURAVCO_OBLIURBA] FOREIGN KEY([OUACCLEN], [OUACNURE], [OUACFERE])
+REFERENCES [dbo].[OBLIURBA] ([OBURCLEN], [OBURNURE], [OBURFERE])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[OBURAVCO]  WITH CHECK ADD  CONSTRAINT [FK_OBURAVCO_VIGENCIA] FOREIGN KEY([OUACVIAV])
+REFERENCES [dbo].[VIGENCIA] ([VIGECODI])
+
+---------------------
+
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[OBURINGE]    Fecha de la secuencia de comandos: 02/05/2016 06:55:08 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[OBURINGE](
+	[OUIGIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[OUIGSECU] [int] NOT NULL,
+	[OUIGCLEN] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[OUIGNURE] [int] NOT NULL,
+	[OUIGFERE] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[OUIGCLOU] [int] NOT NULL,
+	[OUIGNULI] [int] NOT NULL,
+	[OUIGTILI] [int] NOT NULL,
+	[OUIGCLSE] [int] NOT NULL,
+	[OUIGATLO] [int] NOT NULL,
+	[OUIGATCO] [int] NOT NULL,
+	[OUIGDENS] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[OUIGUNID] [int] NOT NULL,
+	[OUIGSMLV] [bigint] NOT NULL,
+	[OUIGESSO] [int] NOT NULL,
+	[OUIGTIPO] [char](1) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[OUIGAVCA] [bigint] NOT NULL CONSTRAINT [DF_OBURINGE_OUIGAVCA]  DEFAULT ((0)),
+	[OUIGAVCO] [bigint] NULL CONSTRAINT [DF_OBURINGE_OUIGAVCO]  DEFAULT ((0)),
+	[OUIGLIQU] [bigint] NULL CONSTRAINT [DF_OBURINGE_OUIGLIQU]  DEFAULT ((0)),
+	[OUIGESTA] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+ CONSTRAINT [PK_OBURINGE] PRIMARY KEY CLUSTERED 
+(
+	[OUIGNULI] ASC,
+	[OUIGCLEN] ASC,
+	[OUIGNURE] ASC,
+	[OUIGFERE] ASC,
+	[OUIGCLOU] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ID REGISTRO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURINGE', @level2type=N'COLUMN', @level2name=N'OUIGIDRE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'SECUENCIA' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURINGE', @level2type=N'COLUMN', @level2name=N'OUIGSECU'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CLASE DE ENTIDAD' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURINGE', @level2type=N'COLUMN', @level2name=N'OUIGCLEN'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'NRO DE RESOLUCION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURINGE', @level2type=N'COLUMN', @level2name=N'OUIGNURE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'FECHA DE RESOLUCION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURINGE', @level2type=N'COLUMN', @level2name=N'OUIGFERE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CLASE DE OBLIGACION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURINGE', @level2type=N'COLUMN', @level2name=N'OUIGCLOU'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'TIPO DE LIQUIDACION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURINGE', @level2type=N'COLUMN', @level2name=N'OUIGTILI'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CLASE O SECTOR' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURINGE', @level2type=N'COLUMN', @level2name=N'OUIGCLSE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'AREA TOTAL DE LOTE' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURINGE', @level2type=N'COLUMN', @level2name=N'OUIGATLO'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'AREA TOTAL DE CONSTRUCCION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURINGE', @level2type=N'COLUMN', @level2name=N'OUIGATCO'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'DENSIDAD' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURINGE', @level2type=N'COLUMN', @level2name=N'OUIGDENS'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'UNIDAD' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURINGE', @level2type=N'COLUMN', @level2name=N'OUIGUNID'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'SMLV' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURINGE', @level2type=N'COLUMN', @level2name=N'OUIGSMLV'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ESTRATO SOCIOECONOMICO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURINGE', @level2type=N'COLUMN', @level2name=N'OUIGESSO'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'TIPO DE CALIFICACION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURINGE', @level2type=N'COLUMN', @level2name=N'OUIGTIPO'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'AVALUO CATASTRAL' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURINGE', @level2type=N'COLUMN', @level2name=N'OUIGAVCA'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'AVALUO COMERCIAL' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURINGE', @level2type=N'COLUMN', @level2name=N'OUIGAVCO'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'LIQUIDACION TOTAL' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURINGE', @level2type=N'COLUMN', @level2name=N'OUIGLIQU'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ESTADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'OBURINGE', @level2type=N'COLUMN', @level2name=N'OUIGESTA'
+
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[OBURINGE]  WITH CHECK ADD  CONSTRAINT [FK_OBURINGE_ESTADO] FOREIGN KEY([OUIGESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+GO
+ALTER TABLE [dbo].[OBURINGE]  WITH CHECK ADD  CONSTRAINT [FK_OBURINGE_MANT_CLASOBUR] FOREIGN KEY([OUIGCLOU])
+REFERENCES [dbo].[MANT_CLASOBUR] ([CLOUCODI])
+GO
+ALTER TABLE [dbo].[OBURINGE]  WITH CHECK ADD  CONSTRAINT [FK_OBURINGE_MANT_CLASSECT] FOREIGN KEY([OUIGCLSE])
+REFERENCES [dbo].[MANT_CLASSECT] ([CLSECODI])
+GO
+ALTER TABLE [dbo].[OBURINGE]  WITH CHECK ADD  CONSTRAINT [FK_OBURINGE_MANT_ESTRATO] FOREIGN KEY([OUIGESSO])
+REFERENCES [dbo].[MANT_ESTRATO] ([ESTRCODI])
+GO
+ALTER TABLE [dbo].[OBURINGE]  WITH CHECK ADD  CONSTRAINT [FK_OBURINGE_MANT_TIPOLIQU] FOREIGN KEY([OUIGTILI])
+REFERENCES [dbo].[MANT_TIPOLIQU] ([TILICODI])
+GO
+ALTER TABLE [dbo].[OBURINGE]  WITH CHECK ADD  CONSTRAINT [FK_OBURINGE_OBLIURBA] FOREIGN KEY([OUIGCLEN], [OUIGNURE], [OUIGFERE])
+REFERENCES [dbo].[OBLIURBA] ([OBURCLEN], [OBURNURE], [OBURFERE])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+
+
+
+------------------------------
+
+
+	

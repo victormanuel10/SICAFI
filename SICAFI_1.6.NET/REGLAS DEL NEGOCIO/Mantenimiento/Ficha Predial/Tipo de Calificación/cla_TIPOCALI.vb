@@ -1,0 +1,279 @@
+Imports System
+Imports System.Data
+Imports System.Data.SqlClient
+Imports System.Configuration
+Imports DATOS
+
+Public Class cla_TIPOCALI
+
+    '==================================
+    '*** CLASE TIPO DE CALIFICACIÓN ***
+    '==================================
+
+    ''' <summary>
+    ''' Consulta para llenar el DataGridView y colocar el nombre del encabezado
+    ''' de la columna. 
+    ''' </summary>
+    Public Function fun_Consultar_MANT_TIPOCALI() As DataTable
+
+        Try
+            Dim objeq As New cExecuteQuery
+
+            Dim tbl As New DataTable
+            tbl = objeq.ConsultarDb("Consultar_MANT_TIPOCALI")
+
+            Return tbl
+
+        Catch ex As Exception
+
+            MessageBox.Show(Err.Description)
+            Return Nothing
+
+        End Try
+
+    End Function
+
+    '''   <summary>
+    ''' Llena el ComboBox con datos activos e inactivos formulario principal 
+    ''' esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+    ''' </summary>
+    Public Function fun_Consultar_CAMPOS_MANT_TIPOCALI() As DataTable
+
+        Try
+            Dim objeq As New cExecuteQuery
+
+            Dim tbl As New DataTable
+            tbl = objeq.ConsultarDb("Consultar_CAMPOS_MANT_TIPOCALI")
+
+            Return tbl
+
+        Catch ex As Exception
+
+            MessageBox.Show(Err.Description)
+            Return Nothing
+
+        End Try
+
+    End Function
+
+    ''' <summary>
+    ''' Llena el ComboBox con datos activos formulario insertar y modificar 
+    ''' esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+    ''' </summary>
+    Public Function fun_Consultar_MANT_TIPOCALI_X_ESTADO() As DataTable
+
+        Try
+            Dim objeq As New cExecuteQuery
+
+            Dim tbl As New DataTable
+            tbl = objeq.ConsultarDb("Consultar_MANT_TIPOCALI_X_ESTADO")
+
+            Return tbl
+
+        Catch ex As Exception
+
+            MessageBox.Show(Err.Description)
+            Return Nothing
+
+        End Try
+
+    End Function
+
+    ''' <summary>
+    ''' Función que inserta el registro.
+    ''' </summary>
+    Public Function fun_Insertar_MANT_TIPOCALI(ByVal stTICACODI As String, _
+                                               ByVal stTICADESC As String, _
+                                               ByVal stTICAESTA As String) As Boolean
+        Try
+            Dim objenq As New cExecuteNonQuery
+
+            Dim o_stTICACODI As New SqlParameter("@TICACODI", stTICACODI)
+            Dim o_stTICADESC As New SqlParameter("@TICADESC", stTICADESC)
+            Dim o_stTICAESTA As New SqlParameter("@TICAESTA", stTICAESTA)
+
+            Dim VecParametros(2) As SqlParameter
+
+            VecParametros(0) = o_stTICACODI
+            VecParametros(1) = o_stTICADESC
+            VecParametros(2) = o_stTICAESTA
+
+            objenq.ActualizarDb(VecParametros, "insertar_MANT_TIPOCALI")
+
+            Return True
+
+        Catch ex As Exception
+
+            Return False
+            MessageBox.Show(Err.Description)
+
+        End Try
+
+
+        Return True
+
+    End Function
+
+    ''' <summary>
+    ''' Función que Elimina el registro.
+    ''' </summary>
+    Public Function fun_Eliminar_MANT_TIPOCALI(ByVal inTICAIDRE As Integer) As Boolean
+
+        Try
+            Dim objenq As New cExecuteNonQuery
+
+            Dim o_inTICAIDRE As New SqlParameter("@TICAIDRE", inTICAIDRE)
+
+            Dim VecParametros(0) As SqlParameter
+
+            VecParametros(0) = o_inTICAIDRE
+
+            If objenq.ActualizarDb(VecParametros, "eliminar_MANT_TIPOCALI") Then
+                Return True
+            Else
+                Return False
+            End If
+
+        Catch ex As Exception
+
+            Return False
+            MessageBox.Show(Err.Description)
+
+        End Try
+
+    End Function
+
+    ''' <summary>
+    ''' Función que Modifica o actualiza el registro.
+    ''' </summary>
+    Public Function fun_Actualizar_MANT_TIPOCALI(ByVal inTICAIDRE As Integer, _
+                                                 ByVal stTICACODI As String, _
+                                                 ByVal stTICADESC As String, _
+                                                 ByVal stTICAESTA As String) As Boolean
+        Try
+            Dim objenq As New cExecuteNonQuery
+
+            Dim o_inTICAIDRE As New SqlParameter("@TICAIDRE", inTICAIDRE)
+            Dim o_stTICACODI As New SqlParameter("@TICACODI", stTICACODI)
+            Dim o_stTICADESC As New SqlParameter("@TICADESC", stTICADESC)
+            Dim o_stTICAESTA As New SqlParameter("@TICAESTA", stTICAESTA)
+
+            Dim VecParametros(3) As SqlParameter
+
+            VecParametros(0) = o_inTICAIDRE
+            VecParametros(1) = o_stTICACODI
+            VecParametros(2) = o_stTICADESC
+            VecParametros(3) = o_stTICAESTA
+
+            objenq.ActualizarDb(VecParametros, "actualizar_MANT_TIPOCALI")
+
+            Return True
+
+        Catch ex As Exception
+
+            Return False
+            MessageBox.Show(Err.Description)
+
+        End Try
+
+    End Function
+
+    ''' <summary>
+    ''' Función que busca el ID del registro a modificar o eliminar.
+    ''' </summary>
+    Public Function fun_Buscar_ID_MANT_TIPOCALI(ByVal inTICAIDRE As Integer) As DataTable
+
+        Try
+            Dim objeq As New cExecuteQuery
+
+            Dim o_inTICAIDRE As New SqlParameter("@TICAIDRE", inTICAIDRE)
+
+            Dim VecParametros(0) As SqlParameter
+
+            VecParametros(0) = o_inTICAIDRE
+
+            Dim tbl As New DataTable
+            tbl = objeq.ConsultarDb(VecParametros, "buscar_ID_MANT_TIPOCALI")
+
+            Return tbl
+
+        Catch ex As Exception
+
+            MessageBox.Show(Err.Description)
+            Return Nothing
+
+        End Try
+
+    End Function
+
+    ''' <summary>
+    ''' Función que busca el CÓDIGO DEL TIPO DE CALIFICACIÓN para que no se 
+    ''' guarden registros duplicados.
+    ''' </summary>
+    Public Function fun_Buscar_CODIGO_MANT_TIPOCALI(ByVal inTICACODI As String) As DataTable
+
+        Try
+            Dim objeq As New cExecuteQuery
+
+            Dim o_inTICACODI As New SqlParameter("@TICACODI", inTICACODI)
+
+            Dim VecParametros(0) As SqlParameter
+
+            VecParametros(0) = o_inTICACODI
+
+            Dim tbl As New DataTable
+            tbl = objeq.ConsultarDb(VecParametros, "buscar_CODIGO_MANT_TIPOCALI")
+
+            Return tbl
+
+        Catch ex As Exception
+
+            MessageBox.Show(Err.Description)
+            Return Nothing
+
+        End Try
+
+    End Function
+
+    ''' <summary>
+    ''' Llena el ComboBox con datos activos formulario insertar y modificar 
+    ''' esta funcion se llama desde el procedimiento "pro_inicializarControles()".
+    ''' </summary>
+    Public Function fun_Consultar_Campos_MANT_TIPOCALI_X_ESTADO() As DataTable
+
+        Try
+            ' parametros de la consulta
+            Dim stConsultaSQL As String = ""
+
+            ' Concatena la consulta
+            stConsultaSQL += "SELECT "
+            stConsultaSQL += "* "
+
+            stConsultaSQL += "FROM "
+            stConsultaSQL += "MANT_TIPOCALI "
+
+            stConsultaSQL += "WHERE "
+            stConsultaSQL += "TICAESTA = 'ac' "
+
+            stConsultaSQL += "ORDER BY "
+            stConsultaSQL += "TICADESC "
+
+            ' instancia la clase
+            Dim objeq As New cExecuteQuery
+
+            ' declaro la variable
+            Dim tbl As New DataTable
+
+            tbl = objeq.ConsultarDb_Text_SQL(stConsultaSQL)
+
+            Return tbl
+
+        Catch ex As Exception
+            MessageBox.Show(Err.Description & " " & "fun_Consultar_Campos_MANT_TIPOCALI_X_ESTADO")
+            Return Nothing
+        End Try
+
+    End Function
+
+
+End Class

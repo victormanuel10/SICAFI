@@ -1,0 +1,142 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SICAFI_1.4.NET
+</name>
+</assembly>
+<members>
+<member name="M:SICAFI.mod_fun_CARGAR_ComboBox_CON_DATOS_ACTIVOS.fun_Cargar_ComboBox_Con_Datos_Activos_DEPARTAMENTO(System.Object,System.Int32)">
+	<summary>
+ CARGA LOS COMBOBOX CON LOS REGISTROS ACTIVOS ( Nombre del campo, Posicion de la seleccion )
+ EJ: (cboFIPRCLSE,cboFIPRCLSE.SelectedIndex)
+ </summary>
+</member><member name="M:SICAFI.frm_CALIPROP.pro_Reconsultar">
+	<summary>
+ Procedimiento que reconsulta todos los registros de la tabla
+ </summary>
+</member><member name="M:SICAFI.mod_fun_CARGAR_ComboBox_CON_TODOS_LOS_DATOS.fun_Cargar_ComboBox_Con_Todos_Los_Datos_DEPARTAMENTO(System.Object,System.Int32)">
+	<summary>
+ CARGA LOS COMBOBOX CON TODOS LOS REGISTROS ACTIVOS E INACTIVOS( Nombre del campo, Posicion de la seleccion )
+ EJ: (cboFIPRCLSE,cboFIPRCLSE.SelectedIndex)
+ </summary>
+</member><member name="P:SICAFI.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso con establecimiento inflexible de tipos.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Catastro">
+	<summary>
+  Busca una cadena traducida similar a DEFINICIONES Y OBJETIVOS
+ARTÍCULO 1°.  Definición de Catastro.  El Catastro es el inventario o censo, debidamente actualizado y clasificado, de los bienes inmuebles pertenecientes al
+Estado y a los particulares, con el objeto de lograr su correcta identificación física,
+jurídica, fiscal y económica.
+.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Diligenciamiento_de_la_ficha_predial">
+	<summary>
+  Busca una cadena traducida similar a PAUTAS  PARA EL DILIGENCIAMIENTO DE LA NUEVA FICHA PREDIAL
+Para el diligenciamiento de la ficha predial  tener en cuenta las siguientes normas generales:
+ 
+-Letra legible
+-Letra imprenta mayúscula excepto las abreviaturas  y complementos de la dirección.
+-Tinta negra 
+-No se permite el uso de tinta mojada, ni borrable
+-Utilizar lápiz color rojo para identificar mejoras
+-Resaltador verde para cambio en la información 
+-Utilizar lápiz negro MIRADO nro. 2 o en su defecto minas HB para realizar el cr [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Formulas_de_liquidación_de_avalúos_catastrales">
+	<summary>
+  Busca una cadena traducida similar a AVALÚOS CATASTRALES DEL MUNICIPIO DE ENVIGADO
+CARACTERÍSTICA 1 NORMAL
+Áreas de Terreno Ficha predial   
+Ø	Área de terreno x valor de la zona x % c/u zonas x % descuento. (área de terreno privada - valor lote privado).
+Área de Construcción Ficha predial  
+Ø	Área de construcción x valor de los puntos que tiene el tipo de construcción. (área construida privada - valor construcción privada).
+CARACTERÍSTICA 2 RPH EDIFICIO
+Áreas de Terreno Ficha resumen 2
+Ø	Área común de lote FR2 x [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.INCO_eliminar_registro">
+	<summary>
+  Busca una cadena traducida similar a No se puede eliminar el registro, debido a que este se encuantra ubicado en otras tablas relacionadas con este  formulario..
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.INCO_insertar_registro">
+	<summary>
+  Busca una cadena traducida similar a Ingrese la lista de valores o active los registros de las tablas de mantenimiento que corresponden al código padre que se ubican en las listas desplegables del formulario insertar registro..
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.INCO_modificar_registro">
+	<summary>
+  Busca una cadena traducida similar a Ingrese la lista de valores o active los registros de las tablas de mantenimiento que corresponden al código padre que se ubican en las listas desplegables del formulario modificar registro..
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Ley_14_de_1983">
+	<summary>
+  Busca una cadena traducida similar a LEY 14 DE 1983
+(Julio 6)
+EL CONGRESO DE COLOMBIA
+DECRETA:
+CAPÍTULO I
+NORMAS SOBRE CATASTRO, IMPUESTO PREDIAL
+E IMPUESTO DE RENTA Y COMPLEMENTARIOS 
+ 
+ARTÍCULO 1o.  El avalúo catastral de todos los inmuebles se actualizará durante el año de 1983.  Para este efecto el último avalúo vigente se reajustará en un diez por ciento (10%) anual acumulado, año por año, de acuerdo con su antigüedad o fecha.  El período del reajuste no podrá exceder de 15 años. 
+El Instituto Geográfico "Agustín Codazzi" y las [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Ley_675_de_2001">
+	<summary>
+  Busca una cadena traducida similar a CONGRESO DE LA REPÚBLICA
+LEY 675 DE 2001
+(agosto 3)
+ 
+Diario Oficial No. 44.509, de 4 de agosto de 2001
+ 
+Por medio de la cual se expide el régimen de propiedad horizontal.
+ 
+Vigencia. Esta disposición fue modificada por el Decreto 1380 de 2002.
+ 
+La Corte Constitucional en sentencia C-782/04 declaró la exequibilidad, pero únicamente por los cargos analizados, del artículo 25 numeral 3 de la Ley 675 de 2001, así como el aparte acusado del artículo 3 de esa misma Ley, el cual literalmente dice: "la [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Procedimientos_para_informar_movimientos">
+	<summary>
+  Busca una cadena traducida similar a PROCEDIMIENTO PARA INFORMAR LOS MOVIMIENTOS
+APLICATIVO PARA LA CAPTURA DE INFORMACIÓN CATASTRAL
+Al llamar el PROGRAMA se debe LLENAR la siguiente información para INGRESAR:
+Usuario: Ingrese el usuario de la persona que usará el aplicativo. Debe ser una palabra con máximo 18  caracteres. Por defecto, el usuario general será ADMIN
+Clave: Ingrese la clave de acceso al aplicativo asignada al usuario. Por seguridad, esta no se visualiza en el campo. Debe ser una palabra con máximo 18 caracteres.
+ [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Reconocimiento_y_calificación_de_las_construcciones">
+	<summary>
+  Busca una cadena traducida similar a RECONOCIMIENTO Y CALIFICACIÓN DE LAS CONSTRUCCIONES
+Variables
+Para efectos del reconocimiento, clasificación y calificación de los diversos tipos de edificaciones existentes teniendo como objetivo final el avalúo catastral, se han escogido cuatro variables, consideradas como las más representativas dentro de la inmensa gama de características posibles de reconocer en las construcciones y las que mejor explican el avalúo de la construcción.  Algunas de ellas de carácter censal sobre condiciones [resto de la cadena truncado]";.
+</summary>
+</member><member name="P:SICAFI.My.Resources.Resources.Resolución_2555_de_1998">
+	<summary>
+  Busca una cadena traducida similar a 
+												
+RESOLUCIÓN No 2555 DE 1988
+(28 SEP. 1988)
+Por la cual se reglamenta la formación, actualización de la formación y conservación del Catastro Nacional, y subroga la resolución No. 660 de 30 de 
+marzo de 1984.
+EL DIRECTOR GENERAL DEL INSTITUTO GEOGRÁFICO 
+" AGUSTÍN CODAZZI"
+En uso de sus atribuciones legales y en especial las que le confieren la Ley 65 de 
+1939, el Decreto 1301 de 1940, el Decreto Ley 290 de 1957, el Decreto 2205 de 1983, la Ley 14 de 1983 y el Decreto 34 [resto de la cadena truncado]";.
+</summary>
+</member><member name="T:SICAFI.My.Resources.Resources">
+	<summary>
+  Clase de recurso con establecimiento inflexible de tipos, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="M:SICAFI.frm_CARAPRED.pro_Reconsultar">
+	<summary>
+ Llena el DataGridView de acuerdo al tipo de consulta de consulta 
+ </summary>
+</member>
+</members>
+</doc>

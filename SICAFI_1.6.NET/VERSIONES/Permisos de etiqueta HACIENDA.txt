@@ -1,0 +1,122 @@
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'HACIENDA',
+	'CatastroToolStripMenuItem',
+	'Diligenciar Catastro',
+    'ac' 
+	)
+	
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'HACIENDA',
+	'FichapredialToolStripMenuItem',
+	'Ficha predial',
+    'ac' 
+	)
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'HACIENDA',
+	'FicharesumenToolStripMenuItem',
+	'Ficha resumen',
+    'ac' 
+	)
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'HACIENDA',
+	'FichaPredialToolStripMenuItem2',
+	'Consulta ficha predial y resumen',
+    'ac' 
+	)
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'HACIENDA',
+	'ConsultaAreaDeTerrenoToolStripMenuItem',
+	'Consulta área de terreno',
+    'ac' 
+	)
+        
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'HACIENDA',
+	'ConsultaPropietarioToolStripMenuItem',
+	'Consulta propietarios',
+    'ac' 
+	)
+        
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'HACIENDA',
+	'ConsultaConstruccionToolStripMenuItem',
+	'Consulta construcción',
+    'ac' 
+	)
+        
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'HACIENDA',
+	'ImagenDelPredioToolStripMenuItem',
+	'Imagen del Predio',
+    'ac' 
+	)
+        
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'HACIENDA',
+	'PlanoManzaneroToolStripMenuItem',
+	'Consulta plano manzanero',
+    'ac' 
+	)
+        
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'HACIENDA',
+	'PlanoPredialCatastralToolStripMenuItem',
+	'Plano predial catastral',
+    'ac' 
+	)
+        
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'HACIENDA',
+	'ConsultaPlanoCartograficoToolStripMenuItem',
+	'Consulta plano cartografico',
+    'ac' 
+	)
+        
+
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'MutacionToolStripMenuItem',
+	'Mutacion',
+    'ac' 
+	)
+	
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'VariablesZonasFisicasToolStripMenuItem',
+	'Variable zonas fisicas',
+    'ac' 
+	)
+        
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'ImpuestoToolStripMenuItem',
+	'Diligenciar Impuestos',
+    'ac' 
+	)
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'SujetoDeImpuestoToolStripMenuItem',
+	'Diligenciar Sujeto de Impuesto',
+    'ac' 
+	)
+	
+	
+	

@@ -1,0 +1,95 @@
+insert into PERMETIQ (PEETUSUA,PEETETIQ,PEETDESC,PEETESTA) values
+	(
+	'ADMINISTRADOR',
+	'ZonaDePanificacionPorBarriosToolStripMenuItem',
+	'Zona de Planificacion por Barrio',
+    'ac' 
+	)
+	
+insert into PERMFORM (PEFOUSUA,PEFOFORM,PEFODESC,PEFOAGRE,PEFOMODI,PEFOELIM,PEFOESTA) values
+	(
+	'ADMINISTRADOR',
+	'frm_ZOPLBARR',
+	'Zona de Planificación por Barrio',
+    '1', 
+    '1',
+    '1',
+    'ac' 
+	)
+        
+--------------------------------
+
+
+USE [SICAFI]
+GO
+/****** Objeto:  Table [dbo].[MANT_ZOPLBARR]    Fecha de la secuencia de comandos: 02/10/2016 20:23:50 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[MANT_ZOPLBARR](
+	[ZPBAIDRE] [int] IDENTITY(1,1) NOT NULL,
+	[ZPBADEPA] [char](2) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[ZPBAMUNI] [char](3) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[ZPBACORR] [char](2) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[ZPBABARR] [char](3) COLLATE Modern_Spanish_CI_AS NOT NULL,
+	[ZPBACLSE] [int] NOT NULL,
+	[ZPBAZOPL] [int] NOT NULL,
+	[ZPBAESTA] [char](10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+ CONSTRAINT [PK_MANT_ZOPLBARR] PRIMARY KEY CLUSTERED 
+(
+	[ZPBADEPA] ASC,
+	[ZPBAMUNI] ASC,
+	[ZPBACORR] ASC,
+	[ZPBABARR] ASC,
+	[ZPBACLSE] ASC,
+	[ZPBAZOPL] ASC
+)WITH (IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ID REGISTRO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_ZOPLBARR', @level2type=N'COLUMN', @level2name=N'ZPBAIDRE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'DEPARTAMENTO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_ZOPLBARR', @level2type=N'COLUMN', @level2name=N'ZPBADEPA'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'MUNICIPIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_ZOPLBARR', @level2type=N'COLUMN', @level2name=N'ZPBAMUNI'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CORREGIMIENTO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_ZOPLBARR', @level2type=N'COLUMN', @level2name=N'ZPBACORR'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'BARRIO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_ZOPLBARR', @level2type=N'COLUMN', @level2name=N'ZPBABARR'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'CLASE O SECTOR' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_ZOPLBARR', @level2type=N'COLUMN', @level2name=N'ZPBACLSE'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ZONA DE PLANIFICACION' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_ZOPLBARR', @level2type=N'COLUMN', @level2name=N'ZPBAZOPL'
+
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'ESTADO' ,@level0type=N'SCHEMA', @level0name=N'dbo', @level1type=N'TABLE', @level1name=N'MANT_ZOPLBARR', @level2type=N'COLUMN', @level2name=N'ZPBAESTA'
+
+GO
+USE [SICAFI]
+GO
+ALTER TABLE [dbo].[MANT_ZOPLBARR]  WITH CHECK ADD  CONSTRAINT [FK_MANT_ZOPLBARR_ESTADO] FOREIGN KEY([ZPBAESTA])
+REFERENCES [dbo].[ESTADO] ([ESTACODI])
+GO
+ALTER TABLE [dbo].[MANT_ZOPLBARR]  WITH CHECK ADD  CONSTRAINT [FK_MANT_ZOPLBARR_MANT_BARRVERE] FOREIGN KEY([ZPBADEPA], [ZPBAMUNI], [ZPBACLSE], [ZPBABARR], [ZPBACORR])
+REFERENCES [dbo].[MANT_BARRVERE] ([BAVEDEPA], [BAVEMUNI], [BAVECLSE], [BAVECODI], [BAVECORR])
+GO
+ALTER TABLE [dbo].[MANT_ZOPLBARR]  WITH CHECK ADD  CONSTRAINT [FK_MANT_ZOPLBARR_MANT_ZONAPLAN] FOREIGN KEY([ZPBAZOPL])
+REFERENCES [dbo].[MANT_ZONAPLAN] ([ZOPLCODI])
+
+
+------------------------------
+
+
+
+        	
