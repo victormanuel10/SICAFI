@@ -1,0 +1,13 @@
+D:\SICAFI-1\SICAFI.NET8\SICAFI.Datos\bin\Debug\net8.0\SICAFI.Datos.deps.json
+D:\SICAFI-1\SICAFI.NET8\SICAFI.Datos\bin\Debug\net8.0\SICAFI.Datos.dll
+D:\SICAFI-1\SICAFI.NET8\SICAFI.Datos\bin\Debug\net8.0\SICAFI.Datos.pdb
+D:\SICAFI-1\SICAFI.NET8\SICAFI.Datos\obj\Debug\net8.0\SICAFI.Datos.csproj.AssemblyReference.cache
+D:\SICAFI-1\SICAFI.NET8\SICAFI.Datos\obj\Debug\net8.0\SICAFI.Datos.GeneratedMSBuildEditorConfig.editorconfig
+D:\SICAFI-1\SICAFI.NET8\SICAFI.Datos\obj\Debug\net8.0\SICAFI.Datos.AssemblyInfoInputs.cache
+D:\SICAFI-1\SICAFI.NET8\SICAFI.Datos\obj\Debug\net8.0\SICAFI.Datos.AssemblyInfo.cs
+D:\SICAFI-1\SICAFI.NET8\SICAFI.Datos\obj\Debug\net8.0\SICAFI.Datos.csproj.CoreCompileInputs.cache
+D:\SICAFI-1\SICAFI.NET8\SICAFI.Datos\obj\Debug\net8.0\SICAFI.Datos.sourcelink.json
+D:\SICAFI-1\SICAFI.NET8\SICAFI.Datos\obj\Debug\net8.0\SICAFI.Datos.dll
+D:\SICAFI-1\SICAFI.NET8\SICAFI.Datos\obj\Debug\net8.0\refint\SICAFI.Datos.dll
+D:\SICAFI-1\SICAFI.NET8\SICAFI.Datos\obj\Debug\net8.0\SICAFI.Datos.pdb
+D:\SICAFI-1\SICAFI.NET8\SICAFI.Datos\obj\Debug\net8.0\ref\SICAFI.Datos.dll

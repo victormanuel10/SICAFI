@@ -1,0 +1,16 @@
+D:\SICAFI-1\SICAFI.NET8\SICAFI.ReglasNegocio\bin\Debug\net8.0\SICAFI.ReglasNegocio.deps.json
+D:\SICAFI-1\SICAFI.NET8\SICAFI.ReglasNegocio\bin\Debug\net8.0\SICAFI.ReglasNegocio.dll
+D:\SICAFI-1\SICAFI.NET8\SICAFI.ReglasNegocio\bin\Debug\net8.0\SICAFI.ReglasNegocio.pdb
+D:\SICAFI-1\SICAFI.NET8\SICAFI.ReglasNegocio\bin\Debug\net8.0\SICAFI.Datos.dll
+D:\SICAFI-1\SICAFI.NET8\SICAFI.ReglasNegocio\bin\Debug\net8.0\SICAFI.Datos.pdb
+D:\SICAFI-1\SICAFI.NET8\SICAFI.ReglasNegocio\obj\Debug\net8.0\SICAFI.ReglasNegocio.csproj.AssemblyReference.cache
+D:\SICAFI-1\SICAFI.NET8\SICAFI.ReglasNegocio\obj\Debug\net8.0\SICAFI.ReglasNegocio.GeneratedMSBuildEditorConfig.editorconfig
+D:\SICAFI-1\SICAFI.NET8\SICAFI.ReglasNegocio\obj\Debug\net8.0\SICAFI.ReglasNegocio.AssemblyInfoInputs.cache
+D:\SICAFI-1\SICAFI.NET8\SICAFI.ReglasNegocio\obj\Debug\net8.0\SICAFI.ReglasNegocio.AssemblyInfo.cs
+D:\SICAFI-1\SICAFI.NET8\SICAFI.ReglasNegocio\obj\Debug\net8.0\SICAFI.ReglasNegocio.csproj.CoreCompileInputs.cache
+D:\SICAFI-1\SICAFI.NET8\SICAFI.ReglasNegocio\obj\Debug\net8.0\SICAFI.ReglasNegocio.sourcelink.json
+D:\SICAFI-1\SICAFI.NET8\SICAFI.ReglasNegocio\obj\Debug\net8.0\SICAFI.R.F7738CB6.Up2Date
+D:\SICAFI-1\SICAFI.NET8\SICAFI.ReglasNegocio\obj\Debug\net8.0\SICAFI.ReglasNegocio.dll
+D:\SICAFI-1\SICAFI.NET8\SICAFI.ReglasNegocio\obj\Debug\net8.0\refint\SICAFI.ReglasNegocio.dll
+D:\SICAFI-1\SICAFI.NET8\SICAFI.ReglasNegocio\obj\Debug\net8.0\SICAFI.ReglasNegocio.pdb
+D:\SICAFI-1\SICAFI.NET8\SICAFI.ReglasNegocio\obj\Debug\net8.0\ref\SICAFI.ReglasNegocio.dll
